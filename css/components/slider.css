@@ -59,7 +59,7 @@
 }
 
 .slider-buttons button:hover {
-    background-color: #1367ef;
+    background-color: hsl(18 77% 52%);
     opacity: 1;
     color: #fff;
     border-color: #1367ef;
@@ -99,7 +99,7 @@
     height: 12px;
     width: 12px;
     border-radius: 100%;
-    background-color: #1367ef;
+    background-color: hsl(18 77% 52%);
 }
 
 .fade{

@@ -74,9 +74,9 @@ button {
 }
 
 .btn-primary {
-    background-color: #1367ef;
+    background-color: hsl(18 77% 52%);
     color: #fff;
-    border-color: #1367ef
+    border-color: hsl(18 77% 52%);
 }
 
 .btn-red {

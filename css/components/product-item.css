@@ -4,7 +4,12 @@
     display: flex;
     flex-direction: column;
     position: relative;
+    width: 100%;
 }
+.product-carousel .glide__slide {
+    width: 220px;
+}
+
 
 .products .product-item .product-image {
     width: 100%;
@@ -177,4 +182,29 @@
     .product-wrapper .glide__arrow--right {
         right: 0px;
     }
+}
+
+
+.products .product-item .product-image {
+    width: 100%;
+    height: 220px;           /* choose the height you want */
+    position: relative;
+    overflow: hidden;
+}
+.products .product-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;       /* keeps aspect ratio, crops excess */
+    transition: all 0.3s ease-in;
+}
+
+.product-image .img2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    visibility: hidden;
 }

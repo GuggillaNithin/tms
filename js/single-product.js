@@ -6,20 +6,86 @@ import valuesFunc from "./single-product/values.js"
 import tabsFunc from "./single-product/tabs.js"
 import commentsfunc from "./single-product/comments.js"
 
+/* ================================
+   READ PRODUCT ID FROM URL
+================================ */
+const params = new URLSearchParams(window.location.search)
+const productId = Number(params.get("id"))
+
+/* ================================
+   LOAD PRODUCT FROM JSON
+================================ */
+async function loadProduct() {
+  const res = await fetch("./js/data.json")
+  const products = await res.json()
+
+  const findProduct = products.find(p => p.id === productId)
+
+  if (!findProduct) {
+    document.querySelector(".single-product").innerHTML =
+      "<h2>Product not found</h2>"
+    return
+  }
+
+  renderProduct(findProduct)
+}
+
+loadProduct()
+
+function renderProduct(findProduct) {
+
+  /* product title */
+  document.querySelector(".product-title").textContent = findProduct.name
+
+  /* product prices */
+  document.querySelector(".old-price").textContent =
+    `$${findProduct.price.oldPrice.toFixed(2)}`
+
+  document.querySelector(".new-price").textContent =
+    `$${findProduct.price.newPrice.toFixed(2)}`
+
+  /* main image */
+  const singleImage = document.getElementById("single-image")
+  singleImage.src = findProduct.img.singleImage
+
+  /* thumbnails */
+  const galleryThumbs = document.querySelector(".gallery-thumbs")
+  galleryThumbs.innerHTML = ""
+
+  findProduct.img.thumbs.forEach(img => {
+    galleryThumbs.innerHTML += `
+      <li class="glide__slide">
+        <img src="${img}" class="img-fluid" alt="">
+      </li>
+    `
+  })
+
+  /* activate existing features */
+  thumbsActiveFunc()
+  product3()
+  zoomFunc()
+  colorsFunc()
+  valuesFunc()
+  tabsFunc()
+  commentsfunc()
+}
 
 
-const productId = localStorage.getItem("productId")
-    ? JSON.parse(localStorage.getItem("productId"))
-    : localStorage.setItem("productId", JSON.stringify(1))
-
-
-const products = localStorage.getItem("products")
-    ? JSON.parse(localStorage.getItem("products"))
-    : localStorage.setItem("products", JSON.stringify([]))
 
 
 
-const findProduct = products.find((item) => item.id === Number(productId))
+// const productId = localStorage.getItem("productId")
+//     ? JSON.parse(localStorage.getItem("productId"))
+//     : localStorage.setItem("productId", JSON.stringify(1))
+
+
+// const products = localStorage.getItem("products")
+//     ? JSON.parse(localStorage.getItem("products"))
+//     : localStorage.setItem("products", JSON.stringify([]))
+
+
+
+// const findProduct = products.find((item) => item.id === Number(productId))
 
 /* product title */
 const productTitle = document.querySelector(".product-title")

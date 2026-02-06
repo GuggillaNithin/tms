@@ -26,7 +26,7 @@ export function product1() {
 
 export function product2() {
     const config2 = {
-        perView: 3,
+        perView: 5,
         gap: 20,
         bound: true,
         autoplay: 3000,

@@ -145,11 +145,17 @@ function megaMenuInteraction() {
           `.mega-products-group[data-category="${key}"]`
         )
 
-        if (sourceGroup) {
-          const clone = sourceGroup.cloneNode(true)
-          clone.classList.add("mobile-group", "active")
-          mobileSlot.appendChild(clone)
-        }
+       if (sourceGroup) {
+  const clone = sourceGroup.cloneNode(true)
+  clone.classList.add("mobile-group", "active")
+
+  // 🔴 IMPORTANT: stop click bubbling from submenu
+  clone.addEventListener("click", (e) => {
+    e.stopPropagation()
+  })
+
+  mobileSlot.appendChild(clone)
+}
       }
     })
   })

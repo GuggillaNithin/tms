@@ -135,6 +135,7 @@ function megaMenuInteraction() {
         const slot = c.querySelector(".mobile-submenu")
         if (slot) slot.innerHTML = ""
       })
+      
 
       // Open selected
       if (!isOpen) {

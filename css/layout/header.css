@@ -260,9 +260,9 @@ header .menu-dropdown-content a:hover {
   justify-content: space-between;
 }
 
-.mega-category-list li::after {
+/* .mega-category-list li::after {
   content: "›";
-}
+} */
 
 .mega-category-list li.active,
 .mega-category-list li:hover {
@@ -433,7 +433,7 @@ header .menu-dropdown-content a:hover {
   /* Mega menu stack */
   .menu-dropdown-megamenu {
     flex-direction: column;
-    padding: 0;
+    padding: 0px;
   }
 
   /* Category accordion */
@@ -444,6 +444,7 @@ header .menu-dropdown-content a:hover {
   .mega-category-list li {
     color: #fff;
     border-bottom: 1px solid rgba(255,255,255,0.2);
+    flex-direction: column;
   }
 
   /* Products hidden until category clicked */
@@ -457,8 +458,12 @@ header .menu-dropdown-content a:hover {
   .mega-products-group.active {
     display: block;
     animation: slideDown 0.3s ease;
+    background-color: #e45c1f;
+    color: #fff;
   }
-
+  .mega-products-group.active h3 {
+  display: none;
+}
 }
 
 @keyframes slideDown {
@@ -551,6 +556,64 @@ header .menu-dropdown-content a:hover {
   
 }
 
+
+@media (max-width: 991px) {
+
+  /* LI should stack content */
+  .mega-category-list li {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  /* Category header row */
+  .mega-category-list .category-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+  }
+
+  /* Arrow stays inline */
+  .mega-category-list .arrow {
+    transition: transform 0.3s ease;
+  }
+
+  /* Rotate arrow when open */
+  .mega-category-list li.active .arrow {
+    transform: rotate(90deg);
+  }
+
+  /* Mobile submenu dropdown */
+  .mobile-submenu {
+    background: #fff;
+    display: none;
+  }
+
+  .mega-category-list li.active .mobile-submenu {
+    display: block;
+    animation: slideDown 0.3s ease;
+  }
+
+  /* Submenu links */
+  .mobile-group {
+    padding: 15px 20px;
+  }
+
+  .mobile-group ul {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .mobile-group a {
+    color: #000;
+    font-size: 15px;
+  }
+}
 
 
 

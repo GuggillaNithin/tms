@@ -615,6 +615,30 @@ header .menu-dropdown-content a:hover {
   }
 }
 
+/* Desktop category image */
+/* Desktop category image */
+.mega-preview {
+  width: 260px;
+  height: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+/* Make image fully fill the column */
+.mega-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;      /* fills without distortion */
+  display: block;
+}
+
+
+/* Hide image on mobile */
+@media (max-width: 991px) {
+  .mega-preview {
+    display: none;
+  }
+}
 
 
 

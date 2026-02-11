@@ -101,6 +101,7 @@ function shopToggleMobile() {
 
 
 function megaMenuInteraction() {
+  const previewImg = document.querySelector(".mega-preview img")
   const categories = document.querySelectorAll(".mega-category-list li")
   const productGroups = document.querySelectorAll(".mega-products-group")
 
@@ -110,16 +111,24 @@ function megaMenuInteraction() {
 
     /* ================= DESKTOP HOVER ================= */
     category.addEventListener("mouseenter", () => {
-      if (window.innerWidth < 992) return
+  if (window.innerWidth < 992) return
 
-      categories.forEach(c => c.classList.remove("active"))
-      productGroups.forEach(p => p.classList.remove("active"))
+  categories.forEach(c => c.classList.remove("active"))
+  productGroups.forEach(p => p.classList.remove("active"))
 
-      category.classList.add("active")
-      document
-        .querySelector(`.mega-products-group[data-category="${key}"]`)
-        .classList.add("active")
-    })
+  category.classList.add("active")
+
+  const activeGroup = document.querySelector(
+    `.mega-products-group[data-category="${key}"]`
+  )
+  activeGroup?.classList.add("active")
+
+  /* ✅ IMAGE SWITCH */
+  if (previewImg) {
+    previewImg.src = `img/categoryimg/${key}.png`
+  }
+})
+
 
     /* ================= MOBILE ACCORDION ================= */
     category.addEventListener("click", (e) => {
@@ -159,6 +168,12 @@ function megaMenuInteraction() {
       }
     })
   })
+  // Default image for first active category
+  const defaultActive = document.querySelector(".mega-category-list li.active")
+    if (defaultActive && previewImg) {
+    previewImg.src = `img/categoryimg/${defaultActive.dataset.category}.png`
+  }
+
 }
 
 

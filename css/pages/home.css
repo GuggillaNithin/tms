@@ -221,7 +221,7 @@
 
     .header-center .menu-list {
         flex-direction: column;
-        padding: 50px 75px;
+        padding: 50px 5px;
     }
 
     .header-center .bi-x-circle {

@@ -51,9 +51,121 @@ function searchModalFunc() {
     /* click outside end */
 }
 
-function headerFunc() {
-    sidebarFunc()
-    searchModalFunc()
+function categoryInteraction() {
+  const categories = document.querySelectorAll(".mega-category-list li")
+  const productGroups = document.querySelectorAll(".mega-products-group")
+
+  categories.forEach(category => {
+    const key = category.dataset.category
+
+    // DESKTOP hover
+    category.addEventListener("mouseenter", () => {
+      if (window.innerWidth < 992) return
+      activateCategory(key, category)
+    })
+
+    // MOBILE click
+    category.addEventListener("click", () => {
+      if (window.innerWidth >= 992) return
+      activateCategory(key, category)
+      
+    })
+  })
+
+  function activateCategory(key, category) {
+    categories.forEach(c => c.classList.remove("active"))
+    productGroups.forEach(p => p.classList.remove("active"))
+
+    category.classList.add("active")
+    document
+      .querySelector(`.mega-products-group[data-category="${key}"]`)
+      .classList.add("active")
+  }
 }
+
+
+
+
+function shopToggleMobile() {
+  const shopLink = document.querySelector(".shop-link")
+  const shopItem = shopLink.closest(".menu-list-item")
+
+  shopLink.addEventListener("click", (e) => {
+    if (window.innerWidth < 992) {
+      e.preventDefault()
+      shopItem.classList.toggle("open")
+    }
+  })
+}
+
+
+
+function megaMenuInteraction() {
+  const categories = document.querySelectorAll(".mega-category-list li")
+  const productGroups = document.querySelectorAll(".mega-products-group")
+
+  categories.forEach(category => {
+    const key = category.dataset.category
+    const mobileSlot = category.querySelector(".mobile-submenu")
+
+    /* ================= DESKTOP HOVER ================= */
+    category.addEventListener("mouseenter", () => {
+      if (window.innerWidth < 992) return
+
+      categories.forEach(c => c.classList.remove("active"))
+      productGroups.forEach(p => p.classList.remove("active"))
+
+      category.classList.add("active")
+      document
+        .querySelector(`.mega-products-group[data-category="${key}"]`)
+        .classList.add("active")
+    })
+
+    /* ================= MOBILE ACCORDION ================= */
+    category.addEventListener("click", (e) => {
+      if (window.innerWidth >= 992) return
+      e.preventDefault()
+      e.stopPropagation()
+
+      const isOpen = category.classList.contains("active")
+
+      // Close all
+      categories.forEach(c => {
+        c.classList.remove("active")
+        const slot = c.querySelector(".mobile-submenu")
+        if (slot) slot.innerHTML = ""
+      })
+
+      // Open selected
+      if (!isOpen) {
+        category.classList.add("active")
+
+        const sourceGroup = document.querySelector(
+          `.mega-products-group[data-category="${key}"]`
+        )
+
+        if (sourceGroup) {
+          const clone = sourceGroup.cloneNode(true)
+          clone.classList.add("mobile-group", "active")
+          mobileSlot.appendChild(clone)
+        }
+      }
+    })
+  })
+}
+
+
+
+function headerFunc() {
+  sidebarFunc()
+  shopToggleMobile()
+  megaMenuInteraction()
+  searchModalFunc()
+  
+  
+}
+
+
+
 
 export default headerFunc()

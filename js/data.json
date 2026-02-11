@@ -1,10 +1,30 @@
 [
   {
     "id": 1,
-    "name": "Analogue Resin Strap",
+    "name": "Acrylic Podium Stand",
     "category": "indoor-media",
-    "price": { "oldPrice": 160, "newPrice": 108 },
-    "discount": 22,
+    "categories": ["Indoor", "Medias"],
+    "tags": ["Wood", "Acrylic"],
+
+    "price": { "oldPrice": 265, "newPrice": 208 },
+    "discount": 33,
+
+    "shortDescription": "Standard fiber podium made with super quality material will provide strong body.",
+
+    "description": [
+      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
+      "Proin vitae magna in dui finibus malesuada et at nulla."
+    ],
+
+    "colors": ["blue", "red", "yellow", "green"],
+    "sizes": ["0.92", "1.27","1.52 x 30 m"],
+
+    "additionalInformation": {
+      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
+      "Size": "0.92, 1.27, 1.52 x 30 m",
+      "Material": "100% wood"
+    },
+
     "img": {
       "singleImage": "img/products/product1/1.png",
       "thumbs": [
@@ -14,12 +34,33 @@
       ]
     }
   },
+
   {
     "id": 2,
-    "name": "Ridley High Waist",
+    "name": "Mobile Holders",
     "category": "indoor-media",
+    "categories": ["Indoor", "Medias"],
+    "tags": ["Wood", "Acrylic"],
+
     "price": { "oldPrice": 265, "newPrice": 208 },
     "discount": 33,
+
+    "shortDescription": "Standard fiber podium made with super quality material will provide strong body.",
+
+    "description": [
+      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
+      "Proin vitae magna in dui finibus malesuada et at nulla."
+    ],
+
+    "colors": ["blue", "red", "yellow", "green"],
+    "sizes": ["0.92", "1.27","1.52 x 30 m"],
+
+    "additionalInformation": {
+      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
+      "Size": "0.92, 1.27, 1.52 x 30 m",
+      "Material": "100% wood"
+    },
+
     "img": {
       "singleImage": "img/products/product2/1.png",
       "thumbs": [
@@ -29,12 +70,33 @@
       ]
     }
   },
+
   {
     "id": 3,
-    "name": "Blush Beanie",
-    "category": "outdoor-media",
-    "price": { "oldPrice": 105, "newPrice": 67 },
-    "discount": 90,
+    "name": "Wooden Podium Stand",
+    "category": "indoor-media",
+    "categories": ["Indoor", "Medias"],
+    "tags": ["Wood", "Acrylic"],
+
+    "price": { "oldPrice": 265, "newPrice": 208 },
+    "discount": 33,
+
+    "shortDescription": "Standard fiber podium made with super quality material will provide strong body.",
+
+    "description": [
+      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
+      "Proin vitae magna in dui finibus malesuada et at nulla."
+    ],
+
+    "colors": ["blue", "red", "yellow", "green"],
+    "sizes": ["0.92", "1.27","1.52 x 30 m"],
+
+    "additionalInformation": {
+      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
+      "Size": "0.92, 1.27, 1.52 x 30 m",
+      "Material": "100% wood"
+    },
+
     "img": {
       "singleImage": "img/products/product3/1.png",
       "thumbs": [
@@ -44,12 +106,33 @@
       ]
     }
   },
+
   {
     "id": 4,
-    "name": "Mercury Tee",
-    "category": "accessories",
-    "price": { "oldPrice": 55, "newPrice": 48 },
-    "discount": 40,
+    "name": "Acrylic Book Stand",
+    "category": "indoor-media",
+    "categories": ["Indoor", "Medias"],
+    "tags": ["Wood", "Acrylic"],
+
+    "price": { "oldPrice": 265, "newPrice": 208 },
+    "discount": 33,
+
+    "shortDescription": "Standard fiber book stand made with super quality material will provide strong body.",
+
+    "description": [
+      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
+      "Proin vitae magna in dui finibus malesuada et at nulla."
+    ],
+
+    "colors": ["blue", "red", "yellow", "green"],
+    "sizes": ["0.92", "1.27","1.52 x 30 m"],
+
+    "additionalInformation": {
+      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
+      "Size": "0.92, 1.27, 1.52 x 30 m",
+      "Material": "100% wood"
+    },
+
     "img": {
       "singleImage": "img/products/product4/1.png",
       "thumbs": [
@@ -59,12 +142,33 @@
       ]
     }
   },
+
   {
     "id": 5,
-    "name": "La Bohème Rose Gold",
-    "category": "led-lcd-displays",
-    "price": { "oldPrice": 78, "newPrice": 48 },
-    "discount": 40,
+    "name": "Acrylic fiber Podium Stand",
+    "category": "indoor-media",
+    "categories": ["Indoor", "Medias"],
+    "tags": ["Wood", "Acrylic"],
+
+    "price": { "oldPrice": 265, "newPrice": 208 },
+    "discount": 33,
+
+    "shortDescription": "Standard fiber podium made with super quality material will provide strong body.",
+
+    "description": [
+      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
+      "Proin vitae magna in dui finibus malesuada et at nulla."
+    ],
+
+    "colors": ["blue", "red", "yellow", "green"],
+    "sizes": ["0.92", "1.27","1.52 x 30 m"],
+
+    "additionalInformation": {
+      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
+      "Size": "0.92, 1.27, 1.52 x 30 m",
+      "Material": "100% wood"
+    },
+
     "img": {
       "singleImage": "img/products/product5/1.png",
       "thumbs": [
@@ -74,4 +178,6 @@
       ]
     }
   }
+  
+  
 ]

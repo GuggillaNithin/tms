@@ -16,8 +16,22 @@ const productId = Number(params.get("id"))
    LOAD PRODUCT FROM JSON
 ================================ */
 async function loadProduct() {
-  const res = await fetch("./js/data.json")
-  const products = await res.json()
+  const res = await fetch("js/data.json")
+  const data = await res.json()
+
+  console.log("DATA.JSON CONTENT →", data)
+  console.log("IS ARRAY →", Array.isArray(data))
+
+  let products
+
+  // ✅ SUPPORT BOTH STRUCTURES
+  if (Array.isArray(data)) {
+    products = data
+  } else if (Array.isArray(data.products)) {
+    products = data.products
+  } else {
+    throw new Error("Unsupported data.json structure")
+  }
 
   const findProduct = products.find(p => p.id === productId)
 
@@ -30,37 +44,115 @@ async function loadProduct() {
   renderProduct(findProduct)
 }
 
+
+
 loadProduct()
 
 function renderProduct(findProduct) {
 
-  /* product title */
+  /* TITLE */
   document.querySelector(".product-title").textContent = findProduct.name
 
-  /* product prices */
+  /* PRICES */
   document.querySelector(".old-price").textContent =
     `$${findProduct.price.oldPrice.toFixed(2)}`
-
   document.querySelector(".new-price").textContent =
     `$${findProduct.price.newPrice.toFixed(2)}`
 
-  /* main image */
-  const singleImage = document.getElementById("single-image")
-  singleImage.src = findProduct.img.singleImage
+  /* SHORT DESCRIPTION */
+  document.querySelector(".product-description").textContent =
+    findProduct.shortDescription
 
-  /* thumbnails */
+  /* MAIN IMAGE */
+  document.getElementById("single-image").src =
+    findProduct.img.singleImage
+
+  /* THUMBNAILS */
   const galleryThumbs = document.querySelector(".gallery-thumbs")
   galleryThumbs.innerHTML = ""
 
   findProduct.img.thumbs.forEach(img => {
-    galleryThumbs.innerHTML += `
-      <li class="glide__slide">
-        <img src="${img}" class="img-fluid" alt="">
-      </li>
+  galleryThumbs.innerHTML += `
+    <li class="glide__slide">
+      <img src="${img}" class="img-fluid" alt="">
+    </li>
+  `
+})
+
+
+  /* COLORS */
+  const colorsWrapper = document.querySelector(".colors-wrapper")
+  colorsWrapper.innerHTML = ""
+
+  findProduct.colors.forEach(color => {
+    colorsWrapper.innerHTML += `
+      <div class="color-wrapper">
+        <label class="${color}-color">
+          <input type="radio" name="product-color">
+        </label>
+      </div>
     `
   })
 
-  /* activate existing features */
+  /* SIZES */
+  const sizesWrapper = document.querySelector(".values-list")
+  sizesWrapper.innerHTML = ""
+
+  findProduct.sizes.forEach(size => {
+    sizesWrapper.innerHTML += `<span>${size}</span>`
+  })
+
+  /* CATEGORIES */
+  document.querySelector(".product-category").innerHTML =
+    findProduct.categories.map(cat => `<a href="#">${cat}</a>`).join(", ")
+
+  /* TAGS */
+  document.querySelector(".product-tags-list").innerHTML =
+    findProduct.tags.map(tag => `<a href="#">${tag}</a>`).join(", ")
+
+  /* DESCRIPTION TAB */
+  document.getElementById("desc").innerHTML =
+    findProduct.description.map(p => `<p>${p}</p>`).join("")
+
+  /* ADDITIONAL INFORMATION */
+  const infoBody = document.querySelector(".additional-info-body")
+  infoBody.innerHTML = ""
+
+  Object.entries(findProduct.additionalInformation).forEach(([key, value]) => {
+    infoBody.innerHTML += `
+      <tr>
+        <th>${key}</th>
+        <td><p>${value}</p></td>
+      </tr>
+    `
+  })
+
+  /* ADD TO CART */
+const cart = localStorage.getItem("cart")
+  ? JSON.parse(localStorage.getItem("cart"))
+  : []
+
+const btnAddCart = document.getElementById("add-to-cart")
+const quantity = document.getElementById("quantity")
+const cartItem = document.querySelector(".header-cart-count")
+
+const findCart = cart.find(item => item.id === findProduct.id)
+
+if (findCart) {
+  btnAddCart.disabled = true
+  btnAddCart.style.opacity = 0.4
+} else {
+  btnAddCart.onclick = () => {
+    cart.push({ ...findProduct, quantity: Number(quantity.value) })
+    localStorage.setItem("cart", JSON.stringify(cart))
+    btnAddCart.disabled = true
+    btnAddCart.style.opacity = 0.4
+    cartItem.textContent = cart.length
+  }
+}
+
+
+  /* PLUGINS */
   thumbsActiveFunc()
   product3()
   zoomFunc()
@@ -74,81 +166,5 @@ function renderProduct(findProduct) {
 
 
 
-// const productId = localStorage.getItem("productId")
-//     ? JSON.parse(localStorage.getItem("productId"))
-//     : localStorage.setItem("productId", JSON.stringify(1))
 
 
-// const products = localStorage.getItem("products")
-//     ? JSON.parse(localStorage.getItem("products"))
-//     : localStorage.setItem("products", JSON.stringify([]))
-
-
-
-// const findProduct = products.find((item) => item.id === Number(productId))
-
-/* product title */
-const productTitle = document.querySelector(".product-title")
-productTitle.innerHTML = findProduct.name
-
-
-/* product price */
-const productOldPrice = document.querySelector(".old-price")
-productOldPrice.innerHTML = `$${findProduct.price.oldPrice.toFixed(2)}`
-
-const productNewPrice = document.querySelector(".new-price")
-productNewPrice.innerHTML = `$${findProduct.price.newPrice.toFixed(2)}`
-
-/* product gallery */
-const singleImage = document.getElementById("single-image")
-singleImage.src = findProduct.img.singleImage
-
-/* gallery thumbs */
-
-const galleryThumbs = document.querySelector(".gallery-thumbs")
-let result = ""
-
-findProduct.img.thumbs.forEach((item) => {
-    result += `
-        <li class="glide__slide">
-            <img src="${item}" class="img-fluid" alt="">
-        </li>
-    `
-})
-
-galleryThumbs.innerHTML = result
-
-thumbsActiveFunc()
-product3()
-
-/* thumbs active */
-const productThumbs = document.querySelectorAll(".product-thumb .glide__slide img")
-productThumbs[0].classList.add("active")
-
-
-
-
-//add to cart
-const cart = localStorage.getItem("cart")
-    ? JSON.parse(localStorage.getItem("cart")) : []
-
-const btnAddCart = document.getElementById("add-to-cart")
-const quantity = document.getElementById("quantity")
-const cartItem = document.querySelector(".header-cart-count")
-
-const findCart = cart.find((item) => item.id === findProduct.id)
-
-if (findCart) {
-    btnAddCart.setAttribute("disabled", "disabled")
-    btnAddCart.style.opacity = 0.4
-    btnAddCart.style.cursor = "no-drop"
-} else {
-    btnAddCart.addEventListener("click", function () {
-        cart.push({ ...findProduct, quantity: Number(quantity.value) })
-        btnAddCart.setAttribute("disabled", "disabled")
-        btnAddCart.style.opacity = 0.4
-        btnAddCart.style.cursor = "no-drop"
-        localStorage.setItem("cart", JSON.stringify(cart))
-        cartItem.innerHTML = cart.length
-    })
-}

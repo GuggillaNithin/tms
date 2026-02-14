@@ -25,30 +25,7 @@ function addToCart(products) {
     })
 }
 
-// function productRoute() {
-//     const productLink = document.getElementsByClassName("product-link")
-//     Array.from(productLink).forEach((button) => {
-//         button.addEventListener("click", (e) => {
-//             e.preventDefault()
-//             const id = e.target.dataset.id
-//             localStorage.setItem("productId", JSON.stringify(id))
-//             window.location.href = "single-product.html"
-//         })
-//     })
-// }
 
-
-// function productImageRoute() {
-//     const productImageLink = document.querySelectorAll(".product-image a .img2")
-//     productImageLink.forEach((item) => {
-//         item.addEventListener("click", (e) => {
-//             e.preventDefault()
-//             const id = e.target.dataset.id
-//             localStorage.setItem("productId", JSON.stringify(id))
-//             window.location.href = "single-product.html"
-//         })
-//     })
-// }
 
 async function productFunc(products) {
 
@@ -80,10 +57,7 @@ async function productFunc(products) {
       <li><i class="bi bi-star-half"></i></li>
     </ul>
 
-    <div class="product-prices">
-      <strong class="new-price">$${product.price.newPrice.toFixed(2)}</strong>
-      <span class="old-price">$${product.price.oldPrice.toFixed(2)}</span>
-    </div>
+    
 
     <span class="product-discount">-${product.discount}%</span>
 
@@ -111,8 +85,14 @@ async function productFunc(products) {
 
     })
 
-    productsContainer ? productsContainer.innerHTML = results : ""
-    productsContainer ? productsContainer2.innerHTML = results : ""
+if (productsContainer) {
+  productsContainer.innerHTML = results
+}
+
+if (productsContainer2) {
+  productsContainer2.innerHTML = results
+}
+
 
     addToCart(products)
 

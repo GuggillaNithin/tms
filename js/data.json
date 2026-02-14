@@ -1,22 +1,22 @@
 [
   {
     "id": 1,
-    "name": "Acrylic Podium Stand",
+    "name": "Indoor Clear Film",
     "category": "indoor-media",
     "categories": ["Indoor", "Medias"],
-    "tags": ["Wood", "Acrylic"],
+    "tags": ["Clear Film", "Indoor Printing", "Graphics"],
 
-    "price": { "oldPrice": 265, "newPrice": 208 },
+    
     "discount": 33,
 
-    "shortDescription": "Standard fiber podium made with super quality material will provide strong body.",
+     "shortDescription": "High transparency clear film designed for premium indoor graphic applications.",
 
     "description": [
-      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
-      "Proin vitae magna in dui finibus malesuada et at nulla."
-    ],
+    "Indoor clear film offers excellent clarity and smooth surface for high-quality prints.",
+    "Ideal for glass surfaces, windows, and decorative indoor displays."
+  ],
 
-    "colors": ["blue", "red", "yellow", "green"],
+    
     "sizes": ["0.92", "1.27","1.52 x 30 m"],
 
     "additionalInformation": {
@@ -26,158 +26,2352 @@
     },
 
     "img": {
-      "singleImage": "img/products/product1/1.png",
+      "singleImage": "img/products/indoor-medias/indoor-clear-film/1.png",
       "thumbs": [
-        "img/products/product1/1.png",
-        "img/products/product1/2.png",
-        "img/products/product1/3.png"
+        "img/products/indoor-medias/indoor-clear-film/1.png",
+        "img/products/indoor-medias/indoor-clear-film/2.png",
+        "img/products/indoor-medias/indoor-clear-film/3.png"
       ]
     }
   },
 
   {
-    "id": 2,
-    "name": "Mobile Holders",
-    "category": "indoor-media",
-    "categories": ["Indoor", "Medias"],
-    "tags": ["Wood", "Acrylic"],
+  "id": 2,
+  "name": "Indoor Adhesive Clear Film",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Adhesive Film", "Glass Graphics", "Indoor Branding"],
 
-    "price": { "oldPrice": 265, "newPrice": 208 },
-    "discount": 33,
+  "discount": 33,
 
-    "shortDescription": "Standard fiber podium made with super quality material will provide strong body.",
+  "shortDescription": "Self-adhesive transparent film ideal for indoor glass and smooth surface applications.",
 
-    "description": [
-      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
-      "Proin vitae magna in dui finibus malesuada et at nulla."
-    ],
+  "description": [
+    "Indoor adhesive clear film provides strong adhesion with crystal-clear transparency.",
+    "Perfect for window branding, partitions, retail displays, and decorative graphics."
+  ],
 
-    "colors": ["blue", "red", "yellow", "green"],
-    "sizes": ["0.92", "1.27","1.52 x 30 m"],
+  "sizes": ["0.92", "1.27", "1.52 x 30 m"],
 
-    "additionalInformation": {
-      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
-      "Size": "0.92, 1.27, 1.52 x 30 m",
-      "Material": "100% wood"
-    },
-
-    "img": {
-      "singleImage": "img/products/product2/1.png",
-      "thumbs": [
-        "img/products/product2/1.png",
-        "img/products/product2/2.png",
-        "img/products/product2/3.png"
-      ]
-    }
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "0.92, 1.27, 1.52 x 30 m",
+    "Material": "PVC Adhesive Film"
   },
 
-  {
-    "id": 3,
-    "name": "Wooden Podium Stand",
-    "category": "indoor-media",
-    "categories": ["Indoor", "Medias"],
-    "tags": ["Wood", "Acrylic"],
-
-    "price": { "oldPrice": 265, "newPrice": 208 },
-    "discount": 33,
-
-    "shortDescription": "Standard fiber podium made with super quality material will provide strong body.",
-
-    "description": [
-      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
-      "Proin vitae magna in dui finibus malesuada et at nulla."
-    ],
-
-    "colors": ["blue", "red", "yellow", "green"],
-    "sizes": ["0.92", "1.27","1.52 x 30 m"],
-
-    "additionalInformation": {
-      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
-      "Size": "0.92, 1.27, 1.52 x 30 m",
-      "Material": "100% wood"
-    },
-
-    "img": {
-      "singleImage": "img/products/product3/1.png",
-      "thumbs": [
-        "img/products/product3/1.png",
-        "img/products/product3/2.png",
-        "img/products/product3/3.png"
-      ]
-    }
-  },
-
-  {
-    "id": 4,
-    "name": "Acrylic Book Stand",
-    "category": "indoor-media",
-    "categories": ["Indoor", "Medias"],
-    "tags": ["Wood", "Acrylic"],
-
-    "price": { "oldPrice": 265, "newPrice": 208 },
-    "discount": 33,
-
-    "shortDescription": "Standard fiber book stand made with super quality material will provide strong body.",
-
-    "description": [
-      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
-      "Proin vitae magna in dui finibus malesuada et at nulla."
-    ],
-
-    "colors": ["blue", "red", "yellow", "green"],
-    "sizes": ["0.92", "1.27","1.52 x 30 m"],
-
-    "additionalInformation": {
-      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
-      "Size": "0.92, 1.27, 1.52 x 30 m",
-      "Material": "100% wood"
-    },
-
-    "img": {
-      "singleImage": "img/products/product4/1.png",
-      "thumbs": [
-        "img/products/product4/1.png",
-        "img/products/product4/2.png",
-        "img/products/product4/3.png"
-      ]
-    }
-  },
-
-  {
-    "id": 5,
-    "name": "Acrylic fiber Podium Stand",
-    "category": "indoor-media",
-    "categories": ["Indoor", "Medias"],
-    "tags": ["Wood", "Acrylic"],
-
-    "price": { "oldPrice": 265, "newPrice": 208 },
-    "discount": 33,
-
-    "shortDescription": "Standard fiber podium made with super quality material will provide strong body.",
-
-    "description": [
-      "Quisque varius diam vel metus mattis, id aliquam diam rhoncus.",
-      "Proin vitae magna in dui finibus malesuada et at nulla."
-    ],
-
-    "colors": ["blue", "red", "yellow", "green"],
-    "sizes": ["0.92", "1.27","1.52 x 30 m"],
-
-    "additionalInformation": {
-      "Color": "Apple Red, Bio Blue, Sweet Orange, Green",
-      "Size": "0.92, 1.27, 1.52 x 30 m",
-      "Material": "100% wood"
-    },
-
-    "img": {
-      "singleImage": "img/products/product5/1.png",
-      "thumbs": [
-        "img/products/product5/1.png",
-        "img/products/product5/2.png",
-        "img/products/product5/3.png"
-      ]
-    }
+  "img": {
+    "singleImage": "img/products/indoor-medias/indoor-adhesive-clear-film/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/indoor-adhesive-clear-film/1.png",
+      "img/products/indoor-medias/indoor-adhesive-clear-film/2.png",
+      "img/products/indoor-medias/indoor-adhesive-clear-film/3.png"
+    ]
   }
+},
+
+ {
+  "id": 3,
+  "name": "Photo Paper Matt / Gloss",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Photo Paper", "Poster Printing", "Indoor Display"],
+
+  "discount": 33,
+
+  "shortDescription": "Premium quality photo paper available in matt and gloss finishes for indoor printing.",
+
+  "description": [
+    "Designed to deliver sharp image clarity and vibrant color reproduction.",
+    "Suitable for posters, promotional graphics, exhibitions, and high-resolution photo prints."
+  ],
+
+  "sizes": ["0.92", "1.07", "1.27", "1.52 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.07, 1.27, 1.52 x 30 m",
+    "Material": "Photo Grade Paper"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/photo-paper-matt-gloss/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/photo-paper-matt-gloss/1.png",
+      "img/products/indoor-medias/photo-paper-matt-gloss/2.png",
+      "img/products/indoor-medias/photo-paper-matt-gloss/3.png"
+    ]
+  }
+},
+
+  {
+  "id": 4,
+  "name": "Photo Paper 260 GSM Matt / Gloss",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Heavy Photo Paper", "High Quality Prints", "Indoor Posters"],
+
+  "discount": 33,
+
+  "shortDescription": "Heavyweight 260 GSM photo paper for premium indoor photo and poster printing.",
+
+  "description": [
+    "Thick and durable photo paper offering superior color depth and image sharpness.",
+    "Ideal for professional photo prints, premium posters, and display graphics."
+  ],
+
+  "sizes": ["1.27 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.27 x 30 m",
+    "Material": "260 GSM Photo Paper"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/photo-paper-260-gsm-matt-gloss/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/photo-paper-260-gsm-matt-gloss/1.png",
+      "img/products/indoor-medias/photo-paper-260-gsm-matt-gloss/2.png",
+      "img/products/indoor-medias/photo-paper-260-gsm-matt-gloss/3.png"
+    ]
+  }
+},
+
+  {
+  "id": 5,
+  "name": "Adhesive Photo Paper",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Adhesive Paper", "Sticker Print", "Indoor Branding"],
+
+  "discount": 33,
+
+  "shortDescription": "Self-adhesive photo paper designed for high-quality indoor sticker and poster applications.",
+
+  "description": [
+    "Combines strong adhesion with vibrant photo printing performance.",
+    "Perfect for wall graphics, promotional stickers, and branding materials."
+  ],
+
+  "sizes": ["0.92", "1.27 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.27 x 30 m",
+    "Material": "Adhesive Photo Paper"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/adhesive-photo-paper/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/adhesive-photo-paper/1.png",
+      "img/products/indoor-medias/adhesive-photo-paper/2.png",
+      "img/products/indoor-medias/adhesive-photo-paper/3.png"
+    ]
+  }
+},
+
+{
+  "id": 6,
+  "name": "Adhesive Vinyl Matt / Gloss",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Vinyl", "Wall Graphics", "Indoor Advertising"],
+
+  "discount": 33,
+
+  "shortDescription": "Durable adhesive vinyl media suitable for indoor wall and surface graphics.",
+
+  "description": [
+    "Provides smooth printing surface with strong adhesion and long-lasting performance.",
+    "Commonly used for indoor branding, wall graphics, and promotional signage."
+  ],
+
+  "sizes": ["0.92", "1.07", "1.27", "1.52 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.07, 1.27, 1.52 x 30 m",
+    "Material": "PVC Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/adhesive-vinyl-matt-gloss/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/adhesive-vinyl-matt-gloss/1.png",
+      "img/products/indoor-medias/adhesive-vinyl-matt-gloss/2.png",
+      "img/products/indoor-medias/adhesive-vinyl-matt-gloss/3.png"
+    ]
+  }
+},
+
+{
+  "id": 7,
+  "name": "Mopi Paper White Back",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Mopi Paper", "Poster Printing", "Indoor Advertising"],
+
+  "discount": 33,
+
+  "shortDescription": "High-quality Mopi paper with white back for vibrant indoor poster printing.",
+
+  "description": [
+    "Smooth coated surface ensures sharp image clarity and strong color output.",
+    "Ideal for indoor posters, advertising displays, and promotional graphics."
+  ],
+
+  "sizes": ["1.37", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White Back",
+    "Size": "1.37, 1.52 x 50 m",
+    "Material": "Coated Poster Paper"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/mopi-paper-white-back/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/mopi-paper-white-back/1.png",
+      "img/products/indoor-medias/mopi-paper-white-back/2.png",
+      "img/products/indoor-medias/mopi-paper-white-back/3.png"
+    ]
+  }
+},
+
+{
+  "id": 8,
+  "name": "Mopi Paper Blue Back",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Mopi Paper", "Blue Back Paper", "Billboard Paper"],
+
+  "discount": 33,
+
+  "shortDescription": "Durable Mopi paper with blue back designed for strong opacity in indoor displays.",
+
+  "description": [
+    "Blue back layer prevents light penetration for better print visibility.",
+    "Suitable for indoor advertising panels and promotional poster applications."
+  ],
+
+  "sizes": ["1.37", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Blue Back",
+    "Size": "1.37, 1.52 x 50 m",
+    "Material": "Blue Back Poster Paper"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/mopi-paper-blue-back/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/mopi-paper-blue-back/1.png",
+      "img/products/indoor-medias/mopi-paper-blue-back/2.png",
+      "img/products/indoor-medias/mopi-paper-blue-back/3.png"
+    ]
+  }
+},
+
+{
+  "id": 9,
+  "name": "Roll Up Media Black Back",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Roll Up", "Black Back Media", "Exhibition Display"],
+
+  "discount": 33,
+
+  "shortDescription": "Premium roll up media with black back for complete light block-out.",
+
+  "description": [
+    "Ensures excellent opacity and flatness for roll-up stand systems.",
+    "Perfect for exhibitions, events, trade shows, and indoor presentations."
+  ],
+
+  "sizes": ["0.92", "1.27 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "Black Back",
+    "Size": "0.92, 1.27 x 30 m",
+    "Material": "Polypropylene Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/roll-up-media-black-back/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/roll-up-media-black-back/1.png",
+      "img/products/indoor-medias/roll-up-media-black-back/2.png",
+      "img/products/indoor-medias/roll-up-media-black-back/3.png"
+    ]
+  }
+},
+
+{
+  "id": 10,
+  "name": "Roll Up Media White Back",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Roll Up", "White Back Media", "Display Graphics"],
+
+  "discount": 33,
+
+  "shortDescription": "High-quality roll up media with white back for indoor display systems.",
+
+  "description": [
+    "Provides smooth printing surface with excellent color reproduction.",
+    "Commonly used for indoor promotional stands and advertising displays."
+  ],
+
+  "sizes": ["0.92", "1.27 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "White Back",
+    "Size": "0.92, 1.27 x 30 m",
+    "Material": "Polypropylene Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/roll-up-media-white-back/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/roll-up-media-white-back/1.png",
+      "img/products/indoor-medias/roll-up-media-white-back/2.png",
+      "img/products/indoor-medias/roll-up-media-white-back/3.png"
+    ]
+  }
+},
+
+{
+  "id": 11,
+  "name": "Roll Up Media Grey Back",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Roll Up", "Grey Back Media", "Indoor Exhibition"],
+
+  "discount": 33,
+
+  "shortDescription": "Roll up media with grey back offering balanced opacity and print clarity.",
+
+  "description": [
+    "Designed for professional roll-up stand systems with stable flatness.",
+    "Ideal for conferences, indoor events, and promotional presentations."
+  ],
+
+  "sizes": ["0.92", "1.27 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "Grey Back",
+    "Size": "0.92, 1.27 x 30 m",
+    "Material": "Polypropylene Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/roll-up-media-grey-back/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/roll-up-media-grey-back/1.png",
+      "img/products/indoor-medias/roll-up-media-grey-back/2.png",
+      "img/products/indoor-medias/roll-up-media-grey-back/3.png"
+    ]
+  }
+},
+
+{
+  "id": 12,
+  "name": "Duratrans Front Print",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Duratrans", "Backlit Film", "Light Box Display"],
+
+  "discount": 33,
+
+  "shortDescription": "High-quality backlit film designed for vibrant front print lightbox applications.",
+
+  "description": [
+    "Duratrans front print media delivers bright and sharp image results when illuminated.",
+    "Ideal for indoor lightboxes, menu boards, airport displays, and retail signage."
+  ],
+
+  "sizes": ["0.92", "1.27", "1.52 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "Translucent White",
+    "Size": "0.92, 1.27, 1.52 x 30 m",
+    "Material": "Polyester Backlit Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/duratrans-front-print/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/duratrans-front-print/1.png",
+      "img/products/indoor-medias/duratrans-front-print/2.png",
+      "img/products/indoor-medias/duratrans-front-print/3.png"
+    ]
+  }
+},
+
+{
+  "id": 13,
+  "name": "Duratrans Reverse Print",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Duratrans", "Reverse Print", "Backlit Graphics"],
+
+  "discount": 33,
+
+  "shortDescription": "Reverse printable backlit film for illuminated indoor display systems.",
+
+  "description": [
+    "Designed for reverse printing to protect the printed surface inside lightboxes.",
+    "Ensures vibrant color output and even light diffusion."
+  ],
+
+  "sizes": ["0.92", "1.27", "1.52 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "Translucent White",
+    "Size": "0.92, 1.27, 1.52 x 30 m",
+    "Material": "Polyester Backlit Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/indoor-medias/Duratrans-Reverse-Print/1.png",
+    "thumbs": [
+      "img/products/indoor-medias/Duratrans-Reverse-Print/1.png",
+      "img/products/indoor-medias/Duratrans-Reverse-Print/2.png",
+      "img/products/indoor-medias/Duratrans-Reverse-Print/3.png"
+    ]
+  }
+},
+
+{
+  "id": 14,
+  "name": "Canvas Yellow Back",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Canvas", "Art Print", "Decor Media"],
+
+  "discount": 33,
+
+  "shortDescription": "Textured canvas media with yellow backing for artistic indoor prints.",
+
+  "description": [
+    "Provides natural canvas texture for premium art reproductions.",
+    "Perfect for photo frames, wall décor, and gallery-style indoor displays."
+  ],
+
+  "sizes": ["0.92", "1.27", "1.52 x 15 m"],
+
+  "additionalInformation": {
+    "Color": "White Front / Yellow Back",
+    "Size": "0.92, 1.27, 1.52 x 15 m",
+    "Material": "Poly Cotton Canvas"
+  },
+
+  "img": {
+    "singleImage": "img/products/product14/1.png",
+    "thumbs": [
+      "img/products/product14/1.png",
+      "img/products/product14/2.png",
+      "img/products/product14/3.png"
+    ]
+  }
+},
+
+{
+  "id": 15,
+  "name": "Water Proof Canvas",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Canvas", "Waterproof", "Premium Prints"],
+
+  "discount": 33,
+
+  "shortDescription": "Durable waterproof canvas media for long-lasting indoor prints.",
+
+  "description": [
+    "Water-resistant surface enhances durability and print longevity.",
+    "Suitable for indoor décor, framed artwork, and premium branding displays."
+  ],
+
+  "sizes": ["0.92", "1.27 x 18 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.27 x 18 m",
+    "Material": "Waterproof Poly Canvas"
+  },
+
+  "img": {
+    "singleImage": "img/products/product15/1.png",
+    "thumbs": [
+      "img/products/product15/1.png",
+      "img/products/product15/2.png",
+      "img/products/product15/3.png"
+    ]
+  }
+},
+
+{
+  "id": 16,
+  "name": "Indoor Banner",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Banner", "Indoor Advertising", "Promotional Display"],
+
+  "discount": 33,
+
+  "shortDescription": "Flexible indoor banner material for promotional and event displays.",
+
+  "description": [
+    "Lightweight and smooth banner media for vibrant indoor printing.",
+    "Commonly used for events, retail promotions, and exhibition graphics."
+  ],
+
+  "sizes": ["0.92", "1.27 x 16 m", "1.27 x 20 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.27 x 16 m / 20 m",
+    "Material": "PVC Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/product16/1.png",
+    "thumbs": [
+      "img/products/product16/1.png",
+      "img/products/product16/2.png",
+      "img/products/product16/3.png"
+    ]
+  }
+},
+
+{
+  "id": 17,
+  "name": "Lamination Matt / Gloss 80 Mic",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Lamination", "Print Protection", "80 Micron"],
+
+  "discount": 33,
+
+  "shortDescription": "80 micron protective lamination film in matt and gloss finish.",
+
+  "description": [
+    "Enhances durability and protects printed graphics from scratches and moisture.",
+    "Available in matt and gloss finishes for different visual effects."
+  ],
+
+  "sizes": ["0.92", "1.07", "1.27", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "0.92, 1.07, 1.27, 1.52 x 50 m",
+    "Material": "80 Micron Lamination Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/product17/1.png",
+    "thumbs": [
+      "img/products/product17/1.png",
+      "img/products/product17/2.png",
+      "img/products/product17/3.png"
+    ]
+  }
+},
+
+{
+  "id": 18,
+  "name": "UV Lamination Gloss / Matt",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["UV Lamination", "Protection Film", "Gloss Finish"],
+
+  "discount": 33,
+
+  "shortDescription": "UV resistant lamination film for enhanced durability and protection.",
+
+  "description": [
+    "Provides extra protection against fading and surface damage.",
+    "Suitable for indoor prints requiring long-term durability."
+  ],
+
+  "sizes": ["0.92", "1.07", "1.27", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "0.92, 1.07, 1.27, 1.52 x 50 m",
+    "Material": "UV Protective Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/product18/1.png",
+    "thumbs": [
+      "img/products/product18/1.png",
+      "img/products/product18/2.png",
+      "img/products/product18/3.png"
+    ]
+  }
+},
+
+{
+  "id": 19,
+  "name": "Floor Lamination",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Floor Protection", "Anti Slip", "Lamination Film"],
+
+  "discount": 33,
+
+  "shortDescription": "Anti-slip floor lamination film for indoor floor graphics protection.",
+
+  "description": [
+    "Designed to protect floor graphics in high foot traffic areas.",
+    "Provides slip resistance and long-lasting durability."
+  ],
+
+  "sizes": ["0.92", "1.27", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "0.92, 1.27, 1.52 x 50 m",
+    "Material": "Anti Slip Lamination Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/product19/1.png",
+    "thumbs": [
+      "img/products/product19/1.png",
+      "img/products/product19/2.png",
+      "img/products/product19/3.png"
+    ]
+  }
+},
+
+{
+  "id": 20,
+  "name": "Mounting Film Paper",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Mounting Film", "Adhesive Back", "Print Installation"],
+
+  "discount": 33,
+
+  "shortDescription": "Adhesive mounting film for easy application of printed graphics.",
+
+  "description": [
+    "Ensures smooth mounting of posters and printed materials onto boards.",
+    "Provides strong adhesion for long-lasting indoor installations."
+  ],
+
+  "sizes": ["0.92", "1.27", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "0.92, 1.27, 1.52 x 50 m",
+    "Material": "Adhesive Mounting Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/product20/1.png",
+    "thumbs": [
+      "img/products/product20/1.png",
+      "img/products/product20/2.png",
+      "img/products/product20/3.png"
+    ]
+  }
+},
+
+{
+  "id": 21,
+  "name": "Pop Up Film",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["Pop Up Display", "Exhibition Media", "Display Film"],
+
+  "discount": 33,
+
+  "shortDescription": "Specialized film media designed for pop-up display systems.",
+
+  "description": [
+    "Offers flexibility and excellent print quality for exhibition stands.",
+    "Ideal for trade shows, conferences, and promotional events."
+  ],
+
+  "sizes": ["0.92", "1.52 x 20 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.52 x 20 m",
+    "Material": "Display Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/product21/1.png",
+    "thumbs": [
+      "img/products/product21/1.png",
+      "img/products/product21/2.png",
+      "img/products/product21/3.png"
+    ]
+  }
+},
+
+{
+  "id": 22,
+  "name": "Flooring PVC",
+  "category": "indoor-media",
+  "categories": ["Indoor", "Medias"],
+  "tags": ["PVC Flooring", "Floor Graphics", "Indoor Branding"],
+
+  "discount": 33,
+
+  "shortDescription": "Heavy-duty PVC flooring media for indoor promotional graphics.",
+
+  "description": [
+    "Durable PVC material suitable for high traffic indoor environments.",
+    "Used for promotional floor graphics, branding, and directional signage."
+  ],
+
+  "sizes": ["2.01 x 15 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "2.01 x 15 m",
+    "Material": "PVC Flooring Material"
+  },
+
+  "img": {
+    "singleImage": "img/products/product22/1.png",
+    "thumbs": [
+      "img/products/product22/1.png",
+      "img/products/product22/2.png",
+      "img/products/product22/3.png"
+    ]
+  }
+},
+
+
+
+{
+  "_comment": "================= OUTDOOR MEDIA PRODUCTS START ========================================="
+},
+
+{
+  "_comment": "================= OUTDOOR MEDIA PRODUCTS START =====HEAT TRANSFER PRINTING MEDIA==============================="
+},
+
+{
+  "id": 23,
+  "name": "Honey Comb Printable Reflective Vinyl",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Reflective Vinyl", "Road Signage", "Outdoor Safety"],
+
+  "discount": 33,
+
+  "shortDescription": "High-intensity honeycomb reflective vinyl for outdoor safety and signage applications.",
+
+  "description": [
+    "Engineered with honeycomb reflective technology for maximum night visibility.",
+    "Ideal for traffic signs, safety markings, and outdoor directional signage."
+  ],
+
+  "sizes": ["3.1 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Reflective Silver",
+    "Size": "3.1 x 50 m",
+    "Material": "Reflective PVC Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product101/1.png",
+    "thumbs": [
+      "img/products/outdoor/product101/1.png",
+      "img/products/outdoor/product101/2.png",
+      "img/products/outdoor/product101/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 24,
+  "name": "13 oz Banner Matt / Gloss",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["PVC Banner", "Outdoor Advertising", "Flex Banner"],
+
+  "discount": 33,
+
+  "shortDescription": "Durable 13 oz PVC banner suitable for outdoor advertising and promotions.",
+
+  "description": [
+    "Weather-resistant banner material available in matt and gloss finishes.",
+    "Perfect for billboards, shop signage, and event promotions."
+  ],
+
+  "sizes": ["1 m to 5 m x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1 m to 5 m x 50 m",
+    "Material": "13 oz PVC Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product102/1.png",
+    "thumbs": [
+      "img/products/outdoor/product102/1.png",
+      "img/products/outdoor/product102/2.png",
+      "img/products/outdoor/product102/3.png"
+    ]
+  }
+},
+
+{
+  "id": 25,
+  "name": "13 oz Banner Black Back Matt",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Black Back Banner", "Blockout Banner", "Outdoor Signage"],
+
+  "discount": 33,
+
+  "shortDescription": "13 oz black back matt banner with superior light block-out performance.",
+
+  "description": [
+    "Prevents light penetration for high opacity and vibrant print results.",
+    "Suitable for double-sided outdoor banners and high exposure areas."
+  ],
+
+  "sizes": ["1 m to 5 m x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White Front / Black Back",
+    "Size": "1 m to 5 m x 50 m",
+    "Material": "PVC Blockout Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product103/1.png",
+    "thumbs": [
+      "img/products/outdoor/product103/1.png",
+      "img/products/outdoor/product103/2.png",
+      "img/products/outdoor/product103/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 26,
+  "name": "Scrolling Banner",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Scrolling Display", "Outdoor Billboard", "PVC Banner"],
+
+  "discount": 33,
+
+  "shortDescription": "Heavy-duty scrolling banner media for outdoor billboard systems.",
+
+  "description": [
+    "Designed for mechanical scrolling billboard applications.",
+    "Strong, flexible, and weather-resistant for long-term outdoor use."
+  ],
+
+  "sizes": ["3.2 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "3.2 x 50 m",
+    "Material": "PVC Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product104/1.png",
+    "thumbs": [
+      "img/products/outdoor/product104/1.png",
+      "img/products/outdoor/product104/2.png",
+      "img/products/outdoor/product104/3.png"
+    ]
+  }
+},
+
+{
+  "id": 27,
+  "name": "15 oz Banner Matt",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Heavy Duty Banner", "Outdoor Billboard", "PVC Flex"],
+
+  "discount": 33,
+
+  "shortDescription": "Extra strong 15 oz matt banner for large-scale outdoor advertising.",
+
+  "description": [
+    "Thicker and more durable banner material for high wind areas.",
+    "Commonly used for hoardings, billboards, and building wraps."
+  ],
+
+  "sizes": ["4.2, 5 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "4.2, 5 x 50 m",
+    "Material": "15 oz PVC Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product105/1.png",
+    "thumbs": [
+      "img/products/outdoor/product105/1.png",
+      "img/products/outdoor/product105/2.png",
+      "img/products/outdoor/product105/3.png"
+    ]
+  }
+},
+
+{
+  "id": 28,
+  "name": "16 oz Banner Gloss / Matt",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Heavy Duty Banner", "Outdoor Advertising", "PVC Flex Banner"],
+
+  "discount": 33,
+
+  "shortDescription": "Premium 16 oz PVC banner for high durability outdoor advertising applications.",
+
+  "description": [
+    "Extra heavy banner material designed for long-term outdoor exposure.",
+    "Available in gloss and matt finishes for billboards and large format signage."
+  ],
+
+  "sizes": ["1 m to 5 m x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1 m to 5 m x 50 m",
+    "Material": "16 oz PVC Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product106/1.png",
+    "thumbs": [
+      "img/products/outdoor/product106/1.png",
+      "img/products/outdoor/product106/2.png",
+      "img/products/outdoor/product106/3.png"
+    ]
+  }
+},
+
+{
+  "id": 29,
+  "name": "16 oz Banner Black & White Matt",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Blockout Banner", "Double Sided Banner", "Outdoor Signage"],
+
+  "discount": 33,
+
+  "shortDescription": "16 oz blockout banner with black & white backing for superior opacity.",
+
+  "description": [
+    "Prevents light penetration ensuring vibrant double-sided prints.",
+    "Suitable for outdoor billboards and high exposure advertising."
+  ],
+
+  "sizes": ["1 m to 5 m x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White Front / Black & White Back",
+    "Size": "1 m to 5 m x 50 m",
+    "Material": "PVC Blockout Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product107/1.png",
+    "thumbs": [
+      "img/products/outdoor/product107/1.png",
+      "img/products/outdoor/product107/2.png",
+      "img/products/outdoor/product107/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 30,
+  "name": "Mesh Banner",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Mesh Banner", "Wind Resistant", "Building Wrap"],
+
+  "discount": 33,
+
+  "shortDescription": "Perforated mesh banner ideal for windy outdoor environments.",
+
+  "description": [
+    "Allows air flow through the material reducing wind load.",
+    "Perfect for scaffolding, building wraps, and large outdoor advertising."
+  ],
+
+  "sizes": ["3.2 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "3.2 x 50 m",
+    "Material": "PVC Mesh Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product108/1.png",
+    "thumbs": [
+      "img/products/outdoor/product108/1.png",
+      "img/products/outdoor/product108/2.png",
+      "img/products/outdoor/product108/3.png"
+    ]
+  }
+},
+
+{
+  "id": 31,
+  "name": "Solvent Backlit 610 gsm",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Backlit Banner", "Lightbox Media", "Outdoor Display"],
+
+  "discount": 33,
+
+  "shortDescription": "Heavy-duty 610 gsm solvent printable backlit banner for illuminated displays.",
+
+  "description": [
+    "Provides even light diffusion and vibrant color output.",
+    "Ideal for outdoor lightboxes and illuminated signage systems."
+  ],
+
+  "sizes": ["1.82", "2.5", "3.2", "4.2", "5 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Translucent White",
+    "Size": "1.82, 2.5, 3.2, 4.2, 5 x 50 m",
+    "Material": "610 gsm PVC Backlit"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product109/1.png",
+    "thumbs": [
+      "img/products/outdoor/product109/1.png",
+      "img/products/outdoor/product109/2.png",
+      "img/products/outdoor/product109/3.png"
+    ]
+  }
+},
+
+{
+  "id": 32,
+  "name": "Backlit Coated Flex 610 gsm Matt",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Backlit Flex", "Matt Finish", "Outdoor Lightbox"],
+
+  "discount": 33,
+
+  "shortDescription": "610 gsm matt coated flex banner for high-quality backlit outdoor applications.",
+
+  "description": [
+    "Ensures consistent light diffusion with reduced glare.",
+    "Suitable for premium outdoor illuminated advertising."
+  ],
+
+  "sizes": ["5.1 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Translucent White",
+    "Size": "5.1 x 50 m",
+    "Material": "Coated PVC Backlit Flex"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product110/1.png",
+    "thumbs": [
+      "img/products/outdoor/product110/1.png",
+      "img/products/outdoor/product110/2.png",
+      "img/products/outdoor/product110/3.png"
+    ]
+  }
+},
+
+{
+  "id": 33,
+  "name": "Double Side Printable Block Out Banner",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Double Sided Banner", "Blockout Flex", "Outdoor Advertising"],
+
+  "discount": 33,
+
+  "shortDescription": "High opacity blockout banner suitable for double-sided outdoor printing.",
+
+  "description": [
+    "Prevents light transmission for clear and vibrant prints on both sides.",
+    "Used for street banners, pole banners, and outdoor promotional signage."
+  ],
+
+  "sizes": ["1.6", "1.82", "5.5", "3.2 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.6, 1.82, 5.5, 3.2 x 50 m",
+    "Material": "PVC Blockout Banner"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product111/1.png",
+    "thumbs": [
+      "img/products/outdoor/product111/1.png",
+      "img/products/outdoor/product111/2.png",
+      "img/products/outdoor/product111/3.png"
+    ]
+  }
+},
+
+{
+  "id": 34,
+  "name": "PET Frontlit 420 gsm",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["PET Banner", "Frontlit Media", "Eco Friendly Banner"],
+
+  "discount": 33,
+
+  "shortDescription": "Eco-friendly 420 gsm PET frontlit banner for outdoor advertising.",
+
+  "description": [
+    "Durable PET based frontlit material designed for high quality outdoor prints.",
+    "Provides excellent color performance for billboards and large format displays."
+  ],
+
+  "sizes": ["3.2 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "3.2 x 50 m",
+    "Material": "420 gsm PET Frontlit"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product112/1.png",
+    "thumbs": [
+      "img/products/outdoor/product112/1.png",
+      "img/products/outdoor/product112/2.png",
+      "img/products/outdoor/product112/3.png"
+    ]
+  }
+},
+
+{
+  "id": 35,
+  "name": "PET Backlit 420 gsm",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["PET Backlit", "Illuminated Banner", "Outdoor Lightbox"],
+
+  "discount": 33,
+
+  "shortDescription": "420 gsm PET backlit media for illuminated outdoor signage.",
+
+  "description": [
+    "Designed for even light diffusion and vibrant color reproduction.",
+    "Suitable for lightboxes and illuminated outdoor displays."
+  ],
+
+  "sizes": ["3.2 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Translucent White",
+    "Size": "3.2 x 50 m",
+    "Material": "420 gsm PET Backlit"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product113/1.png",
+    "thumbs": [
+      "img/products/outdoor/product113/1.png",
+      "img/products/outdoor/product113/2.png",
+      "img/products/outdoor/product113/3.png"
+    ]
+  }
+},
+
+{
+  "id": 36,
+  "name": "PET Blockout 530 gsm",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["PET Blockout", "Double Sided Banner", "Outdoor Signage"],
+
+  "discount": 33,
+
+  "shortDescription": "Heavy-duty 530 gsm PET blockout banner for double-sided outdoor printing.",
+
+  "description": [
+    "Prevents light penetration ensuring sharp prints on both sides.",
+    "Ideal for street banners and outdoor promotional signage."
+  ],
+
+  "sizes": ["3.2 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "3.2 x 50 m",
+    "Material": "530 gsm PET Blockout"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product114/1.png",
+    "thumbs": [
+      "img/products/outdoor/product114/1.png",
+      "img/products/outdoor/product114/2.png",
+      "img/products/outdoor/product114/3.png"
+    ]
+  }
+},
+
+{
+  "id": 37,
+  "name": "Printable Floor Graphics Vinyl",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Floor Graphics", "Outdoor Vinyl", "Anti Slip Media"],
+
+  "discount": 33,
+
+  "shortDescription": "Durable printable vinyl for outdoor floor graphics and branding.",
+
+  "description": [
+    "Designed for ground applications with strong adhesion and durability.",
+    "Ideal for outdoor promotional floor graphics and directional signage."
+  ],
+
+  "sizes": ["1.37 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.37 x 50 m",
+    "Material": "PVC Floor Graphics Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product115/1.png",
+    "thumbs": [
+      "img/products/outdoor/product115/1.png",
+      "img/products/outdoor/product115/2.png",
+      "img/products/outdoor/product115/3.png"
+    ]
+  }
+},
+
+{
+  "id": 38,
+  "name": "Solvent Printable Photo Paper 220 gsm Matt / Gloss",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Photo Paper", "Solvent Printing", "Poster Media"],
+
+  "discount": 33,
+
+  "shortDescription": "220 gsm solvent printable photo paper for outdoor poster applications.",
+
+  "description": [
+    "High-quality coated paper suitable for solvent and eco-solvent printing.",
+    "Available in matt and gloss finishes for vibrant outdoor posters."
+  ],
+
+  "sizes": ["0.92", "1.27", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.27, 1.52 x 50 m",
+    "Material": "220 gsm Photo Paper"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product116/1.png",
+    "thumbs": [
+      "img/products/outdoor/product116/1.png",
+      "img/products/outdoor/product116/2.png",
+      "img/products/outdoor/product116/3.png"
+    ]
+  }
+},
+
+{
+  "id": 39,
+  "name": "AB Graphics Bubble Free Grey Back Vinyl",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Bubble Free Vinyl", "Grey Back Vinyl", "Outdoor Branding"],
+
+  "discount": 33,
+
+  "shortDescription": "Bubble-free grey back adhesive vinyl for smooth outdoor applications.",
+
+  "description": [
+    "Air release technology ensures easy installation without bubbles.",
+    "Grey back layer improves opacity for better print coverage."
+  ],
+
+  "sizes": ["1.37 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White Front / Grey Back",
+    "Size": "1.37 x 50 m",
+    "Material": "PVC Adhesive Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product117/1.png",
+    "thumbs": [
+      "img/products/outdoor/product117/1.png",
+      "img/products/outdoor/product117/2.png",
+      "img/products/outdoor/product117/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 40,
+  "name": "Grafityp Solvent Printable Vinyl Matt / Gloss",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Grafityp Vinyl", "Printable Vinyl", "Outdoor Stickers"],
+
+  "discount": 33,
+
+  "shortDescription": "Premium Grafityp solvent printable vinyl for professional outdoor graphics.",
+
+  "description": [
+    "High performance vinyl suitable for long-term outdoor branding.",
+    "Available in matt and gloss finishes for various advertising applications."
+  ],
+
+  "sizes": ["1.27", "1.37", "1.52", "2.02 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.27, 1.37, 1.52, 2.02 x 50 m",
+    "Material": "Premium PVC Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product118/1.png",
+    "thumbs": [
+      "img/products/outdoor/product118/1.png",
+      "img/products/outdoor/product118/2.png",
+      "img/products/outdoor/product118/3.png"
+    ]
+  }
+},
+
+{
+  "id": 41,
+  "name": "Grafityp Solvent Printable Vinyl Matt / Gloss",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Grafityp Vinyl", "Printable Vinyl", "Outdoor Stickers"],
+
+  "discount": 33,
+
+  "shortDescription": "Premium Grafityp solvent printable vinyl for professional outdoor graphics.",
+
+  "description": [
+    "High performance vinyl suitable for long-term outdoor branding.",
+    "Available in matt and gloss finishes for various advertising applications."
+  ],
+
+  "sizes": ["1.27", "1.37", "1.52", "2.02 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.27, 1.37, 1.52, 2.02 x 50 m",
+    "Material": "Premium PVC Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product118/1.png",
+    "thumbs": [
+      "img/products/outdoor/product118/1.png",
+      "img/products/outdoor/product118/2.png",
+      "img/products/outdoor/product118/3.png"
+    ]
+  }
+},
+
+{
+  "id": 42,
+  "name": "Solvent Printable Vinyl Matt / Gloss",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Printable Vinyl", "Outdoor Stickers", "Advertising Vinyl"],
+
+  "discount": 33,
+
+  "shortDescription": "Standard solvent printable vinyl for outdoor branding and signage.",
+
+  "description": [
+    "Durable adhesive vinyl compatible with solvent and eco-solvent printers.",
+    "Suitable for outdoor stickers, signage, and promotional graphics."
+  ],
+
+  "sizes": ["1.27", "1.37", "1.52", "2.02 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.27, 1.37, 1.52, 2.02 x 50 m",
+    "Material": "PVC Adhesive Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product119/1.png",
+    "thumbs": [
+      "img/products/outdoor/product119/1.png",
+      "img/products/outdoor/product119/2.png",
+      "img/products/outdoor/product119/3.png"
+    ]
+  }
+},
+
+{
+  "id": 43,
+  "name": "Solvent Printable Magnetic Rolls 0.85mm",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Magnetic Roll", "Vehicle Graphics", "Removable Signage"],
+
+  "discount": 33,
+
+  "shortDescription": "0.85mm thick printable magnetic roll for removable outdoor signage.",
+
+  "description": [
+    "Flexible magnetic material ideal for vehicle branding and temporary signs.",
+    "Easy to apply and remove without surface damage."
+  ],
+
+  "sizes": ["0.85mm thickness / 06.2 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "Black Magnetic Back",
+    "Size": "0.85mm thickness / 06.2 x 30 m",
+    "Material": "Magnetic Sheet Roll"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product120/1.png",
+    "thumbs": [
+      "img/products/outdoor/product120/1.png",
+      "img/products/outdoor/product120/2.png",
+      "img/products/outdoor/product120/3.png"
+    ]
+  }
+},
+
+{
+  "id": 44,
+  "name": "Solvent Printable Magnetic Rolls 2mm",
+  "category": "outdoor-media",
+  "categories": ["Outdoor", "Medias"],
+  "tags": ["Heavy Magnetic Roll", "Vehicle Branding", "Removable Graphics"],
+
+  "discount": 33,
+
+  "shortDescription": "2mm thick heavy-duty printable magnetic roll for strong outdoor applications.",
+
+  "description": [
+    "Extra thickness provides stronger magnetic hold for vehicles and metal surfaces.",
+    "Suitable for long-term removable signage and branding."
+  ],
+
+  "sizes": ["2mm thickness / 06.2 x 10 m"],
+
+  "additionalInformation": {
+    "Color": "Black Magnetic Back",
+    "Size": "2mm thickness / 06.2 x 10 m",
+    "Material": "Heavy Duty Magnetic Roll"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor/product121/1.png",
+    "thumbs": [
+      "img/products/outdoor/product121/1.png",
+      "img/products/outdoor/product121/2.png",
+      "img/products/outdoor/product121/3.png"
+    ]
+  }
+},
+
+
+
+{
+  "_comment": "================= OUTDOOR MEDIA PRODUCTS ==============================="
+},
+
+{
+  "id": 45,
+  "name": "Solvent Printable Vinyl Grey Back Matt / Gloss",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Grey Back Vinyl", "Solvent Printable", "Self Adhesive Vinyl"],
+
+  "discount": 33,
+
+  "shortDescription": "Premium grey back self-adhesive vinyl for high-quality solvent printing.",
+
+  "description": [
+    "Grey backing ensures better opacity and covers surface imperfections.",
+    "Available in matt and gloss finish for indoor and outdoor applications."
+  ],
+
+  "sizes": ["1.37 x 50 m", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White / Grey Back",
+    "Size": "1.37, 1.52 x 50 m",
+    "Material": "PVC Self Adhesive Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product45/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product45/1.png",
+      "img/products/outdoor-media/product45/2.png",
+      "img/products/outdoor-media/product45/3.png"
+    ]
+  }
+},
+
+{
+  "id": 46,
+  "name": "Solvent Perforated Vinyl",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["One Way Vision", "Perforated Film", "Window Graphics"],
+
+  "discount": 33,
+
+  "shortDescription": "Perforated self-adhesive vinyl ideal for window graphics and vehicle branding.",
+
+  "description": [
+    "Allows visibility from inside while displaying graphics outside.",
+    "Perfect for storefront windows and vehicle advertising."
+  ],
+
+  "sizes": ["1.06 x 50 m", "1.37 x 50 m", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White Front / Black Back",
+    "Size": "1.06, 1.37, 1.52 x 50 m",
+    "Material": "PVC Perforated Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product46/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product46/1.png",
+      "img/products/outdoor-media/product46/2.png",
+      "img/products/outdoor-media/product46/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 47,
+  "name": "Printable Two Way Vision Vinyl",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Two Way Vision", "Window Film", "Advertising Vinyl"],
+
+  "discount": 33,
+
+  "shortDescription": "Two way vision vinyl for window and glass surface advertising.",
+
+  "description": [
+    "Ensures clear outward visibility while displaying vibrant prints externally.",
+    "Used for vehicle windows, glass facades, and retail storefronts."
+  ],
+
+  "sizes": ["1.37 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White Front / Black Back",
+    "Size": "1.37 x 50 m",
+    "Material": "PVC Vision Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product47/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product47/1.png",
+      "img/products/outdoor-media/product47/2.png",
+      "img/products/outdoor-media/product47/3.png"
+    ]
+  }
+},
+
+{
+  "id": 48,
+  "name": "Solvent Printable Adhesive Clear Film",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Clear Film", "Transparent Vinyl", "Window Graphics"],
+
+  "discount": 33,
+
+  "shortDescription": "Transparent adhesive film suitable for solvent printing applications.",
+
+  "description": [
+    "Provides clear background for glass and acrylic applications.",
+    "Ideal for decals, labels, and window graphics."
+  ],
+
+  "sizes": ["1.37 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "1.37 x 50 m",
+    "Material": "Clear PVC Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product48/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product48/1.png",
+      "img/products/outdoor-media/product48/2.png",
+      "img/products/outdoor-media/product48/3.png"
+    ]
+  }
+},
+
+{
+  "id": 49,
+  "name": "Textile Banner",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Fabric Banner", "Soft Signage", "Polyester Media"],
+
+  "discount": 33,
+
+  "shortDescription": "High-quality textile banner material for soft signage applications.",
+
+  "description": [
+    "Lightweight and flexible fabric suitable for indoor and outdoor use.",
+    "Provides vibrant color output with eco-solvent and solvent printers."
+  ],
+
+  "sizes": ["1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.52 x 50 m",
+    "Material": "Polyester Textile"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product49/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product49/1.png",
+      "img/products/outdoor-media/product49/2.png",
+      "img/products/outdoor-media/product49/3.png"
+    ]
+  }
+},
+
+{
+  "id": 50,
+  "name": "Solvent Roll Up Media Grey Back",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Roll Up Media", "Grey Back Film", "Display Stand Media"],
+
+  "discount": 33,
+
+  "shortDescription": "Premium grey back roll up media for professional display stands.",
+
+  "description": [
+    "Grey backing ensures full opacity and blocks light transmission.",
+    "Ideal for roll-up banners, exhibitions, and indoor promotions."
+  ],
+
+  "sizes": ["0.92 x 30 m", "0.92 x 50 m", "1.27 x 50 m", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White / Grey Back",
+    "Size": "0.92, 1.27, 1.52 x 30 m / 50 m",
+    "Material": "PP Synthetic Roll Up Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product50/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product50/1.png",
+      "img/products/outdoor-media/product50/2.png",
+      "img/products/outdoor-media/product50/3.png"
+    ]
+  }
+},
+
+{
+  "id": 51,
+  "name": "Solvent Backlit Duratrans",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Backlit Film", "Duratrans", "Lightbox Film"],
+
+  "discount": 33,
+
+  "shortDescription": "High-quality translucent film for illuminated lightbox displays.",
+
+  "description": [
+    "Ensures excellent light diffusion and vibrant backlit graphics.",
+    "Suitable for indoor and outdoor lightbox advertising."
+  ],
+
+  "sizes": ["0.92 x 50 m", "1.27 x 50 m", "1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Translucent White",
+    "Size": "0.92, 1.27, 1.52 x 50 m",
+    "Material": "PET Backlit Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product51/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product51/1.png",
+      "img/products/outdoor-media/product51/2.png",
+      "img/products/outdoor-media/product51/3.png"
+    ]
+  }
+},
+
+{
+  "id": 52,
+  "name": "Solvent Roll Up Media White Back",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Roll Up Media", "White Back Film", "Display Graphics"],
+
+  "discount": 33,
+
+  "shortDescription": "White back roll up media for indoor promotional displays.",
+
+  "description": [
+    "Smooth printable surface for high-resolution graphics.",
+    "Ideal for roll-up stands and exhibition displays."
+  ],
+
+  "sizes": ["0.92 x 30 m", "0.92 x 50 m", "1.06 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92 x 30 m / 50 m, 1.06 x 30 m",
+    "Material": "PP Synthetic Roll Up Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product52/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product52/1.png",
+      "img/products/outdoor-media/product52/2.png",
+      "img/products/outdoor-media/product52/3.png"
+    ]
+  }
+},
+
+{
+  "id": 53,
+  "name": "Outdoor Canvas",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Canvas Media", "Art Print", "Outdoor Canvas"],
+
+  "discount": 33,
+
+  "shortDescription": "Durable canvas media suitable for outdoor and art print applications.",
+
+  "description": [
+    "High-quality textured surface for premium graphic output.",
+    "Ideal for wall décor, art reproductions, and outdoor displays."
+  ],
+
+  "sizes": ["0.92 x 18 m", "1.27 x 18 m", "1.52 x 18 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.27, 1.52 x 18 m",
+    "Material": "Poly-Cotton Canvas"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product53/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product53/1.png",
+      "img/products/outdoor-media/product53/2.png",
+      "img/products/outdoor-media/product53/3.png"
+    ]
+  }
+},
+
+{
+  "id": 54,
+  "name": "Flag Material",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Flag Fabric", "Polyester Flag", "Outdoor Flag"],
+
+  "discount": 33,
+
+  "shortDescription": "Lightweight polyester fabric designed for flag printing applications.",
+
+  "description": [
+    "Allows ink penetration for vibrant double-sided flag prints.",
+    "Perfect for promotional flags and outdoor branding."
+  ],
+
+  "sizes": ["1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.52 x 50 m",
+    "Material": "Polyester Flag Fabric"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product54/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product54/1.png",
+      "img/products/outdoor-media/product54/2.png",
+      "img/products/outdoor-media/product54/3.png"
+    ]
+  }
+},
+
+{
+  "id": 54,
+  "name": "Flag Material",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Flag Fabric", "Polyester Flag", "Outdoor Flag"],
+
+  "discount": 33,
+
+  "shortDescription": "Lightweight polyester fabric designed for flag printing applications.",
+
+  "description": [
+    "Allows ink penetration for vibrant double-sided flag prints.",
+    "Perfect for promotional flags and outdoor branding."
+  ],
+
+  "sizes": ["1.52 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.52 x 50 m",
+    "Material": "Polyester Flag Fabric"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product54/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product54/1.png",
+      "img/products/outdoor-media/product54/2.png",
+      "img/products/outdoor-media/product54/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 55,
+  "name": "Eco Solvent Printable Non Woven",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Non Woven Media", "Eco Solvent Print", "Wall Graphics"],
+
+  "discount": 33,
+
+  "shortDescription": "Eco solvent printable non-woven media ideal for wall and promotional graphics.",
+
+  "description": [
+    "Smooth printable surface for high-resolution eco-solvent printing.",
+    "Suitable for indoor décor, exhibitions, and temporary wall branding."
+  ],
+
+  "sizes": ["1.52 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.52 x 30 m",
+    "Material": "Non Woven Fabric"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product55/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product55/1.png",
+      "img/products/outdoor-media/product55/2.png",
+      "img/products/outdoor-media/product55/3.png"
+    ]
+  }
+},
+
+{
+  "id": 56,
+  "name": "Solvent Printable Wall Paper",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Printable Wallpaper", "Wall Covering", "Interior Graphics"],
+
+  "discount": 33,
+
+  "shortDescription": "High-quality solvent printable wallpaper for customized interior branding.",
+
+  "description": [
+    "Designed for wall decoration and commercial interior graphics.",
+    "Provides excellent ink absorption and vibrant color reproduction."
+  ],
+
+  "sizes": ["1.06 x 30 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.06 x 30 m",
+    "Material": "PVC Wall Covering"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product56/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product56/1.png",
+      "img/products/outdoor-media/product56/2.png",
+      "img/products/outdoor-media/product56/3.png"
+    ]
+  }
+},
+
+{
+  "id": 57,
+  "name": "Mopi Paper Blue Back",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Blue Back Paper", "Poster Paper", "Billboard Paper"],
+
+  "discount": 33,
+
+  "shortDescription": "Blue back poster paper designed for outdoor billboard applications.",
+
+  "description": [
+    "Blue backing prevents show-through when pasting over existing posters.",
+    "Ideal for outdoor hoardings and billboard advertising."
+  ],
+
+  "sizes": ["1.60 x 100 m"],
+
+  "additionalInformation": {
+    "Color": "White Front / Blue Back",
+    "Size": "1.60 x 100 m",
+    "Material": "Mopi Poster Paper"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product57/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product57/1.png",
+      "img/products/outdoor-media/product57/2.png",
+      "img/products/outdoor-media/product57/3.png"
+    ]
+  }
+},
+
+{
+  "id": 58,
+  "name": "Mopi Paper White Back",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["White Back Paper", "Poster Media", "Outdoor Posters"],
+
+  "discount": 33,
+
+  "shortDescription": "White back poster paper suitable for large format advertising prints.",
+
+  "description": [
+    "Smooth printable surface for high-quality graphic output.",
+    "Used for outdoor billboards and promotional displays."
+  ],
+
+  "sizes": ["1.06 x 100 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.06 x 100 m",
+    "Material": "Mopi Poster Paper"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product58/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product58/1.png",
+      "img/products/outdoor-media/product58/2.png",
+      "img/products/outdoor-media/product58/3.png"
+    ]
+  }
+},
+
+{
+  "id": 59,
+  "name": "Eco Solvent Pop Up Film",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Pop Up Film", "Display Film", "Eco Solvent Media"],
+
+  "discount": 33,
+
+  "shortDescription": "Eco solvent printable pop-up film for exhibition and display systems.",
+
+  "description": [
+    "Designed for pop-up display systems and exhibition backdrops.",
+    "Provides smooth finish and vibrant color reproduction."
+  ],
+
+  "sizes": ["0.92 x 20 m", "1.52 x 20 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "0.92, 1.52 x 20 m",
+    "Material": "PET Display Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product59/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product59/1.png",
+      "img/products/outdoor-media/product59/2.png",
+      "img/products/outdoor-media/product59/3.png"
+    ]
+  }
+},
+
+{
+  "id": 60,
+  "name": "Micron Sheet",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Micron Film", "Protective Sheet", "Printing Film"],
+
+  "discount": 33,
+
+  "shortDescription": "Durable micron sheet suitable for protection and printing applications.",
+
+  "description": [
+    "High-strength film designed for signage and display protection.",
+    "Provides smooth and consistent surface finish."
+  ],
+
+  "sizes": ["0.92 x 100 m", "1.27 x 100 m"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "0.92, 1.27 x 100 m",
+    "Material": "Micron Plastic Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product60/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product60/1.png",
+      "img/products/outdoor-media/product60/2.png",
+      "img/products/outdoor-media/product60/3.png"
+    ]
+  }
+},
+
+{
+  "id": 61,
+  "name": "Micron Sheet Black",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Black Micron Film", "Blockout Film", "Protective Sheet"],
+
+  "discount": 33,
+
+  "shortDescription": "Black micron sheet ideal for blockout and protective applications.",
+
+  "description": [
+    "Provides full opacity and light blocking properties.",
+    "Used in signage backing, masking, and industrial applications."
+  ],
+
+  "sizes": ["0.92 x 100 m"],
+
+  "additionalInformation": {
+    "Color": "Black",
+    "Size": "0.92 x 100 m",
+    "Material": "Micron Plastic Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product61/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product61/1.png",
+      "img/products/outdoor-media/product61/2.png",
+      "img/products/outdoor-media/product61/3.png"
+    ]
+  }
+},
+
+{
+  "id": 62,
+  "name": "Heat Transfer Films PU / PVC / Glitter",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Heat Transfer Vinyl", "PU Film", "PVC Film", "Glitter HTV", "Garment Printing"],
+
+  "discount": 33,
+
+  "shortDescription": "High-quality heat transfer films available in PU, PVC, and glitter finishes for garment decoration.",
+
+  "description": [
+    "Designed for textile and apparel customization using heat press application.",
+    "Available in PU for soft feel, PVC for durability, and glitter for decorative finishes."
+  ],
+
+  "sizes": ["0.51 x 25 m"],
+
+  "additionalInformation": {
+    "Color": "Multiple Colors Available",
+    "Size": "0.51 x 25 m",
+    "Material": "PU / PVC / Glitter Heat Transfer Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product62/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product62/1.png",
+      "img/products/outdoor-media/product62/2.png",
+      "img/products/outdoor-media/product62/3.png"
+    ]
+  }
+},
+
+{
+  "id": 63,
+  "name": "Heat Transfer Films Printable",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Printable Heat Transfer", "HTV Printable", "Garment Vinyl"],
+
+  "discount": 33,
+
+  "shortDescription": "Printable heat transfer film suitable for eco-solvent and solvent printing.",
+
+  "description": [
+    "Allows full-color custom garment graphics using print and cut technology.",
+    "Designed for cotton, polyester, and blended fabrics."
+  ],
+
+  "sizes": ["0.51 x 25 m"],
+
+  "additionalInformation": {
+    "Color": "White Printable Surface",
+    "Size": "0.51 x 25 m",
+    "Material": "Printable Heat Transfer Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product63/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product63/1.png",
+      "img/products/outdoor-media/product63/2.png",
+      "img/products/outdoor-media/product63/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 64,
+  "name": "Flock Materials",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Flock HTV", "Velvet Finish Film", "Textile Decoration"],
+
+  "discount": 33,
+
+  "shortDescription": "Premium flock material with velvet texture for garment decoration.",
+
+  "description": [
+    "Provides soft velvet-like finish for premium apparel branding.",
+    "Ideal for sportswear, uniforms, and fashion applications."
+  ],
+
+  "sizes": ["0.50 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Multiple Colors Available",
+    "Size": "0.50 x 50 m",
+    "Material": "Flock Heat Transfer Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product64/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product64/1.png",
+      "img/products/outdoor-media/product64/2.png",
+      "img/products/outdoor-media/product64/3.png"
+    ]
+  }
+},
+
+
+
+{
+  "_comment": "========== OUTDOOR MEDIA PRODUCTS SPECIAL MEDIAS =========="
+},
+
+
+{
+  "id": 65,
+  "name": "Decorative - Wooden Stickers",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Wood Texture Vinyl", "Decorative Film", "Interior Decoration"],
+
+  "discount": 33,
+
+  "shortDescription": "Decorative wooden texture adhesive film for interior and surface decoration.",
+
+  "description": [
+    "Realistic wood grain finish for furniture, walls, and retail interiors.",
+    "Easy to apply self-adhesive decorative vinyl."
+  ],
+
+  "sizes": ["1.22 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Wood Grain Finishes",
+    "Size": "1.22 x 50 m",
+    "Material": "Decorative PVC Vinyl"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product65/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product65/1.png",
+      "img/products/outdoor-media/product65/2.png",
+      "img/products/outdoor-media/product65/3.png"
+    ]
+  }
+},
+
+{
+  "id": 66,
+  "name": "Frosted Vinyls",
+  "category": "outdoor-media",
+  "categories": ["Outdoor Media"],
+  "tags": ["Frosted Glass Film", "Privacy Vinyl", "Etched Effect Film"],
+
+  "discount": 33,
+
+  "shortDescription": "Frosted self-adhesive vinyl for glass decoration and privacy applications.",
+
+  "description": [
+    "Creates elegant etched glass effect on windows and partitions.",
+    "Ideal for offices, retail stores, and interior glass branding."
+  ],
+
+  "sizes": [
+    "0.92 x 50 m",
+    "1.22 x 50 m",
+    "1.37 x 50 m",
+    "1.52 x 50 m"
+  ],
+
+  "additionalInformation": {
+    "Color": "Frosted / Translucent",
+    "Size": "0.92 / 1.22 / 1.37 / 1.52 x 50 m",
+    "Material": "PVC Frosted Film"
+  },
+
+  "img": {
+    "singleImage": "img/products/outdoor-media/product66/1.png",
+    "thumbs": [
+      "img/products/outdoor-media/product66/1.png",
+      "img/products/outdoor-media/product66/2.png",
+      "img/products/outdoor-media/product66/3.png"
+    ]
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
   
   
 ]

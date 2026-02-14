@@ -3,14 +3,14 @@ function searchFunc(data) {
     let result = ""
 
     // INITIAL LIST
-    data.forEach((item) => {
+    data.slice(0,5).forEach((item) => {
         result += `
             <a href="single-product.html?id=${item.id}" class="result-item">
                 <img src="${item.img.singleImage}" class="search-thumb" alt="">
                 <div class="search-info">
                     <h4>${item.name}</h4>
                     <span class="search-sku">SKU : PD0016</span>
-                    <span class="search-price">$${item.price.newPrice.toFixed(2)}</span>
+                    
                 </div>  
             </a>    
         `
@@ -44,7 +44,7 @@ function searchFunc(data) {
                     <div class="search-info">
                         <h4>${item.name}</h4>
                         <span class="search-sku">SKU : PD0016</span>
-                        <span class="search-price">$${item.price.newPrice.toFixed(2)}</span>
+                        
                     </div>  
                 </a>    
             `

@@ -6,16 +6,40 @@ import searchFunc from "./search.js"
 
 (async function () {
 
-    const products = await fetch("js/data.json") //get data
-    const data = await products.json() // to json
+    const response = await fetch("js/data.json")
+    const data = await response.json()
 
+    // store all products in localStorage
+    if (data) {
+        localStorage.setItem("products", JSON.stringify(data))
+    }
 
-    data ? localStorage.setItem("products", JSON.stringify(data)) : [] // json to string
-    productFunc(data)
-    searchFunc(data)
+    /* =============================
+       SELECT 2 PRODUCTS PER CATEGORY
+    ============================== */
 
-}
-)()
+    const categories = ["indoor-media", "outdoor-media", "led", "display"]
+
+    let selectedProducts = []
+
+    categories.forEach(category => {
+        const filtered = data
+            .filter(product => product.category === category)
+            .slice(0, 2)   // take first 2
+
+        selectedProducts = [...selectedProducts, ...filtered]
+    })
+
+    /* =============================
+       RENDER ONLY 8 PRODUCTS
+    ============================== */
+
+    productFunc(selectedProducts)
+
+    searchFunc(data)   // search should still use all products
+
+})()
+
 
 //! add product to localstorage end
 

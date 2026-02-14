@@ -53,11 +53,11 @@ function renderProduct(findProduct) {
   /* TITLE */
   document.querySelector(".product-title").textContent = findProduct.name
 
-  /* PRICES */
-  document.querySelector(".old-price").textContent =
-    `$${findProduct.price.oldPrice.toFixed(2)}`
-  document.querySelector(".new-price").textContent =
-    `$${findProduct.price.newPrice.toFixed(2)}`
+  // /* PRICES */
+  // document.querySelector(".old-price").textContent =
+  //   `$${findProduct.price.oldPrice.toFixed(2)}`
+  // document.querySelector(".new-price").textContent =
+  //   `$${findProduct.price.newPrice.toFixed(2)}`
 
   /* SHORT DESCRIPTION */
   document.querySelector(".product-description").textContent =
@@ -81,18 +81,18 @@ function renderProduct(findProduct) {
 
 
   /* COLORS */
-  const colorsWrapper = document.querySelector(".colors-wrapper")
-  colorsWrapper.innerHTML = ""
+  // const colorsWrapper = document.querySelector(".colors-wrapper")
+  // colorsWrapper.innerHTML = ""
 
-  findProduct.colors.forEach(color => {
-    colorsWrapper.innerHTML += `
-      <div class="color-wrapper">
-        <label class="${color}-color">
-          <input type="radio" name="product-color">
-        </label>
-      </div>
-    `
-  })
+  // findProduct.colors.forEach(color => {
+  //   colorsWrapper.innerHTML += `
+  //     <div class="color-wrapper">
+  //       <label class="${color}-color">
+  //         <input type="radio" name="product-color">
+  //       </label>
+  //     </div>
+  //   `
+  // })
 
   /* SIZES */
   const sizesWrapper = document.querySelector(".values-list")

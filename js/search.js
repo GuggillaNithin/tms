@@ -29,7 +29,7 @@ function searchFunc(data) {
 
             result += `
                 <a href="single-product.html?id=${item.id}" class="result-item">
-                    <img src="${image}" class="search-thumb" alt="">
+                    <img src="${image}" class="search-thumb" alt="" loading="lazy">
                     <div class="search-info">
                         <h4>${item.name}</h4>
                         <span class="search-sku">SKU : PD0016</span>

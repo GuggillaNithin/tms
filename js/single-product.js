@@ -74,7 +74,7 @@ function renderProduct(findProduct) {
   findProduct.img.thumbs.forEach(img => {
   galleryThumbs.innerHTML += `
     <li class="glide__slide">
-      <img src="${img}" class="img-fluid" alt="">
+      <img src="${img}" class="img-fluid" alt="" loading="lazy">
     </li>
   `
 })

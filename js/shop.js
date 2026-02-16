@@ -48,8 +48,8 @@ function renderProducts(products) {
       <div class="product-item">
         <div class="product-image">
           <a href="single-product.html?id=${product.id}">
-            <img src="${product.img.thumbs[0]}" class="img1" alt="${product.name}">
-            <img src="${product.img.thumbs[1] || product.img.thumbs[0]}" class="img2" alt="${product.name}">
+            <img src="${product.img.thumbs[0]}" class="img1" alt="${product.name}" loading="lazy">
+            <img src="${product.img.thumbs[1] || product.img.thumbs[0]}" class="img2" alt="${product.name}" loading="lazy">
           </a>
         </div>
 

@@ -39,8 +39,8 @@ async function productFunc(products) {
 <li class="product-item glide__slide">
   <div class="product-image">
     <a href="single-product.html?id=${product.id}">
-      <img src="${product.img.singleImage}" class="img1" />
-      <img src="${product.img.thumbs[1]}" class="img2" />
+      <img src="${product.img.singleImage}" class="img1" loading="lazy"/>
+      <img src="${product.img.thumbs[1]}" class="img2" loading="lazy"/>
     </a>
   </div>
 

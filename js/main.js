@@ -18,7 +18,7 @@ import searchFunc from "./search.js"
        SELECT 2 PRODUCTS PER CATEGORY
     ============================== */
 
-    const categories = ["indoor-media", "outdoor-media", "led", "display"]
+    const categories = ["indoor-media", "outdoor-media", "led-lcd-displays", "display"]
 
     let selectedProducts = []
 

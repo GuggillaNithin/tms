@@ -60,11 +60,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/indoor-medias/indoor-adhesive-clear-film/1.png",
+    "singleImage": "img/products/indoor-medias/indoor-adhesive-clear-film/1.webp",
     "thumbs": [
-      "img/products/indoor-medias/indoor-adhesive-clear-film/1.png",
-      "img/products/indoor-medias/indoor-adhesive-clear-film/2.png",
-      "img/products/indoor-medias/indoor-adhesive-clear-film/3.png"
+      "img/products/indoor-medias/indoor-adhesive-clear-film/1.webp",
+      "img/products/indoor-medias/indoor-adhesive-clear-film/2.webp",
+      "img/products/indoor-medias/indoor-adhesive-clear-film/3.webp"
     ]
   }
 },
@@ -468,11 +468,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/product14/1.png",
+    "singleImage": "img/products/indoor-medias/canvas-yellow-back/1.png",
     "thumbs": [
-      "img/products/product14/1.png",
-      "img/products/product14/2.png",
-      "img/products/product14/3.png"
+      "img/products/indoor-medias/canvas-yellow-back/1.png",
+      "img/products/indoor-medias/canvas-yellow-back/2.png",
+      "img/products/indoor-medias/canvas-yellow-back/3.png"
     ]
   }
 },
@@ -2312,7 +2312,1136 @@
       "img/products/outdoor-media/product66/3.png"
     ]
   }
-}
+},
+
+
+
+
+
+
+{
+  "id": 67,
+  "name": "Super Glue",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Adhesive Glue", "Instant Bond", "Industrial Glue"],
+
+  "discount": 0,
+
+  "shortDescription": "Fast bonding super glue for signage and general applications.",
+
+  "description": [
+    "Quick-drying adhesive suitable for plastic, metal, rubber, and other materials.",
+    "Ideal for signage installation and repair work."
+  ],
+
+  "sizes": ["None"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "None",
+    "Material": "Cyanoacrylate Adhesive"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product67/1.png",
+    "thumbs": [
+      "img/products/accessories/product67/1.png",
+      "img/products/accessories/product67/2.png",
+      "img/products/accessories/product67/3.png"
+    ]
+  }
+},
+
+{
+  "id": 68,
+  "name": "Double Side Foam Tape",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Foam Tape", "Double Sided Tape", "Mounting Tape"],
+
+  "discount": 0,
+
+  "shortDescription": "Strong double-sided foam tape for mounting and display applications.",
+
+  "description": [
+    "Provides excellent bonding strength for indoor and outdoor use.",
+    "Ideal for signage, panels, and promotional displays."
+  ],
+
+  "sizes": ["1.2 x 50 m", "2.5 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "White",
+    "Size": "1.2 x 50 m, 2.5 x 50 m",
+    "Material": "Foam Adhesive Tape"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product68/1.png",
+    "thumbs": [
+      "img/products/accessories/product68/1.png",
+      "img/products/accessories/product68/2.png",
+      "img/products/accessories/product68/3.png"
+    ]
+  }
+},
+
+{
+  "id": 69,
+  "name": "POP Clips",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Display Clip", "POP Accessories", "Retail Clip"],
+
+  "discount": 0,
+
+  "shortDescription": "POP clips used for retail display and promotional signage.",
+
+  "description": [
+    "Strong and durable clips for hanging promotional materials.",
+    "Commonly used in supermarkets and retail outlets."
+  ],
+
+  "sizes": ["Standard"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "Standard",
+    "Material": "Plastic"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product69/1.png",
+    "thumbs": [
+      "img/products/accessories/product69/1.png",
+      "img/products/accessories/product69/2.png",
+      "img/products/accessories/product69/3.png"
+    ]
+  }
+},
+
+{
+  "id": 70,
+  "name": "Velcro & Banner Strength Tape",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Velcro Tape", "Hook and Loop", "Banner Tape"],
+
+  "discount": 0,
+
+  "shortDescription": "Heavy-duty velcro and banner strength tape for secure mounting.",
+
+  "description": [
+    "Provides strong holding power for banners and displays.",
+    "Reusable hook and loop fastening system."
+  ],
+
+  "sizes": ["Standard Roll"],
+
+  "additionalInformation": {
+    "Color": "Black / White",
+    "Size": "Standard Roll",
+    "Material": "Hook & Loop Fabric"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product70/1.png",
+    "thumbs": [
+      "img/products/accessories/product70/1.png",
+      "img/products/accessories/product70/2.png",
+      "img/products/accessories/product70/3.png"
+    ]
+  }
+},
+
+{
+  "id": 71,
+  "name": "Eyelits",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Grommets", "Banner Eyelits", "Metal Rings"],
+
+  "discount": 0,
+
+  "shortDescription": "Metal eyelits for banner finishing and reinforcement.",
+
+  "description": [
+    "Available in gold and silver finishes.",
+    "Provides durable reinforcement for banners and tarpaulins."
+  ],
+
+  "sizes": [
+    "Gold - 12 mm",
+    "Gold - 10 mm",
+    "Gold - 8 mm",
+    "Silver - 12 mm",
+    "Silver - 10 mm",
+    "Silver - 8 mm"
+  ],
+
+  "additionalInformation": {
+    "Color": "Gold / Silver",
+    "Size": "12 mm / 10 mm / 8 mm",
+    "Material": "Metal"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product71/1.png",
+    "thumbs": [
+      "img/products/accessories/product71/1.png",
+      "img/products/accessories/product71/2.png",
+      "img/products/accessories/product71/3.png"
+    ]
+  }
+},
+
+{
+  "id": 73,
+  "name": "Double Side Pett Tape",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Double Sided Tape", "PET Tape", "Mounting Tape"],
+
+  "discount": 0,
+
+  "shortDescription": "High-strength PET double-sided tape for mounting and signage use.",
+
+  "description": [
+    "Provides strong adhesion for panels, signage, and displays.",
+    "Suitable for indoor and outdoor applications."
+  ],
+
+  "sizes": ["1.2 x 50 m", "2.5 x 50 m", "5 x 50 m"],
+
+  "additionalInformation": {
+    "Color": "Transparent",
+    "Size": "1.2 x 50 m / 2.5 x 50 m / 5 x 50 m",
+    "Material": "PET Adhesive Tape"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product73/1.png",
+    "thumbs": [
+      "img/products/accessories/product73/1.png",
+      "img/products/accessories/product73/2.png",
+      "img/products/accessories/product73/3.png"
+    ]
+  }
+},
+
+{
+  "id": 74,
+  "name": "Ceiling Hanging Cable",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Hanging Cable", "Display Suspension", "Signage Cable"],
+
+  "discount": 0,
+
+  "shortDescription": "Strong ceiling hanging cable for suspended signage and displays.",
+
+  "description": [
+    "Used for safely suspending signs and promotional materials.",
+    "Ideal for retail stores, exhibitions, and showrooms."
+  ],
+
+  "sizes": ["Standard Length"],
+
+  "additionalInformation": {
+    "Color": "Silver",
+    "Size": "Standard Length",
+    "Material": "Steel Cable"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product74/1.png",
+    "thumbs": [
+      "img/products/accessories/product74/1.png",
+      "img/products/accessories/product74/2.png",
+      "img/products/accessories/product74/3.png"
+    ]
+  }
+},
+
+{
+  "id": 75,
+  "name": "Zip Tie",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Cable Tie", "Plastic Fastener", "Banner Tie"],
+
+  "discount": 0,
+
+  "shortDescription": "Durable plastic zip ties for securing banners and cables.",
+
+  "description": [
+    "Provides quick and secure fastening solution.",
+    "Commonly used for banner installation and cable management."
+  ],
+
+  "sizes": ["Various Sizes Available"],
+
+  "additionalInformation": {
+    "Color": "White / Black",
+    "Size": "Various Sizes",
+    "Material": "Nylon"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product75/1.png",
+    "thumbs": [
+      "img/products/accessories/product75/1.png",
+      "img/products/accessories/product75/2.png",
+      "img/products/accessories/product75/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 76,
+  "name": "Light Box Profile",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Aluminum Profile", "Light Box Frame", "Signage Frame"],
+
+  "discount": 0,
+
+  "shortDescription": "Aluminum light box profile for illuminated signage systems.",
+
+  "description": [
+    "High-quality aluminum frame for LED light box displays.",
+    "Used for indoor and outdoor illuminated branding."
+  ],
+
+  "sizes": ["Standard Profile Length"],
+
+  "additionalInformation": {
+    "Color": "Silver",
+    "Size": "Standard Profile Length",
+    "Material": "Aluminum"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product76/1.png",
+    "thumbs": [
+      "img/products/accessories/product76/1.png",
+      "img/products/accessories/product76/2.png",
+      "img/products/accessories/product76/3.png"
+    ]
+  }
+},
+
+{
+  "id": 77,
+  "name": "Badge Reels",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["ID Reel", "Retractable Badge Holder", "Name Badge Accessory"],
+
+  "discount": 0,
+
+  "shortDescription": "Retractable badge reels for ID cards and name tags.",
+
+  "description": [
+    "Allows easy access to ID cards with retractable cord.",
+    "Commonly used in offices, events, and exhibitions."
+  ],
+
+  "sizes": ["Standard"],
+
+  "additionalInformation": {
+    "Color": "Black / Transparent",
+    "Size": "Standard",
+    "Material": "Plastic"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product77/1.png",
+    "thumbs": [
+      "img/products/accessories/product77/1.png",
+      "img/products/accessories/product77/2.png",
+      "img/products/accessories/product77/3.png"
+    ]
+  }
+},
+
+{
+  "id": 78,
+  "name": "Name Badges",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["ID Badge", "Name Tag", "Event Badge"],
+
+  "discount": 0,
+
+  "shortDescription": "Professional name badges for offices and events.",
+
+  "description": [
+    "Customizable badges for corporate and exhibition use.",
+    "Available in various styles and finishes."
+  ],
+
+  "sizes": ["Standard"],
+
+  "additionalInformation": {
+    "Color": "Multiple Options",
+    "Size": "Standard",
+    "Material": "Plastic / Metal"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product78/1.png",
+    "thumbs": [
+      "img/products/accessories/product78/1.png",
+      "img/products/accessories/product78/2.png",
+      "img/products/accessories/product78/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 79,
+  "name": "Cutting Blades",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Cutter Blade", "Vinyl Cutting", "Spare Blades"],
+
+  "discount": 0,
+
+  "shortDescription": "High-precision cutting blades for vinyl and graphic applications.",
+
+  "description": [
+    "Sharp and durable blades suitable for plotters and manual cutters.",
+    "Ideal for vinyl cutting, signage production, and graphic work."
+  ],
+
+  "sizes": ["Standard Sizes Available"],
+
+  "additionalInformation": {
+    "Color": "Silver",
+    "Size": "Standard",
+    "Material": "Stainless Steel"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product79/1.png",
+    "thumbs": [
+      "img/products/accessories/product79/1.png",
+      "img/products/accessories/product79/2.png",
+      "img/products/accessories/product79/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 80,
+  "name": "Lanyards",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["ID Lanyard", "Neck Strap", "Event Accessory"],
+
+  "discount": 0,
+
+  "shortDescription": "Durable lanyards for ID cards, badges, and promotional use.",
+
+  "description": [
+    "Comfortable neck straps suitable for offices, schools, and events.",
+    "Available in various colors and customizable options."
+  ],
+
+  "sizes": ["Standard Length"],
+
+  "additionalInformation": {
+    "Color": "Multiple Colors Available",
+    "Size": "Standard Length",
+    "Material": "Polyester"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product80/1.png",
+    "thumbs": [
+      "img/products/accessories/product80/1.png",
+      "img/products/accessories/product80/2.png",
+      "img/products/accessories/product80/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 81,
+  "name": "Cutting Mat",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Self Healing Mat", "Craft Mat", "Cutting Surface"],
+
+  "discount": 0,
+
+  "shortDescription": "Self-healing cutting mat for precise and safe cutting operations.",
+
+  "description": [
+    "Protects work surfaces during cutting and trimming tasks.",
+    "Ideal for vinyl cutting, crafts, and graphic production."
+  ],
+
+  "sizes": ["Various Sizes Available"],
+
+  "additionalInformation": {
+    "Color": "Green",
+    "Size": "Various Sizes",
+    "Material": "PVC Self-Healing Material"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product81/1.png",
+    "thumbs": [
+      "img/products/accessories/product81/1.png",
+      "img/products/accessories/product81/2.png",
+      "img/products/accessories/product81/3.png"
+    ]
+  }
+},
+
+
+{
+  "id": 82,
+  "name": "Table Top Flag Stands",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Flag Stand", "Table Display", "Desk Flag Holder"],
+
+  "discount": 0,
+
+  "shortDescription": "Elegant table top flag stands for office and promotional displays.",
+
+  "description": [
+    "Designed for desk and table flag presentations.",
+    "Suitable for corporate offices, exhibitions, and events."
+  ],
+
+  "sizes": ["Standard"],
+
+  "additionalInformation": {
+    "Color": "Silver / Gold",
+    "Size": "Standard",
+    "Material": "Metal"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product82/1.png",
+    "thumbs": [
+      "img/products/accessories/product82/1.png",
+      "img/products/accessories/product82/2.png",
+      "img/products/accessories/product82/3.png"
+    ]
+  }
+},
+
+{
+  "id": 83,
+  "name": "Aluminum Name Holder",
+  "category": "accessories",
+  "categories": ["Accessories"],
+  "tags": ["Name Plate Holder", "Desk Name Holder", "Aluminum Stand"],
+
+  "discount": 0,
+
+  "shortDescription": "Premium aluminum name holder for desks and office displays.",
+
+  "description": [
+    "Sleek and professional desk name holder.",
+    "Ideal for corporate offices, receptions, and conference rooms."
+  ],
+
+  "sizes": ["Standard"],
+
+  "additionalInformation": {
+    "Color": "Silver",
+    "Size": "Standard",
+    "Material": "Aluminum"
+  },
+
+  "img": {
+    "singleImage": "img/products/accessories/product83/1.png",
+    "thumbs": [
+      "img/products/accessories/product83/1.png",
+      "img/products/accessories/product83/2.png",
+      "img/products/accessories/product83/3.png"
+    ]
+  }
+},
+
+
+
+
+{
+    "id": 84,
+    "name": "LCD Self Standing Kiosks – 49\" Touch & Non-Touch",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["LCD Kiosk", "Touch Screen Display", "Digital Signage Kiosk", "Interactive Display", "Standing Advertising Screen"],
+    "discount": 0,
+    "shortDescription": "49 inch self-standing LCD kiosk available in touch and non-touch versions with built-in PC options.",
+    "description": [
+      "Professional self-standing LCD advertising kiosk.",
+      "Available in touch and non-touch versions.",
+      "Suitable for malls, airports, retail stores and exhibitions."
+    ],
+    "sizes": ["49 Inch"],
+    "additionalInformation": {
+      
+        "CPU Options": ["Intel 1037U (1.8Ghz)", "Intel i3 3240 (3.1Ghz)", "Intel i5 3450 (3.1Ghz)"],
+        "RAM": ["2GB", "4GB"],
+        "HDD": "2.5 inch 320GB SATA HDD (SSD customizable)",
+        "LAN": "10/100/1000M Gigabit Ethernet",
+        "WIFI": "150Mbps 802.11n",
+        "Audio": "HD 8 (7.1) Channel Audio System",
+        "Speakers": "2 x Built-in Stereo Speakers",
+        "I/O Ports": "4 x USB (HDMI, DVI, VGA optional)",
+        "Other": "DVD-RW, Mouse/Keyboard Set, Webcam",
+        "Optional": "Thermal Printer, Bluetooth, TV Tuner, Wheels",
+        "Packing": "1pc/Carton, 1970*910*195mm, G.W 100kgs"
+      
+    },
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product84/1.png",
+      "thumbs": [
+        "img/products/led-lcd-displays/product84/1.png",
+        "img/products/led-lcd-displays/product84/2.png"
+      ]
+    }
+  },
+
+  {
+    "id": 85,
+    "name": "LCD Self Standing Kiosk 55\" Touch Screen",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["55 Inch Touch Screen", "Interactive Kiosk", "Digital Signage Display", "Android Advertising Screen"],
+    "discount": 0,
+    "shortDescription": "55 inch LCD touch screen kiosk with Android or Windows OS support.",
+    "description": [
+      "High resolution 55 inch LCD display.",
+      "Supports Android 4.4.2 or Windows 7/8/10.",
+      "Remote content management and split screen support."
+    ],
+    "sizes": ["32 Inch", "42 Inch", "49 Inch", "55 Inch", "65 Inch"],
+    "additionalInformation": {
+      "Model No": "SAD5502W",
+      "Panel Resolution": "1920x1080",
+      "Brightness": "360cd/m2",
+      "Touch Type": "Infrared 6 Points",
+      "OS Options": ["Android 4.4.2", "Windows 7/8/10 (32/64bit)"],
+      "RAM": ["2GB", "4GB DDR3"],
+      "Storage": ["4GB Flash", "12GB SSD"],
+      "Ports": "2x USB 2.0, RJ45, LVDS",
+      "Power": "AC 110V~240V, 50/60HZ",
+      "Panel Grade": "Imported New Panel"
+    },
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product85/1.png",
+      "thumbs": [
+        "img/products/led-lcd-displays/product85/1.png",
+        "img/products/led-lcd-displays/product85/2.png"
+      ]
+    }
+  },
+
+  {
+    "id": 86,
+    "name": "LCD Self Standing Kiosk 65\" One Side / Double Side",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["65 Inch LCD Display", "Double Side Display", "Standing Digital Screen", "Advertising Totem"],
+    "discount": 0,
+    "shortDescription": "65 inch LCD kiosk available in single or double sided display with built-in PC.",
+    "description": [
+      "Full HD 1920x1080 resolution.",
+      "Available in single side or double side configuration.",
+      "High brightness commercial grade display."
+    ],
+    "sizes": ["32 Inch", "42 Inch", "49 Inch", "55 Inch", "65 Inch"],
+    "additionalInformation": {
+      "Brightness": "400cd/m2",
+      "Contrast": "1400:1",
+        "CPU Options": ["Intel 1037U", "Intel i3 3240", "Intel i5 3450"],
+        "RAM": "4GB",
+        "HDD": "320GB SATA (SSD customizable)",
+        "LAN": "Gigabit Ethernet",
+        "WIFI": "802.11n",
+        "Audio": "HD 7.1 Channel",
+        "Speakers": "2 x Built-in Stereo Speakers"
+      
+    },
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product86/1.png",
+      "thumbs": [
+        "img/products/led-lcd-displays/product86/1.png",
+        "img/products/led-lcd-displays/product86/2.png"
+      ]
+    }
+  },
+
+  {
+    "id": 87,
+    "name": "Video Wall 55\" LCD Display",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["Video Wall Display", "LCD Video Wall", "Digital Signage Wall", "Commercial Display Screen"],
+    "discount": 0,
+    "shortDescription": "Professional 55 inch LCD video wall display with remote content management.",
+    "description": [
+      "Full HD 1920x1080 resolution.",
+      "Supports Android and Windows systems.",
+      "Ideal for control rooms, malls and conference halls."
+    ],
+    "sizes": ["55 Inch"],
+    "additionalInformation": {
+      "Brightness": "360cd/m2",
+      "Touch": "Infrared 6 Points",
+      "Power": "AC 110V~240V",
+      "Supported Formats": "MP4, AVI, MKV, JPG, PNG, MP3, Office Files"
+    },
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product87/1.png",
+      "thumbs": [
+        "img/products/led-lcd-displays/product87/1.png"
+      ]
+    }
+  },
+
+  {
+    "id": 88,
+    "name": "P3 Indoor & Outdoor Full Color LED Display",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["P3 LED Display", "Indoor LED Screen", "Outdoor LED Board", "Full Color LED Display"],
+    "discount": 0,
+    "shortDescription": "High resolution P3 full color LED display for indoor and outdoor advertising.",
+    "description": [
+      "High brightness LED module.",
+      "Seamless cabinet connection.",
+      "Suitable for events, malls and outdoor advertising."
+    ],
+    "sizes": ["Custom Size"],
+    "additionalInformation": {
+  "Part No": "LC-32S",
+  "Pixel Pitch": "3mm",
+  "Module Size": "160mm x 160mm",
+  "Tube Chip Color": "Full Color",
+  "Pixel Density": "160000 dots/square meter",
+  "LED Type": "SMD2121",
+  "LED Combination": "1R1G1B",
+  "Module Resolution": "64 x 64 dots",
+  "Scan Method": "1/32s",
+  "Refresh Rate": "≥ 400Hz",
+  "Brightness (White Balance)": "≥ 1000cd/square meter",
+  "Cabinet Resolution": "192mm x 192mm",
+  "Cabinet Size": "480mm x 480mm / 640mm x 640mm",
+  "Best View Distance": "3m - 50m",
+  "Best View Angle": "160° (H) / 160° (V)",
+  "Storage Temperature": "-35°C ~ +85°C",
+  "Working Temperature": "-20°C ~ +50°C",
+  "Working Voltage": "AC110V~220V ±10%",
+  "Average Power Consumption": "< 600W / square meter",
+  "Max Power Consumption": "< 1200W / square meter",
+  "Brightness Adjustment Method": "Automatic adjustment",
+  "MTBF": "≥ 5000 hrs"
+},
+
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product88/1.png",
+      "thumbs": []
+    }
+  },
+
+  
+  {
+    "id": 89,
+    "name": "P4 Indoor & Outdoor Full Color LED Display",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["P4 LED Display", "Outdoor LED Screen", "Indoor LED Panel", "Full Color LED Board"],
+    "discount": 0,
+    "shortDescription": "P4 full color LED display suitable for indoor and outdoor advertising solutions.",
+    "description": [
+      "High resolution indoor full color LED display.",
+      "Integrated encapsulation with higher reliability.",
+      "Excellent color mixture from near and far distance.",
+      "Consistent and transparent picture quality.",
+      "High-efficiency die-casting aluminum heat dissipation.",
+      "Low power consumption with minimal temperature increase.",
+      "Uniform picture performance.",
+      "Wide viewing angle.",
+      "High contrast ratio.",
+      "Economical and practical 3-in-1 full color LED solution."
+    ],
+
+    "sizes": ["Custom Size"],
+    "additionalInformation": {
+        "Model": "P4 Full Color Outdoor LED Module",
+        "Pixel Composition": "4mm SMD 3 IN 1 (1R1G1B)",
+        "LED Module Size": "250 x 250 mm",
+        "Scan": "1/13",
+        "Brightness": "6000 Nits / square meter",
+        "Refresh Rate": "600Hz",
+        "Recommended Viewing Distance": "2 - 100 m",
+        "Max Power Consumption": "1000W / square meter",
+        "Power Consumption": "500W / H",
+        "Working Voltage": "AC 220V ±10%",
+        "Best Viewing Angle": "120°",
+        "Usage": "Outdoor",
+        "Control Mode": "Asynchronous or Synchronous"
+      },
+
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product89/1.png",
+      "thumbs": []
+    }
+  },
+
+  {
+    "id": 90,
+    "name": "P10 Indoor & Outdoor Full Color LED Display",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["P10 LED Screen", "Outdoor LED Billboard", "Full Color LED Display", "Advertising LED Board"],
+    "discount": 0,
+    "shortDescription": "Durable P10 LED display for large outdoor advertising and public information screens.",
+    "description": [
+      "High brightness DIP LED display are used for outdoor led display, keeps the display constant visible even if facing the strong sun shine directly.",
+      "High color uniformity and clear image can bring you a vivid audio visual effect.",
+      "With high fresh rate controller, guarantee that no scan line when taking photos.",
+      "Used for meeting room, lobby of hotel, cinema, shopping mall and station, airport, studio and stadium.",
+      "Single color, dual color or full color can be produced.",
+      "Control system : wireless control included GPRS/3G/Wifi/USB etc."
+    ],
+    "sizes": ["Custom Size"],
+    "additionalInformation": {
+  "Pixel Pitch": "10mm",
+  "Pixel Configuration": "Red / White / Green",
+  "Chip Brand": "Opto",
+  "IC": "SM74HC595",
+  "Pixel Density": "10000 pixels/sqm",
+  "Module Size": "320mm x 160mm",
+  "Module Resolution": "32 x 16 pixels",
+  "Driving Method": "1/4 scanning",
+  "Gross Weight": "0.7 kg",
+  "Viewing Angle": "Horizontal 120° / Vertical 60°",
+  "Best Viewing Distance": "8m - 300m",
+  "Power Consumption": "200 W/sqm",
+  "Brightness": "3500 CD/sqm",
+  "Refresh Rate": "1000 Hz",
+  "Interface": "RS232 / 485",
+  "Control Mode": "Asynchronous",
+  "Display Function": "Text",
+  "Working Voltage": "AC220V/50Hz or AC110V/60Hz",
+  "MTBF": "> 10,000 hours",
+  "Lifespan": "≤ 100,000 hours",
+  "Defect Rate": "≤ 0.00001",
+  "IP Grade": "IP65",
+  "Working Temperature": "-40°C ~ 60°C",
+  "Operating System": "Win97, Win98, Win2000"
+  },  
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product90/1.png",
+      "thumbs": []
+    }
+  },
+
+  {
+    "id": 91,
+    "name": "Direct Pluggable LED Module 220V",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["LED Module 220V", "Direct Plug LED", "LED Sign Module", "Advertising LED Module"],
+    "discount": 0,
+    "shortDescription": "Direct pluggable 220V LED module for signage and display systems.",
+    "description": [
+      "Easy installation plug-and-play design.",
+      "Energy efficient LED lighting.",
+      "Suitable for signboards and light boxes."
+    ],
+    "sizes": ["Standard"],
+    "additionalInformation": {
+  "Description": "Piranha LED pellets with ABS engineering plastic casing, waterproof metal tray.",
+  "Work Voltage": "DC12V",
+  "Rating Power": "1.5W",
+  "Unit": "pc",
+  "Packing Quantity": "1400 pcs (small carton) / 2400 pcs (big carton)",
+  "Gross Weight": "16kg (small carton) / 24kg (big carton)",
+  "Module Size": "36mm x 36mm",
+  "Available Colors": ["Red", "Yellow", "Blue", "Green", "White"]
+},
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product91/1.png",
+      "thumbs": []
+    }
+  },
+
+  {
+    "id": 92,
+    "name": "LED Strips",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["LED Strip Lights", "Flexible LED Strip", "Signage LED Lighting", "Backlight LED Strip"],
+    "discount": 0,
+    "shortDescription": "High brightness flexible LED strips for light boxes and signage.",
+    "description": [
+  "High brightness flexible LED strips suitable for signage, light boxes and decorative lighting.",
+  "Available in SMD3528 and SMD5050 variants.",
+  "Options include non-waterproof, waterproof and crystal-like models.",
+  "Uniform light output with low power consumption.",
+  "Easy installation and customizable cutting length.",
+  "Ideal for indoor and outdoor advertising lighting applications."
+],
+
+    "sizes": ["Custom Length"],
+    "additionalInformation": {
+  "Length": "5 meters per roll",
+  "Working Voltage": "DC 12V",
+  "LED Types Available": [
+    "SMD3528",
+    "SMD5050"
+  ],
+  "Protection Types": [
+    "Non-waterproof",
+    "Waterproof",
+    "Crystal-like"
+  ],
+  "LED Quantity Options": [
+    "60 pcs/m (SMD3528)",
+    "30 pcs/m (SMD5050)",
+    "60 pcs/m (SMD5050)"
+  ],
+  "Power Consumption": [
+    "7.2W/m (SMD5050 30pcs)",
+    "14.4W/m (SMD5050 60pcs)"
+  ],
+  "Available Colors": [
+    "Red",
+    "Yellow",
+    "Blue",
+    "Green",
+    "Pure White",
+    "Warm White",
+    "Cool White",
+    "RGB"
+  ],
+  "Application": [
+    "Signage Lighting",
+    "Channel Letters",
+    "Light Boxes",
+    "Architectural Decoration",
+    "Display Cabinets"
+  ],
+  "Installation": "Flexible strip with adhesive backing",
+  "Cutting": "Cuttable at marked intervals"
+},
+
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product92/1.png",
+      "thumbs": []
+    }
+  },
+
+
+
+
+  {
+    "id": 93,
+    "name": "LED Transformers",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["LED Power Supply", "LED Transformer", "LED Driver", "Signage Power Adapter"],
+    "discount": 0,
+    "shortDescription": "Reliable LED transformers for powering LED strips and display modules.",
+    "description": [
+        "High-performance LED power supplies designed for stable and efficient power conversion.",
+        "Available in rainproof, waterproof and non-waterproof models.",
+        "Suitable for LED strips, LED modules, signage lighting and display systems.",
+        "Provides consistent 12V DC output with overload and voltage protection.",
+        "Stable operation within wide voltage range.",
+        "Ideal for indoor and outdoor lighting installations."
+      ],
+
+    "sizes": ["Standard"],
+    "additionalInformation": {
+  "Input Voltage": "180-240V AC",
+  "Output Voltage": "12V ±0.5V DC",
+  "Frequency": "50/60Hz",
+  "Power Supply Types": [
+    " Rainproof 12V",
+    " Waterproof 12V",
+    " Non-Waterproof 12V"
+  ],
+  "Available Output Power (Rainproof)": [
+    " 60W",
+    " 120W",
+    " 150W",
+    " 240W",
+    " 360W"
+  ],
+  "Available Output Power (Waterproof)": [
+    " 20W",
+    " 30W",
+    " 60W",
+    " 100W",
+    " 150W"
+  ],
+  "Available Output Power (Non-Waterproof)": [
+    " 24W",
+    " 36W",
+    " 60W",
+    " 100W",
+    " 150W",
+    " 200W",
+    " 300W",
+    " 400W"
+  ],
+  "Applications": [
+    " LED Strips",
+    " LED Modules",
+    " Channel Letters",
+    " Sign Boards",
+    " Outdoor Lighting"
+  ],
+  "Protection Features": [
+    " Overload Protection",
+    " Voltage Stabilization",
+    " Short Circuit Protection"
+  ],
+  "Installation": "Screw terminal connection",
+  "Cooling System": "Aluminum housing for heat dissipation",
+  "Usage": [
+    " Indoor (Non-Waterproof)",
+    " Outdoor (Rainproof/Waterproof)"
+  ]
+  },
+
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product93/1.png",
+      "thumbs": []
+    }
+  },
+
+  {
+    "id": 94,
+    "name": "Magnetic Light Box",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["Magnetic Light Box", "LED Light Box", "Backlit Display Frame", "Advertising Light Frame"],
+    "discount": 0,
+    "shortDescription": "Magnetic style aluminum light box with uniform LED illumination.",
+    "description": [
+      "Magnetic aluminum extrusion frame.",
+      "Light guiding panel with even brightness.",
+      "Custom size available."
+    ],
+    "sizes": ["Custom Size"],
+    "additionalInformation": {
+      "Main Structure": "Magnetic aluminum frame with translucent panel",
+      "Graphic Media": "Inkjet backlit film",
+      "Power": "High brightness LED strip (CE/RoHS)",
+      "Packing": "Bubble bag + 5 layer export carton",
+      "Customization": "Available"
+    },
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product94/1.png",
+      "thumbs": []
+    }
+  },
+
+  {
+    "id": 95,
+    "name": "Snap Slim Light Box",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["Snap Frame Light Box", "Slim LED Light Box", "Advertising Frame Display"],
+    "discount": 0,
+    "shortDescription": "Slim snap-style LED light box available in single or double side.",
+    "description": [
+      "Snap aluminum extrusion frame.",
+      "Even LED lighting distribution.",
+      "Single or double sided customization available."
+    ],
+    "sizes": ["Custom Size"],
+    "additionalInformation": {
+      "Power": "High brightness LED strip",
+      "Packing": "Protection angles + bubble bag + export carton",
+      "Customization": "Single/Double side available"
+    },
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product95/1.png",
+      "thumbs": []
+    }
+  },
+
+  {
+    "id": 96,
+    "name": "Crystal Slim Light Box",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["Crystal Light Box", "Acrylic LED Light Box", "Slim Advertising Display"],
+    "discount": 0,
+    "shortDescription": "Transparent acrylic crystal slim LED light box with multiple size options.",
+    "description": [
+      "Laser engraved light guiding acrylic panel.",
+      "High brightness LED strip.",
+      "Available in A0, A1, A2, A3 sizes."
+    ],
+    "sizes": ["A0", "A1", "A2", "A3", "A4"],
+    "additionalInformation": {
+      "Material": "Transparent acrylic + stainless steel screws",
+      "Graphic Media": "Backlit film",
+      "Brightness Range": "1000~3200 lm",
+      "Customization": "Single or double side available"
+    },
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product96/1.png",
+      "thumbs": []
+    }
+  },
+
+  {
+    "id": 97,
+    "name": "Crystal Slim Hanging Light Box Group",
+    "category": "led-lcd-displays",
+    "categories": ["LED & LCD Displays"],
+    "tags": ["Hanging Light Box", "Group LED Display", "Acrylic Light Frame"],
+    "discount": 0,
+    "shortDescription": "Crystal slim hanging light box group available in multiple levels and configurations.",
+    "description": [
+      "Transparent acrylic laser engraved panel.",
+      "Group hanging configuration.",
+      "Single or double sided options available."
+    ],
+    "sizes": ["A3", "A4"],
+    "additionalInformation": {
+      "Configuration": "Level or Vertical",
+      "Sides": "Single or Double Side",
+      "Group Quantity": "2 / 3 / 4 pcs per group",
+      "Power": "High brightness LED strip"
+    },
+    "img": {
+      "singleImage": "img/products/led-lcd-displays/product97/1.png",
+      "thumbs": []
+    }
+  }
+
+
+
+
+
+
+
+
+
+
 
 
 

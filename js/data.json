@@ -604,11 +604,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/product18/1.png",
+    "singleImage": "img/products/indoor-medias/uv-lamination-gloss-matt/1.webp",
     "thumbs": [
-      "img/products/product18/1.png",
-      "img/products/product18/2.png",
-      "img/products/product18/3.png"
+      "img/products/indoor-medias/uv-lamination-gloss-matt/1.webp",
+      "img/products/indoor-medias/uv-lamination-gloss-matt/2.webp",
+      "img/products/indoor-medias/uv-lamination-gloss-matt/3.webp"
     ]
   }
 },
@@ -638,14 +638,14 @@
   },
 
   "img": {
-    "singleImage": "img/products/product19/1.png",
+    "singleImage": "img/products/indoor-medias/floor-lamination/1.webp",
     "thumbs": [
-      "img/products/product19/1.png",
-      "img/products/product19/2.png",
-      "img/products/product19/3.png"
+      "img/products/indoor-medias/floor-lamination/1.webp",
+      "img/products/indoor-medias/floor-lamination/2.webp",
+      "img/products/indoor-medias/floor-lamination/3.webp"
     ]
   }
-},
+}, 
 
 {
   "id": 20,
@@ -672,11 +672,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/product20/1.png",
+    "singleImage": "img/products/indoor-medias/mounting-film-paper/1.webp",
     "thumbs": [
-      "img/products/product20/1.png",
-      "img/products/product20/2.png",
-      "img/products/product20/3.png"
+      "img/products/indoor-medias/mounting-film-paper/1.webp",
+      "img/products/indoor-medias/mounting-film-paper/2.webp",
+      "img/products/indoor-medias/mounting-film-paper/3.webp"
     ]
   }
 },
@@ -706,11 +706,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/product21/1.png",
+    "singleImage": "img/products/indoor-medias/pop-up-film/1.webp",
     "thumbs": [
-      "img/products/product21/1.png",
-      "img/products/product21/2.png",
-      "img/products/product21/3.png"
+      "img/products/indoor-medias/pop-up-film/1.webp",
+      "img/products/indoor-medias/pop-up-film/2.webp",
+      "img/products/indoor-medias/pop-up-film/3.webp"
     ]
   }
 },
@@ -740,11 +740,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/product22/1.png",
+    "singleImage": "img/products/indoor-medias/flooring-pvc/1.webp",
     "thumbs": [
-      "img/products/product22/1.png",
-      "img/products/product22/2.png",
-      "img/products/product22/3.png"
+      "img/products/indoor-medias/flooring-pvc/1.webp",
+      "img/products/indoor-medias/flooring-pvc/2.webp",
+      "img/products/indoor-medias/flooring-pvc/3.webp"
     ]
   }
 },
@@ -784,11 +784,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product101/1.png",
+    "singleImage": "img/products/outdoor-medias/honey-comb-reflective-vinyl/2.webp",
     "thumbs": [
-      "img/products/outdoor/product101/1.png",
-      "img/products/outdoor/product101/2.png",
-      "img/products/outdoor/product101/3.png"
+      "img/products/outdoor-medias/honey-comb-reflective-vinyl/1.webp",
+      "img/products/outdoor-medias/honey-comb-reflective-vinyl/2.webp",
+      "img/products/outdoor-medias/honey-comb-reflective-vinyl/3.webp"
     ]
   }
 },
@@ -819,11 +819,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product102/1.png",
+    "singleImage": "img/products/outdoor-medias/13-oz-banner-matt-gloss/1.webp",
     "thumbs": [
-      "img/products/outdoor/product102/1.png",
-      "img/products/outdoor/product102/2.png",
-      "img/products/outdoor/product102/3.png"
+      "img/products/outdoor-medias/13-oz-banner-matt-gloss/1.webp",
+      "img/products/outdoor-medias/13-oz-banner-matt-gloss/2.webp",
+      "img/products/outdoor-medias/13-oz-banner-matt-gloss/3.webp"
     ]
   }
 },
@@ -853,11 +853,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product103/1.png",
+    "singleImage": "img/products/outdoor-medias/13-oz-banner-black-back-matt/1.webp",
     "thumbs": [
-      "img/products/outdoor/product103/1.png",
-      "img/products/outdoor/product103/2.png",
-      "img/products/outdoor/product103/3.png"
+      "img/products/outdoor-medias/13-oz-banner-black-back-matt/1.webp",
+      "img/products/outdoor-medias/13-oz-banner-black-back-matt/2.webp",
+      "img/products/outdoor-medias/13-oz-banner-black-back-matt/3.webp"
     ]
   }
 },
@@ -888,11 +888,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product104/1.png",
+    "singleImage": "img/products/outdoor-medias/scrolling-banner/1.webp",
     "thumbs": [
-      "img/products/outdoor/product104/1.png",
-      "img/products/outdoor/product104/2.png",
-      "img/products/outdoor/product104/3.png"
+      "img/products/outdoor-medias/scrolling-banner/1.webp",
+      "img/products/outdoor-medias/scrolling-banner/2.webp",
+      "img/products/outdoor-medias/scrolling-banner/3.webp"
     ]
   }
 },
@@ -922,11 +922,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product105/1.png",
+    "singleImage": "img/products/outdoor-medias/15-oz-banner-matt/1.webp",
     "thumbs": [
-      "img/products/outdoor/product105/1.png",
-      "img/products/outdoor/product105/2.png",
-      "img/products/outdoor/product105/3.png"
+      "img/products/outdoor-medias/15-oz-banner-matt/1.webp",
+      "img/products/outdoor-medias/15-oz-banner-matt/2.webp",
+      "img/products/outdoor-medias/15-oz-banner-matt/3.webp"
     ]
   }
 },
@@ -956,11 +956,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product106/1.png",
+    "singleImage": "img/products/outdoor-medias/16-oz-banner-gloss-matt/1.webp",
     "thumbs": [
-      "img/products/outdoor/product106/1.png",
-      "img/products/outdoor/product106/2.png",
-      "img/products/outdoor/product106/3.png"
+      "img/products/outdoor-medias/16-oz-banner-gloss-matt/1.webp",
+      "img/products/outdoor-medias/16-oz-banner-gloss-matt/2.webp",
+      "img/products/outdoor-medias/16-oz-banner-gloss-matt/3.webp"
     ]
   }
 },
@@ -990,11 +990,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product107/1.png",
+    "singleImage": "img/products/outdoor-medias/16-oz-banner-black-white-matt/1.webp",
     "thumbs": [
-      "img/products/outdoor/product107/1.png",
-      "img/products/outdoor/product107/2.png",
-      "img/products/outdoor/product107/3.png"
+      "img/products/outdoor-medias/16-oz-banner-black-white-matt/1.webp",
+      "img/products/outdoor-medias/16-oz-banner-black-white-matt/2.webp",
+      "img/products/outdoor-medias/16-oz-banner-black-white-matt/3.webp"
     ]
   }
 },
@@ -1025,11 +1025,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product108/1.png",
+    "singleImage": "img/products/outdoor-medias/mesh-banner/1.webp",
     "thumbs": [
-      "img/products/outdoor/product108/1.png",
-      "img/products/outdoor/product108/2.png",
-      "img/products/outdoor/product108/3.png"
+      "img/products/outdoor-medias/mesh-banner/1.webp",
+      "img/products/outdoor-medias/mesh-banner/2.webp",
+      "img/products/outdoor-medias/mesh-banner/3.webp"
     ]
   }
 },
@@ -1059,11 +1059,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product109/1.png",
+    "singleImage": "img/products/outdoor-medias/solvent-backlit-610-gsm/1.webp",
     "thumbs": [
-      "img/products/outdoor/product109/1.png",
-      "img/products/outdoor/product109/2.png",
-      "img/products/outdoor/product109/3.png"
+      "img/products/outdoor-medias/solvent-backlit-610-gsm/1.webp",
+      "img/products/outdoor-medias/solvent-backlit-610-gsm/2.webp",
+      "img/products/outdoor-medias/solvent-backlit-610-gsm/3.webp"
     ]
   }
 },
@@ -1093,11 +1093,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product110/1.png",
+    "singleImage": "img/products/outdoor-medias/backlit-coated-flex-610-gsm-matt/1.webp",
     "thumbs": [
-      "img/products/outdoor/product110/1.png",
-      "img/products/outdoor/product110/2.png",
-      "img/products/outdoor/product110/3.png"
+      "img/products/outdoor-medias/backlit-coated-flex-610-gsm-matt/1.webp",
+      "img/products/outdoor-medias/backlit-coated-flex-610-gsm-matt/2.webp",
+      "img/products/outdoor-medias/backlit-coated-flex-610-gsm-matt/3.webp"
     ]
   }
 },
@@ -1127,11 +1127,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product111/1.png",
+    "singleImage": "img/products/outdoor-medias/double-side-printable-block-out-banner/1.webp",
     "thumbs": [
-      "img/products/outdoor/product111/1.png",
-      "img/products/outdoor/product111/2.png",
-      "img/products/outdoor/product111/3.png"
+      "img/products/outdoor-medias/double-side-printable-block-out-banner/1.webp",
+      "img/products/outdoor-medias/double-side-printable-block-out-banner/2.webp",
+      "img/products/outdoor-medias/double-side-printable-block-out-banner/3.webp"
     ]
   }
 },
@@ -1161,11 +1161,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product112/1.png",
+    "singleImage": "img/products/outdoor-medias/pet-frontlit-420-gsm/1.webp",
     "thumbs": [
-      "img/products/outdoor/product112/1.png",
-      "img/products/outdoor/product112/2.png",
-      "img/products/outdoor/product112/3.png"
+      "img/products/outdoor-medias/pet-frontlit-420-gsm/1.webp",
+      "img/products/outdoor-medias/pet-frontlit-420-gsm/2.webp",
+      "img/products/outdoor-medias/pet-frontlit-420-gsm/3.webp"
     ]
   }
 },
@@ -1195,11 +1195,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product113/1.png",
+    "singleImage": "img/products/outdoor-medias/pet-backlit-420-gsm/1.webp",
     "thumbs": [
-      "img/products/outdoor/product113/1.png",
-      "img/products/outdoor/product113/2.png",
-      "img/products/outdoor/product113/3.png"
+      "img/products/outdoor-medias/pet-backlit-420-gsm/1.webp",
+      "img/products/outdoor-medias/pet-backlit-420-gsm/2.webp",
+      "img/products/outdoor-medias/pet-backlit-420-gsm/3.webp"
     ]
   }
 },
@@ -1229,11 +1229,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product114/1.png",
+    "singleImage": "img/products/outdoor-medias/pet-blockout-530-gsm/1.webp",
     "thumbs": [
-      "img/products/outdoor/product114/1.png",
-      "img/products/outdoor/product114/2.png",
-      "img/products/outdoor/product114/3.png"
+      "img/products/outdoor-medias/pet-blockout-530-gsm/1.webp",
+      "img/products/outdoor-medias/pet-blockout-530-gsm/2.webp",
+      "img/products/outdoor-medias/pet-blockout-530-gsm/3.webp"
     ]
   }
 },
@@ -1263,11 +1263,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product115/1.png",
+    "singleImage": "img/products/outdoor-medias/printable-floor-graphics-vinyl/1.webp",
     "thumbs": [
-      "img/products/outdoor/product115/1.png",
-      "img/products/outdoor/product115/2.png",
-      "img/products/outdoor/product115/3.png"
+      "img/products/outdoor-medias/printable-floor-graphics-vinyl/1.webp",
+      "img/products/outdoor-medias/printable-floor-graphics-vinyl/2.webp",
+      "img/products/outdoor-medias/printable-floor-graphics-vinyl/3.webp"
     ]
   }
 },
@@ -1297,11 +1297,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product116/1.png",
+    "singleImage": "img/products/outdoor-medias/solvent-printable-photo-paper-220-gsm-matt-gloss/1.webp",
     "thumbs": [
-      "img/products/outdoor/product116/1.png",
-      "img/products/outdoor/product116/2.png",
-      "img/products/outdoor/product116/3.png"
+      "img/products/outdoor-medias/solvent-printable-photo-paper-220-gsm-matt-gloss/1.webp",
+      "img/products/outdoor-medias/solvent-printable-photo-paper-220-gsm-matt-gloss/2.webp",
+      "img/products/outdoor-medias/solvent-printable-photo-paper-220-gsm-matt-gloss/3.webp"
     ]
   }
 },
@@ -1331,11 +1331,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product117/1.png",
+    "singleImage": "img/products/outdoor-medias/ab-graphics-bubble-free-grey-back-vinyl/1.webp",
     "thumbs": [
-      "img/products/outdoor/product117/1.png",
-      "img/products/outdoor/product117/2.png",
-      "img/products/outdoor/product117/3.png"
+      "img/products/outdoor-medias/ab-graphics-bubble-free-grey-back-vinyl/1.webp",
+      "img/products/outdoor-medias/ab-graphics-bubble-free-grey-back-vinyl/2.webp",
+      "img/products/outdoor-medias/ab-graphics-bubble-free-grey-back-vinyl/3.webp"
     ]
   }
 },
@@ -1366,48 +1366,15 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product118/1.png",
+    "singleImage": "img/products/outdoor-medias/grafityp-solvent-printable-vinyl-matt-gloss/1.webp",
     "thumbs": [
-      "img/products/outdoor/product118/1.png",
-      "img/products/outdoor/product118/2.png",
-      "img/products/outdoor/product118/3.png"
+      "img/products/outdoor-medias/grafityp-solvent-printable-vinyl-matt-gloss/1.webp",
+      "img/products/outdoor-medias/grafityp-solvent-printable-vinyl-matt-gloss/2.webp",
+      "img/products/outdoor-medias/grafityp-solvent-printable-vinyl-matt-gloss/3.webp"
     ]
   }
 },
 
-{
-  "id": 41,
-  "name": "Grafityp Solvent Printable Vinyl Matt / Gloss",
-  "category": "outdoor-media",
-  "categories": ["Outdoor", "Medias"],
-  "tags": ["Grafityp Vinyl", "Printable Vinyl", "Outdoor Stickers"],
-
-  "discount": 33,
-
-  "shortDescription": "Premium Grafityp solvent printable vinyl for professional outdoor graphics.",
-
-  "description": [
-    "High performance vinyl suitable for long-term outdoor branding.",
-    "Available in matt and gloss finishes for various advertising applications."
-  ],
-
-  "sizes": ["1.27", "1.37", "1.52", "2.02 x 50 m"],
-
-  "additionalInformation": {
-    "Color": "White",
-    "Size": "1.27, 1.37, 1.52, 2.02 x 50 m",
-    "Material": "Premium PVC Vinyl"
-  },
-
-  "img": {
-    "singleImage": "img/products/outdoor/product118/1.png",
-    "thumbs": [
-      "img/products/outdoor/product118/1.png",
-      "img/products/outdoor/product118/2.png",
-      "img/products/outdoor/product118/3.png"
-    ]
-  }
-},
 
 {
   "id": 42,
@@ -1434,11 +1401,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor/product119/1.png",
+    "singleImage": "img/products/outdoor-medias/solvent-printable-vinyl-matt-gloss/1.webp",
     "thumbs": [
-      "img/products/outdoor/product119/1.png",
-      "img/products/outdoor/product119/2.png",
-      "img/products/outdoor/product119/3.png"
+      "img/products/outdoor-medias/solvent-printable-vinyl-matt-gloss/1.webp",
+      "img/products/outdoor-medias/solvent-printable-vinyl-matt-gloss/2.webp",
+      "img/products/outdoor-medias/solvent-printable-vinyl-matt-gloss/3.webp"
     ]
   }
 },

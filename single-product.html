@@ -318,7 +318,7 @@
                             </div>
                         </div>
                         <div class="product-info">
-                            <h1 class="product-title">Ridley High Waist</h1>
+                            <h1 class="product-title"></h1>
                             <div class="product-review">
                                 <ul class="product-star">
                                     <li><i class="bi bi-star-fill"></i></li>
@@ -367,10 +367,11 @@
                                             <i class="bi bi-heart"></i>
                                             <span>Add to Wishlist</span>
                                         </a>
-                                        <a href="#">
+                                        <a href="#" id="share-product">
                                             <i class="bi bi-share"></i>
                                             <span>Share this Product</span>
                                         </a>
+
                                     </div>
                                 </div>
                             </form>
@@ -840,5 +841,71 @@
     <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
     <script src="js/glide.js" type="module"></script>
 </body>
+
+<script>
+    const addToCartBtn = document.getElementById("add-to-cart")
+
+if (addToCartBtn) {
+    addToCartBtn.addEventListener("click", () => {
+
+        const quantity = document.getElementById("quantity").value
+
+        // Get product name from page
+        const productName = document.querySelector(".product-title").innerText
+
+        // Get current page URL
+        const productLink = window.location.href
+
+        // Your WhatsApp number (CHANGE THIS)
+        const phoneNumber = "8790057873"
+
+        const message = `
+Hi there ! 👋
+I want to know more about:
+
+Product: ${productName}
+Quantity: ${quantity}
+
+Link: ${productLink}
+        `
+
+        const encodedMessage = encodeURIComponent(message)
+
+        const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`
+
+        window.open(whatsappURL, "_blank")
+    })
+}
+
+const shareBtn = document.getElementById("share-product");
+
+if (shareBtn) {
+    shareBtn.addEventListener("click", async (e) => {
+        e.preventDefault();
+
+        const productName = document.querySelector(".product-title")?.innerText || "Check this product";
+        const productUrl = window.location.href;
+
+        // If browser supports native share (Mobile mostly)
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: productName,
+                    text: `Hi! Check this product: ${productName}`,
+                    url: productUrl
+                });
+            } catch (error) {
+                console.log("Sharing cancelled");
+            }
+        } else {
+            // Fallback for desktop
+            const shareUrl = `https://wa.me/?text=${encodeURIComponent(productName + " " + productUrl)}`;
+            window.open(shareUrl, "_blank");
+        }
+    });
+}
+
+
+</script>
 
 </html>

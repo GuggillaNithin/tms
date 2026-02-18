@@ -127,29 +127,29 @@ function renderProduct(findProduct) {
     `
   })
 
-  /* ADD TO CART */
-const cart = localStorage.getItem("cart")
-  ? JSON.parse(localStorage.getItem("cart"))
-  : []
+//   /* ADD TO CART */
+// const cart = localStorage.getItem("cart")
+//   ? JSON.parse(localStorage.getItem("cart"))
+//   : []
 
-const btnAddCart = document.getElementById("add-to-cart")
-const quantity = document.getElementById("quantity")
-const cartItem = document.querySelector(".header-cart-count")
+// const btnAddCart = document.getElementById("add-to-cart")
+// const quantity = document.getElementById("quantity")
+// const cartItem = document.querySelector(".header-cart-count")
 
-const findCart = cart.find(item => item.id === findProduct.id)
+// const findCart = cart.find(item => item.id === findProduct.id)
 
-if (findCart) {
-  btnAddCart.disabled = true
-  btnAddCart.style.opacity = 0.4
-} else {
-  btnAddCart.onclick = () => {
-    cart.push({ ...findProduct, quantity: Number(quantity.value) })
-    localStorage.setItem("cart", JSON.stringify(cart))
-    btnAddCart.disabled = true
-    btnAddCart.style.opacity = 0.4
-    cartItem.textContent = cart.length
-  }
-}
+// if (findCart) {
+//   btnAddCart.disabled = true
+//   btnAddCart.style.opacity = 0.4
+// } else {
+//   btnAddCart.onclick = () => {
+//     cart.push({ ...findProduct, quantity: Number(quantity.value) })
+//     localStorage.setItem("cart", JSON.stringify(cart))
+//     btnAddCart.disabled = true
+//     btnAddCart.style.opacity = 0.4
+//     cartItem.textContent = cart.length
+//   }
+// }
 
 
   /* PLUGINS */

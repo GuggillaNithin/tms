@@ -2421,11 +2421,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/accessories/Eyelits/1.webp",
+    "singleImage": "img/products/accessories/eyelits/1.webp",
     "thumbs": [
-      "img/products/accessories/Eyelits/1.webp",
-      "img/products/accessories/Eyelits/2.webp",
-      "img/products/accessories/Eyelits/3.webp"
+      "img/products/accessories/eyelits/1.webp",
+      "img/products/accessories/eyelits/2.webp",
+      "img/products/accessories/eyelits/3.webp"
     ]
   }
 },
@@ -2696,11 +2696,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/accessories/Lanyards/1.webp",
+    "singleImage": "img/products/accessories/lanyards/1.webp",
     "thumbs": [
-      "img/products/accessories/Lanyards/1.webp",
-      "img/products/accessories/Lanyards/2.webp",
-      "img/products/accessories/Lanyards/3.webp"
+      "img/products/accessories/lanyards/1.webp",
+      "img/products/accessories/lanyards/2.webp",
+      "img/products/accessories/lanyards/3.webp"
     ]
   }
 },

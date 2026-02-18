@@ -1825,39 +1825,6 @@
   }
 },
 
-{
-  "id": 54,
-  "name": "Flag Material",
-  "category": "outdoor-media",
-  "categories": ["Outdoor Media"],
-  "tags": ["Flag Fabric", "Polyester Flag", "Outdoor Flag"],
-
-  "discount": 33,
-
-  "shortDescription": "Lightweight polyester fabric designed for flag printing applications.",
-
-  "description": [
-    "Allows ink penetration for vibrant double-sided flag prints.",
-    "Perfect for promotional flags and outdoor branding."
-  ],
-
-  "sizes": ["1.52 x 50 m"],
-
-  "additionalInformation": {
-    "Color": "White",
-    "Size": "1.52 x 50 m",
-    "Material": "Polyester Flag Fabric"
-  },
-
-  "img": {
-    "singleImage": "img/products/outdoor-media/product54/1.png",
-    "thumbs": [
-      "img/products/outdoor-media/product54/1.png",
-      "img/products/outdoor-media/product54/2.png",
-      "img/products/outdoor-media/product54/3.png"
-    ]
-  }
-},
 
 
 {
@@ -1885,11 +1852,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor-media/product55/1.png",
+    "singleImage": "img/products/outdoor-medias/ecosolvent-non-woven/1.webp",
     "thumbs": [
-      "img/products/outdoor-media/product55/1.png",
-      "img/products/outdoor-media/product55/2.png",
-      "img/products/outdoor-media/product55/3.png"
+      "img/products/outdoor-medias/ecosolvent-non-woven/1.webp",
+      "img/products/outdoor-medias/ecosolvent-non-woven/2.webp",
+      "img/products/outdoor-medias/ecosolvent-non-woven/3.webp"
     ]
   }
 },
@@ -1919,11 +1886,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor-media/product56/1.png",
+    "singleImage": "img/products/outdoor-medias/solvent-printable-wall-paper/1.webp",
     "thumbs": [
-      "img/products/outdoor-media/product56/1.png",
-      "img/products/outdoor-media/product56/2.png",
-      "img/products/outdoor-media/product56/3.png"
+      "img/products/outdoor-medias/solvent-printable-wall-paper/1.webp",
+      "img/products/outdoor-medias/solvent-printable-wall-paper/2.webp",
+      "img/products/outdoor-medias/solvent-printable-wall-paper/3.webp"
     ]
   }
 },
@@ -1953,11 +1920,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor-media/product57/1.png",
+    "singleImage": "img/products/outdoor-medias/mopi-paper-blue-back/1.webp",
     "thumbs": [
-      "img/products/outdoor-media/product57/1.png",
-      "img/products/outdoor-media/product57/2.png",
-      "img/products/outdoor-media/product57/3.png"
+      "img/products/outdoor-medias/mopi-paper-blue-back/1.webp",
+      "img/products/outdoor-medias/mopi-paper-blue-back/2.webp",
+      "img/products/outdoor-medias/mopi-paper-blue-back/3.webp"
     ]
   }
 },
@@ -1987,11 +1954,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor-media/product58/1.png",
+    "singleImage": "img/products/outdoor-medias/mopi-paper-white-back/1.webp",
     "thumbs": [
-      "img/products/outdoor-media/product58/1.png",
-      "img/products/outdoor-media/product58/2.png",
-      "img/products/outdoor-media/product58/3.png"
+      "img/products/outdoor-medias/mopi-paper-white-back/1.webp",
+      "img/products/outdoor-medias/mopi-paper-white-back/2.webp",
+      "img/products/outdoor-medias/mopi-paper-white-back/3.webp"
     ]
   }
 },
@@ -2021,11 +1988,11 @@
   },
 
   "img": {
-    "singleImage": "img/products/outdoor-media/product59/1.png",
+    "singleImage": "img/products/outdoor-medias/ecosolvent-pop-up-film/1.webp",
     "thumbs": [
-      "img/products/outdoor-media/product59/1.png",
-      "img/products/outdoor-media/product59/2.png",
-      "img/products/outdoor-media/product59/3.png"
+      "img/products/outdoor-medias/ecosolvent-pop-up-film/1.webp",
+      "img/products/outdoor-medias/ecosolvent-pop-up-film/2.webp",
+      "img/products/outdoor-medias/ecosolvent-pop-up-film/3.webp"
     ]
   }
 },
@@ -2847,7 +2814,7 @@
 
 {
     "id": 84,
-    "name": "LCD Self Standing Kiosks – 49\" Touch & Non-Touch",
+    "name": "LCD Self Standing Kiosks – 49\"",
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["LCD Kiosk", "Touch Screen Display", "Digital Signage Kiosk", "Interactive Display", "Standing Advertising Screen"],
@@ -2875,10 +2842,11 @@
       
     },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product84/1.png",
+      "singleImage": "img/products/led-lcd-displays/lcd-self-standing-kiosk-49-touch-non-touch/1.webp",
       "thumbs": [
-        "img/products/led-lcd-displays/product84/1.png",
-        "img/products/led-lcd-displays/product84/2.png"
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-49-touch-non-touch/1.webp",
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-49-touch-non-touch/2.webp",
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-49-touch-non-touch/3.webp"
       ]
     }
   },
@@ -2910,10 +2878,11 @@
       "Panel Grade": "Imported New Panel"
     },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product85/1.png",
+      "singleImage": "img/products/led-lcd-displays/lcd-self-standing-kiosk-55-touch-screen/1.webp",
       "thumbs": [
-        "img/products/led-lcd-displays/product85/1.png",
-        "img/products/led-lcd-displays/product85/2.png"
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-55-touch-screen/1.webp",
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-55-touch-screen/2.webp",
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-55-touch-screen/3.webp"
       ]
     }
   },

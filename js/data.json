@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Indoor Clear Film",
-    "category": "indoor-media",
+    "category": ["indoor-media"],
     "categories": ["Indoor", "Medias"],
     "tags": ["Clear Film", "Indoor Printing", "Graphics"],
 
@@ -2914,10 +2914,11 @@
       
     },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product86/1.png",
+      "singleImage": "img/products/led-lcd-displays/lcd-self-standing-kiosk-65-one-side-double-side/1.webp",
       "thumbs": [
-        "img/products/led-lcd-displays/product86/1.png",
-        "img/products/led-lcd-displays/product86/2.png"
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-65-one-side-double-side/1.webp",
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-65-one-side-double-side/2.webp",
+        "img/products/led-lcd-displays/lcd-self-standing-kiosk-65-one-side-double-side/3.webp"
       ]
     }
   },
@@ -2943,16 +2944,18 @@
       "Supported Formats": "MP4, AVI, MKV, JPG, PNG, MP3, Office Files"
     },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product87/1.png",
+      "singleImage": "img/products/led-lcd-displays/video-wall-55-inch-lcd-display/1.webp",
       "thumbs": [
-        "img/products/led-lcd-displays/product87/1.png"
+        "img/products/led-lcd-displays/video-wall-55-inch-lcd-display/1.webp",
+        "img/products/led-lcd-displays/video-wall-55-inch-lcd-display/2.webp",
+        "img/products/led-lcd-displays/video-wall-55-inch-lcd-display/3.webp"
       ]
     }
   },
 
   {
     "id": 88,
-    "name": "P3 Indoor & Outdoor Full Color LED Display",
+    "name": "P3 Indoor & Outdoor Full Color LED Displays",
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["P3 LED Display", "Indoor LED Screen", "Outdoor LED Board", "Full Color LED Display"],
@@ -2990,15 +2993,19 @@
 },
 
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product88/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/p3-indoor-outdoor-full-color-led-display/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/p3-indoor-outdoor-full-color-led-display/1.webp",
+        "img/products/led-lcd-displays/p3-indoor-outdoor-full-color-led-display/2.webp",
+        "img/products/led-lcd-displays/p3-indoor-outdoor-full-color-led-display/3.webp"
+      ]
     }
   },
 
   
   {
     "id": 89,
-    "name": "P4 Indoor & Outdoor Full Color LED Display",
+    "name": "P4 Indoor & Outdoor Full Color LED Displays",
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["P4 LED Display", "Outdoor LED Screen", "Indoor LED Panel", "Full Color LED Board"],
@@ -3035,8 +3042,12 @@
       },
 
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product89/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/p4-indoor-outdoor-full-color-led-display/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/p4-indoor-outdoor-full-color-led-display/1.webp",
+        "img/products/led-lcd-displays/p4-indoor-outdoor-full-color-led-display/2.webp",
+        "img/products/led-lcd-displays/p4-indoor-outdoor-full-color-led-display/3.webp"
+      ]
     }
   },
 
@@ -3084,8 +3095,12 @@
   "Operating System": "Win97, Win98, Win2000"
   },  
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product90/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/p10-indoor-outdoor-full-color-led-display/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/p10-indoor-outdoor-full-color-led-display/1.webp",
+        "img/products/led-lcd-displays/p10-indoor-outdoor-full-color-led-display/2.webp",
+        "img/products/led-lcd-displays/p10-indoor-outdoor-full-color-led-display/3.webp"
+      ]
     }
   },
 
@@ -3114,8 +3129,12 @@
   "Available Colors": ["Red", "Yellow", "Blue", "Green", "White"]
 },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product91/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/direct-pluggable-led-module-220v/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/direct-pluggable-led-module-220v/1.webp",
+        "img/products/led-lcd-displays/direct-pluggable-led-module-220v/2.webp",
+        "img/products/led-lcd-displays/direct-pluggable-led-module-220v/3.webp"
+      ]
     }
   },
 
@@ -3180,8 +3199,12 @@
 },
 
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product92/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/led-strips/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/led-strips/1.webp",
+        "img/products/led-lcd-displays/led-strips/2.webp",
+        "img/products/led-lcd-displays/led-strips/3.webp"
+      ]
     }
   },
 
@@ -3260,8 +3283,12 @@
   },
 
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product93/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/led-transformers/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/led-transformers/1.webp",
+        "img/products/led-lcd-displays/led-transformers/2.webp",
+        "img/products/led-lcd-displays/led-transformers/3.webp"
+      ]
     }
   },
 
@@ -3287,8 +3314,12 @@
       "Customization": "Available"
     },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product94/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/magnetic-light-box/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/magnetic-light-box/1.webp",
+        "img/products/led-lcd-displays/magnetic-light-box/2.webp",
+        "img/products/led-lcd-displays/magnetic-light-box/3.webp"
+      ]
     }
   },
 
@@ -3312,8 +3343,12 @@
       "Customization": "Single/Double side available"
     },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product95/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/snap-slim-light-box/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/snap-slim-light-box/1.webp",
+        "img/products/led-lcd-displays/snap-slim-light-box/2.webp",
+        "img/products/led-lcd-displays/snap-slim-light-box/3.webp"
+      ]
     }
   },
 
@@ -3338,8 +3373,12 @@
       "Customization": "Single or double side available"
     },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product96/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/crystal-slim-light-box/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/crystal-slim-light-box/1.webp",
+        "img/products/led-lcd-displays/crystal-slim-light-box/2.webp",
+        "img/products/led-lcd-displays/crystal-slim-light-box/3.webp"
+      ]
     }
   },
 
@@ -3364,77 +3403,1678 @@
       "Power": "High brightness LED strip"
     },
     "img": {
-      "singleImage": "img/products/led-lcd-displays/product97/1.png",
-      "thumbs": []
+      "singleImage": "img/products/led-lcd-displays/crystal-slim-hanging-light-box-group/1.webp",
+      "thumbs": [
+        "img/products/led-lcd-displays/crystal-slim-hanging-light-box-group/1.webp",
+        "img/products/led-lcd-displays/crystal-slim-hanging-light-box-group/2.webp",
+        "img/products/led-lcd-displays/crystal-slim-hanging-light-box-group/3.webp"
+      ]
     }
-  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+  },
+
+
+
+
+  {
+  "_comment": "================= DISPLAY ITEMS START =============================================================="
+},
+
+
+{
+  "id": 98,
+  "name": "A3 Slash Info Stand",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Info Stand", "A3 Stand", "Advertising Stand"],
+  "discount": 0,
+  "shortDescription": "Elegant A3 slash information stand for promotional and directional displays.",
+  "description": [
+    "Modern angled display stand.",
+    "Suitable for indoor advertising and branding.",
+    "Stable floor standing design."
+  ],
+  "sizes": ["A3"],
+  "additionalInformation": {
+    "Material": "Metal Frame",
+    "Usage": "Indoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/info-stand-a3/1.webp", 
+  "thumbs": [
+    "img/products/display-items/info-stand-a3/1.webp",
+    "img/products/display-items/info-stand-a3/2.webp",
+    "img/products/display-items/info-stand-a3/3.webp"
+  ] 
+}
+},
+{
+  "id": 99,
+  "name": "A4 Slash Info Stand",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Info Stand", "A4 Stand"],
+  "discount": 0,
+  "shortDescription": "Compact A4 slash information stand for retail and reception areas.",
+  "description": [
+    "Angled frame design.",
+    "Perfect for menus, notices and promotions.",
+    "Stable base support."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Metal Frame",
+    "Usage": "Indoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/a4-info-stand/1.webp", "thumbs": [
+    "img/products/display-items/a4-info-stand/1.webp",
+    "img/products/display-items/a4-info-stand/2.webp",
+    "img/products/display-items/a4-info-stand/3.webp"
+  ] }
+},
+{
+  "id": 100,
+  "name": "Banner Fixed Stand",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Banner Stand", "Fixed Stand"],
+  "discount": 0,
+  "shortDescription": "Durable fixed banner stand for advertising displays.",
+  "description": [
+    "Strong frame construction.",
+    "Ideal for promotional banners.",
+    "Easy assembly."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Usage": "Indoor & Outdoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/banner-fixed-stand/1.webp", "thumbs": [
+    "img/products/display-items/banner-fixed-stand/1.webp",
+    "img/products/display-items/banner-fixed-stand/2.webp",
+    "img/products/display-items/banner-fixed-stand/3.webp"
+  ] }
+},
+{
+  "id": 101,
+  "name": "T-Shape Stand Golden",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["T Stand", "Golden Stand"],
+  "discount": 0,
+  "shortDescription": "Premium golden T-shape stand for signage display.",
+  "description": [
+    "Elegant golden finish.",
+    "Stable T-base design.",
+    "Ideal for indoor branding."
+  ],
+  "sizes": ["A4", "A3"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Color": "Golden",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/t-shape-stand-golden/1.webp", "thumbs": [
+    "img/products/display-items/t-shape-stand-golden/1.webp",
+    "img/products/display-items/t-shape-stand-golden/2.webp",
+    "img/products/display-items/t-shape-stand-golden/3.webp"
+  ] }
+},
+{
+  "id": 102,
+  "name": "T-Shape Stand Silver",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["T Stand", "Silver Stand"],
+  "discount": 0,
+  "shortDescription": "Silver finish T-shape stand for information display.",
+  "description": [
+    "Professional silver design.",
+    "Heavy-duty base support.",
+    "Suitable for commercial use."
+  ],
+  "sizes": ["A4", "A3"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Color": "Silver",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/t-shape-stand-silver/1.webp", "thumbs": [
+    "img/products/display-items/t-shape-stand-silver/1.webp",
+    "img/products/display-items/t-shape-stand-silver/2.webp",
+    "img/products/display-items/t-shape-stand-silver/3.webp"
+  ] }
+},
+
+
+{
+  "id": 103,
+  "name": "Info Stand with Light (Portable)",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Light Info Stand", "Portable Stand", "LED Display Stand"],
+  "discount": 0,
+  "shortDescription": "Portable illuminated information stand for enhanced visibility.",
+  "description": [
+    "Built-in LED lighting for better display visibility.",
+    "Portable and lightweight design.",
+    "Ideal for exhibitions and retail promotions."
+  ],
+  "sizes": ["A4", "A3"],
+  "additionalInformation": {
+    "Lighting": "LED",
+    "Power": "AC Powered",
+    "Usage": "Indoor",
+    "Portability": "Yes"
+  },
+  "img": { "singleImage": "img/products/display-items/info-stand-with-light/1.webp", "thumbs": [
+    "img/products/display-items/info-stand-with-light/1.webp",
+    "img/products/display-items/info-stand-with-light/2.webp",
+    "img/products/display-items/info-stand-with-light/3.webp"
+  ] }
+},
+{
+  "id": 104,
+  "name": "Backdrop A-Stand",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Backdrop Stand", "A Stand", "Event Display"],
+  "discount": 0,
+  "shortDescription": "Strong A-stand backdrop frame for events and branding.",
+  "description": [
+    "Heavy-duty frame construction.",
+    "Ideal for event backdrops and branding walls.",
+    "Easy assembly and transport."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Aluminum Frame",
+    "Usage": "Indoor & Outdoor",
+    "Assembly": "Tool-Free Setup"
+  },
+  "img": { "singleImage": "img/products/display-items/a-stand-backdrop/1.webp", "thumbs": [
+    "img/products/display-items/a-stand-backdrop/1.webp",
+    "img/products/display-items/a-stand-backdrop/2.webp",
+    "img/products/display-items/a-stand-backdrop/3.webp"
+  ] }
+},
+{
+  "id": 105,
+  "name": "Floor Standing Light Box",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Light Box", "Floor Display", "LED Light Box"],
+  "discount": 0,
+  "shortDescription": "Illuminated floor standing light box for premium advertising.",
+  "description": [
+    "High brightness LED backlit panel.",
+    "Slim and modern frame design.",
+    "Suitable for retail and exhibition environments."
+  ],
+  "sizes": ["A1", "A2", "Custom"],
+  "additionalInformation": {
+    "Lighting": "LED Backlit",
+    "Power": "AC Powered",
+    "Usage": "Indoor",
+    "Frame Material": "Aluminum"
+  },
+  "img": { "singleImage": "img/products/display-items/floor-standing-light-box/1.webp", "thumbs": [
+    "img/products/display-items/floor-standing-light-box/1.webp",
+    "img/products/display-items/floor-standing-light-box/2.webp",
+    "img/products/display-items/floor-standing-light-box/3.webp"
+  ] }
+},
+{
+  "id": 106,
+  "name": "I-Pad Stand",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Tablet Stand", "Ipad Holder", "Digital Stand"],
+  "discount": 0,
+  "shortDescription": "Secure floor stand for tablets and digital displays.",
+  "description": [
+    "Lockable tablet enclosure.",
+    "Stable floor base.",
+    "Ideal for digital menus and registration kiosks."
+  ],
+  "sizes": ["Universal Tablet Size"],
+  "additionalInformation": {
+    "Compatibility": "Most Tablets",
+    "Mount Type": "Floor Standing",
+    "Security": "Lockable Case",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/i-pad-stand/1.webp", "thumbs": [
+    "img/products/display-items/i-pad-stand/1.webp",
+    "img/products/display-items/i-pad-stand/2.webp",
+    "img/products/display-items/i-pad-stand/3.webp"
+  ] }
+},
+{
+  "id": 107,
+  "name": "Inflatable Display",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Inflatable Advertising", "Outdoor Display"],
+  "discount": 0,
+  "shortDescription": "Eye-catching inflatable display for outdoor promotions.",
+  "description": [
+    "High visibility promotional display.",
+    "Lightweight and easy to install.",
+    "Suitable for outdoor marketing campaigns."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Durable PVC",
+    "Usage": "Outdoor",
+    "Inflation": "Electric Air Pump",
+    "Portability": "Yes"
+  },
+  "img": { "singleImage": "img/products/display-items/inflatable-display/1.webp", "thumbs": [
+    "img/products/display-items/inflatable-display/1.webp",
+    "img/products/display-items/inflatable-display/2.webp",
+    "img/products/display-items/inflatable-display/3.webp"
+  ] }
+},
+{
+  "id": 108,
+  "name": "Q-Stand Info Frame",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Q Stand", "Info Frame"],
+  "discount": 0,
+  "shortDescription": "Queue stand information frame for notices and branding.",
+  "description": [
+    "Compatible with queue barrier systems.",
+    "Clear acrylic display frame.",
+    "Ideal for guidance and instructions."
+  ],
+  "sizes": ["A4", "A3"],
+  "additionalInformation": {
+    "Material": "Metal & Acrylic",
+    "Usage": "Indoor",
+    "Mount Type": "Barrier Mounted"
+  },
+  "img": { "singleImage": "img/products/display-items/q-stand-info-frame/1.webp", "thumbs": [
+    "img/products/display-items/q-stand-info-frame/1.webp",
+    "img/products/display-items/q-stand-info-frame/2.webp",
+    "img/products/display-items/q-stand-info-frame/3.webp"
+  ] }
+},
+{
+  "id": 109,
+  "name": "Notice Board",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Notice Board", "Information Board"],
+  "discount": 0,
+  "shortDescription": "Wall-mounted notice board for announcements and displays.",
+  "description": [
+    "Durable surface for pinning notices.",
+    "Suitable for offices and schools.",
+    "Easy wall installation."
+  ],
+  "sizes": ["A1", "A2", "Custom"],
+  "additionalInformation": {
+    "Mount Type": "Wall Mounted",
+    "Usage": "Indoor",
+    "Surface Type": "Pin Board"
+  },
+  "img": { "singleImage": "img/products/display-items/notice-board/1.webp", "thumbs": [
+    "img/products/display-items/notice-board/1.webp",
+    "img/products/display-items/notice-board/2.webp",
+    "img/products/display-items/notice-board/3.webp"
+  ] }
+},
+{
+  "id": 110,
+  "name": "Metallic Info Stand 70x100cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Metal Info Stand", "70x100 Display"],
+  "discount": 0,
+  "shortDescription": "Large metallic information stand 70x100cm for advertising display.",
+  "description": [
+    "Strong metallic frame construction.",
+    "Large display area for posters.",
+    "Stable floor standing base."
+  ],
+  "sizes": ["70x100cm"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Usage": "Indoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/metallic-info-stand-70x100cm/1.webp", "thumbs": [
+    "img/products/display-items/metallic-info-stand-70x100cm/1.webp",
+    "img/products/display-items/metallic-info-stand-70x100cm/2.webp",
+    "img/products/display-items/metallic-info-stand-70x100cm/3.webp"
+  ] }
+},
+
+
+{
+  "id": 111,
+  "name": "Mobile Charging Stand - A1",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Charging Stand", "Magazine Stand", "A1 Stand", "A4 Stand"],
+  "discount": 0,
+  "shortDescription": "Multi-functional mobile charging and magazine display stand.",
+  "description": [
+    "Integrated mobile charging feature.",
+    "Magazine display section available in A1 and A4 formats.",
+    "Ideal for malls, exhibitions and waiting areas."
+  ],
+  "sizes": ["A1", "A4"],
+  "additionalInformation": {
+    "Material": "Metal Frame",
+    "Power": "AC Powered Charging Unit",
+    "Usage": "Indoor",
+    "Function": "Charging + Display"
+  },
+  "img": { "singleImage": "img/products/display-items/mobile-charging-stand-a1/1.webp", "thumbs": [
+    "img/products/display-items/mobile-charging-stand-a1/1.webp",
+    "img/products/display-items/mobile-charging-stand-a1/2.webp",
+    "img/products/display-items/mobile-charging-stand-a1/3.webp"
+  ] }
+},
+{
+  "id": 112,
+  "name": "Suggestion Box with Stand - A4",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Suggestion Box", "A4 Stand"],
+  "discount": 0,
+  "shortDescription": "A4 suggestion box with floor stand for feedback collection.",
+  "description": [
+    "Lockable suggestion box.",
+    "Clear display header for instructions.",
+    "Stable floor standing support."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Acrylic & Metal",
+    "Security": "Lockable",
+    "Usage": "Indoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/suggestion-box-a4/1.webp", "thumbs": [
+    "img/products/display-items/suggestion-box-a4/1.webp",
+    "img/products/display-items/suggestion-box-a4/2.webp",
+    "img/products/display-items/suggestion-box-a4/3.webp"
+  ] }
+},
+{
+  "id": 113,
+  "name": "S S Info Stand Rectangle Frame - A1",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Stainless Steel Stand", "A1 Info Stand"],
+  "discount": 0,
+  "shortDescription": "Stainless steel rectangle frame info stand in A1 size.",
+  "description": [
+    "Premium stainless steel finish.",
+    "Large A1 display frame.",
+    "Durable and corrosion resistant."
+  ],
+  "sizes": ["A1"],
+  "additionalInformation": {
+    "Material": "Stainless Steel",
+    "Usage": "Indoor & Semi-Outdoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/s-s-info-stand-a1/1.webp", "thumbs": [
+    "img/products/display-items/s-s-info-stand-a1/1.webp",
+    "img/products/display-items/s-s-info-stand-a1/2.webp",
+    "img/products/display-items/s-s-info-stand-a1/3.webp"
+  ] }
+},
+{
+  "id": 114,
+  "name": "Fabric Light Box 80x200cm / 60x200cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Fabric Light Box", "LED Light Box"],
+  "discount": 0,
+  "shortDescription": "Slim fabric LED light box available in 80x200cm and 60x200cm sizes.",
+  "description": [
+    "High brightness LED edge lighting.",
+    "Wrinkle-free fabric graphic display.",
+    "Ideal for exhibitions and retail branding."
+  ],
+  "sizes": ["80x200cm", "60x200cm"],
+  "additionalInformation": {
+    "Lighting": "LED Edge Lit",
+    "Frame Material": "Aluminum",
+    "Graphic Type": "Fabric Print",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/fabric-light-box-80x200cm/1.webp", "thumbs": [
+    "img/products/display-items/fabric-light-box-80x200cm/1.webp",
+    "img/products/display-items/fabric-light-box-80x200cm/2.webp",
+    "img/products/display-items/fabric-light-box-80x200cm/3.webp"
+  ] }
+},
+{
+  "id": 115,
+  "name": "Brochure Stand Double Side A4",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Brochure Stand", "A4 Stand", "Double Side Stand"],
+  "discount": 0,
+  "shortDescription": "Double-sided A4 brochure display stand.",
+  "description": [
+    "Multi-pocket brochure holder.",
+    "Double-sided display design.",
+    "Perfect for showrooms and exhibitions."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Metal & Acrylic",
+    "Usage": "Indoor",
+    "Display Type": "Double Side"
+  },
+  "img": { "singleImage": "img/products/display-items/brochure-stand-double-side-a4/1.webp", "thumbs": [
+    "img/products/display-items/brochure-stand-double-side-a4/1.webp",
+    "img/products/display-items/brochure-stand-double-side-a4/2.webp",
+    "img/products/display-items/brochure-stand-double-side-a4/3.webp"
+  ] }
+},
+{
+  "id": 116,
+  "name": "Lucky Wheel 80x120cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Lucky Wheel", "Spin Wheel Game"],
+  "discount": 0,
+  "shortDescription": "Promotional lucky wheel 80x120cm for marketing events.",
+  "description": [
+    "Large spin wheel for events and promotions.",
+    "Customizable prize sections.",
+    "Stable floor support frame."
+  ],
+  "sizes": ["80x120cm"],
+  "additionalInformation": {
+    "Material": "Metal & PVC Board",
+    "Usage": "Indoor & Events",
+    "Function": "Promotional Game"
+  },
+  "img": { "singleImage": "img/products/display-items/lucky-wheel-80x120cm/1.webp", "thumbs": [
+    "img/products/display-items/lucky-wheel-80x120cm/1.webp",
+    "img/products/display-items/lucky-wheel-80x120cm/2.webp",
+    "img/products/display-items/lucky-wheel-80x120cm/3.webp"
+  ] }
+},
+{
+  "id": 117,
+  "name": "Table Top Lucky Wheel 30x40cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Table Lucky Wheel", "Mini Spin Wheel"],
+  "discount": 0,
+  "shortDescription": "Compact tabletop lucky wheel for small events and counters.",
+  "description": [
+    "Mini spin wheel design.",
+    "Ideal for counters and promotional desks.",
+    "Customizable prize layout."
+  ],
+  "sizes": ["30x40cm"],
+  "additionalInformation": {
+    "Material": "Metal Frame",
+    "Usage": "Indoor",
+    "Placement": "Table Top"
+  },
+  "img": { "singleImage": "img/products/display-items/table-top-lucky-wheel-30x40cm/1.webp", "thumbs": [
+    "img/products/display-items/table-top-lucky-wheel-30x40cm/1.webp",
+    "img/products/display-items/table-top-lucky-wheel-30x40cm/2.webp",
+    "img/products/display-items/table-top-lucky-wheel-30x40cm/3.webp"
+  ] }
+},
+{
+  "id": 118,
+  "name": "Shoe Polish Stand 60x85cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Shoe Polish Stand"],
+  "discount": 0,
+  "shortDescription": "Professional shoe polish stand 60x85cm for service areas.",
+  "description": [
+    "Compact and functional design.",
+    "Suitable for malls and office buildings.",
+    "Stable base with storage area."
+  ],
+  "sizes": ["60x85cm"],
+  "additionalInformation": {
+    "Material": "Wood & Metal",
+    "Usage": "Indoor",
+    "Function": "Shoe Cleaning Service"
+  },
+  "img": { "singleImage": "img/products/display-items/shoe-polish-stand-60x85cm/1.webp", "thumbs": [
+    "img/products/display-items/shoe-polish-stand-60x85cm/1.webp",
+    "img/products/display-items/shoe-polish-stand-60x85cm/2.webp",
+    "img/products/display-items/shoe-polish-stand-60x85cm/3.webp"
+  ] }
+},
+
+
+{
+  "id": 119,
+  "name": "PVC Wet Floor Stand",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Wet Floor Sign", "PVC Safety Stand"],
+  "discount": 0,
+  "shortDescription": "Durable PVC wet floor stand for safety warnings.",
+  "description": [
+    "Foldable caution sign.",
+    "High visibility warning print.",
+    "Lightweight and easy to store."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "PVC",
+    "Usage": "Indoor & Outdoor",
+    "Feature": "Foldable Design",
+    "Function": "Safety Warning"
+  },
+  "img": { "singleImage": "img/products/display-items/pvc-wet-floor-stand/1.webp", "thumbs": [
+    "img/products/display-items/pvc-wet-floor-stand/1.webp",
+    "img/products/display-items/pvc-wet-floor-stand/2.webp",
+    "img/products/display-items/pvc-wet-floor-stand/3.webp"
+  ] }
+},
+{
+  "id": 120,
+  "name": "Panelfix Mount Stand - A1",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Panelfix Stand", "A1 Mount Stand"],
+  "discount": 0,
+  "shortDescription": "A1 panelfix mount stand for secure poster display.",
+  "description": [
+    "Strong mounting structure.",
+    "Ideal for A1 promotional posters.",
+    "Stable base with modern finish."
+  ],
+  "sizes": ["A1"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Usage": "Indoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/panelfix-mount-stand-a1/1.webp", "thumbs": [
+    "img/products/display-items/panelfix-mount-stand-a1/1.webp",
+    "img/products/display-items/panelfix-mount-stand-a1/2.webp",
+    "img/products/display-items/panelfix-mount-stand-a1/3.webp"
+  ] }
+},
+{
+  "id": 121,
+  "name": "Golden Info Stand",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Golden Stand", "Premium Info Stand"],
+  "discount": 0,
+  "shortDescription": "Elegant golden information stand for premium interiors.",
+  "description": [
+    "Luxury gold finish.",
+    "Stable and durable frame.",
+    "Ideal for hotels and showrooms."
+  ],
+  "sizes": ["A4", "A3"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Color": "Golden",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/golden-info-stand/1.webp", "thumbs": [
+    "img/products/display-items/golden-info-stand/1.webp",
+    "img/products/display-items/golden-info-stand/2.webp",
+    "img/products/display-items/golden-info-stand/3.webp"
+  ] }
+},
+{
+  "id": 122,
+  "name": "Menu Stand - A4",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Menu Stand", "Restaurant Display"],
+  "discount": 0,
+  "shortDescription": "A4 menu stand ideal for restaurants and cafes.",
+  "description": [
+    "Clear front display panel.",
+    "Stable floor base.",
+    "Suitable for menu and promotional content."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Metal & Acrylic",
+    "Usage": "Indoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/menu-stand-a4/1.webp", "thumbs": [
+    "img/products/display-items/menu-stand-a4/1.webp",
+    "img/products/display-items/menu-stand-a4/2.webp",
+    "img/products/display-items/menu-stand-a4/3.webp"
+  ] }
+},
+{
+  "id": 123,
+  "name": "Metal Info Stand - A4",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Metal Stand", "A4 Info Display"],
+  "discount": 0,
+  "shortDescription": "Strong metal A4 information stand for commercial use.",
+  "description": [
+    "Durable metal construction.",
+    "Compact A4 display frame.",
+    "Suitable for offices and retail stores."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Usage": "Indoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/metal-info-stand-a4/1.webp", "thumbs": [
+    "img/products/display-items/metal-info-stand-a4/1.webp",
+    "img/products/display-items/metal-info-stand-a4/2.webp",
+    "img/products/display-items/metal-info-stand-a4/3.webp"
+  ] }
+},
+{
+  "id": 124,
+  "name": "T-Stand 50x70cm / 40x60cm / 60x85cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["T Stand", "Poster Stand"],
+  "discount": 0,
+  "shortDescription": "Versatile T-stand available in multiple poster sizes.",
+  "description": [
+    "Classic T-frame design.",
+    "Suitable for promotional posters.",
+    "Stable base for floor placement."
+  ],
+  "sizes": ["50x70cm", "40x60cm", "60x85cm"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Usage": "Indoor",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/t-stand-50x70cm-40x60cm-60x85cm/1.webp", "thumbs": [
+    "img/products/display-items/t-stand-50x70cm-40x60cm-60x85cm/1.webp",
+    "img/products/display-items/t-stand-50x70cm-40x60cm-60x85cm/2.webp",
+    "img/products/display-items/t-stand-50x70cm-40x60cm-60x85cm/3.webp"
+  ] }
+},
+{
+  "id": 125,
+  "name": "A Board with LED Light 60x160cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["LED A Board", "Illuminated Sign"],
+  "discount": 0,
+  "shortDescription": "Illuminated A-board sign 60x160cm for outdoor advertising.",
+  "description": [
+    "Built-in LED lighting.",
+    "High visibility advertising board.",
+    "Suitable for shops and restaurants."
+  ],
+  "sizes": ["60x160cm"],
+  "additionalInformation": {
+    "Lighting": "LED",
+    "Usage": "Indoor & Outdoor",
+    "Power": "AC Powered",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/a-board-led-light-60x160cm/1.webp", "thumbs": [
+    "img/products/display-items/a-board-led-light-60x160cm/1.webp",
+    "img/products/display-items/a-board-led-light-60x160cm/2.webp",
+    "img/products/display-items/a-board-led-light-60x160cm/3.webp"
+  ] }
+},
+{
+  "id": 126,
+  "name": "Table Top Chalk Board A3 / A4 / A5",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Chalk Board", "Table Display"],
+  "discount": 0,
+  "shortDescription": "Table top chalk board available in A3, A4 and A5 sizes.",
+  "description": [
+    "Writable chalk surface.",
+    "Compact table placement design.",
+    "Ideal for cafes and counters."
+  ],
+  "sizes": ["A3", "A4", "A5"],
+  "additionalInformation": {
+    "Surface Type": "Chalk Writable",
+    "Usage": "Indoor",
+    "Placement": "Table Top"
+  },
+  "img": { "singleImage": "img/products/display-items/table-top-chalk-board-a3-a4-a5/1.webp", "thumbs": [
+    "img/products/display-items/table-top-chalk-board-a3-a4-a5/1.webp",
+    "img/products/display-items/table-top-chalk-board-a3-a4-a5/2.webp",
+    "img/products/display-items/table-top-chalk-board-a3-a4-a5/3.webp"
+  ] }
+},
+
+
+
+{
+  "id": 127,
+  "name": "Table Flag Stand - 50cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Table Flag Stand", "Desk Flag Holder"],
+  "discount": 0,
+  "shortDescription": "50cm table flag stand ideal for offices and events.",
+  "description": [
+    "Compact desk flag holder.",
+    "Stable round base design.",
+    "Suitable for promotional and national flags."
+  ],
+  "sizes": ["50cm"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Usage": "Indoor",
+    "Placement": "Table Top"
+  },
+  "img": { "singleImage": "img/products/display-items/table-flag-stand-50cm/1.webp", "thumbs": [
+    "img/products/display-items/table-flag-stand-50cm/1.webp",
+    "img/products/display-items/table-flag-stand-50cm/2.webp",
+    "img/products/display-items/table-flag-stand-50cm/3.webp"
+  ] }
+},
+{
+  "id": 128,
+  "name": "Door Sign",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Door Sign", "Room Signage"],
+  "discount": 0,
+  "shortDescription": "Professional door sign for offices and commercial spaces.",
+  "description": [
+    "Wall or door mountable.",
+    "Clear and professional appearance.",
+    "Suitable for room identification."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Acrylic / Metal",
+    "Usage": "Indoor",
+    "Mount Type": "Wall or Door Mounted"
+  },
+  "img": { "singleImage": "img/products/display-items/door-sign/1.webp", "thumbs": [
+    "img/products/display-items/door-sign/1.webp",
+    "img/products/display-items/door-sign/2.webp",
+    "img/products/display-items/door-sign/3.webp"
+  ] }
+},
+{
+  "id": 129,
+  "name": "A Board with LED Light 40x60cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["LED A Board", "Illuminated Display"],
+  "discount": 0,
+  "shortDescription": "Compact LED illuminated A-board 40x60cm for shop displays.",
+  "description": [
+    "Built-in LED lighting system.",
+    "Portable A-frame structure.",
+    "High visibility advertising display."
+  ],
+  "sizes": ["40x60cm"],
+  "additionalInformation": {
+    "Lighting": "LED",
+    "Usage": "Indoor & Outdoor",
+    "Power": "AC Powered",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/a-board-led-light-40x60cm/1.webp", "thumbs": [
+    "img/products/display-items/a-board-led-light-40x60cm/1.webp",
+    "img/products/display-items/a-board-led-light-40x60cm/2.webp",
+    "img/products/display-items/a-board-led-light-40x60cm/3.webp"
+  ] }
+},
+{
+  "id": 130,
+  "name": "Tissue Box",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Tissue Holder", "Table Accessory"],
+  "discount": 0,
+  "shortDescription": "Decorative tissue box for commercial and office use.",
+  "description": [
+    "Durable outer casing.",
+    "Suitable for desk and table placement.",
+    "Easy tissue refill system."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Acrylic / Plastic",
+    "Usage": "Indoor",
+    "Placement": "Table Top"
+  },
+  "img": { "singleImage": "img/products/display-items/tissue-box/1.webp", "thumbs": [
+    "img/products/display-items/tissue-box/1.webp",
+    "img/products/display-items/tissue-box/2.webp",
+    "img/products/display-items/tissue-box/3.webp"
+  ] }
+},
+{
+  "id": 131,
+  "name": "No-Parking Stand",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["No Parking Sign", "Parking Stand"],
+  "discount": 0,
+  "shortDescription": "Durable no-parking stand for traffic and parking control.",
+  "description": [
+    "Highly visible warning signage.",
+    "Stable base for outdoor use.",
+    "Suitable for parking management."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Metal / PVC",
+    "Usage": "Outdoor",
+    "Function": "Traffic Control"
+  },
+  "img": { "singleImage": "img/products/display-items/no-parking-stand/1.webp", "thumbs": [
+    "img/products/display-items/no-parking-stand/1.webp",
+    "img/products/display-items/no-parking-stand/2.webp",
+    "img/products/display-items/no-parking-stand/3.webp"
+  ] }
+},
+{
+  "id": 132,
+  "name": "Expandable Q-Barrier",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Queue Barrier", "Crowd Control Barrier"],
+  "discount": 0,
+  "shortDescription": "Expandable queue barrier system for crowd management.",
+  "description": [
+    "Retractable belt system.",
+    "Expandable and flexible setup.",
+    "Ideal for events, banks and airports."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Belt Type": "Retractable",
+    "Usage": "Indoor & Outdoor",
+    "Function": "Crowd Control"
+  },
+  "img": { "singleImage": "img/products/display-items/expandable-q-barrier/1.webp", "thumbs": [
+    "img/products/display-items/expandable-q-barrier/1.webp",
+    "img/products/display-items/expandable-q-barrier/2.webp",
+    "img/products/display-items/expandable-q-barrier/3.webp"
+  ] }
+},
+
+
+{
+  "id": 133,
+  "name": "Heat Air Gun",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Heat Gun", "Industrial Tool"],
+  "discount": 0,
+  "shortDescription": "Professional heat air gun for industrial and signage applications.",
+  "description": [
+    "High temperature heat output.",
+    "Suitable for vinyl wrapping and material shaping.",
+    "Ergonomic handle design."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Power": "Electric",
+    "Temperature Control": "Adjustable",
+    "Usage": "Industrial & Workshop"
+  },
+  "img": { "singleImage": "img/products/display-items/heat-air-gun/1.webp", "thumbs": [
+    "img/products/display-items/heat-air-gun/1.webp",
+    "img/products/display-items/heat-air-gun/2.webp",
+    "img/products/display-items/heat-air-gun/3.webp"
+  ] }
+},
+{
+  "id": 134,
+  "name": "T-Shirt",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Promotional T-Shirt", "Custom Apparel"],
+  "discount": 0,
+  "shortDescription": "Customizable promotional T-shirt for branding and events.",
+  "description": [
+    "Comfortable fabric material.",
+    "Suitable for printing and branding.",
+    "Ideal for promotions and staff uniforms."
+  ],
+  "sizes": ["S", "M", "L", "XL"],
+  "additionalInformation": {
+    "Material": "Cotton / Polyester",
+    "Usage": "Promotional Wear",
+    "Printing": "Custom Print Available"
+  },
+  "img": { "singleImage": "img/products/display-items/promotional-t-shirt/1.webp", "thumbs": [
+    "img/products/display-items/promotional-t-shirt/1.webp",
+    "img/products/display-items/promotional-t-shirt/2.webp",
+    "img/products/display-items/promotional-t-shirt/3.webp"
+  ] }
+},
+{
+  "id": 135,
+  "name": "Safety Jacket (Orange / Yellow)",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Safety Jacket", "Reflective Vest"],
+  "discount": 0,
+  "shortDescription": "High visibility safety jacket in orange and yellow.",
+  "description": [
+    "Reflective safety strips.",
+    "Lightweight and breathable material.",
+    "Suitable for construction and events."
+  ],
+  "sizes": ["M", "L", "XL"],
+  "additionalInformation": {
+    "Colors": ["Orange", "Yellow"],
+    "Material": "Polyester",
+    "Usage": "Safety & Outdoor"
+  },
+  "img": { "singleImage": "img/products/display-items/safety-jacket-orange-yellow/1.webp", "thumbs": [
+    "img/products/display-items/safety-jacket-orange-yellow/1.webp",
+    "img/products/display-items/safety-jacket-orange-yellow/2.webp",
+    "img/products/display-items/safety-jacket-orange-yellow/3.webp"
+  ] }
+},
+{
+  "id": 136,
+  "name": "Info Stand T-Shape D/S Black 60x40cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["T Shape Stand", "Double Side Stand", "Black Info Stand"],
+  "discount": 0,
+  "shortDescription": "Double-sided black T-shape info stand 60x40cm.",
+  "description": [
+    "Double-sided display frame.",
+    "Black powder-coated finish.",
+    "Stable floor base."
+  ],
+  "sizes": ["60x40cm"],
+  "additionalInformation": {
+    "Color": "Black",
+    "Display Type": "Double Side",
+    "Material": "Metal",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/info-stand-black-ds-60x40cm/1.webp", "thumbs": [
+    "img/products/display-items/info-stand-black-ds-60x40cm/1.webp",
+    "img/products/display-items/info-stand-black-ds-60x40cm/2.webp",
+    "img/products/display-items/info-stand-black-ds-60x40cm/3.webp"
+  ] }
+},
+{
+  "id": 137,
+  "name": "Info Stand Silver D/S H/V A2 Size",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Silver Info Stand", "A2 Stand", "Double Side Display"],
+  "discount": 0,
+  "shortDescription": "Silver A2 info stand double side horizontal/vertical display.",
+  "description": [
+    "Supports horizontal and vertical orientation.",
+    "Double-sided poster display.",
+    "Durable silver frame."
+  ],
+  "sizes": ["A2"],
+  "additionalInformation": {
+    "Color": "Silver",
+    "Display Type": "Double Side",
+    "Orientation": "Horizontal / Vertical",
+    "Material": "Metal"
+  },
+  "img": { "singleImage": "img/products/display-items/info-stand-silver-a2/1.webp", "thumbs": [
+    "img/products/display-items/info-stand-silver-a2/1.webp",
+    "img/products/display-items/info-stand-silver-a2/2.webp",
+    "img/products/display-items/info-stand-silver-a2/3.webp"
+  ] }
+},
+{
+  "id": 138,
+  "name": "Info Stand Display Double Side 50x70cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Double Side Stand", "50x70 Display"],
+  "discount": 0,
+  "shortDescription": "Double-sided display stand 50x70cm for advertising posters.",
+  "description": [
+    "Large poster display area.",
+    "Double-sided frame.",
+    "Stable and durable construction."
+  ],
+  "sizes": ["50x70cm"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Usage": "Indoor",
+    "Display Type": "Double Side"
+  },
+  "img": { "singleImage": "img/products/display-items/info-stand-double-side-50x70cm/1.webp", "thumbs": [
+    "img/products/display-items/info-stand-double-side-50x70cm/1.webp",
+    "img/products/display-items/info-stand-double-side-50x70cm/2.webp",
+    "img/products/display-items/info-stand-double-side-50x70cm/3.webp"
+  ] }
+},
+{
+  "id": 139,
+  "name": "Info Stand Aluminum for PVC Frame A4 & A3",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Aluminum Stand", "PVC Frame Stand"],
+  "discount": 0,
+  "shortDescription": "Aluminum info stand compatible with PVC frames A4 and A3.",
+  "description": [
+    "Lightweight aluminum frame.",
+    "Compatible with PVC poster frames.",
+    "Ideal for retail displays."
+  ],
+  "sizes": ["A4", "A3"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Frame Type": "PVC Compatible",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/aluminum-info-stand-pvc-a4-a3/1.webp", "thumbs": [
+    "img/products/display-items/aluminum-info-stand-pvc-a4-a3/1.webp",
+    "img/products/display-items/aluminum-info-stand-pvc-a4-a3/2.webp",
+    "img/products/display-items/aluminum-info-stand-pvc-a4-a3/3.webp"
+  ] }
+},
+{
+  "id": 140,
+  "name": "Bamboo Info Board A4 & A3",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Bamboo Info Board", "Eco Display"],
+  "discount": 0,
+  "shortDescription": "Eco-friendly bamboo info board in A4 and A3 sizes.",
+  "description": [
+    "Natural bamboo construction.",
+    "Elegant and eco-friendly design.",
+    "Suitable for cafes and boutiques."
+  ],
+  "sizes": ["A4", "A3"],
+  "additionalInformation": {
+    "Material": "Bamboo",
+    "Usage": "Indoor",
+    "Mount Type": "Floor or Wall"
+  },
+  "img": { "singleImage": "img/products/display-items/bamboo-info-board-a4-a3/1.webp", "thumbs": [
+    "img/products/display-items/bamboo-info-board-a4-a3/1.webp",
+    "img/products/display-items/bamboo-info-board-a4-a3/2.webp",
+    "img/products/display-items/bamboo-info-board-a4-a3/3.webp"
+  ] }
+},
+
+
+{
+  "id": 141,
+  "name": "Lighting Tree (Red / Blue / White)",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Lighting Tree", "LED Decoration", "Event Lighting"],
+  "discount": 0,
+  "shortDescription": "Decorative LED lighting tree available in red, blue and white.",
+  "description": [
+    "Bright LED decorative tree.",
+    "Available in multiple light colors.",
+    "Ideal for events, malls and festive decoration."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Light Colors": ["Red", "Blue", "White"],
+    "Lighting Type": "LED",
+    "Usage": "Indoor & Outdoor Decoration",
+    "Power": "Electric"
+  },
+  "img": { "singleImage": "img/products/display-items/lighting-tree-red-blue-white/1.webp", "thumbs": [
+    "img/products/display-items/lighting-tree-red-blue-white/1.webp",
+    "img/products/display-items/lighting-tree-red-blue-white/2.webp",
+    "img/products/display-items/lighting-tree-red-blue-white/3.webp"
+  ] }
+},
+{
+  "id": 142,
+  "name": "Balloon Arc",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Balloon Arch", "Event Decoration"],
+  "discount": 0,
+  "shortDescription": "Decorative balloon arc structure for events and promotions.",
+  "description": [
+    "Eye-catching event decoration.",
+    "Customizable balloon colors.",
+    "Ideal for grand openings and exhibitions."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Flexible Frame",
+    "Usage": "Events & Promotions",
+    "Installation": "On-site Setup"
+  },
+  "img": { "singleImage": "img/products/display-items/balloon-arc/1.webp", "thumbs": [
+    "img/products/display-items/balloon-arc/1.webp",
+    "img/products/display-items/balloon-arc/2.webp",
+    "img/products/display-items/balloon-arc/3.webp"
+  ] }
+},
+{
+  "id": 143,
+  "name": "Exhibition Floor",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Exhibition Flooring", "Event Floor"],
+  "discount": 0,
+  "shortDescription": "Professional exhibition flooring solution for trade shows.",
+  "description": [
+    "Durable flooring panels.",
+    "Easy installation and removal.",
+    "Suitable for exhibitions and events."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "PVC / Carpet",
+    "Usage": "Exhibitions & Events",
+    "Installation": "Modular System"
+  },
+  "img": { "singleImage": "img/products/display-items/exhibition-floor/1.webp", "thumbs": [
+    "img/products/display-items/exhibition-floor/1.webp",
+    "img/products/display-items/exhibition-floor/2.webp",
+    "img/products/display-items/exhibition-floor/3.webp"
+  ] }
+},
+{
+  "id": 144,
+  "name": "Bluetooth Speaker Plant (Pink / Silver / Grey)",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Bluetooth Speaker", "Decorative Speaker"],
+  "discount": 0,
+  "shortDescription": "Stylish plant-shaped Bluetooth speaker in pink, silver and grey.",
+  "description": [
+    "Wireless Bluetooth connectivity.",
+    "Decorative plant-style design.",
+    "Compact and portable."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Colors": ["Pink", "Silver", "Grey"],
+    "Connectivity": "Bluetooth",
+    "Power": "Rechargeable Battery",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/bluetooth-speaker-plant-pink-silver-grey/1.webp", "thumbs": [
+    "img/products/display-items/bluetooth-speaker-plant-pink-silver-grey/1.webp",
+    "img/products/display-items/bluetooth-speaker-plant-pink-silver-grey/2.webp",
+    "img/products/display-items/bluetooth-speaker-plant-pink-silver-grey/3.webp"
+  ] }
+},
+{
+  "id": 145,
+  "name": "Laser Play System",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Laser System", "Entertainment System"],
+  "discount": 0,
+  "shortDescription": "Interactive laser play system for entertainment and events.",
+  "description": [
+    "High precision laser technology.",
+    "Interactive entertainment setup.",
+    "Ideal for exhibitions and gaming zones."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Technology": "Laser Projection",
+    "Usage": "Indoor Entertainment",
+    "Power": "Electric"
+  },
+  "img": { "singleImage": "img/products/display-items/laser-play-system/1.webp", "thumbs": [
+    "img/products/display-items/laser-play-system/1.webp",
+    "img/products/display-items/laser-play-system/2.webp",
+    "img/products/display-items/laser-play-system/3.webp"
+  ] }
+},
+{
+  "id": 146,
+  "name": "Products Shelf",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Display Shelf", "Retail Shelf"],
+  "discount": 0,
+  "shortDescription": "Retail product display shelf for showrooms and stores.",
+  "description": [
+    "Multi-level shelving system.",
+    "Strong and stable construction.",
+    "Ideal for product showcasing."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Metal / Wood",
+    "Usage": "Retail & Showroom",
+    "Mount Type": "Floor Standing"
+  },
+  "img": { "singleImage": "img/products/display-items/products-shelf/1.webp", "thumbs": [
+    "img/products/display-items/products-shelf/1.webp",
+    "img/products/display-items/products-shelf/2.webp",
+    "img/products/display-items/products-shelf/3.webp"
+  ] }
+},
+{
+  "id": 147,
+  "name": "Electronic Exchange Board",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Exchange Rate Board", "Electronic Display"],
+  "discount": 0,
+  "shortDescription": "Electronic exchange rate board for banks and currency shops.",
+  "description": [
+    "Digital LED display.",
+    "Clear rate visibility.",
+    "Suitable for financial institutions."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Display Type": "LED Digital",
+    "Usage": "Banks & Exchange Offices",
+    "Power": "Electric"
+  },
+  "img": { "singleImage": "img/products/display-items/electronic-exchange-board/1.webp", "thumbs": [
+    "img/products/display-items/electronic-exchange-board/1.webp",
+    "img/products/display-items/electronic-exchange-board/2.webp",
+    "img/products/display-items/electronic-exchange-board/3.webp"
+  ] }
+},
+{
+  "id": 148,
+  "name": "Folding Screen",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Folding Partition", "Portable Screen"],
+  "discount": 0,
+  "shortDescription": "Portable folding screen for partition and privacy use.",
+  "description": [
+    "Lightweight foldable panels.",
+    "Easy to move and store.",
+    "Suitable for exhibitions and offices."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Fabric / Wood",
+    "Usage": "Indoor",
+    "Feature": "Foldable Design"
+  },
+  "img": { "singleImage": "img/products/display-items/folding-screen/1.webp", "thumbs": [
+    "img/products/display-items/folding-screen/1.webp",
+    "img/products/display-items/folding-screen/2.webp",
+    "img/products/display-items/folding-screen/3.webp"
+  ] }
+},
+{
+  "id": 149,
+  "name": "Double Side LED Display",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["LED Display", "Double Side Screen"],
+  "discount": 0,
+  "shortDescription": "High brightness double-sided LED display screen.",
+  "description": [
+    "Dual-sided LED display.",
+    "High visibility for advertising.",
+    "Suitable for indoor and outdoor installation."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Display Type": "LED",
+    "Sides": "Double",
+    "Usage": "Indoor & Outdoor",
+    "Power": "Electric"
+  },
+  "img": { "singleImage": "img/products/display-items/double-side-led-display/1.webp", "thumbs": [
+    "img/products/display-items/double-side-led-display/1.webp",
+    "img/products/display-items/double-side-led-display/2.webp",
+    "img/products/display-items/double-side-led-display/3.webp"
+  ] }
+},
+{
+  "id": 150,
+  "name": "Traffic Barrier",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Traffic Barrier", "Safety Barrier"],
+  "discount": 0,
+  "shortDescription": "Heavy-duty traffic barrier for crowd and vehicle control.",
+  "description": [
+    "Strong impact-resistant design.",
+    "Suitable for road and event management.",
+    "Easy placement and visibility."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Plastic / Metal",
+    "Usage": "Outdoor",
+    "Function": "Traffic Control"
+  },
+  "img": { "singleImage": "img/products/display-items/traffic-barrier/1.webp", "thumbs": [
+    "img/products/display-items/traffic-barrier/1.webp",
+    "img/products/display-items/traffic-barrier/2.webp",
+    "img/products/display-items/traffic-barrier/3.webp"
+  ] }
+},
+{
+  "id": 151,
+  "name": "Acrylic Drop Box",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Acrylic Box", "Donation Box"],
+  "discount": 0,
+  "shortDescription": "Transparent acrylic drop box for donations and feedback.",
+  "description": [
+    "Clear acrylic body.",
+    "Lockable design.",
+    "Ideal for donations and ballot collection."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Acrylic",
+    "Security": "Lockable",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/acrylic-drop-box/1.webp", "thumbs": [
+    "img/products/display-items/acrylic-drop-box/1.webp",
+    "img/products/display-items/acrylic-drop-box/2.webp",
+    "img/products/display-items/acrylic-drop-box/3.webp"
+  ] }
+},
+{
+  "id": 152,
+  "name": "First Aid Box",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["First Aid Kit Box", "Safety Equipment"],
+  "discount": 0,
+  "shortDescription": "Wall-mountable first aid box for emergency use.",
+  "description": [
+    "Compact emergency storage box.",
+    "Visible safety marking.",
+    "Suitable for offices and sites."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Plastic / Metal",
+    "Usage": "Indoor & Workplace",
+    "Mount Type": "Wall Mounted"
+  },
+  "img": { "singleImage": "img/products/display-items/first-aid-box/1.webp", "thumbs": [
+    "img/products/display-items/first-aid-box/1.webp",
+    "img/products/display-items/first-aid-box/2.webp",
+    "img/products/display-items/first-aid-box/3.webp"
+  ] }
+},
+{
+  "id": 153,
+  "name": "Spacer Silver",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Silver Spacer", "Mounting Accessory"],
+  "discount": 0,
+  "shortDescription": "Silver spacer for mounting and signage installation.",
+  "description": [
+    "Durable metal spacer.",
+    "Used for panel and sign mounting.",
+    "Professional finish."
+  ],
+  "sizes": ["Various"],
+  "additionalInformation": {
+    "Material": "Metal",
+    "Color": "Silver",
+    "Usage": "Signage Installation"
+  },
+  "img": { "singleImage": "img/products/display-items/spacer-silver/1.webp", "thumbs": [
+    "img/products/display-items/spacer-silver/1.webp",
+    "img/products/display-items/spacer-silver/2.webp",
+    "img/products/display-items/spacer-silver/3.webp"
+  ] }
+},
+{
+  "id": 154,
+  "name": "Lacquer Sprayer",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Paint Sprayer", "Lacquer Gun"],
+  "discount": 0,
+  "shortDescription": "Professional lacquer sprayer for smooth paint finishing.",
+  "description": [
+    "Even spray distribution.",
+    "Suitable for paint and lacquer.",
+    "Ergonomic grip design."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Power": "Electric / Air Compressor",
+    "Usage": "Workshop & Industrial",
+    "Application": "Paint Finishing"
+  },
+  "img": { "singleImage": "img/products/display-items/lacquer-sprayer/1.webp", "thumbs": [
+    "img/products/display-items/lacquer-sprayer/1.webp",
+    "img/products/display-items/lacquer-sprayer/2.webp",
+    "img/products/display-items/lacquer-sprayer/3.webp"
+  ] }
+},
+{
+  "id": 155,
+  "name": "LED Writing Board",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["LED Board", "Writable Light Board"],
+  "discount": 0,
+  "shortDescription": "Illuminated LED writing board for promotional messaging.",
+  "description": [
+    "LED edge lighting.",
+    "Writable surface with neon markers.",
+    "High visibility display."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Lighting": "LED",
+    "Usage": "Indoor Advertising",
+    "Power": "Electric"
+  },
+  "img": { "singleImage": "img/products/display-items/led-writing-board/1.webp", "thumbs": [
+    "img/products/display-items/led-writing-board/1.webp",
+    "img/products/display-items/led-writing-board/2.webp",
+    "img/products/display-items/led-writing-board/3.webp"
+  ] }
+},
+{
+  "id": 156,
+  "name": "Inflatable Cone with Blower",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Inflatable Cone", "Air Blower Display"],
+  "discount": 0,
+  "shortDescription": "Inflatable advertising cone with electric blower.",
+  "description": [
+    "High visibility inflatable structure.",
+    "Continuous air blower included.",
+    "Suitable for outdoor promotions."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Durable PVC Fabric",
+    "Blower": "Electric Included",
+    "Usage": "Outdoor Advertising"
+  },
+  "img": { "singleImage": "img/products/display-items/product156/1.png", "thumbs": [] }
+},
+
+
+{
+  "id": 157,
+  "name": "Door Sign Silver 30x10cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Door Sign", "Silver Door Plate", "Room Signage"],
+  "discount": 0,
+  "shortDescription": "Elegant silver door sign 30x10cm for office and room identification.",
+  "description": [
+    "Premium silver finish.",
+    "Compact 30x10cm size.",
+    "Suitable for office doors and room labeling."
+  ],
+  "sizes": ["30x10cm"],
+  "additionalInformation": {
+    "Material": "Aluminum / Metal",
+    "Color": "Silver",
+    "Mount Type": "Wall or Door Mounted",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/product157/1.png", "thumbs": [] }
+},
+{
+  "id": 158,
+  "name": "Wrist Band",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Event Wristband", "Promotional Band", "ID Wrist Band"],
+  "discount": 0,
+  "shortDescription": "Customizable wrist band for events and promotions.",
+  "description": [
+    "Comfortable and lightweight material.",
+    "Ideal for event access control.",
+    "Available for custom printing."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Silicone / Fabric",
+    "Usage": "Events & Promotions",
+    "Customization": "Logo Printing Available"
+  },
+  "img": { "singleImage": "img/products/display-items/product158/1.png", "thumbs": [] }
+},
+{
+  "id": 159,
+  "name": "Key Chain Box",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Key Chain Display Box", "Key Organizer Box"],
+  "discount": 0,
+  "shortDescription": "Display and storage box for key chains and small accessories.",
+  "description": [
+    "Organized key chain storage.",
+    "Transparent front display.",
+    "Suitable for retail counters."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Acrylic / Plastic",
+    "Usage": "Retail Display",
+    "Mount Type": "Wall Mounted or Table Top"
+  },
+  "img": { "singleImage": "img/products/display-items/product159/1.png", "thumbs": [] }
+},
+{
+  "id": 160,
+  "name": "T-Shape Menu Holder",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Menu Holder", "T Shape Display", "Table Menu Stand"],
+  "discount": 0,
+  "shortDescription": "T-shape menu holder for restaurants and cafes.",
+  "description": [
+    "Clear acrylic T-frame design.",
+    "Easy paper insertion.",
+    "Ideal for table top menu display."
+  ],
+  "sizes": ["A4", "A5"],
+  "additionalInformation": {
+    "Material": "Acrylic",
+    "Placement": "Table Top",
+    "Usage": "Restaurants & Cafes"
+  },
+  "img": { "singleImage": "img/products/display-items/product160/1.png", "thumbs": [] }
+},
+{
+  "id": 161,
+  "name": "Door Sign Products",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Door Sign", "Room Signage", "Office Sign"],
+  "discount": 0,
+  "shortDescription": "Variety of door sign products for offices and commercial spaces.",
+  "description": [
+    "Available in multiple styles and finishes.",
+    "Professional signage solutions.",
+    "Suitable for offices, hotels and commercial buildings."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Acrylic / Metal / Aluminum",
+    "Mount Type": "Wall or Door Mounted",
+    "Customization": "Custom Text & Logo Available",
+    "Usage": "Indoor"
+  },
+  "img": { "singleImage": "img/products/display-items/product161/1.png", "thumbs": [] }
+},
+{
+  "id": 162,
+  "name": "3D Signs",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["3D Letter Sign", "Raised Signage", "Custom 3D Sign"],
+  "discount": 0,
+  "shortDescription": "Custom 3D signs for branding and storefront display.",
+  "description": [
+    "High-quality raised lettering.",
+    "Available in various materials and finishes.",
+    "Suitable for indoor and outdoor branding."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Acrylic / Metal / PVC",
+    "Installation": "Wall Mounted",
+    "Customization": "Custom Design & Size Available",
+    "Usage": "Indoor & Outdoor"
+  },
+  "img": { "singleImage": "img/products/display-items/product162/1.png", "thumbs": [] }
+},
+{
+  "id": 163,
+  "name": "Bike Delivery Box 56x56x52cm",
+  "category": "display-items",
+  "categories": ["Display Items"],
+  "tags": ["Delivery Box", "Bike Storage Box", "Food Delivery Box"],
+  "discount": 0,
+  "shortDescription": "Durable bike delivery box 56x56x52cm for food and parcel transport.",
+  "description": [
+    "Spacious insulated storage box.",
+    "Designed for motorcycle and bike delivery.",
+    "Secure locking system."
+  ],
+  "sizes": ["56x56x52cm"],
+  "additionalInformation": {
+    "Material": "Durable Plastic / Insulated Panel",
+    "Mount Type": "Bike Mounted",
+    "Usage": "Food & Parcel Delivery",
+    "Weather Resistance": "Yes"
+  },
+  "img": { "singleImage": "img/products/display-items/product163/1.png", "thumbs": [] }
+}
 
 
   

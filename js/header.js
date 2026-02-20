@@ -132,41 +132,40 @@ function megaMenuInteraction() {
 
     /* ================= MOBILE ACCORDION ================= */
     category.addEventListener("click", (e) => {
-      if (window.innerWidth >= 992) return
-      e.preventDefault()
-      e.stopPropagation()
+  if (window.innerWidth >= 992) return
+  e.preventDefault()
+  e.stopPropagation()
 
-      const isOpen = category.classList.contains("active")
+  const isAlreadyOpen = category.classList.contains("active")
 
-      // Close all
-      categories.forEach(c => {
-        c.classList.remove("active")
-        const slot = c.querySelector(".mobile-submenu")
-        if (slot) slot.innerHTML = ""
-      })
-      
-
-      // Open selected
-      if (!isOpen) {
-        category.classList.add("active")
-
-        const sourceGroup = document.querySelector(
-          `.mega-products-group[data-category="${key}"]`
-        )
-
-       if (sourceGroup) {
-  const clone = sourceGroup.cloneNode(true)
-  clone.classList.add("mobile-group", "active")
-
-  // 🔴 IMPORTANT: stop click bubbling from submenu
-  clone.addEventListener("click", (e) => {
-    e.stopPropagation()
+  // Close all categories
+  categories.forEach(c => {
+    c.classList.remove("active")
+    const slot = c.querySelector(".mobile-submenu")
+    if (slot) slot.innerHTML = ""
   })
 
-  mobileSlot.appendChild(clone)
-}
-      }
-    })
+  // If it was NOT open before, open it
+  if (!isAlreadyOpen) {
+    category.classList.add("active")
+
+    const sourceGroup = document.querySelector(
+      `.mega-products-group[data-category="${key}"]`
+    )
+
+    if (sourceGroup) {
+      const clone = sourceGroup.cloneNode(true)
+      clone.classList.add("mobile-group", "active")
+
+      clone.addEventListener("click", (e) => {
+        e.stopPropagation()
+      })
+
+      mobileSlot.appendChild(clone)
+    }
+  }
+})
+
   })
   // Default image for first active category
   const defaultActive = document.querySelector(".mega-category-list li.active")

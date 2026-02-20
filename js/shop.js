@@ -15,8 +15,12 @@ async function loadProducts() {
 
   // filter by category
   const filteredProducts = category
-    ? products.filter(p => p.category === category)
-    : products
+  ? products.filter(p =>
+      Array.isArray(p.category)
+        ? p.category.includes(category)
+        : p.category === category
+    )
+  : products
 
   renderProducts(filteredProducts)
 }

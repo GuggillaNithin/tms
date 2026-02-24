@@ -4920,7 +4920,13 @@
     "Blower": "Electric Included",
     "Usage": "Outdoor Advertising"
   },
-  "img": { "singleImage": "img/products/display-items/product156/1.png", "thumbs": [] }
+  "img": { "singleImage": "img/products/display-items/inflatable-cone/1.webp", 
+  "thumbs": [
+    "img/products/display-items/inflatable-cone/1.webp",
+    "img/products/display-items/inflatable-cone/2.webp",
+    "img/products/display-items/inflatable-cone/3.webp"
+  ] 
+}
 },
 
 
@@ -4944,7 +4950,11 @@
     "Mount Type": "Wall or Door Mounted",
     "Usage": "Indoor"
   },
-  "img": { "singleImage": "img/products/display-items/product157/1.png", "thumbs": [] }
+  "img": { "singleImage": "img/products/display-items/door-sign-silver-30x10cm/1.webp", "thumbs": [
+    "img/products/display-items/door-sign-silver-30x10cm/1.webp",
+    "img/products/display-items/door-sign-silver-30x10cm/2.webp",
+    "img/products/display-items/door-sign-silver-30x10cm/3.webp"
+  ] }
 },
 {
   "id": 158,
@@ -4965,7 +4975,11 @@
     "Usage": "Events & Promotions",
     "Customization": "Logo Printing Available"
   },
-  "img": { "singleImage": "img/products/display-items/product158/1.png", "thumbs": [] }
+  "img": { "singleImage": "img/products/display-items/wrist-band/1.webp", "thumbs": [
+    "img/products/display-items/wrist-band/1.webp",
+    "img/products/display-items/wrist-band/2.webp",
+    "img/products/display-items/wrist-band/3.webp"
+  ] }
 },
 {
   "id": 159,
@@ -4986,7 +5000,11 @@
     "Usage": "Retail Display",
     "Mount Type": "Wall Mounted or Table Top"
   },
-  "img": { "singleImage": "img/products/display-items/product159/1.png", "thumbs": [] }
+  "img": { "singleImage": "img/products/display-items/key-chain-box/1.webp", "thumbs": [
+    "img/products/display-items/key-chain-box/1.webp",
+    "img/products/display-items/key-chain-box/2.webp",
+    "img/products/display-items/key-chain-box/3.webp"
+  ] }
 },
 {
   "id": 160,
@@ -5007,7 +5025,11 @@
     "Placement": "Table Top",
     "Usage": "Restaurants & Cafes"
   },
-  "img": { "singleImage": "img/products/display-items/product160/1.png", "thumbs": [] }
+  "img": { "singleImage": "img/products/display-items/t-shape-menu-holder/1.webp", "thumbs": [
+    "img/products/display-items/t-shape-menu-holder/1.webp",
+    "img/products/display-items/t-shape-menu-holder/2.webp",
+    "img/products/display-items/t-shape-menu-holder/3.webp"
+  ] }
 },
 {
   "id": 161,
@@ -5029,8 +5051,14 @@
     "Customization": "Custom Text & Logo Available",
     "Usage": "Indoor"
   },
-  "img": { "singleImage": "img/products/display-items/product161/1.png", "thumbs": [] }
+  "img": { "singleImage": "img/products/display-items/door-sign-products/1.webp", 
+  "thumbs": [
+    "img/products/display-items/door-sign-products/1.webp",
+    "img/products/display-items/door-sign-products/2.webp",
+    "img/products/display-items/door-sign-products/3.webp"
+  ] }
 },
+
 {
   "id": 162,
   "name": "3D Signs",
@@ -5051,7 +5079,11 @@
     "Customization": "Custom Design & Size Available",
     "Usage": "Indoor & Outdoor"
   },
-  "img": { "singleImage": "img/products/display-items/product162/1.png", "thumbs": [] }
+  "img": { "singleImage": "img/products/display-items/3d-signs/1.webp", "thumbs": [
+    "img/products/display-items/3d-signs/1.webp",
+    "img/products/display-items/3d-signs/2.webp",
+    "img/products/display-items/3d-signs/3.webp"
+  ] }
 },
 {
   "id": 163,
@@ -5073,10 +5105,1759 @@
     "Usage": "Food & Parcel Delivery",
     "Weather Resistance": "Yes"
   },
-  "img": { "singleImage": "img/products/display-items/product163/1.png", "thumbs": [] }
+  "img": { "singleImage": "img/products/display-items/bike-delivery-box/1.webp", "thumbs": [
+    "img/products/display-items/bike-delivery-box/1.webp",
+    "img/products/display-items/bike-delivery-box/2.webp",
+    "img/products/display-items/bike-delivery-box/3.webp"
+  ] }
+},
+
+
+{
+  "_comment": "===================== Acrylic produts and display items with the same category with the display items  ======================================"
+},
+
+
+{
+  "id": 164,
+  "name": "T-Shape Menu Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Acrylic Menu Holder", "T Shape Display", "Table Menu Stand"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic T-shape menu holder for table display.",
+  "description": [
+    "Made from high quality clear acrylic.",
+    "Stable T-shape base design.",
+    "Ideal for restaurants and cafés."
+  ],
+  "sizes": ["A4", "A5"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top",
+    "Usage": "Menu Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/t-shape-menu-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/t-shape-menu-holder/1.webp",
+      "img/products/acrylic-products-fabrication/t-shape-menu-holder/2.webp",
+      "img/products/acrylic-products-fabrication/t-shape-menu-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 165,
+  "name": "Name Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Name Plate", "Desk Name Holder", "Acrylic Name Stand"],
+  "discount": 0,
+  "shortDescription": "Elegant acrylic name holder for desks and counters.",
+  "description": [
+    "Clear professional design.",
+    "Perfect for office desks.",
+    "Easy name card insertion."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Desk / Table",
+    "Usage": "Name Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/name-holder1/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/name-holder1/1.webp",
+      "img/products/acrylic-products-fabrication/name-holder1/2.webp",
+      "img/products/acrylic-products-fabrication/name-holder1/3.webp"
+    ]
+  }
+},
+{
+  "id": 192,
+  "name": "Name Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Name Plate", "Desk Name Holder", "Acrylic Name Stand"],
+  "discount": 0,
+  "shortDescription": "Elegant acrylic name holder for desks and counters.",
+  "description": [
+    "Clear professional design.",
+    "Perfect for office desks.",
+    "Easy name card insertion."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Desk / Table",
+    "Usage": "Name Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/name-holder2/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/name-holder2/1.webp",
+      "img/products/acrylic-products-fabrication/name-holder2/2.webp",
+      "img/products/acrylic-products-fabrication/name-holder2/3.webp"
+    ]
+  }
+},
+{
+  "id": 166,
+  "name": "Table Top Sign Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Sign Holder", "Table Sign Display", "Acrylic Stand"],
+  "discount": 0,
+  "shortDescription": "Acrylic table top sign holder for promotional display.",
+  "description": [
+    "Durable clear acrylic material.",
+    "Stable base design.",
+    "Suitable for promotions and notices."
+  ],
+  "sizes": ["A4", "A5", "A6"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top",
+    "Usage": "Promotional Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/table-top-sign-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/table-top-sign-holder/1.webp",
+      "img/products/acrylic-products-fabrication/table-top-sign-holder/2.webp",
+      "img/products/acrylic-products-fabrication/table-top-sign-holder/3.webp"
+    ]
+  }
+},
+
+
+
+{
+  "id": 167,
+  "name": "L-Shape Menu Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["L Shape Menu Holder", "Acrylic Menu Stand", "Table Display"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic L-shape menu holder for table and counter display.",
+  "description": [
+    "Made from premium clear acrylic.",
+    "Simple L-shape back support.",
+    "Ideal for menus and promotional inserts."
+  ],
+  "sizes": ["A4", "A5", "A6"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top / Counter",
+    "Usage": "Menu & Promotion Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/l-shape-menu-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/l-shape-menu-holder/1.webp",
+      "img/products/acrylic-products-fabrication/l-shape-menu-holder/2.webp",
+      "img/products/acrylic-products-fabrication/l-shape-menu-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 168,
+  "name": "Card Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Business Card Holder", "Acrylic Card Stand", "Desk Organizer"],
+  "discount": 0,
+  "shortDescription": "Compact acrylic card holder for business and visiting cards.",
+  "description": [
+    "Clear and durable acrylic design.",
+    "Neat storage for business cards.",
+    "Suitable for offices and reception desks."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Desk / Counter",
+    "Usage": "Business Card Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/card-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/card-holder/1.webp",
+      "img/products/acrylic-products-fabrication/card-holder/2.webp",
+      "img/products/acrylic-products-fabrication/card-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 169,
+  "name": "Brochure Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Acrylic Brochure Stand", "Flyer Holder", "Leaflet Display"],
+  "discount": 0,
+  "shortDescription": "Acrylic brochure holder for displaying flyers and leaflets.",
+  "description": [
+    "Clear multi-purpose design.",
+    "Suitable for A4 and DL brochures.",
+    "Ideal for offices, banks and showrooms."
+  ],
+  "sizes": ["A4", "DL"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top / Wall Mounted",
+    "Usage": "Brochure & Flyer Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/brochure-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/brochure-holder/1.webp",
+      "img/products/acrylic-products-fabrication/brochure-holder/2.webp",
+      "img/products/acrylic-products-fabrication/brochure-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 170,
+  "name": "Mobile Stand",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Mobile Stand", "Phone Holder", "Acrylic Phone Stand"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic mobile stand for desk display and support.",
+  "description": [
+    "Durable transparent acrylic.",
+    "Stable angled support.",
+    "Suitable for smartphones and small tablets."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Desk / Counter",
+    "Usage": "Mobile Display & Support"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/mobile-stand/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/mobile-stand/1.webp",
+      "img/products/acrylic-products-fabrication/mobile-stand/2.webp",
+      "img/products/acrylic-products-fabrication/mobile-stand/3.webp"
+    ]
+  }
+},
+{
+  "id": 171,
+  "name": "Raffle Box",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Raffle Box", "Acrylic Draw Box", "Collection Box"],
+  "discount": 0,
+  "shortDescription": "Transparent acrylic raffle box for promotional draws and events.",
+  "description": [
+    "Clear visibility from all sides.",
+    "Secure top slot opening.",
+    "Ideal for contests and lucky draws."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Lock Option": "Optional",
+    "Usage": "Raffle & Event Collection"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/raffle-box/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/raffle-box/1.webp",
+      "img/products/acrylic-products-fabrication/raffle-box/2.webp",
+      "img/products/acrylic-products-fabrication/raffle-box/3.webp"
+    ]
+  }
+},
+{
+  "id": 172,
+  "name": "Drop Box",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Drop Box", "Suggestion Box", "Collection Box"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic drop box for suggestions and collections.",
+  "description": [
+    "Transparent and secure design.",
+    "Slot opening for easy drop-in.",
+    "Ideal for offices and retail counters."
+  ],
+  "sizes": ["Standard", "Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Mount Type": "Wall Mounted / Table Top",
+    "Usage": "Suggestion & Collection"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/drop-box/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/drop-box/1.webp",
+      "img/products/acrylic-products-fabrication/drop-box/2.webp",
+      "img/products/acrylic-products-fabrication/drop-box/3.webp"
+    ]
+  }
+},
+
+
+{
+  "id": 173,
+  "name": "Lottery Box",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Lottery Box", "Draw Box", "Acrylic Collection Box"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic lottery box for lucky draws and promotional events.",
+  "description": [
+    "Transparent design for full visibility.",
+    "Secure lid with slot opening.",
+    "Suitable for retail and exhibition use."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Lock Option": "Optional",
+    "Usage": "Lottery & Promotional Events"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/lottery-box/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/lottery-box/1.webp",
+      "img/products/acrylic-products-fabrication/lottery-box/2.webp",
+      "img/products/acrylic-products-fabrication/lottery-box/3.webp"
+    ]
+  }
+},
+{
+  "id": 174,
+  "name": "Table Top Shelf",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Acrylic Shelf", "Counter Display Shelf", "Table Shelf"],
+  "discount": 0,
+  "shortDescription": "Acrylic table top shelf for organized product display.",
+  "description": [
+    "Strong and durable acrylic construction.",
+    "Compact counter display solution.",
+    "Ideal for retail and cosmetic displays."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top / Counter",
+    "Usage": "Product Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/table-top-shelf/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/table-top-shelf/1.webp",
+      "img/products/acrylic-products-fabrication/table-top-shelf/2.webp",
+      "img/products/acrylic-products-fabrication/table-top-shelf/3.webp"
+    ]
+  }
+},
+{
+  "id": 175,
+  "name": "Rotating Price/Menu Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Rotating Menu Holder", "Price Display Stand", "Acrylic Spinner"],
+  "discount": 0,
+  "shortDescription": "Rotating acrylic holder for price lists and menus.",
+  "description": [
+    "360-degree rotating base.",
+    "Clear multi-side viewing design.",
+    "Ideal for restaurant tables and counters."
+  ],
+  "sizes": ["A4", "Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Rotation": "360 Degree",
+    "Usage": "Menu & Price Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/rotating-price-menu-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/rotating-price-menu-holder/1.webp",
+      "img/products/acrylic-products-fabrication/rotating-price-menu-holder/2.webp",
+      "img/products/acrylic-products-fabrication/rotating-price-menu-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 176,
+  "name": "Brochure Holder With Pocket",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Brochure Holder", "Pocket Display", "Leaflet Stand"],
+  "discount": 0,
+  "shortDescription": "Acrylic brochure holder with pocket compartments.",
+  "description": [
+    "Multi-pocket design for organized display.",
+    "Clear professional appearance.",
+    "Suitable for offices and exhibitions."
+  ],
+  "sizes": ["A4", "DL"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Mount Type": "Wall Mounted / Table Top",
+    "Usage": "Brochure & Leaflet Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/brochure-holder-with-pocket/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/brochure-holder-with-pocket/1.webp",
+      "img/products/acrylic-products-fabrication/brochure-holder-with-pocket/2.webp",
+      "img/products/acrylic-products-fabrication/brochure-holder-with-pocket/3.webp"
+    ]
+  }
+},
+{
+  "id": 177,
+  "name": "Podium",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Acrylic Podium", "Presentation Stand", "Speaker Podium"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic podium for presentations and events.",
+  "description": [
+    "Modern transparent design.",
+    "Sturdy and stable construction.",
+    "Ideal for conferences and seminars."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Usage": "Presentation & Events",
+    "Customization": "Logo Branding Available"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/podium/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/podium/1.webp",
+      "img/products/acrylic-products-fabrication/podium/2.webp",
+      "img/products/acrylic-products-fabrication/podium/3.webp"
+    ]
+  }
+},
+{
+  "id": 178,
+  "name": "Price Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Price Tag Holder", "Acrylic Price Stand", "Retail Display"],
+  "discount": 0,
+  "shortDescription": "Compact acrylic price holder for retail display.",
+  "description": [
+    "Clear and minimal design.",
+    "Easy insert and change of price tags.",
+    "Perfect for retail shelves and counters."
+  ],
+  "sizes": ["Small", "Medium", "Large"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Shelf / Counter",
+    "Usage": "Price Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/price-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/price-holder/1.webp",
+      "img/products/acrylic-products-fabrication/price-holder/2.webp",
+      "img/products/acrylic-products-fabrication/price-holder/3.webp"
+    ]
+  }
+},
+
+
+{
+  "id": 179,
+  "name": "Revolving Menu Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Revolving Menu Stand", "Rotating Display", "Acrylic Menu Holder"],
+  "discount": 0,
+  "shortDescription": "Acrylic revolving menu holder with 360-degree rotation.",
+  "description": [
+    "Smooth rotating base.",
+    "Multi-side menu visibility.",
+    "Ideal for restaurant tables and counters."
+  ],
+  "sizes": ["A4", "Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Rotation": "360 Degree",
+    "Usage": "Menu Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/revolving-menu-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/revolving-menu-holder/1.webp",
+      "img/products/acrylic-products-fabrication/revolving-menu-holder/2.webp",
+      "img/products/acrylic-products-fabrication/revolving-menu-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 180,
+  "name": "Clear Acrylic Trays",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Acrylic Tray", "Display Tray", "Serving Tray"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic trays for display and serving purposes.",
+  "description": [
+    "Strong and durable acrylic build.",
+    "Smooth polished edges.",
+    "Suitable for retail and hospitality use."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Usage": "Display & Serving",
+    "Finish": "Polished"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/clear-acrylic-trays/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/clear-acrylic-trays/1.webp",
+      "img/products/acrylic-products-fabrication/clear-acrylic-trays/2.webp",
+      "img/products/acrylic-products-fabrication/clear-acrylic-trays/3.webp"
+    ]
+  }
+},
+{
+  "id": 181,
+  "name": "Revolving Table Brochure Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Rotating Brochure Stand", "Acrylic Brochure Display", "Revolving Stand"],
+  "discount": 0,
+  "shortDescription": "Revolving table top brochure holder for multi-side display.",
+  "description": [
+    "360-degree rotating design.",
+    "Multiple brochure pockets.",
+    "Ideal for exhibitions and reception areas."
+  ],
+  "sizes": ["A4", "DL"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Rotation": "360 Degree",
+    "Usage": "Brochure & Flyer Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/revolving-brochure-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/revolving-brochure-holder/1.webp",
+      "img/products/acrylic-products-fabrication/revolving-brochure-holder/2.webp",
+      "img/products/acrylic-products-fabrication/revolving-brochure-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 182,
+  "name": "Magnetic Photo Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Photo Frame", "Magnetic Frame", "Acrylic Photo Display"],
+  "discount": 0,
+  "shortDescription": "Magnetic acrylic photo holder for stylish photo display.",
+  "description": [
+    "Strong magnetic panel system.",
+    "Clear double-layer acrylic.",
+    "Ideal for photos and certificates."
+  ],
+  "sizes": ["A4", "A5", "Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Mount Type": "Table Top / Wall Mounted",
+    "Usage": "Photo & Certificate Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/magnetic-photo-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/magnetic-photo-holder/1.webp",
+      "img/products/acrylic-products-fabrication/magnetic-photo-holder/2.webp",
+      "img/products/acrylic-products-fabrication/magnetic-photo-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 183,
+  "name": "Acrylic T-Shape Menu Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["T Shape Acrylic Holder", "Menu Stand", "Table Display"],
+  "discount": 0,
+  "shortDescription": "Premium acrylic T-shape menu holder for professional table display.",
+  "description": [
+    "Crystal clear acrylic material.",
+    "Stable and balanced base.",
+    "Suitable for menus and promotional cards."
+  ],
+  "sizes": ["A4", "A5"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top",
+    "Usage": "Menu & Promotion Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/acrylic-t-shape-menu-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/acrylic-t-shape-menu-holder/1.webp",
+      "img/products/acrylic-products-fabrication/acrylic-t-shape-menu-holder/2.webp",
+      "img/products/acrylic-products-fabrication/acrylic-t-shape-menu-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 184,
+  "name": "Magazine Rack",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Acrylic Magazine Holder", "Literature Rack", "Display Stand"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic magazine rack for organized literature display.",
+  "description": [
+    "Multi-tier magazine display.",
+    "Strong and durable construction.",
+    "Perfect for offices and waiting areas."
+  ],
+  "sizes": ["A4", "Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Floor / Table Top",
+    "Usage": "Magazine & Catalog Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/magazine-rack/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/magazine-rack/1.webp",
+      "img/products/acrylic-products-fabrication/magazine-rack/2.webp",
+      "img/products/acrylic-products-fabrication/magazine-rack/3.webp"
+    ]
+  }
+},
+{
+  "id": 185,
+  "name": "Tissue Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Acrylic Tissue Box", "Table Tissue Holder", "Napkin Holder"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic tissue holder for table and counter use.",
+  "description": [
+    "Elegant transparent design.",
+    "Easy refill opening.",
+    "Ideal for restaurants and offices."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top",
+    "Usage": "Tissue & Napkin Storage"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/tissue-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/tissue-holder/1.webp",
+      "img/products/acrylic-products-fabrication/tissue-holder/2.webp",
+      "img/products/acrylic-products-fabrication/tissue-holder/3.webp"
+    ]
+  }
+},
+
+
+{
+  "id": 186,
+  "name": "Table Top Shelf",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Acrylic Counter Shelf", "Display Shelf", "Table Display Rack"],
+  "discount": 0,
+  "shortDescription": "Compact acrylic table top shelf for organized product display.",
+  "description": [
+    "Durable clear acrylic construction.",
+    "Multi-level display option.",
+    "Ideal for cosmetics, accessories and retail items."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top / Counter",
+    "Usage": "Retail Product Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/table-top-shelf2/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/table-top-shelf2/1.webp",
+      "img/products/acrylic-products-fabrication/table-top-shelf2/2.webp",
+      "img/products/acrylic-products-fabrication/table-top-shelf2/3.webp"
+    ]
+  }
+},
+{
+  "id": 187,
+  "name": "Acrylic Photo Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Photo Frame", "Acrylic Frame", "Picture Holder"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic photo holder for modern photo presentation.",
+  "description": [
+    "Crystal clear double-layer acrylic.",
+    "Simple insert design.",
+    "Perfect for photos, certificates and signage."
+  ],
+  "sizes": ["A4", "A5", "Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Table Top / Wall Mounted",
+    "Usage": "Photo & Certificate Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/photo-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/photo-holder/1.webp",
+      "img/products/acrylic-products-fabrication/photo-holder/2.webp",
+      "img/products/acrylic-products-fabrication/photo-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 188,
+  "name": "Mobile Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Phone Holder", "Acrylic Mobile Stand", "Desk Stand"],
+  "discount": 0,
+  "shortDescription": "Acrylic mobile holder for desk and counter display.",
+  "description": [
+    "Stable angled support design.",
+    "Clear lightweight construction.",
+    "Suitable for smartphones and small devices."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Desk / Counter",
+    "Usage": "Mobile Display & Support"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/mobile-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/mobile-holder/1.webp",
+      "img/products/acrylic-products-fabrication/mobile-holder/2.webp",
+      "img/products/acrylic-products-fabrication/mobile-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 189,
+  "name": "V-Shape Name Holder",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["V Shape Name Plate", "Desk Name Holder", "Acrylic Name Stand"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic V-shape name holder for desk display.",
+  "description": [
+    "Double-sided viewing design.",
+    "Simple and professional look.",
+    "Ideal for offices and events."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Desk / Table",
+    "Usage": "Name & Title Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/v-shape-name-holder/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/v-shape-name-holder/1.webp",
+      "img/products/acrylic-products-fabrication/v-shape-name-holder/2.webp",
+      "img/products/acrylic-products-fabrication/v-shape-name-holder/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 190,
+  "name": "Clear Acrylic Shop Window Risers",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Display Riser", "Shop Window Display", "Acrylic Stand"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic risers for shop window and product display.",
+  "description": [
+    "Elevated display platform.",
+    "Strong transparent acrylic build.",
+    "Perfect for retail and showroom presentation."
+  ],
+  "sizes": ["Various Heights"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Window Display / Counter",
+    "Usage": "Product Elevation & Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/shop-window-risers/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/shop-window-risers/1.webp",
+      "img/products/acrylic-products-fabrication/shop-window-risers/2.webp",
+      "img/products/acrylic-products-fabrication/shop-window-risers/3.webp"
+    ]
+  }
+},
+{
+  "id": 191,
+  "name": "Acrylic Book End",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Book End", "Acrylic Book Support", "Shelf Organizer"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic book end for organized shelf arrangement.",
+  "description": [
+    "Strong L-shape support.",
+    "Minimal transparent design.",
+    "Ideal for libraries and offices."
+  ],
+  "sizes": ["Standard"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Shelf",
+    "Usage": "Book Organization"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/book-end/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/book-end/1.webp",
+      "img/products/acrylic-products-fabrication/book-end/2.webp",
+      "img/products/acrylic-products-fabrication/book-end/3.webp"
+    ]
+  }
+},
+{
+  "id": 192,
+  "name": "Book Display Support",
+  "category": "acrylic-products-fabrication",
+  "categories": ["Acrylic Products Fabrication"],
+  "tags": ["Book Stand", "Acrylic Display Stand", "Literature Holder"],
+  "discount": 0,
+  "shortDescription": "Acrylic book display support for retail and library use.",
+  "description": [
+    "Angled support for better visibility.",
+    "Durable and clear acrylic.",
+    "Perfect for bookstores and exhibitions."
+  ],
+  "sizes": ["A4", "Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Placement": "Shelf / Table Top",
+    "Usage": "Book & Magazine Display"
+  },
+  "img": {
+    "singleImage": "img/products/acrylic-products-fabrication/book-display-support/1.webp",
+    "thumbs": [
+      "img/products/acrylic-products-fabrication/book-display-support/1.webp",
+      "img/products/acrylic-products-fabrication/book-display-support/2.webp",
+      "img/products/acrylic-products-fabrication/book-display-support/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 193,
+  "name": "Wall Picture Shelf Model A (Adjustable)",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Wall Display Stand", "Adjustable Picture Stand", "Exhibition Shelf"],
+  "discount": 0,
+  "shortDescription": "Adjustable aluminum wall picture shelf stand for exhibitions.",
+  "description": [
+    "Made of high quality aluminum material.",
+    "Graphic size 60cmW x 160cmH.",
+    "Height adjustable with cross base support.",
+    "Portable and easy to operate."
+  ],
+  "sizes": ["60cmW x 160cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Base Type": "Cross Base",
+    "Usage": "Exhibition & Indoor Display",
+    "Adjustable": "Yes"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/wall-picture-shelf-model-a/1.webp",
+    "thumbs": [
+      "img/products/display-stands/wall-picture-shelf-model-a/1.webp",
+      "img/products/display-stands/wall-picture-shelf-model-a/2.webp",
+      "img/products/display-stands/wall-picture-shelf-model-a/3.webp"
+    ]
+  }
+},
+{
+  "id": 194,
+  "name": "Wall Picture Shelf Model B (Adjustable)",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Wall Display Stand", "Adjustable Stand", "Exhibition Graphic Stand"],
+  "discount": 0,
+  "shortDescription": "Portable adjustable aluminum wall picture shelf for exhibitions.",
+  "description": [
+    "Constructed with high quality aluminum.",
+    "Graphic size 60cmW x 160cmH.",
+    "Adjustable height for flexible display.",
+    "Easy to operate and portable."
+  ],
+  "sizes": ["60cmW x 160cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Usage": "Exhibition & Promotional Display",
+    "Adjustable": "Yes"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/wall-picture-shelf-model-b/1.webp",
+    "thumbs": [
+      "img/products/display-stands/wall-picture-shelf-model-b/1.webp",
+      "img/products/display-stands/wall-picture-shelf-model-b/2.webp",
+      "img/products/display-stands/wall-picture-shelf-model-b/3.webp"
+    ]
+  }
+},
+{
+  "id": 195,
+  "name": "Wall Picture Shelf Model C (Adjustable)",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Adjustable Banner Stand", "Aluminum Display Shelf", "Exhibition Stand"],
+  "discount": 0,
+  "shortDescription": "Adjustable aluminum pole wall picture shelf for exhibitions.",
+  "description": [
+    "High quality aluminum pole construction.",
+    "Regular size 45cmW x 120–200cmH.",
+    "Easy to change graphics.",
+    "Height adjustable and portable."
+  ],
+  "sizes": ["45cmW x 120–200cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum Pole",
+    "Usage": "Exhibition & Indoor Advertising",
+    "Adjustable": "Yes"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/wall-picture-shelf-model-c/1.webp",
+    "thumbs": [
+      "img/products/display-stands/wall-picture-shelf-model-c/1.webp",
+      "img/products/display-stands/wall-picture-shelf-model-c/2.webp",
+      "img/products/display-stands/wall-picture-shelf-model-c/3.webp"
+    ]
+  }
+},
+{
+  "id": 196,
+  "name": "Wall Picture Shelf Model E",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["A2 Display Stand", "Aluminum Picture Stand", "Exhibition Frame"],
+  "discount": 0,
+  "shortDescription": "A2 size aluminum wall picture shelf for exhibitions.",
+  "description": [
+    "High quality aluminum pole structure.",
+    "Regular size A2.",
+    "Easy to change graphics.",
+    "Portable and simple setup."
+  ],
+  "sizes": ["A2"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Usage": "Exhibition & Indoor Display",
+    "Graphic Change": "Easy Replacement"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/wall-picture-shelf-model-e/1.webp",
+    "thumbs": [
+      "img/products/display-stands/wall-picture-shelf-model-e/1.webp",
+      "img/products/display-stands/wall-picture-shelf-model-e/2.webp",
+      "img/products/display-stands/wall-picture-shelf-model-e/3.webp"
+    ]
+  }
+},
+{
+  "id": 197,
+  "name": "Mini Roll Up",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Table Roll Up Banner", "Mini Banner Stand", "Desktop Display"],
+  "discount": 0,
+  "shortDescription": "Mini roll up banner stand for table top advertising.",
+  "description": [
+    "Delicate and attractive design.",
+    "Easy to operate and portable.",
+    "Regular sizes A3 / A4.",
+    "Packed in inner box."
+  ],
+  "sizes": ["A3", "A4"],
+  "additionalInformation": {
+    "Material": "Aluminum Base",
+    "Usage": "Table Top Advertising",
+    "Portability": "Lightweight & Compact"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/mini-roll-up/1.webp",
+    "thumbs": [
+      "img/products/display-stands/mini-roll-up/1.webp",
+      "img/products/display-stands/mini-roll-up/2.webp",
+      "img/products/display-stands/mini-roll-up/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 198,
+  "name": "Mini X Banner",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Mini X Stand", "Table Banner Stand", "Desktop Advertising Stand"],
+  "discount": 0,
+  "shortDescription": "Compact mini X banner stand for table top promotions.",
+  "description": [
+    "High quality fibreglass pole construction.",
+    "Simple and attractive design.",
+    "Table mini size 22cmW x 40cmH.",
+    "Available in Silver or Blue color."
+  ],
+  "sizes": ["22cmW x 40cmH"],
+  "additionalInformation": {
+    "Material": "Fibreglass Pole",
+    "Usage": "Table Top Advertising",
+    "Color Options": "Silver / Blue",
+    "Portability": "Lightweight & Portable"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/mini-x-banner/1.webp",
+    "thumbs": [
+      "img/products/display-stands/mini-x-banner/1.webp",
+      "img/products/display-stands/mini-x-banner/2.webp",
+      "img/products/display-stands/mini-x-banner/3.webp"
+    ]
+  }
+},
+{
+  "id": 199,
+  "name": "Mini Flying Banner",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Mini Flag Banner", "Desktop Banner", "Table Sign Display"],
+  "discount": 0,
+  "shortDescription": "Mini flying banner stand for small table displays.",
+  "description": [
+    "Delicate and attractive design.",
+    "Graphic size 14.8cm x 25cm.",
+    "Easy to operate and portable.",
+    "Ideal for table top promotions."
+  ],
+  "sizes": ["14.8cm x 25cm"],
+  "additionalInformation": {
+    "Material": "Aluminum / Fibreglass",
+    "Usage": "Table Advertising",
+    "Portability": "Compact & Lightweight"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/mini-flying-banner/1.webp",
+    "thumbs": [
+      "img/products/display-stands/mini-flying-banner/1.webp",
+      "img/products/display-stands/mini-flying-banner/2.webp",
+      "img/products/display-stands/mini-flying-banner/3.webp"
+    ]
+  }
+},
+{
+  "id": 200,
+  "name": "Banner Hanging Profile",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Banner Rail", "Aluminum Hanging Profile", "Wall Graphic Holder"],
+  "discount": 0,
+  "shortDescription": "Aluminum banner hanging profile for wall-mounted graphics.",
+  "description": [
+    "High quality aluminum material.",
+    "Used to hang pictures on walls.",
+    "Easy graphic replacement.",
+    "Custom sizes available."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Mounting Type": "Wall Mounted",
+    "Usage": "Poster & Banner Display"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/banner-hanging-profile/1.webp",
+    "thumbs": [
+      "img/products/display-stands/banner-hanging-profile/1.webp",
+      "img/products/display-stands/banner-hanging-profile/2.webp",
+      "img/products/display-stands/banner-hanging-profile/3.webp"
+    ]
+  }
+},
+{
+  "id": 201,
+  "name": "Single Screen",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Single Side Banner Stand", "Exhibition Screen", "Display Frame"],
+  "discount": 0,
+  "shortDescription": "Single side exhibition screen stand for promotional graphics.",
+  "description": [
+    "High quality steel material.",
+    "Graphic size 80cmW x 180cmH.",
+    "Single side graphic display.",
+    "Portable and easy setup."
+  ],
+  "sizes": ["80cmW x 180cmH"],
+  "additionalInformation": {
+    "Material": "Steel",
+    "Display Type": "Single Side",
+    "Usage": "Exhibition & Indoor Advertising"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/single-screen/1.webp",
+    "thumbs": [
+      "img/products/display-stands/single-screen/1.webp",
+      "img/products/display-stands/single-screen/2.webp",
+      "img/products/display-stands/single-screen/3.webp"
+    ]
+  }
+},
+{
+  "id": 202,
+  "name": "Triple Screen",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Triple Side Banner Stand", "Exhibition Display Frame", "Advertising Screen"],
+  "discount": 0,
+  "shortDescription": "Triple side exhibition screen for large promotional displays.",
+  "description": [
+    "High quality aluminum steel material.",
+    "Graphic size 90cmW x 215cmH.",
+    "Triple side graphic display.",
+    "Ideal for exhibitions and trade shows."
+  ],
+  "sizes": ["90cmW x 215cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum & Steel",
+    "Display Type": "Triple Side",
+    "Usage": "Exhibition & Trade Show"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/triple-screen/1.webp",
+    "thumbs": [
+      "img/products/display-stands/triple-screen/1.webp",
+      "img/products/display-stands/triple-screen/2.webp",
+      "img/products/display-stands/triple-screen/3.webp"
+    ]
+  }
+},
+{
+  "id": 203,
+  "name": "Twin Screens",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Double Side Banner Stand", "Twin Screen Display", "Exhibition Frame"],
+  "discount": 0,
+  "shortDescription": "Double side twin screen display stand for exhibitions.",
+  "description": [
+    "High quality aluminum material.",
+    "Graphic size 80cmW x 180cmH.",
+    "Double side graphic display.",
+    "Portable and easy assembly."
+  ],
+  "sizes": ["80cmW x 180cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Display Type": "Double Side",
+    "Usage": "Exhibition & Indoor Advertising"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/twin-screens/1.webp",
+    "thumbs": [
+      "img/products/display-stands/twin-screens/1.webp",
+      "img/products/display-stands/twin-screens/2.webp",
+      "img/products/display-stands/twin-screens/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 204,
+  "name": "Outdoor Screens",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Outdoor Banner Stand", "Weighted Base Display", "Double Side Screen"],
+  "discount": 0,
+  "shortDescription": "Outdoor double-sided screen stand with weighted base for stability.",
+  "description": [
+    "High quality aluminum pole construction.",
+    "Large format display screen.",
+    "Weighted base can be filled with water or sand.",
+    "Double sided display for maximum visibility."
+  ],
+  "sizes": ["Large Format"],
+  "additionalInformation": {
+    "Material": "Aluminum Pole",
+    "Display Type": "Double Side",
+    "Base Type": "Water / Sand Fillable",
+    "Usage": "Outdoor Exhibition & Events"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/outdoor-screens/1.webp",
+    "thumbs": [
+      "img/products/display-stands/outdoor-screens/1.webp",
+      "img/products/display-stands/outdoor-screens/2.webp",
+      "img/products/display-stands/outdoor-screens/3.webp"
+    ]
+  }
+},
+{
+  "id": 205,
+  "name": "Metal A-Board",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["A Board Sign", "Metal Pavement Sign", "Indoor Outdoor Display"],
+  "discount": 0,
+  "shortDescription": "Metal A-board sign stand for indoor and outdoor promotions.",
+  "description": [
+    "High quality steel material.",
+    "Large format graphic area.",
+    "Suitable for indoor and outdoor exposition.",
+    "Graphic size 60cmW x 90cmH."
+  ],
+  "sizes": ["60cmW x 90cmH"],
+  "additionalInformation": {
+    "Material": "Steel",
+    "Usage": "Indoor & Outdoor Advertising",
+    "Display Type": "Double Side Folding Frame"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/metal-a-board/1.webp",
+    "thumbs": [
+      "img/products/display-stands/metal-a-board/1.webp",
+      "img/products/display-stands/metal-a-board/2.webp",
+      "img/products/display-stands/metal-a-board/3.webp"
+    ]
+  }
+},
+{
+  "id": 206,
+  "name": "Steel A-Board",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Steel Pavement Sign", "Outdoor A Frame", "Advertising Board"],
+  "discount": 0,
+  "shortDescription": "Stainless steel A-board stand for indoor and outdoor advertising.",
+  "description": [
+    "High quality stainless steel construction.",
+    "Durable for various weather conditions.",
+    "Standard size 60cmW x 80cmL x 120cmH.",
+    "Suitable for all kinds of indoor and outdoor advertising."
+  ],
+  "sizes": ["60cmW x 80cmL x 120cmH"],
+  "additionalInformation": {
+    "Material": "Stainless Steel",
+    "Usage": "Indoor & Outdoor Advertising",
+    "Structure": "Foldable A-Frame"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/steel-a-board/1.webp",
+    "thumbs": [
+      "img/products/display-stands/steel-a-board/1.webp",
+      "img/products/display-stands/steel-a-board/2.webp",
+      "img/products/display-stands/steel-a-board/3.webp"
+    ]
+  }
+},
+{
+  "id": 207,
+  "name": "Magnet A-Board",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Magnetic A Board", "Snap Frame Board", "Pavement Sign"],
+  "discount": 0,
+  "shortDescription": "Magnetic A-board stand for easy graphic replacement.",
+  "description": [
+    "High quality steel material.",
+    "Graphics attached using magnetic strips.",
+    "Suitable for indoor and outdoor exposition.",
+    "Graphic size 60cmW x 85cmH."
+  ],
+  "sizes": ["60cmW x 85cmH"],
+  "additionalInformation": {
+    "Material": "Steel",
+    "Graphic Fixing": "Magnetic Strip",
+    "Usage": "Indoor & Outdoor Advertising"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/magnet-a-board/1.webp",
+    "thumbs": [
+      "img/products/display-stands/magnet-a-board/1.webp",
+      "img/products/display-stands/magnet-a-board/2.webp",
+      "img/products/display-stands/magnet-a-board/3.webp"
+    ]
+  }
+},
+{
+  "id": 208,
+  "name": "Acrylic Brochure Stand",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Acrylic Literature Stand", "Catalog Display Rack", "Leaflet Holder"],
+  "discount": 0,
+  "shortDescription": "Clear acrylic brochure stand for professional literature display.",
+  "description": [
+    "Durable transparent acrylic construction.",
+    "Multiple pocket configuration available.",
+    "Modern and elegant design.",
+    "Ideal for offices and exhibitions."
+  ],
+  "sizes": ["A4", "Custom"],
+  "additionalInformation": {
+    "Material": "Clear Acrylic",
+    "Usage": "Brochure & Catalog Display",
+    "Placement": "Floor Standing"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/acrylic-brochure-stand/1.webp",
+    "thumbs": [
+      "img/products/display-stands/acrylic-brochure-stand/1.webp",
+      "img/products/display-stands/acrylic-brochure-stand/2.webp",
+      "img/products/display-stands/acrylic-brochure-stand/3.webp"
+    ]
+  }
+},
+{
+  "id": 209,
+  "name": "Steel Brochure Stand",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Metal Literature Stand", "Steel Catalog Rack", "Floor Brochure Holder"],
+  "discount": 0,
+  "shortDescription": "Steel brochure stand for heavy-duty literature display.",
+  "description": [
+    "Strong steel construction.",
+    "Multiple tier brochure holding system.",
+    "Stable base design.",
+    "Ideal for exhibitions and showrooms."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Steel",
+    "Usage": "Brochure & Magazine Display",
+    "Placement": "Floor Standing"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/steel-brochure-stand/1.webp",
+    "thumbs": [
+      "img/products/display-stands/steel-brochure-stand/1.webp",
+      "img/products/display-stands/steel-brochure-stand/2.webp",
+      "img/products/display-stands/steel-brochure-stand/3.webp"
+    ]
+  }
+},
+{
+  "id": 210,
+  "name": "Brochure Stand-A4",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["A4 Brochure Rack", "Catalog Stand", "Leaflet Display"],
+  "discount": 0,
+  "shortDescription": "A4 brochure stand for organized promotional material display.",
+  "description": [
+    "Designed specifically for A4 brochures.",
+    "Stable floor standing structure.",
+    "Suitable for exhibitions and retail stores."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Steel / Aluminum",
+    "Usage": "Brochure & Flyer Display",
+    "Placement": "Floor Standing"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/brochure-stand-a4/1.webp",
+    "thumbs": [
+      "img/products/display-stands/brochure-stand-a4/1.webp",
+      "img/products/display-stands/brochure-stand-a4/2.webp",
+      "img/products/display-stands/brochure-stand-a4/3.webp"
+    ]
+  }
+},
+
+
+{
+  "id": 211,
+  "name": "Luxury Catalogue Shelf",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Premium Catalog Rack", "Luxury Brochure Stand", "Showroom Display Shelf"],
+  "discount": 0,
+  "shortDescription": "Premium luxury catalogue shelf for high-end brochure and catalog display.",
+  "description": [
+    "Elegant and modern design.",
+    "Multi-tier catalogue display system.",
+    "Stable and durable structure.",
+    "Ideal for showrooms, offices and exhibitions."
+  ],
+  "sizes": ["A4", "Custom"],
+  "additionalInformation": {
+    "Material": "Steel / Aluminum",
+    "Usage": "Catalog & Magazine Display",
+    "Placement": "Floor Standing",
+    "Design": "Premium Finish"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/luxury-catalogue-shelf/1.webp",
+    "thumbs": [
+      "img/products/display-stands/luxury-catalogue-shelf/1.webp",
+      "img/products/display-stands/luxury-catalogue-shelf/2.webp",
+      "img/products/display-stands/luxury-catalogue-shelf/3.webp"
+    ]
+  }
+},
+{
+  "id": 212,
+  "name": "Bamboo Brochure Stand",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Wooden Brochure Stand", "Eco Display Rack", "Bamboo Catalog Holder"],
+  "discount": 0,
+  "shortDescription": "Eco-friendly bamboo brochure stand for stylish literature display.",
+  "description": [
+    "Made from high quality bamboo material.",
+    "Natural and elegant finish.",
+    "Multi-level brochure holding slots.",
+    "Suitable for offices and exhibitions."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Bamboo Wood",
+    "Usage": "Brochure & Flyer Display",
+    "Placement": "Floor Standing",
+    "Eco Friendly": "Yes"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/bamboo-brochure-stand/1.webp",
+    "thumbs": [
+      "img/products/display-stands/bamboo-brochure-stand/1.webp",
+      "img/products/display-stands/bamboo-brochure-stand/2.webp",
+      "img/products/display-stands/bamboo-brochure-stand/3.webp"
+    ]
+  }
+},
+{
+  "id": 213,
+  "name": "Netty Single & Double Line Brochure Holder",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Wire Brochure Holder", "Single Line Display", "Double Line Literature Stand"],
+  "discount": 0,
+  "shortDescription": "Wire design brochure holder available in single and double line configurations.",
+  "description": [
+    "Durable metal wire construction.",
+    "Available in single and double line models.",
+    "Lightweight and portable structure.",
+    "Ideal for retail stores and exhibitions."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Steel Wire",
+    "Usage": "Brochure & Magazine Display",
+    "Placement": "Floor Standing",
+    "Configuration": "Single / Double Line"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/netty-brochure-holder/1.webp",
+    "thumbs": [
+      "img/products/display-stands/netty-brochure-holder/1.webp",
+      "img/products/display-stands/netty-brochure-holder/2.webp",
+      "img/products/display-stands/netty-brochure-holder/3.webp"
+    ]
+  }
+},
+{
+  "id": 214,
+  "name": "Steel Base Brochure Stand-A4",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Steel Base Catalog Stand", "A4 Literature Rack", "Heavy Duty Brochure Stand"],
+  "discount": 0,
+  "shortDescription": "A4 brochure stand with strong steel base for stable display.",
+  "description": [
+    "Strong steel base for added stability.",
+    "Designed for A4 size brochures.",
+    "Modern and professional design.",
+    "Suitable for exhibitions and offices."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Steel",
+    "Usage": "Brochure & Catalog Display",
+    "Placement": "Floor Standing",
+    "Base Type": "Steel Base"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/steel-base-brochure-stand-a4/1.webp",
+    "thumbs": [
+      "img/products/display-stands/steel-base-brochure-stand-a4/1.webp",
+      "img/products/display-stands/steel-base-brochure-stand-a4/2.webp",
+      "img/products/display-stands/steel-base-brochure-stand-a4/3.webp"
+    ]
+  }
+},
+{
+  "id": 215,
+  "name": "Simple Brochure Stand",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Basic Literature Stand", "Simple Catalog Rack", "Flyer Holder"],
+  "discount": 0,
+  "shortDescription": "Simple and lightweight brochure stand for everyday display needs.",
+  "description": [
+    "Minimal and practical design.",
+    "Lightweight and easy to move.",
+    "Suitable for brochures and flyers.",
+    "Ideal for exhibitions and retail counters."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Steel / Aluminum",
+    "Usage": "Brochure & Flyer Display",
+    "Placement": "Floor Standing"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/simple-brochure-stand/1.webp",
+    "thumbs": [
+      "img/products/display-stands/simple-brochure-stand/1.webp",
+      "img/products/display-stands/simple-brochure-stand/2.webp",
+      "img/products/display-stands/simple-brochure-stand/3.webp"
+    ]
+  }
+},
+{
+  "id": 216,
+  "name": "Black Base Brochure Stand-A4",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Black Base Catalog Stand", "A4 Display Rack", "Modern Brochure Holder"],
+  "discount": 0,
+  "shortDescription": "Modern A4 brochure stand with stylish black base.",
+  "description": [
+    "Stable black powder-coated base.",
+    "Designed for A4 brochures.",
+    "Professional and modern appearance.",
+    "Ideal for showrooms and exhibitions."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Steel",
+    "Usage": "Brochure & Catalog Display",
+    "Placement": "Floor Standing",
+    "Base Finish": "Black Powder Coated"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/black-base-brochure-stand-a4/1.webp",
+    "thumbs": [
+      "img/products/display-stands/black-base-brochure-stand-a4/1.webp",
+      "img/products/display-stands/black-base-brochure-stand-a4/2.webp",
+      "img/products/display-stands/black-base-brochure-stand-a4/3.webp"
+    ]
+  }
+},
+{
+  "id": 217,
+  "name": "Portable Brochure Holder",
+  "category": "display-stands",
+  "categories": ["Display Stands"],
+  "tags": ["Portable Literature Stand", "Foldable Catalog Rack", "Travel Display Stand"],
+  "discount": 0,
+  "shortDescription": "Portable and foldable brochure holder for exhibitions and events.",
+  "description": [
+    "Lightweight and foldable design.",
+    "Easy to transport and assemble.",
+    "Multiple brochure compartments.",
+    "Ideal for trade shows and events."
+  ],
+  "sizes": ["A4"],
+  "additionalInformation": {
+    "Material": "Aluminum / Steel",
+    "Usage": "Brochure & Catalog Display",
+    "Placement": "Floor Standing",
+    "Portability": "Foldable & Travel Friendly"
+  },
+  "img": {
+    "singleImage": "img/products/display-stands/portable-brochure-holder/1.webp",
+    "thumbs": [
+      "img/products/display-stands/portable-brochure-holder/1.webp",
+      "img/products/display-stands/portable-brochure-holder/2.webp",
+      "img/products/display-stands/portable-brochure-holder/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 218,
+  "sku": "LBS-218-A",
+  "name": "L Banner Model A",
+  "category": ["display-stands", "l-banner-stands"],
+  "categories": ["Display Stand", "L Banner Stands"],
+  "discount": 0,
+  "shortDescription": "High quality aluminum L banner stand Model A for exhibitions.",
+  "description": [
+    "High quality aluminum pole construction.",
+    "Easy operating and portable design.",
+    "Regular size 60cmW x 160cmH.",
+    "Packed in single oxford bag."
+  ],
+  "sizes": ["60cmW x 160cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum Pole",
+    "Usage": "Exhibition & Indoor Advertising",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/l-banner-stands/l-banner-model-a/1.webp",
+    "thumbs": [
+      "img/products/l-banner-stands/l-banner-model-a/1.webp",
+      "img/products/l-banner-stands/l-banner-model-a/2.webp",
+      "img/products/l-banner-stands/l-banner-model-a/3.webp"
+    ]
+  }
+},
+{
+  "id": 219,
+  "sku": "LBS-219-B",
+  "name": "L Banner Model B",
+  "category": ["display-stands", "l-banner-stands"],
+  "categories": ["Display Stand", "L Banner Stands"],
+  "discount": 0,
+  "shortDescription": "Aluminum L banner stand Model B with multiple size options.",
+  "description": [
+    "High quality aluminum pole construction.",
+    "Available in 60cmW x 160cmH and 80cmW x 200cmH.",
+    "Easy operating and portable.",
+    "Packed in single oxford bag."
+  ],
+  "sizes": ["60cmW x 160cmH", "80cmW x 200cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum Pole",
+    "Usage": "Exhibition & Indoor Advertising",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/l-banner-stands/l-banner-model-b/1.webp",
+    "thumbs": [
+      "img/products/l-banner-stands/l-banner-model-b/1.webp",
+      "img/products/l-banner-stands/l-banner-model-b/2.webp",
+      "img/products/l-banner-stands/l-banner-model-b/3.webp"
+    ]
+  }
+},
+{
+  "id": 220,
+  "sku": "LBS-220-C",
+  "name": "L Banner Model C",
+  "category": ["display-stands", "l-banner-stands"],
+  "categories": ["Display Stand", "L Banner Stands"],
+  "discount": 0,
+  "shortDescription": "Portable aluminum L banner stand Model C for exhibitions.",
+  "description": [
+    "High quality aluminum pole structure.",
+    "Regular size 80cmW x 200cmH.",
+    "Easy operating and portable.",
+    "Packed in single oxford bag."
+  ],
+  "sizes": ["80cmW x 200cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum Pole",
+    "Usage": "Exhibition & Indoor Advertising",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/l-banner-stands/l-banner-model-c/1.webp",
+    "thumbs": [
+      "img/products/l-banner-stands/l-banner-model-c/1.webp",
+      "img/products/l-banner-stands/l-banner-model-c/2.webp",
+      "img/products/l-banner-stands/l-banner-model-c/3.webp"
+    ]
+  }
+},
+{
+  "id": 221,
+  "sku": "XBS-221-D1",
+  "name": "X Banner Model D1",
+  "category": ["display-stands", "l-banner-stands"],
+  "categories": ["Display Stand", "L Banner Stands"],
+  "discount": 0,
+  "shortDescription": "High quality aluminum X banner stand Model D1 for exhibitions.",
+  "description": [
+    "High quality aluminum pole construction.",
+    "Regular size 80cmW x 200cmH.",
+    "Easy operating and portable.",
+    "Packed in single oxford bag."
+  ],
+  "sizes": ["80cmW x 200cmH"],
+  "additionalInformation": {
+    "Material": "Aluminum Pole",
+    "Usage": "Exhibition & Indoor Advertising",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/display-stand/x-banner-model-d1/1.webp",
+    "thumbs": [
+      "img/products/display-stand/x-banner-model-d1/1.webp",
+      "img/products/display-stand/x-banner-model-d1/2.webp",
+      "img/products/display-stand/x-banner-model-d1/3.webp"
+    ]
+  }
+},
+{
+  "id": 222,
+  "sku": "LBS-222-D2",
+  "name": "L Banner Model D2",
+  "category": ["display-stands", "l-banner-stands"],
+  "categories": ["Display Stand", "L Banner Stands"],
+  "discount": 0,
+  "shortDescription": "Double sided aluminum L banner stand Model D2 for exhibitions.",
+  "description": [
+    "High quality aluminum pole construction.",
+    "Double sided display design.",
+    "Suitable for exhibition use.",
+    "Packed in single oxford bag."
+  ],
+  "sizes": ["Custom"],
+  "additionalInformation": {
+    "Material": "Aluminum Pole",
+    "Usage": "Exhibition & Indoor Advertising",
+    "Display Type": "Double Side",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/l-banner-stands/l-banner-model-d2/1.webp",
+    "thumbs": [
+      "img/products/l-banner-stands/l-banner-model-d2/1.webp",
+      "img/products/l-banner-stands/l-banner-model-d2/2.webp",
+      "img/products/l-banner-stands/l-banner-model-d2/3.webp"
+    ]
+  }
 }
 
 
-  
-  
+
+
+
+
+
 ]

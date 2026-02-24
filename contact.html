@@ -15,13 +15,22 @@
    <!-- ! header start -->
   <header>
     <div class="global-notification">
-      <div class="container">
-        <p>
-          RAMZAN SALE FOR ALL LED/LCD DISPLAYS AND FREE EXPRESS INTERNATIONAL
-          DELIVERY - OFF 50%! <a href="shop.html">SHOP NOW</a>
-        </p>
+      <div class="notification-slider">
+
+      <a href="shop.html" class="slide active">
+        <img src="img/slider/1.png" alt="Banner 1">
+      </a>
+
+      <a href="shop.html" class="slide">
+      <img src="img/slider/2.png" alt="Banner 2">
+      </a>
+
+      <a href="shop.html" class="slide">
+        <img src="img/slider/1.png" alt="Banner 3">
+    </a>
+
       </div>
-    </div>
+   </div>
     <div class="header-row">
       <div class="container">
         <div class="header-wrapper">
@@ -281,10 +290,12 @@
     <sectione class="contact">
         <div class="contact-top">
             <div class="contact-map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d195884.7199739243!2d32.76276475!3d39.903376550000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14d347d520732db1%3A0xbdc57b0c0842b8d!2sAnkara!5e0!3m2!1str!2str!4v1674751584282!5m2!1str!2str"
-                    width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3607.9780386385196!2d55.334025999999994!3d25.2713242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e5f5cc1ae829cbf%3A0xa4addc20569c05ad!2sTotal%20Media%20Solutions%20LLC!5e0!3m2!1sen!2sin!4v1771926952164!5m2!1sen!2sin" 
+                width="100%" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+              </iframe>
             </div>
         </div>
         <div class="contact-bottom">
@@ -328,12 +339,11 @@
                     </form>
                     <div class="contact-info">
                         <div class="contact-info-item">
-                            <strong>Clotya Store</strong>
-                            <p class="contact-streets">Clotya Store Germany — 785 15h Street, Office 478/B Green Mall
-                                Berlin, De 81566</p>
+                            <strong>Total Media Solutions</strong>
+                            <p class="contact-streets">Main Road Side - Al Siddiqui Metro St - Salah Al Din St - near Abu Baker Al Siddique Street - Deira - Dubai - United Arab Emirates</p>
                             <div class="contact-informations">
-                                <a href="tel:+123456789">Phone : +1 234 67 89</a>
-                                <a href="mailto:abc@gmail.com">Email : abc@gmail.com</a>
+                                <a href="tel:+123456789"><strong>Phone :</strong> +1 234 67 89</a>
+                                <a href="mailto:akshay@tmsdubai.com"><strong>Email :</strong> akshay@tmsdubai.com</a>
                             </div>
                         </div>
                         <div class="contact-info-item">
@@ -356,7 +366,7 @@
                     <i class="bi bi-truck"></i>
                     <div class="policy-texts">
                         <strong>FREE DELIVERY</strong>
-                        <span>From $59.89</span>
+                        <span>Shop Now</span>
                     </div>
                 </li>
                 <li class="policy-item">
@@ -385,7 +395,7 @@
     </section>
     <!-- ! policy end -->
 
-    <!-- ! footer start -->
+ <!-- ! footer start -->
   <section class="footer">
     <div class="subscribe-contact-row">
       <div class="container">
@@ -397,14 +407,13 @@
                   Get our emails for info on new items, sales and more.
                 </h3>
                 <p class="subscribe-desc">
-                  We'll email you a voucher worth $10 off your first order
-                  over $50.
+                  We'll email you a voucher on your first order
                 </p>
               </div>
               <div class="footer-subscribe-bottom">
-                <form>
-                  <input type="text" placeholder="enter your email addres" />
-                  <button class="btn">Subscribe</button>
+                <form action="sendmail.php" method="POST">
+                    <input type="email" name="email" placeholder="Enter your email address" required />
+                    <button type="submit" name="subscribe" class="btn">Subscribe</button>
                 </form>
                 <p class="privacy-text">
                   By subscribing you agree to our
@@ -416,7 +425,7 @@
           <div class="contact-wrapper">
             <div class="footer-contact-top">
               <h3 class="contact-title">Need help? <br>
-                (+90) 123 456 78 90
+               <a href="tel: +971 50 109 0168" style="color:#fff;">+971 50 109 0168</a>
               </h3>
               <p class="contact-desc">We are available 8:00am – 7:00pm
               </p>
@@ -430,9 +439,8 @@
                   <img src="img/footer/google-play.png" alt="">
                 </a>
               </div> -->
-              <p class="privacy-text">
-                <strong>Shopping App:</strong> Try our View in Your Room feature, manage registries and save payment
-                info.
+              <p class="privacy-text" style="font-size:14px; color:#fff;">
+              <strong> Address: </strong> Main Road Side - Al Siddiqui Metro St - Salah Al Din St - near Abu Baker Al Siddique Street - Deira - Dubai - United Arab Emirates
               </p>
             </div>
           </div>
@@ -447,13 +455,12 @@
               <a href="/" class="logo"><img src="/img/tms-logo.png" width="140px" alt=""></a>
             </div>
             <div class="footer-desc">
-              Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis in
-              termapol.
+              One Stop Solution For All Your Advertising Needs !
             </div>
             <div class="footer-contact">
               <p>
-                <a href="tel:123456789">(+800) 1234 5678 90</a> -
-                <a href="mailto:info@example.com">info@example.com</a>
+                <a href="tel: +971 50 109 0168">+971 50 109 0168</a> -
+                <a href="mailto:akshay@tmsdubai.com">akshay@tmsdubai.com</a>
               </p>
             </div>
           </div>
@@ -576,6 +583,53 @@
     <!-- scripts start -->
     <script src="js/main.js" type="module"></script>
     <!-- scripts end -->
+     <!-- WhatsApp Floating Button -->
+<a href="https://wa.me/+971501090168?text=Hello%20I%20am%20interested%20in%20your%20display%20products" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+<style>
+  .whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #1ebe5d;
+}
+.whatsapp-float::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(37, 211, 102, 0.4);
+  animation: pulse 1.8s infinite;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.7; }
+  70% { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 0; }
+}
+</style>
 </body>
 
 </html>

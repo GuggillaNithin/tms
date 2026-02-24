@@ -1,0 +1,2521 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TMS - Total Media Solutions</title>
+  
+<script>
+tailwind.config = {
+  theme: {
+    extend: {
+      colors: {
+        navy: 'hsl(var(--navy))',
+        'navy-light': 'hsl(var(--navy-light))',
+        orange: 'hsl(var(--orange))',
+        'orange-hover': 'hsl(var(--orange-hover))',
+        'gray-50': 'hsl(var(--gray-50))',
+      }
+    }
+  }
+}
+</script>
+
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+:root{
+  /* Base */
+  --background: 0 0% 100%;          /* White */
+  --foreground: 0 0% 0%;            /* Black */
+
+  /* Primary (Brand Orange) */
+  --primary: 18 77% 52%;            /* Orange */
+  --primary-foreground: 0 0% 100%;  /* White */
+
+  /* Re-mapped "navy" → Black */
+  --navy: 0 0% 0%;                  /* Black */
+  --navy-light: 0 0% 15%;           /* Soft Black */
+
+  /* Orange scale */
+  --orange: 18 77% 52%;             /* Orange */
+  --orange-hover: 18 77% 45%;       /* Darker Orange */
+
+  /* Neutral scale (black → white only) */
+  --gray-50: 0 0% 98%;
+  --gray-100: 0 0% 95%;
+  --gray-200: 0 0% 88%;
+  --gray-500: 0 0% 45%;
+  --gray-700: 0 0% 25%;
+  --gray-900: 0 0% 0%;
+
+  /* Gradients (orange + black only) */
+  --gradient-hero: linear-gradient(
+    135deg,
+    hsl(0 0% 0%) 0%,
+    hsl(0 0% 15%) 100%
+  );
+
+  --gradient-accent: linear-gradient(
+    135deg,
+    hsl(18 77% 52%) 0%,
+    hsl(18 77% 60%) 100%
+  );
+
+  /* Shadows (neutral black) */
+  --shadow-md: 0 4px 6px -1px hsl(0 0% 0% / 0.12),
+               0 2px 4px -2px hsl(0 0% 0% / 0.12);
+
+  --shadow-lg: 0 12px 20px -4px hsl(0 0% 0% / 0.18),
+               0 6px 10px -6px hsl(0 0% 0% / 0.18);
+
+  --shadow-card: 0 2px 10px hsl(0 0% 0% / 0.08);
+  --shadow-card-hover: 0 16px 32px hsl(0 0% 0% / 0.2);
+}
+/* MAIN NAV BAR */
+nav,
+.bg-navy-light {
+  background-color: hsl(var(--orange)) !important;
+}
+#megaMenuBtn {
+  background-color: hsl(var(--orange));
+  color: white;
+}
+
+#megaMenuBtn:hover {
+  background-color: hsl(var(--orange-hover));
+}
+nav a,
+nav button {
+  color: white !important;
+}
+
+nav a:hover,
+nav button:hover {
+  background-color: rgba(255,255,255,0.15) !important;
+}
+#megaMenu {
+  background: white;
+}
+/* Mega menu category text should be BLACK */
+#megaMenu .mega-cat-link {
+  color: #000 !important;
+  background: transparent;
+}
+
+#megaMenu .mega-cat-link:hover {
+  background-color: hsl(var(--orange)) !important;
+  color: #000 !important;
+}
+
+/* Active category */
+#megaMenu .mega-cat-link.bg-orange {
+  color: #000 !important;
+}
+
+/* Submenu links (right panel) */
+#megaMenu .mega-subpanel a {
+  color: #000 !important;
+}
+
+/* Submenu hover */
+#megaMenu .mega-subpanel a:hover {
+  color: #000 !important;
+  background-color: hsl(var(--orange)) !important;
+  padding-left: 0.75rem;
+}
+
+/* Submenu headings */
+#megaMenu .mega-subpanel h4 {
+  color: #000 !important;
+}
+
+/* ================================
+   MOBILE SUB MENU – FORCE BLACK
+================================ */
+
+.mobile-cat-panel a {
+  color: #000 !important;
+}
+
+.mobile-cat-panel a:hover {
+  color: #000 !important;
+  background-color: hsl(var(--orange)) !important;
+}
+html{scroll-behavior:smooth;}
+body{font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family:'Poppins',system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;font-weight:600;letter-spacing:-0.01em;}
+.container-custom{width:100%;max-width:80rem;margin-left:auto;margin-right:auto;padding-left:1rem;padding-right:1rem;}
+@media (min-width:640px){.container-custom{padding-left:1.5rem;padding-right:1.5rem;}}
+@media (min-width:1024px){.container-custom{padding-left:2rem;padding-right:2rem;}}
+.btn-primary{display:inline-flex;align-items:center;justify-content:center;padding:0.75rem 1.5rem;font-size:1rem;font-weight:500;color:white;border-radius:0.5rem;transition:all .3s ease;background:var(--gradient-accent);box-shadow:var(--shadow-md);}
+.btn-primary:hover{background:hsl(var(--orange-hover));box-shadow:var(--shadow-lg);transform:translateY(-2px);}
+.btn-secondary{display:inline-flex;align-items:center;justify-content:center;padding:0.75rem 1.5rem;font-size:1rem;font-weight:500;border-radius:0.5rem;border:2px solid hsl(var(--primary));color:hsl(var(--primary));transition:all .3s ease;}
+.btn-secondary:hover{background:hsl(var(--primary));color:hsl(var(--primary-foreground));}
+.section-title{font-size:40px;line-height:2.25rem;font-weight:700;text-align:center;margin-bottom:1rem;color:hsl(var(--navy));}
+@media (min-width:768px){.section-title{font-size:2.25rem;line-height:2.5rem;}}
+.section-subtitle{font-size:1.125rem;line-height:1.75rem;text-align:center;max-width:42rem;margin-left:auto;margin-right:auto;margin-bottom:3rem;color:hsl(var(--gray-500));}
+.card-product{background:white;border-radius:0.75rem;overflow:hidden;transition:all .3s ease;box-shadow:var(--shadow-card);}
+.card-product:hover{box-shadow:var(--shadow-card-hover);transform:translateY(-4px);}
+.hover-lift{transition:transform .3s ease;}
+.hover-lift:hover{transform:translateY(-4px);}
+.gradient-hero{background:var(--gradient-hero);}
+.text-navy{color:hsl(var(--navy));}
+.text-orange{color:hsl(var(--orange));}
+.bg-navy{background-color:hsl(var(--navy));}
+.bg-navy-light{background-color:hsl(var(--navy-light));}
+.bg-orange{background-color:hsl(var(--orange));}
+.bg-orange-hover{background-color:hsl(var(--orange-hover));}
+.bg-gray-50{background-color:hsl(var(--gray-50));}
+/* line clamp */
+.line-clamp-2,.line-clamp-3{display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;}
+.line-clamp-2{-webkit-line-clamp:2;}
+.line-clamp-3{-webkit-line-clamp:3;}
+/* Animations */
+.animate-fade-up{animation:fadeUp .6s ease-out forwards;}
+.animate-fade-in{animation:fadeIn .5s ease-out forwards;}
+@keyframes fadeUp{from{opacity:0;transform:translateY(20px);}to{opacity:1;transform:translateY(0);}}
+@keyframes fadeIn{from{opacity:0;}to{opacity:1;}}
+/* =========================
+   FORCE TMS LOGO SIZE
+========================= */
+.tms-logo img {
+  height: 48px !important;
+  max-height: 48px !important;
+  width: auto !important;
+  max-width: 180px !important;
+  object-fit: contain;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .tms-logo img {
+    height: 40px !important;
+    max-height: 40px !important;
+    max-width: 140px !important;
+  }
+}
+
+</style>
+</head>
+<body class="min-h-screen">
+  
+<header class="sticky top-0 z-50 bg-white shadow-md">
+  <div class="bg-navy text-white py-2">
+    <div class="container-custom flex justify-between items-center text-sm">
+      <div class="flex items-center gap-2">
+        <i data-lucide="phone" class="w-4 h-4"></i>
+        <span>+91 98765 43210</span>
+      </div>
+      <div class="hidden md:flex items-center gap-6">
+        <a href="#" class="hover:text-orange transition-colors">Track Order</a>
+        <a href="#" class="hover:text-orange transition-colors">Help & Support</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-custom py-4">
+    <div class="flex items-center justify-between gap-8">
+      <a href="/" class="flex-shrink-0 flex items-center tms-logo">
+  <img 
+    src="2c5d5789-d1de-459c-a0f6-3bf86d62ad32 (2).avif"
+    alt="TMS – Trading & Media Solutions"
+  />
+</a>
+
+
+
+      <div class="hidden lg:flex flex-1 max-w-xl">
+        <div class="relative w-full">
+          <input type="text" placeholder="Search products..." class="w-full pl-4 pr-12 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange focus:border-transparent transition-all" />
+          <button class="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-orange text-white rounded-lg hover:bg-orange-hover transition-colors" aria-label="Search">
+            <i data-lucide="search" class="w-5 h-5"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="flex items-center gap-4">
+        <button class="hidden md:flex items-center gap-2 text-gray-700 hover:text-orange transition-colors">
+          <i data-lucide="user" class="w-5 h-5"></i>
+          <span class="text-sm font-medium">Account</span>
+        </button>
+        <button class="relative flex items-center gap-2 text-gray-700 hover:text-orange transition-colors">
+          <i data-lucide="shopping-cart" class="w-5 h-5"></i>
+          <span class="hidden md:inline text-sm font-medium">Cart</span>
+          <span class="absolute -top-2 -right-2 w-5 h-5 bg-orange text-white text-xs rounded-full flex items-center justify-center">3</span>
+        </button>
+        <button id="mobileMenuBtn" class="lg:hidden p-2" aria-label="Open menu">
+          <i data-lucide="menu" class="w-6 h-6" id="mobileMenuIcon"></i>
+          <i data-lucide="x" class="w-6 h-6" id="mobileCloseIcon" style="display:none;"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <nav class="hidden lg:block bg-navy-light border-t border-navy/20">
+    <div class="container-custom">
+      <ul class="flex items-center justify-center">
+        <li class="relative group" id="megaMenuWrap">
+          <button class="flex items-center gap-1 px-5 py-3.5 font-medium text-white hover:bg-white/10 transition-colors" id="megaMenuBtn" type="button">
+            <i data-lucide="menu" class="w-4 h-4 mr-1"></i>
+            All Categories
+            <i data-lucide="chevron-down" class="w-4 h-4 transition-transform duration-200" id="megaChevron"></i>
+          </button>
+
+          <div class="absolute left-0 top-full bg-white shadow-2xl rounded-lg border border-gray-200 animate-fade-in z-50 min-w-[280px]" id="megaMenu" style="display:none;">
+            <div class="flex">
+              <div class="w-[220px] bg-gray-50 border-r border-gray-200 py-2">
+                
+<div class="group/item relative">
+  <a href="#" class="mega-cat-link flex items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors bg-orange text-white" data-category="Indoor Medias">
+    Indoor Medias
+    <i data-lucide="chevron-down" class="w-4 h-4 -rotate-90"></i>
+  </a>
+</div>
+<div class="group/item relative">
+  <a href="#" class="mega-cat-link flex items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors text-gray-700 hover:bg-gray-100 hover:text-navy" data-category="Outdoor Medias">
+    Outdoor Medias
+    <i data-lucide="chevron-down" class="w-4 h-4 -rotate-90"></i>
+  </a>
+</div>
+<div class="group/item relative">
+  <a href="#" class="mega-cat-link flex items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors text-gray-700 hover:bg-gray-100 hover:text-navy" data-category="Accessories">
+    Accessories
+    <i data-lucide="chevron-down" class="w-4 h-4 -rotate-90"></i>
+  </a>
+</div>
+<div class="group/item relative">
+  <a href="#" class="mega-cat-link flex items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors text-gray-700 hover:bg-gray-100 hover:text-navy" data-category="LED &amp; LCD Displays">
+    LED &amp; LCD Displays
+    <i data-lucide="chevron-down" class="w-4 h-4 -rotate-90"></i>
+  </a>
+</div>
+<div class="group/item relative">
+  <a href="#" class="mega-cat-link flex items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors text-gray-700 hover:bg-gray-100 hover:text-navy" data-category="Display Items">
+    Display Items
+    <i data-lucide="chevron-down" class="w-4 h-4 -rotate-90"></i>
+  </a>
+</div>
+<div class="group/item relative">
+  <a href="#" class="mega-cat-link flex items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors text-gray-700 hover:bg-gray-100 hover:text-navy" data-category="Acrylic Products">
+    Acrylic Products
+    <i data-lucide="chevron-down" class="w-4 h-4 -rotate-90"></i>
+  </a>
+</div>
+<div class="group/item relative">
+  <a href="#" class="mega-cat-link flex items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors text-gray-700 hover:bg-gray-100 hover:text-navy" data-category="Signage Accessories">
+    Signage Accessories
+    <i data-lucide="chevron-down" class="w-4 h-4 -rotate-90"></i>
+  </a>
+</div>
+<div class="group/item relative">
+  <a href="#" class="mega-cat-link flex items-center justify-between px-4 py-2.5 text-sm font-medium transition-colors text-gray-700 hover:bg-gray-100 hover:text-navy" data-category="Digital Printing">
+    Digital Printing
+    <i data-lucide="chevron-down" class="w-4 h-4 -rotate-90"></i>
+  </a>
+</div>
+              </div>
+              <div id="megaPanels">
+                
+<div class="mega-subpanel w-[240px] p-4 animate-fade-in" data-category="Indoor Medias" style="display:block;">
+  <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Indoor Medias</h4>
+  <ul class="space-y-1"><li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Vinyl Stickers</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Wall Graphics</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Floor Graphics</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Window Films</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Canvas Prints</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Backlit Films</a></li></ul>
+  <a href="#" class="inline-block mt-4 text-sm font-medium text-orange hover:underline">View All →</a>
+</div>
+<div class="mega-subpanel w-[240px] p-4 animate-fade-in" data-category="Outdoor Medias" style="display:none;">
+  <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Outdoor Medias</h4>
+  <ul class="space-y-1"><li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Flex Banners</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Mesh Banners</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Vehicle Wraps</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Billboard Materials</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Reflective Films</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Awning Materials</a></li></ul>
+  <a href="#" class="inline-block mt-4 text-sm font-medium text-orange hover:underline">View All →</a>
+</div>
+<div class="mega-subpanel w-[240px] p-4 animate-fade-in" data-category="Accessories" style="display:none;">
+  <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Accessories</h4>
+  <ul class="space-y-1"><li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Mounting Hardware</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Clips &amp; Holders</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Frames</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Stands</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Cable Systems</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Tools</a></li></ul>
+  <a href="#" class="inline-block mt-4 text-sm font-medium text-orange hover:underline">View All →</a>
+</div>
+<div class="mega-subpanel w-[240px] p-4 animate-fade-in" data-category="LED &amp; LCD Displays" style="display:none;">
+  <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">LED &amp; LCD Displays</h4>
+  <ul class="space-y-1"><li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">LED Panels</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">LCD Screens</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Video Walls</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Digital Signage</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Controllers</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Power Supplies</a></li></ul>
+  <a href="#" class="inline-block mt-4 text-sm font-medium text-orange hover:underline">View All →</a>
+</div>
+<div class="mega-subpanel w-[240px] p-4 animate-fade-in" data-category="Display Items" style="display:none;">
+  <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Display Items</h4>
+  <ul class="space-y-1"><li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Roll-up Banners</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Pop-up Displays</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Exhibition Stands</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Poster Frames</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Lightboxes</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Table Displays</a></li></ul>
+  <a href="#" class="inline-block mt-4 text-sm font-medium text-orange hover:underline">View All →</a>
+</div>
+<div class="mega-subpanel w-[240px] p-4 animate-fade-in" data-category="Acrylic Products" style="display:none;">
+  <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Acrylic Products</h4>
+  <ul class="space-y-1"><li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Acrylic Sheets</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Custom Fabrication</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Sign Letters</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Display Cases</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Menu Holders</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Award Plaques</a></li></ul>
+  <a href="#" class="inline-block mt-4 text-sm font-medium text-orange hover:underline">View All →</a>
+</div>
+<div class="mega-subpanel w-[240px] p-4 animate-fade-in" data-category="Signage Accessories" style="display:none;">
+  <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Signage Accessories</h4>
+  <ul class="space-y-1"><li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Sign Mounting</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Channel Letters</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Standoffs</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Edge Profiles</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Sign Brackets</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Lighting</a></li></ul>
+  <a href="#" class="inline-block mt-4 text-sm font-medium text-orange hover:underline">View All →</a>
+</div>
+<div class="mega-subpanel w-[240px] p-4 animate-fade-in" data-category="Digital Printing" style="display:none;">
+  <h4 class="text-xs font-bold text-gray-400 uppercase tracking-wider mb-3">Digital Printing</h4>
+  <ul class="space-y-1"><li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Photo Paper</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Art Paper</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Transfer Paper</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Printable Vinyl</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Inkjet Media</a></li>
+<li><a href="#" class="block py-1.5 text-sm text-gray-600 hover:text-orange hover:pl-2 transition-all">Specialty Papers</a></li></ul>
+  <a href="#" class="inline-block mt-4 text-sm font-medium text-orange hover:underline">View All →</a>
+</div>
+              </div>
+            </div>
+          </div>
+        </li>
+
+        <li><a href="#" class="block px-5 py-3.5 text-white font-medium hover:bg-white/10 transition-colors">New Arrivals</a></li>
+        <li><a href="#" class="block px-5 py-3.5 text-white font-medium hover:bg-white/10 transition-colors">Best Sellers</a></li>
+        <li><a href="#" class="block px-5 py-3.5 text-white font-medium hover:bg-white/10 transition-colors">Offers</a></li>
+        <li><a href="#" class="block px-5 py-3.5 text-white font-medium hover:bg-white/10 transition-colors">About Us</a></li>
+        <li><a href="#" class="block px-5 py-3.5 text-white font-medium hover:bg-white/10 transition-colors">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="lg:hidden bg-white border-t border-gray-200 animate-fade-in" id="mobileMenu" style="display:none;">
+    <div class="p-4 border-b border-gray-200">
+      <div class="relative">
+        <input type="text" placeholder="Search products..." class="w-full pl-4 pr-12 py-3 border border-gray-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-orange" />
+        <button class="absolute right-2 top-1/2 -translate-y-1/2 p-2 bg-orange text-white rounded-lg" aria-label="Search">
+          <i data-lucide="search" class="w-5 h-5"></i>
+        </button>
+      </div>
+    </div>
+
+    <div class="max-h-[60vh] overflow-y-auto">
+      
+<div class="border-b border-gray-100">
+  <button class="mobile-cat-btn w-full flex items-center justify-between px-4 py-3 text-left font-medium text-gray-900" data-category="Indoor Medias">
+    Indoor Medias
+    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+  </button>
+  <div class="mobile-cat-panel bg-gray-50 px-4 pb-3" data-category="Indoor Medias" style="display:none;">
+    <a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Vinyl Stickers</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Wall Graphics</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Floor Graphics</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Window Films</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Canvas Prints</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Backlit Films</a>
+  </div>
+</div>
+<div class="border-b border-gray-100">
+  <button class="mobile-cat-btn w-full flex items-center justify-between px-4 py-3 text-left font-medium text-gray-900" data-category="Outdoor Medias">
+    Outdoor Medias
+    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+  </button>
+  <div class="mobile-cat-panel bg-gray-50 px-4 pb-3" data-category="Outdoor Medias" style="display:none;">
+    <a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Flex Banners</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Mesh Banners</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Vehicle Wraps</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Billboard Materials</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Reflective Films</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Awning Materials</a>
+  </div>
+</div>
+<div class="border-b border-gray-100">
+  <button class="mobile-cat-btn w-full flex items-center justify-between px-4 py-3 text-left font-medium text-gray-900" data-category="Accessories">
+    Accessories
+    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+  </button>
+  <div class="mobile-cat-panel bg-gray-50 px-4 pb-3" data-category="Accessories" style="display:none;">
+    <a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Mounting Hardware</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Clips &amp; Holders</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Frames</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Stands</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Cable Systems</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Tools</a>
+  </div>
+</div>
+<div class="border-b border-gray-100">
+  <button class="mobile-cat-btn w-full flex items-center justify-between px-4 py-3 text-left font-medium text-gray-900" data-category="LED &amp; LCD Displays">
+    LED &amp; LCD Displays
+    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+  </button>
+  <div class="mobile-cat-panel bg-gray-50 px-4 pb-3" data-category="LED &amp; LCD Displays" style="display:none;">
+    <a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">LED Panels</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">LCD Screens</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Video Walls</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Digital Signage</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Controllers</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Power Supplies</a>
+  </div>
+</div>
+<div class="border-b border-gray-100">
+  <button class="mobile-cat-btn w-full flex items-center justify-between px-4 py-3 text-left font-medium text-gray-900" data-category="Display Items">
+    Display Items
+    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+  </button>
+  <div class="mobile-cat-panel bg-gray-50 px-4 pb-3" data-category="Display Items" style="display:none;">
+    <a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Roll-up Banners</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Pop-up Displays</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Exhibition Stands</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Poster Frames</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Lightboxes</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Table Displays</a>
+  </div>
+</div>
+<div class="border-b border-gray-100">
+  <button class="mobile-cat-btn w-full flex items-center justify-between px-4 py-3 text-left font-medium text-gray-900" data-category="Acrylic Products">
+    Acrylic Products
+    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+  </button>
+  <div class="mobile-cat-panel bg-gray-50 px-4 pb-3" data-category="Acrylic Products" style="display:none;">
+    <a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Acrylic Sheets</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Custom Fabrication</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Sign Letters</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Display Cases</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Menu Holders</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Award Plaques</a>
+  </div>
+</div>
+<div class="border-b border-gray-100">
+  <button class="mobile-cat-btn w-full flex items-center justify-between px-4 py-3 text-left font-medium text-gray-900" data-category="Signage Accessories">
+    Signage Accessories
+    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+  </button>
+  <div class="mobile-cat-panel bg-gray-50 px-4 pb-3" data-category="Signage Accessories" style="display:none;">
+    <a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Sign Mounting</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Channel Letters</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Standoffs</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Edge Profiles</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Sign Brackets</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Lighting</a>
+  </div>
+</div>
+<div class="border-b border-gray-100">
+  <button class="mobile-cat-btn w-full flex items-center justify-between px-4 py-3 text-left font-medium text-gray-900" data-category="Digital Printing">
+    Digital Printing
+    <i data-lucide="chevron-down" class="w-5 h-5 transition-transform"></i>
+  </button>
+  <div class="mobile-cat-panel bg-gray-50 px-4 pb-3" data-category="Digital Printing" style="display:none;">
+    <a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Photo Paper</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Art Paper</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Transfer Paper</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Printable Vinyl</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Inkjet Media</a>
+<a href="#" class="block py-2 text-sm text-gray-600 hover:text-orange transition-colors">Specialty Papers</a>
+  </div>
+</div>
+    </div>
+
+    <div class="p-4 border-t border-gray-200 space-y-2">
+      <a href="#" class="block py-2 font-medium text-gray-900">New Arrivals</a>
+      <a href="#" class="block py-2 font-medium text-gray-900">Best Sellers</a>
+      <a href="#" class="block py-2 font-medium text-gray-900">Offers</a>
+      <a href="#" class="block py-2 font-medium text-gray-900">About Us</a>
+      <a href="#" class="block py-2 font-medium text-gray-900">Contact</a>
+    </div>
+  </div>
+</header>
+
+  <main>
+    
+<section class="lxd-hero-wrap">
+
+  <!-- Background Slides -->
+  <div class="lxd-hero-bg">
+    <div class="lxd-hero-slide active" style="background-image: url('');"></div>
+    <div class="lxd-hero-slide" style="background-image:url('https://images.unsplash.com/photo-1586023492125-27b2c045efd7?w=1600')"></div>
+    <div class="lxd-hero-slide" style="background-image:url('https://images.unsplash.com/photo-1558591710-4b4a1ae0f04d?w=1600')"></div>
+    <div class="lxd-hero-slide" style="background-image:url('https://images.unsplash.com/photo-1552664730-d307ca884978?w=1600')"></div>
+  </div>
+
+  <!-- Overlay -->
+  <div class="lxd-hero-overlay"></div>
+
+  <!-- Content -->
+  <div class="lxd-hero-content">
+
+    <span class="lxd-hero-badge">✨ Business Display Solutions</span>
+
+    <h1 class="lxd-hero-title" id="lxdHeroTitle">
+      LED & LCD Displays
+    </h1>
+
+    <p class="lxd-hero-desc" id="lxdHeroDesc">
+      Premium indoor & outdoor signage, LED displays, acrylic branding, and exhibition systems.
+    </p>
+
+    <!-- CTA -->
+    <div class="lxd-hero-cta">
+      <button class="btn-primary">Browse Products →</button>
+      <button class="btn-secondary">View Categories</button>
+    </div>
+
+    <!-- CONTROLS -->
+    <div class="lxd-hero-controls">
+
+      <!-- Dots -->
+      <div class="lxd-hero-dots">
+        <button class="dot active" data-index="0"></button>
+        <button class="dot" data-index="1"></button>
+        <button class="dot" data-index="2"></button>
+        <button class="dot" data-index="3"></button>
+      </div>
+
+      <!-- Bottom Arrows -->
+      <div class="lxd-hero-arrows">
+        <button class="lxd-arrow lxd-prev">❮</button>
+        <button class="lxd-arrow lxd-next">❯</button>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<style>
+/* ===============================
+   RESET
+================================ */
+.lxd-hero-wrap * {
+  box-sizing: border-box;
+}
+
+/* ===============================
+   HERO LAYOUT
+================================ */
+.lxd-hero-wrap {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #fff;
+}
+
+.lxd-hero-bg {
+  position: absolute;
+  inset: 0;
+}
+
+.lxd-hero-slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+.lxd-hero-slide.active {
+  opacity: 1;
+}
+
+/* Overlay */
+.lxd-hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0,0,0,0.9),
+    rgba(0,0,0,0.6),
+    rgba(0,0,0,0.4)
+  );
+  z-index: 2;
+}
+
+/* ===============================
+   CONTENT
+================================ */
+.lxd-hero-content {
+  position: relative;
+  z-index: 3;
+  max-width: 1200px;
+  padding: 0 24px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lxd-hero-badge {
+  width: fit-content;
+  padding: 8px 16px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.2);
+  margin-bottom: 20px;
+}
+
+.lxd-hero-title {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.lxd-hero-desc {
+  max-width: 520px;
+  font-size: 18px;
+  line-height: 1.6;
+  color: #e5e5e5;
+}
+
+/* ===============================
+   CTA
+================================ */
+.lxd-hero-cta {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.btn-primary {
+  padding: 14px 28px;
+  background: linear-gradient(90deg,#f97316,#ea580c);
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  padding: 14px 28px;
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(255,255,255,0.3);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* ===============================
+   CONTROLS
+================================ */
+.lxd-hero-controls {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.lxd-hero-dots {
+  display: flex;
+  gap: 10px;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.4);
+  border: none;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.dot.active {
+  width: 40px;
+  background: linear-gradient(90deg,#f97316,#ea580c);
+}
+
+/* ===============================
+   BOTTOM ARROWS
+================================ */
+.lxd-hero-arrows {
+  display: flex;
+  gap: 16px;
+}
+
+.lxd-arrow {
+  width: 52px;
+  height: 52px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.25);
+
+  border-radius: 50%;
+  color: #fff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background .3s ease, transform .3s ease;
+}
+
+.lxd-arrow:hover {
+  background: rgba(255,255,255,0.3);
+  transform: translateY(-2px);
+}
+
+/* ===============================
+   MOBILE
+================================ */
+@media (max-width: 768px) {
+  .lxd-hero-desc { font-size: 16px; }
+  .lxd-hero-controls { flex-wrap: wrap; }
+}
+</style>
+
+<script>
+(() => {
+  const slides = document.querySelectorAll('.lxd-hero-slide');
+  const dots = document.querySelectorAll('.dot');
+  const title = document.getElementById('lxdHeroTitle');
+  const desc = document.getElementById('lxdHeroDesc');
+
+  const data = [
+    { t: 'LED & LCD Displays', d: 'Video walls & digital signage solutions.' },
+    { t: 'Outdoor Medias', d: 'High-impact banners, wraps & billboards.' },
+    { t: 'Acrylic Products', d: 'Custom acrylic branding & signage.' },
+    { t: 'Exhibition Systems', d: 'Complete exhibition & display systems.' }
+  ];
+
+  let current = 0;
+  let timer;
+
+  function update(index) {
+    slides.forEach((s,i)=>s.classList.toggle('active',i===index));
+    dots.forEach((d,i)=>d.classList.toggle('active',i===index));
+    title.textContent = data[index].t;
+    desc.textContent = data[index].d;
+    current = index;
+  }
+
+  function next() { update((current + 1) % slides.length); }
+  function prev() { update((current - 1 + slides.length) % slides.length); }
+
+  function autoplay() {
+    timer = setInterval(next, 5000);
+  }
+
+  document.querySelector('.lxd-next').onclick = () => { clearInterval(timer); next(); };
+  document.querySelector('.lxd-prev').onclick = () => { clearInterval(timer); prev(); };
+
+  dots.forEach(dot => {
+    dot.onclick = () => {
+      clearInterval(timer);
+      update(+dot.dataset.index);
+    };
+  });
+
+  autoplay();
+})();
+</script>
+
+
+
+<section id="products" class="py-16 md:py-24 bg-gray-50">
+  <div class="container-custom">
+    <div class="text-center mb-12">
+      <h2 class="section-title">Top Sellers</h2>
+      <p class="section-subtitle">
+        Discover our latest products and innovations in display and signage solutions
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+      <!-- PRODUCT 1 -->
+      <div class="card-product group">
+        <div class="relative overflow-hidden">
+          <img src="https://static.wixstatic.com/media/19fdb3_0ec361266dd6404b8b692ad974823e77~mv2.jpeg"
+               alt="Fabric Light Box Floor Standing"
+               class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+          <span class="absolute top-3 left-3 px-3 py-1 bg-orange text-white text-xs font-semibold rounded-full">NEW</span>
+          <button class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-orange hover:text-white">
+            <i data-lucide="heart" class="w-4 h-4"></i>
+          </button>
+          <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <button class="w-full py-2 bg-white text-navy font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-orange hover:text-white">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-orange">
+            Fabric Light Box Floor Standing
+          </h3>
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+            <span class="text-sm font-medium">4.8</span>
+            <span class="text-xs text-gray-400">(124 reviews)</span>
+          </div>
+          <!-- <div class="flex items-center gap-2">
+            <span class="text-lg font-bold text-navy">₹24,999</span>
+            <span class="text-sm text-gray-400 line-through">₹29,999</span>
+            <span class="text-xs font-medium text-green-600">17% OFF</span>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- PRODUCT 2 -->
+      <div class="card-product group">
+        <div class="relative overflow-hidden">
+          <img src="https://static.wixstatic.com/media/aa2fd0_a06e2daa6c634550b6af1ba216f4029b~mv2.png"
+               alt="Podium With Microphone & Speaker"
+               class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+          <span class="absolute top-3 left-3 px-3 py-1 bg-orange text-white text-xs font-semibold rounded-full">NEW</span>
+          <button class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-orange hover:text-white">
+            <i data-lucide="heart" class="w-4 h-4"></i>
+          </button>
+          <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <button class="w-full py-2 bg-white text-navy font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-orange hover:text-white">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-orange">
+            Podium With Microphone &amp; Speaker
+          </h3>
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+            <span class="text-sm font-medium">4.7</span>
+            <span class="text-xs text-gray-400">(89 reviews)</span>
+          </div>
+          <!-- <div class="flex items-center gap-2">
+            <span class="text-lg font-bold text-navy">₹18,499</span>
+            <span class="text-sm text-gray-400 line-through">₹21,999</span>
+            <span class="text-xs font-medium text-green-600">16% OFF</span>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- PRODUCT 3 -->
+      <div class="card-product group">
+        <div class="relative overflow-hidden">
+          <img src="https://static.wixstatic.com/media/aa2fd0_a9462e88254f48bf9f6488c05aeb1d36~mv2.png"
+               alt="Flip Chart Board"
+               class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+          <button class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-orange hover:text-white">
+            <i data-lucide="heart" class="w-4 h-4"></i>
+          </button>
+          <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <button class="w-full py-2 bg-white text-navy font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-orange hover:text-white">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-orange">Flip Chart Board</h3>
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+            <span class="text-sm font-medium">4.6</span>
+            <span class="text-xs text-gray-400">(52 reviews)</span>
+          </div>
+          <!-- <div class="flex items-center gap-2">
+            <span class="text-lg font-bold text-navy">₹6,999</span>
+            <span class="text-sm text-gray-400 line-through">₹8,499</span>
+            <span class="text-xs font-medium text-green-600">18% OFF</span>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- PRODUCT 4 -->
+      <div class="card-product group">
+        <div class="relative overflow-hidden">
+          <img src="https://static.wixstatic.com/media/aa2fd0_4642b4c3fc8e4f6199b87a9e6466ebd6~mv2.png"
+               alt="Acrylic Knobs"
+               class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+          <button class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-orange hover:text-white">
+            <i data-lucide="heart" class="w-4 h-4"></i>
+          </button>
+          <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <button class="w-full py-2 bg-white text-navy font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-orange hover:text-white">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-orange">Acrylic Knobs</h3>
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+            <span class="text-sm font-medium">4.5</span>
+            <span class="text-xs text-gray-400">(61 reviews)</span>
+          </div>
+          <!-- <div class="flex items-center gap-2">
+            <span class="text-lg font-bold text-navy">₹1,499</span>
+            <span class="text-sm text-gray-400 line-through">₹1,899</span>
+            <span class="text-xs font-medium text-green-600">21% OFF</span>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- PRODUCT 5 -->
+      <div class="card-product group">
+        <div class="relative overflow-hidden">
+          <img src="https://static.wixstatic.com/media/19fdb3_f5ddbe65af07445e94d71d7d5d0339dd~mv2.jpeg"
+               alt="Acrylic Wall Holder"
+               class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+          <button class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-orange hover:text-white">
+            <i data-lucide="heart" class="w-4 h-4"></i>
+          </button>
+          <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <button class="w-full py-2 bg-white text-navy font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-orange hover:text-white">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-orange">Acrylic Wall Holder</h3>
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+            <span class="text-sm font-medium">4.6</span>
+            <span class="text-xs text-gray-400">(44 reviews)</span>
+          </div>
+          <!-- <div class="flex items-center gap-2">
+            <span class="text-lg font-bold text-navy">₹2,299</span>
+            <span class="text-sm text-gray-400 line-through">₹2,899</span>
+            <span class="text-xs font-medium text-green-600">21% OFF</span>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- PRODUCT 6 -->
+      <div class="card-product group">
+        <div class="relative overflow-hidden">
+          <img src="https://static.wixstatic.com/media/aa2fd0_8b5cc8e006d54c19a5add8b72dcc2f63~mv2.jpeg"
+               alt="P10 Indoor & Outdoor Full Color LED Display"
+               class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+          <button class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-orange hover:text-white">
+            <i data-lucide="heart" class="w-4 h-4"></i>
+          </button>
+          <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <button class="w-full py-2 bg-white text-navy font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-orange hover:text-white">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-orange">
+            P10 Indoor & Outdoor Full Color LED Display
+          </h3>
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+            <span class="text-sm font-medium">4.9</span>
+            <span class="text-xs text-gray-400">(38 reviews)</span>
+          </div>
+          <!-- <div class="flex items-center gap-2">
+            <span class="text-lg font-bold text-navy">₹89,999</span>
+            <span class="text-sm text-gray-400 line-through">₹1,05,000</span>
+            <span class="text-xs font-medium text-green-600">14% OFF</span>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- PRODUCT 7 -->
+      <div class="card-product group">
+        <div class="relative overflow-hidden">
+          <img src="https://static.wixstatic.com/media/aa2fd0_b1214d798a2f42c6b2aff67617114c2b~mv2.png"
+               alt="P4 Indoor & Outdoor Full Color LED Display"
+               class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+          <button class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-orange hover:text-white">
+            <i data-lucide="heart" class="w-4 h-4"></i>
+          </button>
+          <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <button class="w-full py-2 bg-white text-navy font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-orange hover:text-white">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-orange">
+            P4 Indoor & Outdoor Full Color LED Display
+          </h3>
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+            <span class="text-sm font-medium">4.8</span>
+            <span class="text-xs text-gray-400">(41 reviews)</span>
+          </div>
+          <!-- <div class="flex items-center gap-2">
+            <span class="text-lg font-bold text-navy">₹1,29,999</span>
+            <span class="text-sm text-gray-400 line-through">₹1,55,000</span>
+            <span class="text-xs font-medium text-green-600">16% OFF</span>
+          </div> -->
+        </div>
+      </div>
+
+      <!-- PRODUCT 8 -->
+      <div class="card-product group">
+        <div class="relative overflow-hidden">
+          <img src="https://static.wixstatic.com/media/aa2fd0_5efa05091e40436fb2c0e7aaaf0cac2c~mv2.jpeg"
+               alt="Video Walls"
+               class="w-full h-56 object-cover group-hover:scale-105 transition-transform duration-500" />
+          <button class="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md opacity-0 group-hover:opacity-100 transition-opacity hover:bg-orange hover:text-white">
+            <i data-lucide="heart" class="w-4 h-4"></i>
+          </button>
+          <div class="absolute bottom-0 left-0 right-0 p-3 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity">
+            <button class="w-full py-2 bg-white text-navy font-medium rounded-lg flex items-center justify-center gap-2 hover:bg-orange hover:text-white">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+        <div class="p-4">
+          <h3 class="font-semibold text-gray-900 mb-2 line-clamp-2 hover:text-orange">Video Walls</h3>
+          <div class="flex items-center gap-2 mb-3">
+            <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+            <span class="text-sm font-medium">4.9</span>
+            <span class="text-xs text-gray-400">(67 reviews)</span>
+          </div>
+          <!-- <div class="flex items-center gap-2">
+            <span class="text-lg font-bold text-navy">₹2,49,999</span>
+            <span class="text-sm text-gray-400 line-through">₹2,95,000</span>
+            <span class="text-xs font-medium text-green-600">15% OFF</span>
+          </div> -->
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center mt-12">
+      <a href="#" class="btn-primary">View All Products</a>
+    </div>
+  </div>
+</section>
+
+
+ <section id="categories" class="cat-section">
+  <div class="cat-container">
+
+    <div class="cat-header">
+      <h2 class="cat-title">Shop By Category</h2>
+      <p class="cat-subtitle">
+        Browse our wide selection of display and signage products by category
+      </p>
+    </div>
+
+    <div class="cat-grid">
+
+      <!-- Display Products -->
+      <a href="https://ananziinfotech.wixstudio.com/my-site-57/category/display-items" class="cat-card">
+        <div class="cat-media">
+          <img src="https://static.wixstatic.com/media/nsplsh_0df8de18ef134facbcd0629723cb43d1~mv2.jpg"
+               alt="Display Products">
+        </div>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <h3>Display Products</h3>
+          <p>Stands, holders & display units</p>
+          <div class="cat-meta">
+            <span>Explore</span>
+            <span class="cat-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- LED and LCD Screens -->
+      <a href="https://ananziinfotech.wixstudio.com/my-site-57/category/led-lcd-displays" class="cat-card">
+        <div class="cat-media">
+          <img src="https://static.wixstatic.com/media/nsplsh_586b706d516e56684a7149~mv2_d_3238_2427_s_4_2.jpg"
+               alt="LED and LCD Screens">
+        </div>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <h3>LED and LCD Screens</h3>
+          <p>Indoor & outdoor digital screens</p>
+          <div class="cat-meta">
+            <span>Explore</span>
+            <span class="cat-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Digital Displays -->
+      <a href="https://ananziinfotech.wixstudio.com/my-site-57/category/digital-display-screens" class="cat-card">
+        <div class="cat-media">
+          <img src="https://static.wixstatic.com/media/nsplsh_703155512d354d71476345~mv2_d_5472_3648_s_4_2.jpg"
+               alt="Digital Displays">
+        </div>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <h3>Digital Displays</h3>
+          <p>High-impact digital signage</p>
+          <div class="cat-meta">
+            <span>Explore</span>
+            <span class="cat-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Acrylic Fabrications -->
+      <a href="https://ananziinfotech.wixstudio.com/my-site-57/category/acrylic-fabrication" class="cat-card">
+        <div class="cat-media">
+          <img src="https://static.wixstatic.com/media/aa2fd0_0fa10a28f86d421e901b5caa4c1599d0~mv2.png"
+               alt="Acrylic Fabrications">
+        </div>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <h3>Acrylic Fabrications</h3>
+          <p>Custom acrylic products</p>
+          <div class="cat-meta">
+            <span>Explore</span>
+            <span class="cat-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Signage Accessories -->
+      <a href="https://ananziinfotech.wixstudio.com/my-site-57/category/signages-and-signage-accessories" class="cat-card">
+        <div class="cat-media">
+          <img src="https://static.wixstatic.com/media/aa2fd0_c1ff4858152e4324b1610bf1dd2b0e31~mv2.png"
+               alt="Signage Accessories">
+        </div>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <h3>Signage Accessories</h3>
+          <p>Mounting & signage hardware</p>
+          <div class="cat-meta">
+            <span>Explore</span>
+            <span class="cat-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+      <!-- Digital Printing Media -->
+      <a href="https://ananziinfotech.wixstudio.com/my-site-57/category/digital-printing-medias-indoor-and-outdoor" class="cat-card">
+        <div class="cat-media">
+          <img src="https://static.wixstatic.com/media/aa2fd0_dc6703dfe5004e2eaa54d7b2c60a59b0~mv2.png"
+               alt="Digital Printing Media">
+        </div>
+        <div class="cat-overlay"></div>
+        <div class="cat-content">
+          <h3>Digital Printing Media</h3>
+          <p>Indoor & outdoor print materials</p>
+          <div class="cat-meta">
+            <span>Explore</span>
+            <span class="cat-arrow">→</span>
+          </div>
+        </div>
+      </a>
+
+    </div>
+  </div>
+</section>
+
+<section id="more-products" class="py-16 md:py-24 bg-white">
+  <div class="container-custom">
+
+    <div class="text-center mb-12">
+      <h2 class="section-title">New Products</h2>
+      <p class="section-subtitle">
+        Explore our extended range of brochure and display stands
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+      <!-- PRODUCT 1 -->
+      <div class="flex bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+        <img
+          src="https://static.wixstatic.com/media/aa2fd0_fbe230a0f32b4164930fa451a6a3123f~mv2.jpg"
+          alt="Black Base Brochure Stand"
+          class="w-40 h-40 object-cover"
+        />
+        <div class="flex-1 p-4 flex flex-col justify-between">
+          <div>
+            <h3 class="font-semibold text-gray-900 hover:text-orange">
+              Black Base Brochure Stand
+            </h3>
+            <div class="flex items-center gap-2 mt-1 text-sm">
+              <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+              <span>4.6</span>
+              <span class="text-gray-400">(72 reviews)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between mt-3">
+            <!-- <div>
+              <span class="text-lg font-bold text-navy">₹3,499</span>
+              <span class="text-sm text-gray-400 line-through ml-1">₹4,199</span>
+            </div> -->
+            <button class="px-4 py-2 bg-navy text-white rounded-lg hover:bg-orange flex items-center gap-2">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCT 2 -->
+      <div class="flex bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+        <img
+          src="https://static.wixstatic.com/media/aa2fd0_405d7968d59d4bb89bd92d29725b92c9~mv2.jpg"
+          alt="Simple Brochure Stand"
+          class="w-40 h-40 object-cover"
+        />
+        <div class="flex-1 p-4 flex flex-col justify-between">
+          <div>
+            <h3 class="font-semibold text-gray-900 hover:text-orange">
+              Simple Brochure Stand
+            </h3>
+            <div class="flex items-center gap-2 mt-1 text-sm">
+              <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+              <span>4.5</span>
+              <span class="text-gray-400">(58 reviews)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between mt-3">
+            <!-- <div>
+              <span class="text-lg font-bold text-navy">₹2,799</span>
+              <span class="text-sm text-gray-400 line-through ml-1">₹3,399</span>
+            </div> -->
+            <button class="px-4 py-2 bg-navy text-white rounded-lg hover:bg-orange flex items-center gap-2">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCT 3 -->
+      <div class="flex bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+        <img
+          src="https://static.wixstatic.com/media/aa2fd0_db0fc1bc3f40435d9f18f16b12d73f8d~mv2.jpg"
+          alt="Steel Base Brochure Stand"
+          class="w-40 h-40 object-cover"
+        />
+        <div class="flex-1 p-4 flex flex-col justify-between">
+          <div>
+            <h3 class="font-semibold text-gray-900 hover:text-orange">
+              Steel Base Brochure Stand
+            </h3>
+            <div class="flex items-center gap-2 mt-1 text-sm">
+              <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+              <span>4.7</span>
+              <span class="text-gray-400">(81 reviews)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between mt-3">
+            <!-- <div>
+              <span class="text-lg font-bold text-navy">₹4,299</span>
+              <span class="text-sm text-gray-400 line-through ml-1">₹5,199</span>
+            </div> -->
+            <button class="px-4 py-2 bg-navy text-white rounded-lg hover:bg-orange flex items-center gap-2">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCT 4 -->
+      <div class="flex bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+        <img
+          src="https://static.wixstatic.com/media/aa2fd0_4c1992a3024a40e6bbd91423705da203~mv2.jpg"
+          alt="Bamboo Brochure Stand"
+          class="w-40 h-40 object-cover"
+        />
+        <div class="flex-1 p-4 flex flex-col justify-between">
+          <div>
+            <h3 class="font-semibold text-gray-900 hover:text-orange">
+              Bamboo Brochure Stand
+            </h3>
+            <div class="flex items-center gap-2 mt-1 text-sm">
+              <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+              <span>4.8</span>
+              <span class="text-gray-400">(46 reviews)</span>
+            </div>
+          </div>
+          <div class="flex items-center justify-between mt-3">
+            <!-- <div>
+              <span class="text-lg font-bold text-navy">₹5,499</span>
+              <span class="text-sm text-gray-400 line-through ml-1">₹6,299</span>
+            </div> -->
+            <button class="px-4 py-2 bg-navy text-white rounded-lg hover:bg-orange flex items-center gap-2">
+              <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+              Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRODUCT 5–8 -->
+      <!-- Repeat pattern used above (already proven clean & distinct) -->
+<!-- PRODUCT 5 -->
+<div class="flex bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+  <img
+    src="https://static.wixstatic.com/media/aa2fd0_f9f78bf4a41143569a566ee5ce78bb7c~mv2.jpeg"
+    alt="Brochure Stand"
+    class="w-40 h-40 object-cover"
+  />
+  <div class="flex-1 p-4 flex flex-col justify-between">
+    <div>
+      <h3 class="font-semibold text-gray-900 hover:text-orange">
+        Brochure Stand
+      </h3>
+      <div class="flex items-center gap-2 mt-1 text-sm">
+        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+        <span>4.4</span>
+        <span class="text-gray-400">(64 reviews)</span>
+      </div>
+    </div>
+    <div class="flex items-center justify-between mt-3">
+      <!-- <div>
+        <span class="text-lg font-bold text-navy">₹3,199</span>
+        <span class="text-sm text-gray-400 line-through ml-1">₹3,899</span>
+      </div> -->
+      <button class="px-4 py-2 bg-navy text-white rounded-lg hover:bg-orange flex items-center gap-2">
+        <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+        Add
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="flex bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+  <img
+    src="https://static.wixstatic.com/media/aa2fd0_a7ff063c5ab3472281d2363c8d94770a~mv2.jpg"
+    alt="Steel Brochure Stand"
+    class="w-40 h-40 object-cover"
+  />
+  <div class="flex-1 p-4 flex flex-col justify-between">
+    <div>
+      <h3 class="font-semibold text-gray-900 hover:text-orange">
+        Steel Brochure Stand
+      </h3>
+      <div class="flex items-center gap-2 mt-1 text-sm">
+        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+        <span>4.6</span>
+        <span class="text-gray-400">(77 reviews)</span>
+      </div>
+    </div>
+    <div class="flex items-center justify-between mt-3">
+      <!-- <div>
+        <span class="text-lg font-bold text-navy">₹4,899</span>
+        <span class="text-sm text-gray-400 line-through ml-1">₹5,699</span>
+      </div> -->
+      <button class="px-4 py-2 bg-navy text-white rounded-lg hover:bg-orange flex items-center gap-2">
+        <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+        Add
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="flex bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+  <img
+    src="https://static.wixstatic.com/media/aa2fd0_d926ff58841e4cd8a31bb404dff8651f~mv2.jpg"
+    alt="Acrylic Brochure Stands"
+    class="w-40 h-40 object-cover"
+  />
+  <div class="flex-1 p-4 flex flex-col justify-between">
+    <div>
+      <h3 class="font-semibold text-gray-900 hover:text-orange">
+        Acrylic Brochure Stands
+      </h3>
+      <div class="flex items-center gap-2 mt-1 text-sm">
+        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+        <span>4.5</span>
+        <span class="text-gray-400">(53 reviews)</span>
+      </div>
+    </div>
+    <div class="flex items-center justify-between mt-3">
+      <!-- <div>
+        <span class="text-lg font-bold text-navy">₹2,999</span>
+        <span class="text-sm text-gray-400 line-through ml-1">₹3,499</span>
+      </div> -->
+      <button class="px-4 py-2 bg-navy text-white rounded-lg hover:bg-orange flex items-center gap-2">
+        <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+        Add
+      </button>
+    </div>
+  </div>
+</div>
+
+<!-- PRODUCT 8 -->
+<div class="flex bg-gray-50 rounded-xl overflow-hidden shadow-sm hover:shadow-md transition">
+  <img
+    src="https://static.wixstatic.com/media/aa2fd0_36363dd53a714c97af8f7ccce3a8292f~mv2.jpg"
+    alt="Portable Brochure Holder"
+    class="w-40 h-40 object-cover"
+  />
+  <div class="flex-1 p-4 flex flex-col justify-between">
+    <div>
+      <h3 class="font-semibold text-gray-900 hover:text-orange">
+        Portable Brochure Holder
+      </h3>
+      <div class="flex items-center gap-2 mt-1 text-sm">
+        <i data-lucide="star" class="w-4 h-4 text-yellow-400 fill-current"></i>
+        <span>4.3</span>
+        <span class="text-gray-400">(41 reviews)</span>
+      </div>
+    </div>
+    <div class="flex items-center justify-between mt-3">
+      <!-- <div>
+        <span class="text-lg font-bold text-navy">₹2,499</span>
+        <span class="text-sm text-gray-400 line-through ml-1">₹2,999</span>
+      </div> -->
+      <button class="px-4 py-2 bg-navy text-white rounded-lg hover:bg-orange flex items-center gap-2">
+        <i data-lucide="shopping-cart" class="w-4 h-4"></i>
+        Add
+      </button>
+    </div>
+  </div>
+</div>
+
+    </div>
+
+    <div class="text-center mt-12">
+      <a href="#" class="btn-primary">Browse All Products</a>
+    </div>
+
+  </div>
+</section>
+
+<style>
+/* ===============================
+   BASE
+================================ */
+.cat-section {
+  background: #ffffff;
+  padding: 80px 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.cat-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* ===============================
+   HEADER
+================================ */
+.cat-header {
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.cat-title {
+  font-size: 40px;
+  font-weight: 800;
+  margin-bottom: 12px;
+}
+
+.cat-subtitle {
+  color: #555;
+  font-size: 16px;
+}
+
+/* ===============================
+   GRID
+================================ */
+.cat-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .cat-grid { grid-template-columns: repeat(3, 1fr); }
+}
+
+@media (min-width: 1024px) {
+  .cat-grid { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* ===============================
+   CARD
+================================ */
+.cat-card {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  border-radius: 18px;
+  overflow: hidden;
+  text-decoration: none;
+  color: #fff;
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+
+.cat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,.18);
+}
+
+/* ===============================
+   IMAGE + MASK
+================================ */
+.cat-media {
+  position: absolute;
+  inset: 0;
+}
+
+.cat-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform .6s ease;
+
+  /* MASK */
+  -webkit-mask-image: radial-gradient(
+    120% 100% at 50% 0%,
+    #000 85%,
+    transparent 100%
+  );
+  mask-image: radial-gradient(
+    120% 100% at 50% 0%,
+    #000 85%,
+    transparent 100%
+  );
+}
+
+.cat-card:hover img {
+  transform: scale(1.12);
+}
+
+/* ===============================
+   OVERLAY
+================================ */
+.cat-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to top,
+    rgba(15,15,30,.9),
+    rgba(15,15,30,.4),
+    transparent
+  );
+}
+
+/* ===============================
+   CONTENT
+================================ */
+.cat-content {
+  position: absolute;
+  inset: auto 0 0 0;
+  padding: 16px;
+}
+
+.cat-content h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+
+.cat-content p {
+  font-size: 14px;
+  opacity: .8;
+  margin-bottom: 10px;
+}
+
+.cat-meta {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12px;
+  opacity: .85;
+}
+
+.cat-arrow {
+  font-size: 16px;
+  transition: transform .3s ease;
+}
+
+.cat-card:hover .cat-arrow {
+  transform: translateX(6px);
+}
+</style>
+
+<section class="lux-review-section">
+
+  <!-- Background (Wix compatible) -->
+  <div id="bgLayers_comp-lyllbchr" class="lux-bg">
+    <div class="lux-bg-layer"></div>
+  </div>
+
+  <div class="lux-container">
+
+    <!-- Header -->
+    <div class="lux-header">
+      
+      <h2>Trusted by Customers</h2>
+      <p>
+        From premium signage to digital display solutions, our work speaks through
+        the voices of clients who choose quality, reliability, and finish.
+      </p>
+    </div>
+
+    <!-- Reviews Grid -->
+    <div class="lux-grid">
+
+      <!-- FEATURE REVIEW -->
+      <article class="lux-review featured">
+        <span class="lux-quote">“</span>
+        <p>
+          The fabric light boxes and acrylic displays elevated our retail presence.
+          The finish, lighting quality, and overall professionalism were top-notch.
+        </p>
+        <div class="lux-meta">
+          <strong>Ramesh Kumar</strong>
+          <span>Retail Business Owner · Bengaluru</span>
+          <div class="lux-stars">★★★★★</div>
+        </div>
+      </article>
+
+      <!-- REVIEW -->
+      <article class="lux-review">
+        <span class="lux-quote">“</span>
+        <p>
+          LED video wall installation was executed flawlessly.
+          The team understood branding, alignment, and visibility perfectly.
+        </p>
+        <div class="lux-meta">
+          <strong>Anita Verma</strong>
+          <span>Facilities Head · Mumbai</span>
+          <div class="lux-stars">★★★★★</div>
+        </div>
+      </article>
+
+      <!-- REVIEW -->
+      <article class="lux-review bordered">
+        <span class="lux-quote">“</span>
+        <p>
+          Acrylic fabrication quality is premium. Clean edges,
+          durable material, and excellent customization support.
+        </p>
+        <div class="lux-meta">
+          <strong>Pooja Nair</strong>
+          <span>Brand Manager · Kochi</span>
+          <div class="lux-stars">★★★★★</div>
+        </div>
+      </article>
+
+      <!-- WIDE REVIEW -->
+      <article class="lux-review wide">
+        <span class="lux-quote">“</span>
+        <p>
+          From enquiry to final delivery, the entire process was smooth and transparent.
+          Their team balances creativity with technical execution extremely well.
+        </p>
+        <div class="lux-meta">
+          <strong>Siddharth Jain</strong>
+          <span>Marketing Director · Jaipur</span>
+          <div class="lux-stars">★★★★★</div>
+        </div>
+      </article>
+
+      <!-- REVIEW -->
+      <article class="lux-review">
+        <span class="lux-quote">“</span>
+        <p>
+          Digital signage displays added a modern, premium feel to our office.
+          Highly recommended for corporate environments.
+        </p>
+        <div class="lux-meta">
+          <strong>Neha Kulkarni</strong>
+          <span>Operations Lead · Pune</span>
+          <div class="lux-stars">★★★★★</div>
+        </div>
+      </article>
+
+      <!-- REVIEW -->
+      <article class="lux-review bordered">
+        <span class="lux-quote">“</span>
+        <p>
+          Reliable execution across multiple projects.
+          Quality has remained consistent every single time.
+        </p>
+        <div class="lux-meta">
+          <strong>Kavita Shah</strong>
+          <span>Procurement Manager · Ahmedabad</span>
+          <div class="lux-stars">★★★★★</div>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+<style>
+  /* ===============================
+   LUXURY REVIEW SECTION
+   Colors: Orange + White
+================================ */
+
+.lux-review-section {
+  position: relative;
+  padding: 20px 20px 100px; /* reduced top padding */
+  overflow: hidden;
+  font-family: "Inter", system-ui, sans-serif;
+}
+
+/* Background */
+.lux-bg {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+}
+
+.lux-bg-layer {
+  position: absolute;
+  inset: 0;
+  background: #ffffff;
+}
+
+/* Container */
+.lux-container {
+  max-width: 1280px;
+  margin: auto;
+  position: relative;
+  z-index: 2;
+}
+
+/* Header */
+.lux-header {
+  max-width: 1100px;
+  margin: 0 auto 50px;
+  text-align: center;
+}
+
+
+.lux-pill {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 999px;
+  background: rgba(255, 122, 0, 0.12);
+  color: #ff7a00;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 14px;
+}
+
+.lux-header h2 {
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 1.15;
+  color: #111;
+  margin: 0 auto 16px;
+  max-width: 900px; /* KEY: prevents half-width look */
+}
+
+
+.lux-header p {
+  font-size: 17px;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* Grid */
+.lux-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+}
+
+/* Review Card */
+.lux-review {
+  position: relative;
+  background: #fff;
+  border-radius: 26px;
+  padding: 44px 38px;
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.08);
+}
+
+.lux-review.bordered {
+  border: 2px solid rgba(255, 122, 0, 0.25);
+}
+
+.lux-review.featured {
+  grid-column: span 2;
+  border-left: 8px solid #ff7a00;
+}
+
+.lux-review.wide {
+  grid-column: span 2;
+}
+
+/* Quote Mark */
+.lux-quote {
+  position: absolute;
+  top: 16px;
+  left: 22px;
+  font-size: 120px;
+  font-weight: 800;
+  line-height: 1;
+  color: rgba(255, 122, 0, 0.12);
+}
+
+/* Text */
+.lux-review p {
+  font-size: 16px;
+  line-height: 1.8;
+  color: #222;
+  margin-bottom: 28px;
+  position: relative;
+  z-index: 1;
+}
+
+/* Meta */
+.lux-meta strong {
+  display: block;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+}
+
+.lux-meta span {
+  font-size: 13px;
+  color: #777;
+}
+
+.lux-stars {
+  margin-top: 8px;
+  color: #ff7a00;
+  letter-spacing: 3px;
+}
+
+/* Responsive */
+@media (max-width: 1024px) {
+  .lux-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .lux-review.featured,
+  .lux-review.wide {
+    grid-column: span 1;
+  }
+}
+
+@media (max-width: 640px) {
+  .lux-grid {
+    grid-template-columns: 1fr;
+  }
+  .lux-header h2 {
+    font-size: 34px;
+  }
+}
+
+</style>
+
+<style>
+/* ============================
+   BASE LAYOUT
+============================ */
+.premium-best-section {
+  background: #fdfdfd;
+  padding: 80px 24px;
+  font-family: system-ui, -apple-system, sans-serif;
+  color: #1f2937;
+}
+
+.premium-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ============================
+   HEADER
+============================ */
+.premium-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 48px;
+}
+
+.premium-badge {
+  font-size: 14px;
+  color: #f97316;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.premium-title {
+  font-size: clamp(28px, 5vw, 42px);
+  font-weight: 800;
+  margin-top: 4px;
+}
+
+.premium-all {
+  color: #f97316;
+  font-size: 16px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+.premium-all:hover {
+  opacity: 0.8;
+}
+
+/* ============================
+   GRID
+============================ */
+.premium-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 36px;
+}
+
+@media (max-width: 900px) {
+  .premium-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ============================
+   CARD
+============================ */
+.premium-card {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.06);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.premium-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 30px 60px rgba(0,0,0,0.1);
+}
+
+/* IMAGE + ACTIONS */
+.premium-image {
+  position: relative;
+  height: 280px;
+  overflow: hidden;
+}
+
+.premium-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.6s ease;
+}
+
+.premium-card:hover .premium-image img {
+  transform: scale(1.08);
+}
+
+.premium-tag {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  background: #f97316;
+  color: #fff;
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.gradient-green {
+  background: linear-gradient(90deg, #16a34a, #22c55e);
+}
+
+.premium-actions {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  opacity: 0;
+  width: calc(100% - 36px);
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+  transition: all 0.4s ease;
+}
+
+.premium-card:hover .premium-actions {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+.btn-cart, .btn-view {
+  flex: 1;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.btn-cart {
+  background: #f97316;
+  color: #fff;
+}
+
+.btn-cart:hover {
+  opacity: 0.9;
+}
+
+.btn-view {
+  background: #fff;
+  border: 1px solid #d1d5db;
+  color: #1f2937;
+}
+
+.btn-view:hover {
+  background: #f9fafb;
+}
+
+/* ============================
+   INFO
+============================ */
+.premium-info {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.premium-rating {
+  font-size: 14px;
+  font-weight: 600;
+  color: #555;
+}
+
+.premium-rating small {
+  color: #888;
+  font-size: 13px;
+}
+
+.premium-name {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+.premium-desc {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.4;
+  opacity: 0.9;
+}
+
+.premium-price {
+  font-size: 20px;
+  font-weight: 800;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.premium-price del {
+  color: #999;
+  font-size: 16px;
+}
+
+.premium-price .discount {
+  color: #16a34a;
+  font-size: 14px;
+  font-weight: 600;
+}
+</style>
+
+  </main>
+  
+<footer class="bg-navy text-white">
+  <div class="container-custom py-12 md:py-16">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-8">
+      <div class="lg:col-span-2">
+<div class="mb-4">
+  <img 
+    src="2c5d5789-d1de-459c-a0f6-3bf86d62ad32 (2).avif"
+    alt="Ananzi Infotech Logo"
+    class="h-10 w-auto"
+  >
+</div>
+        <p class="text-white/70 mb-6 max-w-sm">
+          Your trusted partner for premium display and signage solutions. 
+          Quality products, competitive prices, and exceptional service.
+        </p>
+        <div class="space-y-3">
+          <div class="flex items-center gap-3 text-white/70">
+            <i data-lucide="map-pin" class="w-5 h-5 text-orange flex-shrink-0"></i>
+            <span>Near Abu Baker Al Saddique Metro Stn. , Salah Al Din Street, Diera, Dubai</span>
+          </div>
+          <div class="flex items-center gap-3 text-white/70">
+            <i data-lucide="phone" class="w-5 h-5 text-orange flex-shrink-0"></i>
+            <span>+971501090168</span>
+          </div>
+          <div class="flex items-center gap-3 text-white/70">
+            <i data-lucide="mail" class="w-5 h-5 text-orange flex-shrink-0"></i>
+            <span> sales@tmsdubai.com</span>
+          </div>
+          <div class="flex items-center gap-3 text-white/70">
+            <i data-lucide="clock" class="w-5 h-5 text-orange flex-shrink-0"></i>
+            <span>Mon - Sat: 9:00 AM - 7:00 PM</span>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Products</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Indoor Medias</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Outdoor Medias</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">LED &amp; LCD Displays</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Display Items</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Acrylic Products</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Signage Accessories</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Company</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">About Us</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Careers</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Blog</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Press</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Partners</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Contact Us</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Support</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Help Center</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Track Order</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Shipping Info</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Returns</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">FAQs</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Size Guide</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h3 class="font-semibold text-lg mb-4">Legal</h3>
+        <ul class="space-y-2">
+          <li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Privacy Policy</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Terms of Service</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Cookie Policy</a></li>
+<li><a href="#" class="text-white/70 hover:text-orange transition-colors text-sm">Refund Policy</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-t border-white/10">
+    <div class="container-custom py-6">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-4">
+        <p class="text-white/60 text-sm text-center md:text-left">© 2026 Ananzi Infotech. All rights reserved.</p>
+        <div class="flex items-center gap-4">
+          <a href="#" class="p-2 bg-white/10 rounded-full hover:bg-orange transition-colors"><i data-lucide="facebook" class="w-5 h-5"></i></a>
+          <a href="#" class="p-2 bg-white/10 rounded-full hover:bg-orange transition-colors"><i data-lucide="twitter" class="w-5 h-5"></i></a>
+          <a href="#" class="p-2 bg-white/10 rounded-full hover:bg-orange transition-colors"><i data-lucide="instagram" class="w-5 h-5"></i></a>
+          <a href="#" class="p-2 bg-white/10 rounded-full hover:bg-orange transition-colors"><i data-lucide="linkedin" class="w-5 h-5"></i></a>
+          <a href="#" class="p-2 bg-white/10 rounded-full hover:bg-orange transition-colors"><i data-lucide="youtube" class="w-5 h-5"></i></a>
+        </div>
+        <div class="flex items-center gap-4">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Visa_Inc._logo.svg/120px-Visa_Inc._logo.svg.png" alt="Visa" class="h-6 opacity-70" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/MasterCard_Logo.svg/120px-MasterCard_Logo.svg.png" alt="Mastercard" class="h-6 opacity-70" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/UPI-Logo-vector.svg/120px-UPI-Logo-vector.svg.png" alt="UPI" class="h-6 opacity-70" />
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+  <script>lucide.createIcons();</script>
+  
+<script>
+(function(){
+  // Mobile menu toggle
+  const btn = document.getElementById('mobileMenuBtn');
+  const menu = document.getElementById('mobileMenu');
+  const menuIcon = document.getElementById('mobileMenuIcon');
+  const closeIcon = document.getElementById('mobileCloseIcon');
+  if(btn && menu){
+    btn.addEventListener('click', () => {
+      const open = menu.style.display !== 'none';
+      menu.style.display = open ? 'none' : 'block';
+      if(menuIcon && closeIcon){
+        menuIcon.style.display = open ? 'block' : 'none';
+        closeIcon.style.display = open ? 'none' : 'block';
+      }
+      // re-render lucide icons when toggled
+      if(window.lucide) window.lucide.createIcons();
+    });
+  }
+
+  // Desktop mega menu
+  const wrap = document.getElementById('megaMenuWrap');
+  const mega = document.getElementById('megaMenu');
+  const chev = document.getElementById('megaChevron');
+  if(wrap && mega){
+    let t;
+    const open = () => {
+      clearTimeout(t);
+      mega.style.display = 'block';
+      if(chev) chev.classList.add('rotate-180');
+      if(window.lucide) window.lucide.createIcons();
+    };
+    const close = () => {
+      t = setTimeout(() => {
+        mega.style.display = 'none';
+        if(chev) chev.classList.remove('rotate-180');
+      }, 120);
+    };
+    wrap.addEventListener('mouseenter', open);
+    wrap.addEventListener('mouseleave', close);
+  }
+
+  // Mega menu category hover
+  const catLinks = document.querySelectorAll('.mega-cat-link');
+  const panels = document.querySelectorAll('.mega-subpanel');
+  function setActive(name){
+    catLinks.forEach(a=>{
+      const isActive = a.getAttribute('data-category') === name;
+      a.classList.toggle('bg-orange', isActive);
+      a.classList.toggle('text-white', isActive);
+      a.classList.toggle('text-gray-700', !isActive);
+    });
+    panels.forEach(p=>{
+      p.style.display = (p.getAttribute('data-category') === name) ? 'block' : 'none';
+    });
+  }
+  catLinks.forEach(a=>{
+    a.addEventListener('mouseenter', ()=>setActive(a.getAttribute('data-category')));
+    a.addEventListener('focus', ()=>setActive(a.getAttribute('data-category')));
+  });
+
+  // Mobile accordion
+  const mobBtns = document.querySelectorAll('.mobile-cat-btn');
+  mobBtns.forEach(b=>{
+    b.addEventListener('click', ()=>{
+      const name = b.getAttribute('data-category');
+      const panel = document.querySelector('.mobile-cat-panel[data-category="'+CSS.escape(name)+'"]');
+      const icon = b.querySelector('svg, i[data-lucide="chevron-down"]');
+      const isOpen = panel && panel.style.display !== 'none';
+      // close all
+      document.querySelectorAll('.mobile-cat-panel').forEach(p=>p.style.display='none');
+      document.querySelectorAll('.mobile-cat-btn i[data-lucide="chevron-down"]').forEach(i=>i.classList.remove('rotate-180'));
+      if(panel){
+        panel.style.display = isOpen ? 'none' : 'block';
+        const chevIcon = b.querySelector('i[data-lucide="chevron-down"]');
+        if(chevIcon && !isOpen) chevIcon.classList.add('rotate-180');
+      }
+      if(window.lucide) window.lucide.createIcons();
+    });
+  });
+})();
+</script>
+<!-- WHATSAPP FLOAT -->
+<a href="https://wa.me/919999999999"
+   class="whatsapp-float"
+   target="_blank"
+   aria-label="Chat on WhatsApp">
+  <img
+    src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
+    alt="WhatsApp">
+</a>
+
+
+
+<!-- CHATBOT -->
+<div class="chatbot">
+
+  <button class="chatbot-toggle" aria-label="Open Chat">
+    <img src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" alt="Chatbot">
+  </button>
+
+  <div class="chatbot-box">
+    <div class="chatbot-header">
+      <span>Live Support</span>
+      <button class="chatbot-close">✕</button>
+    </div>
+
+    <div class="chatbot-body">
+      <div class="bot-msg">
+        Hi 👋 <br>
+        Need help choosing the right product?
+      </div>
+    </div>
+
+    <div class="chatbot-input">
+      <input type="text" placeholder="Type your message…" />
+      <button>➤</button>
+    </div>
+  </div>
+
+</div>
+<style>
+  .whatsapp-float {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+
+  width: 64px;
+  height: 64px;
+  background: #ff7a00; /* ORANGE */
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  z-index: 999999;
+  box-shadow: 0 20px 45px rgba(0,0,0,0.35);
+  transition: transform 0.25s ease;
+}
+
+.whatsapp-float img {
+  width: 32px;
+  height: 32px;
+  display: block;
+  filter: brightness(0) invert(1); /* makes logo WHITE */
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+
+
+/* CHATBOT */
+.chatbot {
+  position: fixed;
+  bottom: 104px;
+  right: 24px;
+  z-index: 999998;
+}
+
+.chatbot-toggle {
+  width: 64px;
+  height: 64px;
+  background: white;
+  border-radius: 50%;
+  border: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+  box-shadow: 0 18px 40px rgba(0,0,0,0.25);
+}
+
+.chatbot-toggle img {
+  width: 26px;
+  height: 26px;
+  filter: invert(48%) sepia(95%) saturate(1800%) hue-rotate(10deg);
+}
+
+/* CHAT WINDOW */
+.chatbot-box {
+  position: absolute;
+  bottom: 78px;
+  right: 0;
+
+  width: 340px;
+  background: #fff;
+  border-radius: 20px;
+  box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+  overflow: hidden;
+
+  display: none;
+}
+
+.chatbot-header {
+  background: #ff7a00;
+  color: white;
+  padding: 16px;
+  font-weight: 600;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chatbot-close {
+  background: transparent;
+  border: none;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.chatbot-body {
+  padding: 18px;
+  font-size: 14px;
+  color: #333;
+}
+
+.bot-msg {
+  background: #fff1e6;
+  padding: 12px 14px;
+  border-radius: 14px;
+  max-width: 85%;
+}
+
+.chatbot-input {
+  display: flex;
+  border-top: 1px solid #eee;
+}
+
+.chatbot-input input {
+  flex: 1;
+  padding: 14px;
+  border: none;
+  outline: none;
+}
+
+.chatbot-input button {
+  background: #ff7a00;
+  color: white;
+  border: none;
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+</style>
+<script>
+  const chatToggle = document.querySelector('.chatbot-toggle');
+  const chatBox = document.querySelector('.chatbot-box');
+  const chatClose = document.querySelector('.chatbot-close');
+
+  chatToggle.onclick = () => {
+    chatBox.style.display = 'block';
+  };
+
+  chatClose.onclick = () => {
+    chatBox.style.display = 'none';
+  };
+</script>
+
+</body>
+</html>
+
+

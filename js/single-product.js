@@ -116,16 +116,75 @@ function renderProduct(findProduct) {
 
   /* ADDITIONAL INFORMATION */
   const infoBody = document.querySelector(".additional-info-body")
-  infoBody.innerHTML = ""
+infoBody.innerHTML = ""
 
-  Object.entries(findProduct.additionalInformation).forEach(([key, value]) => {
-    infoBody.innerHTML += `
-      <tr>
-        <th>${key}</th>
-        <td><p>${value}</p></td>
-      </tr>
+Object.entries(findProduct.additionalInformation).forEach(([key, value]) => {
+
+  let formattedValue = ""
+
+  // 1️⃣ If value is ARRAY
+  if (Array.isArray(value)) {
+
+    // If array of objects (Model Variants case)
+    if (typeof value[0] === "object") {
+
+      const headers = Object.keys(value[0])
+
+      formattedValue = `
+        <table class="model-variants-table">
+          <thead>
+            <tr>
+              ${headers.map(h => `<th>${h}</th>`).join("")}
+            </tr>
+          </thead>
+          <tbody>
+            ${value.map(item => `
+              <tr>
+                ${headers.map(h => `<td>${item[h] ?? "-"}</td>`).join("")}
+              </tr>
+            `).join("")}
+          </tbody>
+        </table>
+      `
+
+    } else {
+      // If array of strings
+      formattedValue = `
+        <ul>
+          ${value.map(item => `<li>${item}</li>`).join("")}
+        </ul>
+      `
+    }
+
+  }
+
+  // 2️⃣ If value is OBJECT (rare case)
+  else if (typeof value === "object" && value !== null) {
+
+    formattedValue = `
+      <table>
+        ${Object.entries(value).map(([k, v]) => `
+          <tr>
+            <td>${k}</td>
+            <td>${v}</td>
+          </tr>
+        `).join("")}
+      </table>
     `
-  })
+  }
+
+  // 3️⃣ If value is STRING or NUMBER
+  else {
+    formattedValue = `<p>${value}</p>`
+  }
+
+  infoBody.innerHTML += `
+    <tr>
+      <th>${key}</th>
+      <td>${formattedValue}</td>
+    </tr>
+  `
+})
 
 //   /* ADD TO CART */
 // const cart = localStorage.getItem("cart")

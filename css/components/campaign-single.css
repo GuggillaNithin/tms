@@ -1,6 +1,9 @@
 .campaign-single {
-    background-image: url(../../img/single-campaign.png);
+    background-image: url(../../img/single-campaign.webp);
     background-attachment: fixed;
+    background-repeat: no-repeat;        /* Prevent repeating */
+    background-size: cover;              /* Make it cover the whole section */
+    background-position: center;         /* Keep image centered */
     padding: 140px 15px;
     margin-bottom: 40px;
 }

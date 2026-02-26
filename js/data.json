@@ -6990,7 +6990,1497 @@
       "img/products/x-banner-stands/x-banner-model-h/3.webp"
     ]
   }
+},
+
+
+{
+  "id": 227,
+  "sku": "RUS-227-RB",
+  "name": "Roll-Up Strong",
+  "category": ["display-stands", "rollup-banners"],
+  "categories": ["Display Stand", "Roll Up Banners"],
+  "tags": [
+    "Roll Up Strong",
+    "Aluminum Roll Up Banner",
+    "Heavy Duty Roll Up Stand",
+    "Exhibition Display Stand",
+    "Promotional Banner Stand",
+    "Clip Roll Up",
+    "Pasting Roll Up"
+  ],
+  "discount": 0,
+  "shortDescription": "Heavy-duty aluminum Roll-Up Strong banner stand designed for stable and professional exhibition displays.",
+  "description": [
+    "Constructed with high quality aluminum material for strong and durable performance.",
+    "Heavy-duty base system ensuring enhanced stability during indoor promotional events.",
+    "Available in multiple size options to suit various branding and display requirements.",
+    "Smooth roll-up mechanism for quick graphic installation and replacement.",
+    "Suitable for exhibitions, trade shows, retail promotions, conferences, and marketing events.",
+    "Available in Clip and Pasting (Standard Base) options for flexible graphic mounting."
+  ],
+  "sizes": [
+    "80x200 cm",
+    "85x200 cm",
+    "100x200 cm",
+    "120x200 cm",
+    "150x200 cm",
+    "200x200 cm",
+    "240x200 cm",
+    "300x200 cm"
+  ],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Graphic Size": "85x200 cm",
+    "Model Variants": "77TM20-M18F (4.2kg N.W / 4.8kg G.W), 77TM20-M18 (3.6kg N.W / 4.1kg G.W)",
+    "Packing": "4 pcs per carton (26x49x98 cm)",
+    "Carton Weight": "20kg - 22kg",
+    "Usage": "Exhibition, Promotional Display, Indoor Advertising",
+    "Base Type": "Standard Heavy Duty Base"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/roll-up-strong/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/roll-up-strong/1.webp",
+      "img/products/rollup-popup-banners/roll-up-strong/2.webp",
+      "img/products/rollup-popup-banners/roll-up-strong/3.webp",
+      "img/products/rollup-popup-banners/roll-up-strong/4.webp",
+      "img/products/rollup-popup-banners/roll-up-strong/5.webp",
+      "img/products/rollup-popup-banners/roll-up-strong/6.webp"
+
+    ]
+  }
+},
+
+{
+  "id": 228,
+  "sku": "RU60-228-RB",
+  "name": "Roll-Up 60x160cm (Standard Base)",
+  "category": ["display-stands", "rollup-banners"],
+  "categories": ["Display Stand", "Roll Up Banners"],
+  "tags": [
+    "Roll Up 60x160",
+    "Standard Base Roll Up",
+    "Aluminum Roll Up Banner",
+    "Portable Display Stand",
+    "Exhibition Roll Up Banner",
+    "Black Clip Roll Up",
+    "Promotional Banner Stand"
+  ],
+  "discount": 0,
+  "shortDescription": "Compact and lightweight 60x160cm aluminum Roll-Up banner stand with standard base, ideal for indoor promotions and exhibitions.",
+  "description": [
+    "Constructed from durable high quality aluminum material for long-lasting use.",
+    "Compact 60x160cm display size ideal for retail counters, small events, and indoor advertising.",
+    "Stable standard base design ensuring firm support during exhibitions and promotions.",
+    "Available in multiple model variants with different weight and packing specifications.",
+    "Smooth roll-up mechanism for easy graphic installation and replacement.",
+    "Suitable for trade shows, conferences, promotional events, showrooms, and marketing displays."
+  ],
+  "sizes": [
+    "60x160 cm"
+  ],
+  "additionalInformation": {
+  "Material": "Aluminum",
+  "Graphic Size": "60x160 cm",
+  "Base Type": "Standard Base / Black Clip Options Available",
+  "Model Variants": [
+    {
+      "Item No": "77TM-M17",
+      "N.W (kg)": 2.8,
+      "G.W (kg)": 3.2,
+      "Packing": "4pcs/ctn (23x48x98cm)",
+      "Carton Weight": "14kg"
+    },
+    {
+      "Item No": "77TM-M32",
+      "N.W (kg)": 5.2,
+      "G.W (kg)": 6.0,
+      "Packing": "4pcs/ctn (28x46x95cm)",
+      "Carton Weight": "25kg"
+    },
+    {
+      "Item No": "77TM-M46",
+      "N.W (kg)": 5.5,
+      "G.W (kg)": 6.5,
+      "Packing": "4pcs/ctn (29x53x98cm)",
+      "Carton Weight": "27kg"
+    },
+    {
+      "Item No": "77TM-M10",
+      "N.W (kg)": 2.0,
+      "G.W (kg)": 2.16,
+      "Packing": "6pcs/ctn (21x31x91cm)",
+      "Carton Weight": "14kg"
+    },
+    {
+      "Item No": "77TM-M2",
+      "N.W (kg)": 2.36,
+      "G.W (kg)": 2.7,
+      "Packing": "6pcs/ctn (23x33x93cm)",
+      "Carton Weight": "17kg"
+    },
+    {
+      "Item No": "77TM-M14",
+      "N.W (kg)": 3.0
+    },
+    {
+      "Item No": "77TM-M15",
+      "N.W (kg)": 3.5,
+      "G.W (kg)": 3.6,
+      "Packing": "4pcs/ctn (25x38x93cm)",
+      "Carton Weight": "14kg"
+    },
+    {
+      "Item No": "77TM-M1A",
+      "N.W (kg)": 3.0,
+      "G.W (kg)": 3.6,
+      "Packing": "4pcs/ctn (25x38x93cm)",
+      "Carton Weight": "16kg"
+    },
+    {
+      "Item No": "77TM-M25-F",
+      "N.W (kg)": 5.0,
+      "G.W (kg)": 5.5,
+      "Packing": "4pcs/ctn (29x53x98cm)",
+      "Carton Weight": "25kg"
+    },
+    {
+      "Item No": "77TM-M25",
+      "N.W (kg)": 4.7,
+      "G.W (kg)": 5.2,
+      "Packing": "4pcs/ctn (29x53x98cm)",
+      "Carton Weight": "24kg"
+    },
+    {
+      "Item No": "77TM-M8",
+      "N.W (kg)": 3.1,
+      "G.W (kg)": 3.5,
+      "Packing": "6pcs/ctn (25x35x93cm)",
+      "Carton Weight": "22kg"
+    },
+    {
+      "Item No": "77TM-M9",
+      "N.W (kg)": 2.15,
+      "G.W (kg)": 2.65,
+      "Packing": "6pcs/ctn (23x33x93cm)",
+      "Carton Weight": "17kg"
+    },
+    {
+      "Item No": "77TM-M12",
+      "N.W (kg)": 2.2,
+      "G.W (kg)": 2.5,
+      "Packing": "6pcs/ctn (21x31x91cm)",
+      "Carton Weight": "16kg"
+    }
+  ],
+  "Usage": "Exhibition, Promotional Display, Indoor Advertising",
+  "Packing": "Carton packing (4pcs or 6pcs per carton depending on model)"
+},
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/roll-up-60x160-standard-base/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/roll-up-60x160-standard-base/1.webp",
+      "img/products/rollup-popup-banners/roll-up-60x160-standard-base/2.webp",
+      "img/products/rollup-popup-banners/roll-up-60x160-standard-base/3.webp",
+      "img/products/rollup-popup-banners/roll-up-60x160-standard-base/4.webp",
+      "img/products/rollup-popup-banners/roll-up-60x160-standard-base/5.webp",
+      "img/products/rollup-popup-banners/roll-up-60x160-standard-base/6.webp"
+    ]
+  }
+},
+
+{
+  "id": 229,
+  "sku": "DSRU-229-RB",
+  "name": "Double Side Roll-Up 85x200cm",
+  "category": ["display-stands", "rollup-banners"],
+  "categories": ["Display Stand", "Roll Up Banners"],
+  "tags": [
+    "Double Side Roll Up",
+    "85x200 Roll Up Banner",
+    "Double Sided Banner Stand",
+    "Aluminum Roll Up Display",
+    "Exhibition Display Stand",
+    "Promotional Banner Stand"
+  ],
+  "discount": 0,
+  "shortDescription": "Double-sided 85x200cm aluminum roll-up banner stand designed for maximum visibility from both directions.",
+  "description": [
+    "Constructed with durable high quality aluminum material for long-lasting performance.",
+    "Double-sided display design allows graphics to be viewed from both front and back.",
+    "Stable and strong base ensuring firm support during exhibitions and indoor events.",
+    "Smooth roll-up mechanism for easy graphic installation and replacement.",
+    "Ideal for exhibitions, trade shows, retail promotions, conferences, and indoor advertising."
+  ],
+  "sizes": ["85x200 cm"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Graphic Size": "85x200 cm",
+    "Display Type": "Double Sided",
+    "Model Variants": [
+      {
+        "Item No": "77TM-M7",
+        "N.W (kg)": 5.0,
+        "G.W (kg)": 5.5,
+        "Packing": "3pcs/ctn (25x33x93cm)",
+        "Carton Weight": "17kg"
+      },
+      {
+        "Item No": "77TM-M26",
+        "N.W (kg)": 5.4,
+        "G.W (kg)": 6.0,
+        "Packing": "4pcs/ctn (29x53x98cm)",
+        "Carton Weight": "27kg"
+      }
+    ],
+    "Usage": "Exhibition, Promotional Display, Indoor Advertising"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/double-side-roll-up-85x200/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/double-side-roll-up-85x200/1.webp",
+      "img/products/rollup-popup-banners/double-side-roll-up-85x200/2.webp",
+      "img/products/rollup-popup-banners/double-side-roll-up-85x200/3.webp",
+      "img/products/rollup-popup-banners/double-side-roll-up-85x200/4.webp"
+    ]
+  }
+},
+
+{
+  "id": 230,
+  "sku": "SRU-230-RB",
+  "name": "Scrolling Roll-Up 85x200cm (Strong Base)",
+  "category": ["display-stands", "rollup-banners"],
+  "categories": ["Display Stand", "Roll Up Banners"],
+  "tags": [
+    "Scrolling Roll Up",
+    "85x200 Roll Up Banner",
+    "Strong Base Roll Up",
+    "Aluminum Roll Up Display",
+    "Exhibition Display Stand",
+    "Motorized Style Roll Up",
+    "Promotional Banner Stand"
+  ],
+  "discount": 0,
+  "shortDescription": "85x200cm scrolling roll-up banner with strong base construction for dynamic and professional display presentation.",
+  "description": [
+    "Manufactured using high quality aluminum material for durability and long-term use.",
+    "Scrolling display system designed for enhanced visual presentation.",
+    "Strong heavy-duty base ensuring superior stability during exhibitions and events.",
+    "Smooth mechanism for easy graphic setup and replacement.",
+    "Suitable for trade shows, exhibitions, retail promotions, conferences, and indoor advertising."
+  ],
+  "sizes": ["85x200 cm"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Graphic Size": "85x200 cm",
+    "Base Type": "Strong Base",
+    "Display Type": "Scrolling Roll-Up",
+    "Model Variants": [
+      {
+        "Item No": "77TM-M28",
+        "N.W (kg)": 4.7,
+        "G.W (kg)": 5.0,
+        "Packing": "4pcs/ctn (25x38x98cm)",
+        "Carton Weight": "22kg"
+      },
+      {
+        "Item No": "77TM-M16",
+        "N.W (kg)": 4.5,
+        "G.W (kg)": 4.7,
+        "Packing": "4pcs/ctn (26x36x91cm)",
+        "Carton Weight": "21kg"
+      }
+    ],
+    "Usage": "Exhibition, Promotional Display, Indoor Advertising"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/scrolling-roll-up-85x200-strong-base/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/scrolling-roll-up-85x200-strong-base/1.webp",
+      "img/products/rollup-popup-banners/scrolling-roll-up-85x200-strong-base/2.webp",
+      "img/products/rollup-popup-banners/scrolling-roll-up-85x200-strong-base/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 231,
+  "sku": "BRS-231-RB",
+  "name": "Bamboo Roll-Up Square 80x200cm (Strong Base)",
+  "category": ["display-stands", "rollup-banners"],
+  "categories": ["Display Stand", "Roll Up Banners"],
+  "tags": [
+    "Bamboo Roll Up",
+    "Square Roll Up Banner",
+    "80x200 Roll Up Stand",
+    "Strong Base Roll Up",
+    "Aluminum Display Stand",
+    "Exhibition Banner Stand",
+    "Eco Style Roll Up"
+  ],
+  "discount": 0,
+  "shortDescription": "80x200cm bamboo style square roll-up banner with strong base design for stable and professional display presentation.",
+  "description": [
+    "Constructed with high quality aluminum structure ensuring durability and long-term use.",
+    "Bamboo style square design offering a modern and elegant display appearance.",
+    "Strong base system providing enhanced stability during exhibitions and indoor promotions.",
+    "Smooth roll-up mechanism allowing easy graphic installation and replacement.",
+    "Ideal for exhibitions, retail promotions, conferences, showrooms, and indoor advertising."
+  ],
+  "sizes": ["80x200 cm"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Graphic Size": "80x200 cm",
+    "Base Type": "Strong Base",
+    "Display Type": "Square Roll-Up (Bamboo Style)",
+    "Model Variants": [
+      {
+        "Item No": "77TM-M16",
+        "N.W (kg)": 4.5,
+        "G.W (kg)": 4.7,
+        "Packing": "4pcs/ctn (26x36x91cm)",
+        "Carton Weight": "21kg"
+      },
+      {
+        "Item No": "77TM-RS01",
+        "N.W (kg)": 2.1,
+        "G.W (kg)": 2.7,
+        "Packing": "9pcs/ctn (38x38x94cm)",
+        "Carton Weight": "25kg"
+      },
+      {
+        "Item No": "77TM-RS01-Heavy",
+        "N.W (kg)": 4.7,
+        "G.W (kg)": 5.2,
+        "Packing": "4pcs/ctn (29x53x98cm)",
+        "Carton Weight": "24kg"
+      }
+    ],
+    "Usage": "Exhibition, Promotional Display, Indoor Advertising"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/bamboo-roll-up-square-80x200-strong-base/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/bamboo-roll-up-square-80x200-strong-base/1.webp",
+      "img/products/rollup-popup-banners/bamboo-roll-up-square-80x200-strong-base/2.webp",
+      "img/products/rollup-popup-banners/bamboo-roll-up-square-80x200-strong-base/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 232,
+  "sku": "NSP-232-PU",
+  "name": "New Spring Pop-Up",
+  "category": ["display-stands", "rollup-banners","pop-up-displays"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Spring Pop Up",
+    "Pop Up Display Wall",
+    "Exhibition Backdrop",
+    "Aluminum Pop Up Frame",
+    "3x3 Pop Up Stand",
+    "3x4 Pop Up Stand",
+    "Trade Show Back Panel"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum spring pop-up display system available in 3x3 and 3x4 sizes, ideal as exhibition backdrop or display wall.",
+  "description": [
+    "Constructed with high quality aluminum frame ensuring durability and strong structural support.",
+    "Available in 3x3 and 3x4 configurations with both curve and straight frame options.",
+    "Designed for use as a display wall or back panel for exhibitions and trade shows.",
+    "Spring mechanism system allows quick and easy setup without complicated tools.",
+    "Graphics are divided into panel sections for seamless backdrop presentation.",
+    "Packed securely in a durable trolley case for convenient transport and storage."
+  ],
+  "sizes": [
+    "3x3 Curve",
+    "3x3 Straight",
+    "3x4 Curve",
+    "3x4 Straight"
+  ],
+  "additionalInformation": {
+    "Material": "High Quality Aluminum Frame",
+    "Graphic Panel Size Options": [
+      "67 cm (W) x 230 cm (H) – 2 pcs",
+      "70 cm (W) x 230 cm (H) – 3 pcs"
+    ],
+    "Frame Type": "Curve / Straight Options Available",
+    "Packing": "Trolley Case",
+    "Model Variants": [
+      {
+        "Item No": "77TM26",
+        "Configuration": "3x4 Curve"
+      },
+      {
+        "Item No": "77TM26S",
+        "Configuration": "3x4 Straight"
+      },
+      {
+        "Item No": "77TM25",
+        "Configuration": "3x3 Curve"
+      },
+      {
+        "Item No": "77TM25S",
+        "Configuration": "3x3 Straight"
+      }
+    ],
+    "Usage": "Exhibition Display Wall, Trade Show Backdrop, Event Back Panel"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/new-spring-pop-up/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/new-spring-pop-up/1.webp",
+      "img/products/rollup-popup-banners/new-spring-pop-up/2.webp",
+      "img/products/rollup-popup-banners/new-spring-pop-up/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 233,
+  "sku": "FDS-233-PU",
+  "name": "Fabric Double Side Pop-Up with LED 3x4m",
+  "category": ["display-stands", "rollup-banners","pop-up-displays"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Fabric Pop Up Display",
+    "Double Side Pop Up",
+    "LED Pop Up Stand",
+    "3x4m Exhibition Backdrop",
+    "Lighted Display Wall",
+    "Trade Show Display Stand",
+    "Aluminum Frame Pop Up"
+  ],
+  "discount": 0,
+  "shortDescription": "3x4m fabric double-sided pop-up display with integrated LED lighting, ideal for premium exhibition backdrops and trade show presentations.",
+  "description": [
+    "High quality aluminum pop-up frame structure ensuring durability and strong stability.",
+    "Double-sided fabric graphic display for maximum brand visibility from both front and back.",
+    "Integrated LED lighting system enhances graphic brightness and visual impact.",
+    "Large 3x4 meter format suitable for exhibition booths, display walls, and promotional backdrops.",
+    "Tool-free pop-up mechanism allows fast and easy installation.",
+    "Stretch fabric graphics provide seamless and wrinkle-free presentation.",
+    "Packed securely for safe transport and repeated event use."
+  ],
+  "sizes": ["3x4 m"],
+  "additionalInformation": {
+    "Material": "Aluminum Frame with Stretch Fabric Graphic",
+    "Display Type": "Double Side Fabric Pop-Up with LED",
+    "Frame Size": "3x4 m",
+    "Lighting": "Integrated LED Light System",
+    "Graphic Type": "Dye Sublimation Stretch Fabric",
+    "Assembly": "Tool-Free Pop-Up System",
+    "Usage": "Exhibition Booth, Trade Show Backdrop, Event Display Wall, Promotional Setup",
+    "Packing": "Heavy Duty Trolley Case / Carry Case"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/fabric-double-side-pop-up-led-3x4m/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/fabric-double-side-pop-up-led-3x4m/1.webp",
+      "img/products/rollup-popup-banners/fabric-double-side-pop-up-led-3x4m/2.webp",
+      "img/products/rollup-popup-banners/fabric-double-side-pop-up-led-3x4m/3.webp",
+      "img/products/rollup-popup-banners/fabric-double-side-pop-up-led-3x4m/4.webp",
+      "img/products/rollup-popup-banners/fabric-double-side-pop-up-led-3x4m/5.webp"
+    ]
+  }
+},
+
+{
+  "id": 234,
+  "sku": "SPS-234-PU",
+  "name": "Special Pop-Up System (TM-G05)",
+  "category": ["display-stands", "rollup-banners","pop-up-displays"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Special Pop Up System",
+    "Custom Booth Display",
+    "Exhibition Pop Up",
+    "Modular Display Stand",
+    "Trade Show Booth System"
+  ],
+  "discount": 0,
+  "shortDescription": "Customizable special pop-up system designed to fit various exhibition booth sizes.",
+  "description": [
+    "High quality aluminum pop-up frame structure.",
+    "Customizable size according to booth requirements.",
+    "Suitable for exhibition booths, trade shows, and promotional events.",
+    "Modular design allows flexible layout configuration.",
+    "Easy installation and dismantling system."
+  ],
+  "sizes": ["Custom Size"],
+  "additionalInformation": {
+    "Item No": "TM-G05",
+    "Material": "Aluminum Frame",
+    "Customization": "Size can be customized by booth size",
+    "Usage": "Exhibition Booth, Trade Show Display, Event Setup"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/special-pop-up-system-tm-g05/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/special-pop-up-system-tm-g05/1.webp",
+      "img/products/rollup-popup-banners/special-pop-up-system-tm-g05/2.webp",
+      "img/products/rollup-popup-banners/special-pop-up-system-tm-g05/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 235,
+  "sku": "PUS-235-PU",
+  "name": "Pop-Up System (TM-G13)",
+  "category": ["display-stands", "rollup-banners","pop-up-displays"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Pop Up System",
+    "Exhibition Display",
+    "Trade Show Stand",
+    "Modular Pop Up",
+    "Special Exhibition Model"
+  ],
+  "discount": 0,
+  "shortDescription": "Special exhibition pop-up display system model No.03 designed for professional booth presentation.",
+  "description": [
+    "Strong aluminum frame construction.",
+    "Special exhibition model No.03 configuration.",
+    "Suitable for trade shows, exhibitions, and promotional events.",
+    "Quick and easy assembly system.",
+    "Designed for professional booth display setups."
+  ],
+  "sizes": ["Standard Exhibition Size"],
+  "additionalInformation": {
+    "Item No": "TM-G13",
+    "Model": "Special Exhibition Model No.03",
+    "Material": "Aluminum Frame",
+    "Usage": "Exhibition Booth, Trade Show Display"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/pop-up-system-tm-g13/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/pop-up-system-tm-g13/1.webp",
+      "img/products/rollup-popup-banners/pop-up-system-tm-g13/2.webp",
+      "img/products/rollup-popup-banners/pop-up-system-tm-g13/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 236,
+  "sku": "PUDS-236-PU",
+  "name": "Pop-Up System D/S (TMS-G14)",
+  "category": ["display-stands", "rollup-banners","pop-up-displays"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Double Side Pop Up",
+    "Pop Up System D/S",
+    "Exhibition Display System",
+    "Modular Trade Show Stand",
+    "Curved Pop Up Display"
+  ],
+  "discount": 0,
+  "shortDescription": "Double-sided modular pop-up system with curved sections and side table for complete exhibition setup.",
+  "description": [
+    "Double-sided pop-up configuration for maximum visibility.",
+    "Includes 2x3 two-sided pop-up main section.",
+    "Curved pop-up parts for dynamic booth layout.",
+    "Includes small pop-up lower sections and side table for display.",
+    "Ideal for professional trade show booth arrangements."
+  ],
+  "sizes": [
+    "2x3 Pop Up (Double Side)",
+    "2x1 Curved Sections",
+    "1x3 Lower Pop Up Sections"
+  ],
+  "additionalInformation": {
+    "Item No": "TMS-G14",
+    "Graphic Configuration": [
+      "1 piece two sides 2x3 pop up",
+      "2 pieces 2x1 curved pop up part",
+      "2 pieces small 1x3 pop up lower section",
+      "Side table for display"
+    ],
+    "Material": "Aluminum Frame",
+    "Usage": "Exhibition Booth, Trade Show Setup, Promotional Display"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/pop-up-system-ds-tms-g14/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/pop-up-system-ds-tms-g14/1.webp",
+      "img/products/rollup-popup-banners/pop-up-system-ds-tms-g14/2.webp",
+      "img/products/rollup-popup-banners/pop-up-system-ds-tms-g14/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 237,
+  "sku": "SPS-237-PU",
+  "name": "Special Pop-Up System (TM-G06)",
+  "category": ["display-stands", "rollup-banners","pop-up-displays"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Special Pop Up",
+    "Custom Booth System",
+    "Modular Exhibition Display",
+    "Trade Show Pop Up"
+  ],
+  "discount": 0,
+  "shortDescription": "Customizable special pop-up system designed to adapt to different booth dimensions.",
+  "description": [
+    "Strong aluminum frame construction.",
+    "Flexible modular configuration.",
+    "Size customizable according to booth dimensions.",
+    "Suitable for exhibitions, trade fairs, and events.",
+    "Easy assembly and dismantling system."
+  ],
+  "sizes": ["Custom Size"],
+  "additionalInformation": {
+    "Item No": "TM-G06",
+    "Material": "Aluminum Frame",
+    "Customization": "Size can be customized by booth size",
+    "Usage": "Exhibition Booth, Trade Show Display"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/special-pop-up-system-tm-g06/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/special-pop-up-system-tm-g06/1.webp",
+      "img/products/rollup-popup-banners/special-pop-up-system-tm-g06/2.webp",
+      "img/products/rollup-popup-banners/special-pop-up-system-tm-g06/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 238,
+  "sku": "PUT-238-PU",
+  "name": "Pop-Up Tower (TMS-G07)",
+  "category": ["display-stands", "rollup-banners","pop-up-displays"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Pop Up Tower",
+    "Tower Display Stand",
+    "Exhibition Tower Display",
+    "Vertical Pop Up",
+    "Trade Show Tower"
+  ],
+  "discount": 0,
+  "shortDescription": "Vertical pop-up tower display system ideal for exhibitions and promotional branding.",
+  "description": [
+    "High quality aluminum frame construction.",
+    "Vertical tower style design for maximum visibility.",
+    "Compact and space-efficient display solution.",
+    "Suitable for exhibitions, events, and promotional setups.",
+    "Easy to assemble and transport."
+  ],
+  "sizes": ["60x230 cm"],
+  "additionalInformation": {
+    "Item No": "TMS-G07",
+    "Graphic Size": "60x230 cm",
+    "Material": "Aluminum Frame",
+    "Usage": "Exhibition Display, Event Promotion, Trade Show Branding"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/pop-up-tower-tms-g07/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/pop-up-tower-tms-g07/1.webp",
+      "img/products/rollup-popup-banners/pop-up-tower-tms-g07/2.webp",
+      "img/products/rollup-popup-banners/pop-up-tower-tms-g07/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 239,
+  "sku": "TFP-239-PU",
+  "name": "Tension Fabric Pop-Up",
+  "category": ["display-stands", "pop-up-displays","rollup-banners"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Tension Fabric Pop Up",
+    "Fabric Backdrop Display",
+    "Exhibition Background Stand",
+    "Aluminum Pop Up Frame",
+    "Trade Show Fabric Display",
+    "Stretch Fabric Display Wall"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum tension fabric pop-up display ideal for exhibition backdrops and promotional events.",
+  "description": [
+    "Constructed with high quality aluminum material suitable for exposition and trade shows.",
+    "Tension fabric system provides a seamless and wrinkle-free background display.",
+    "Easy to install and dismantle without complicated tools.",
+    "Lightweight and portable design for convenient transport.",
+    "Ideal for use as exhibition background wall or promotional backdrop.",
+    "Available in multiple sizes to suit various display requirements."
+  ],
+  "sizes": [
+    "238.6x228.6 cm",
+    "Custom Sizes Available"
+  ],
+  "additionalInformation": {
+    "Item No": "77TM31-TF",
+    "Material": "Aluminum",
+    "Graphic Size": "238.6 x 228.6 cm",
+    "N.W (kg)": 10,
+    "G.W (kg)": 11,
+    "Packing": "1pc/ctn (26x28x80cm)",
+    "Carton Weight": "11kg",
+    "Usage": "Exhibition Background, Trade Show Display, Event Backdrop"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/tension-fabric-pop-up/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/tension-fabric-pop-up/1.webp",
+      "img/products/rollup-popup-banners/tension-fabric-pop-up/2.webp",
+      "img/products/rollup-popup-banners/tension-fabric-pop-up/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 240,
+  "sku": "MPP-240-PU",
+  "name": "Mini Pop Up",
+  "category": ["display-stands", "pop-up-displays","rollup-banners"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Mini Pop Up",
+    "Aluminum Pop Up Display",
+    "Exhibition Backdrop Stand",
+    "Portable Display Wall",
+    "Pop Up Promotion Counter",
+    "Trade Show Display System"
+  ],
+  "discount": 0,
+  "shortDescription": "Compact aluminum mini pop-up display system with hard case, ideal for exhibition backdrops and promotional counters.",
+  "description": [
+    "Adopting high quality aluminum material ensuring durability and strong structural stability.",
+    "Special self-supporting design allows the shelf to stand independently without connectors.",
+    "Used as display wall or back panel for exhibitions and promotional events.",
+    "Graphic panels configured for seamless backdrop presentation.",
+    "Equipped with durable hard case for safe transport.",
+    "Optional table top available to transform the hard case into a promotional counter.",
+    "Easy installation and convenient to carry."
+  ],
+  "sizes": [
+    "55cm (W) x 237cm (H) x 2 pcs",
+    "74.5cm (W) x 237cm (H) x 3 pcs"
+  ],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Graphic Configuration": "55x237cm x2 panels + 74.5x237cm x3 panels",
+    "Model Variants": [
+      {
+        "Item No": "77TM-MP1",
+        "N.W (kg)": 28,
+        "G.W (kg)": 38,
+        "Packing": "1pc/ctn (42x71x100cm)",
+        "Carton Weight": "38kg"
+      },
+      {
+        "Item No": "77TM-MP2",
+        "N.W (kg)": 28,
+        "G.W (kg)": 38,
+        "Packing": "1pc/ctn (42x71x100cm)",
+        "Carton Weight": "38kg"
+      }
+    ],
+    "Accessories": "Hard Case Included, Optional Table Top for Counter Conversion",
+    "Usage": "Exhibition Display Wall, Trade Show Back Panel, Promotional Counter Setup"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/mini-pop-up/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/mini-pop-up/1.webp",
+      "img/products/rollup-popup-banners/mini-pop-up/2.webp",
+      "img/products/rollup-popup-banners/mini-pop-up/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 241,
+  "sku": "NMP-241-PU",
+  "name": "New Magnet Pop-Up",
+  "category": ["display-stands", "pop-up-displays","rollup-banners"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Magnet Pop Up",
+    "Exhibition Display Wall",
+    "3x3 Pop Up",
+    "3x4 Pop Up",
+    "Curved Pop Up Display",
+    "Straight Pop Up Display",
+    "Trade Show Backdrop"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum magnetic pop-up display available in 3x3 and 3x4 configurations with curved and straight options.",
+  "description": [
+    "Constructed with high quality aluminum material for strong and durable performance.",
+    "Magnetic panel system ensures easy and precise graphic installation.",
+    "Available in 3x3 and 3x4 standard sizes with curved and straight frame options.",
+    "Used as display wall or back panel for exhibitions and trade shows.",
+    "Packed in trolley case for convenient transportation.",
+    "Optional plastic hard case available with table top to transform into a promotional counter."
+  ],
+  "sizes": [
+    "3x3 Curve",
+    "3x3 Straight",
+    "3x4 Curve",
+    "3x4 Straight"
+  ],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Graphic Size": "67cm (W) x 224cm (H) x 5 panels",
+    "Packing": "Trolley Case",
+    "Optional Accessories": "Plastic Hard Case (2 types) with Optional Table Top",
+    "Model Variants": [
+      { "Item No": "77TM270", "Configuration": "3x3 Curve" },
+      { "Item No": "77TM270S", "Configuration": "3x3 Straight" },
+      { "Item No": "77TM280", "Configuration": "3x4 Curve" },
+      { "Item No": "77TM280S", "Configuration": "3x4 Straight" }
+    ],
+    "Usage": "Exhibition Display Wall, Trade Show Back Panel"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/new-magnet-pop-up/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/new-magnet-pop-up/1.webp",
+      "img/products/rollup-popup-banners/new-magnet-pop-up/2.webp",
+      "img/products/rollup-popup-banners/new-magnet-pop-up/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 242,
+  "sku": "NPCD-242-PC",
+  "name": "New Pop Up Counter Model D",
+  "category": ["display-stands", "pop-up-displays","rollup-banners"],
+  "categories": ["Display Stand", "Pop Up Counters"],
+  "tags": [
+    "Pop Up Counter",
+    "Exhibition Counter",
+    "Curved Promotion Counter",
+    "Aluminum Display Counter",
+    "Trade Show Counter"
+  ],
+  "discount": 0,
+  "shortDescription": "Curved aluminum pop-up counter with inner shelf designed for exhibition and promotional use.",
+  "description": [
+    "Constructed from high quality aluminum material.",
+    "Curved counter design for modern and professional presentation.",
+    "Inner shelf storage for promotional materials.",
+    "Suitable for exhibitions, trade shows, and promotional events.",
+    "Easy to assemble and transport."
+  ],
+  "sizes": ["254cm (W) x 94cm (H)"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Graphic Size": "254cm (W) x 94cm (H)",
+    "Structure": "Curved with Inner Shelf",
+    "Usage": "Exhibition Counter, Trade Show Promotion"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/new-pop-up-counter-model-d/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/new-pop-up-counter-model-d/1.webp",
+      "img/products/rollup-popup-banners/new-pop-up-counter-model-d/2.webp",
+      "img/products/rollup-popup-banners/new-pop-up-counter-model-d/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 243,
+  "sku": "NVC-243-PC",
+  "name": "New Velcro Counter",
+  "category": ["display-stands", "pop-up-displays","rollup-banners"],
+  "categories": ["Display Stand", "Pop Up Counters"],
+  "tags": [
+    "Velcro Counter",
+    "Exhibition Counter",
+    "Aluminum Promotion Counter",
+    "Trade Show Counter Display"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum velcro counter designed for exhibition and promotional displays.",
+  "description": [
+    "Made from high quality aluminum material for durability.",
+    "Velcro graphic attachment system for easy installation.",
+    "Compact and professional counter design.",
+    "Suitable for exhibitions, trade shows, and promotional events.",
+    "Easy to transport and assemble."
+  ],
+  "sizes": ["158cm (W) x 83cm (H)"],
+  "additionalInformation": {
+    "Material": "Aluminum",
+    "Graphic Size": "158cm (W) x 83cm (H)",
+    "Graphic Attachment": "Velcro System",
+    "Usage": "Exhibition Counter, Promotional Display"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/new-velcro-counter/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/new-velcro-counter/1.webp",
+      "img/products/rollup-popup-banners/new-velcro-counter/2.webp",
+      "img/products/rollup-popup-banners/new-velcro-counter/3.webp"
+    ]
+  }
+},
+
+
+{
+  "id": 244,
+  "sku": "VPU1-244-PU",
+  "name": "Velcro Pop-Up-1",
+  "category": ["display-stands", "pop-up-displays","rollup-banners"],
+  "categories": ["Display Stand", "Pop Up Displays"],
+  "tags": [
+    "Velcro Pop Up",
+    "Aluminum Pop Up Display",
+    "Exhibition Backdrop",
+    "Trade Show Display Wall",
+    "Standard Pop Up 228x228"
+  ],
+  "discount": 0,
+  "shortDescription": "Standard size aluminum velcro pop-up display system with trolley case for exhibition backdrops.",
+  "description": [
+    "Constructed with high quality aluminum material.",
+    "Velcro graphic attachment structure for easy installation.",
+    "Standard size suitable for exhibition display wall.",
+    "Packed in trolley case for convenient transport.",
+    "Ideal for trade shows, expos, and promotional events."
+  ],
+  "sizes": ["228.5cm (W) x 228.5cm (H)"],
+  "additionalInformation": {
+    "Item No": "77TM24",
+    "Material": "Aluminum",
+    "Graphic Size": "228.5cm (W) x 228.5cm (H)",
+    "Graphic Attachment": "Velcro Structure",
+    "Packing": "Trolley Case",
+    "Usage": "Exhibition Display Wall, Trade Show Backdrop"
+  },
+  "img": {
+    "singleImage": "img/products/rollup-popup-banners/velcro-pop-up-1/1.webp",
+    "thumbs": [
+      "img/products/rollup-popup-banners/velcro-pop-up-1/1.webp",
+      "img/products/rollup-popup-banners/velcro-pop-up-1/2.webp",
+      "img/products/rollup-popup-banners/velcro-pop-up-1/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 245,
+  "sku": "PCD-245-PC",
+  "name": "Promotion Counter D",
+  "category": ["display-stands", "promotion-counters", "rollup-banners"],
+  "categories": ["Display Stand", "Promotion Counters"],
+  "tags": [
+    "Promotion Counter D",
+    "Exhibition Counter",
+    "Wood Panel Counter",
+    "Trade Show Counter",
+    "Portable Promotion Desk"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality wood panel promotion counter designed for exhibitions and promotional activities.",
+  "description": [
+    "Constructed with high quality wood and plastic panel materials.",
+    "Convenient to install and easy to carry.",
+    "Suitable for promotion activities, exhibitions, and trade shows.",
+    "Classic professional counter design for branding display.",
+    "Compact and portable structure."
+  ],
+  "sizes": ["90cm (H) x 180cm (W)"],
+  "additionalInformation": {
+    "Item No": "77TM15-C",
+    "Material": "Plastic/Wood",
+    "Graphic Size": "90 x 180 cm",
+    "N.W (kg)": 10,
+    "G.W (kg)": 12,
+    "Packing": "2pcs/ctn (45x51x96cm)",
+    "Carton Weight": "25kg",
+    "Usage": "Promotion Activity, Exhibition Counter"
+  },
+  "img": {
+    "singleImage": "img/products/promotion-counters/promotion-counter-d/1.webp",
+    "thumbs": [
+      "img/products/promotion-counters/promotion-counter-d/1.webp",
+      "img/products/promotion-counters/promotion-counter-d/2.webp",
+      "img/products/promotion-counters/promotion-counter-d/3.webp"
+    ]
+  }
+},
+
+
+{
+  "id": 246,
+  "sku": "PCC-246-PC",
+  "name": "Promotion Counter C",
+  "category": ["display-stands", "promotion-counters", "rollup-banners"],
+  "categories": ["Display Stand", "Promotion Counters"],
+  "tags": [
+    "Promotion Counter C",
+    "Teardrop Counter",
+    "Exhibition Counter",
+    "Wood Panel Counter",
+    "Portable Promotion Desk"
+  ],
+  "discount": 0,
+  "shortDescription": "Classic teardrop style promotion counter with wood panel design suitable for exhibitions and promotional events.",
+  "description": [
+    "Made from high quality wood and plastic materials.",
+    "Classic teardrop shape providing elegant presentation.",
+    "Convenient to install and easy to transport.",
+    "Suitable for promotion activities and exhibition events.",
+    "Durable and stable counter structure."
+  ],
+  "sizes": ["90cm (H) x 180cm (W)"],
+  "additionalInformation": {
+    "Item No": "77TM15-D",
+    "Material": "Plastic/Wood",
+    "Graphic Size": "90 x 180 cm",
+    "N.W (kg)": 6.5,
+    "G.W (kg)": 7.2,
+    "Packing": "2pcs/ctn (45x51x96cm)",
+    "Carton Weight": "16kg",
+    "Usage": "Promotion Activity, Exhibition Counter"
+  },
+  "img": {
+    "singleImage": "img/products/promotion-counters/promotion-counter-c/1.webp",
+    "thumbs": [
+      "img/products/promotion-counters/promotion-counter-c/1.webp",
+      "img/products/promotion-counters/promotion-counter-c/2.webp",
+      "img/products/promotion-counters/promotion-counter-c/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 247,
+  "sku": "PCR-247-PC",
+  "name": "Promotion Counter R",
+  "category": ["display-stands", "promotion-counters", "rollup-banners"],
+  "categories": ["Display Stand", "Promotion Counters"],
+  "tags": [
+    "Promotion Counter R",
+    "Round Promotion Counter",
+    "Exhibition Counter",
+    "Wood Panel Counter",
+    "Trade Show Counter"
+  ],
+  "discount": 0,
+  "shortDescription": "Classic round style promotion counter designed for promotional activities and exhibition displays.",
+  "description": [
+    "Constructed from high quality plastic and wood materials.",
+    "Classic round panel design for modern exhibition presentation.",
+    "Convenient installation and easy transport.",
+    "Suitable for trade shows, promotional events, and exhibitions.",
+    "Stable and durable counter structure."
+  ],
+  "sizes": ["90cm (H) x 180cm (W)"],
+  "additionalInformation": {
+    "Item No": "77TM15-R",
+    "Material": "Plastic/Wood",
+    "Graphic Size": "90 x 180 cm",
+    "Usage": "Promotion Activity, Exhibition Counter"
+  },
+  "img": {
+    "singleImage": "img/products/promotion-counters/promotion-counter-r/1.webp",
+    "thumbs": [
+      "img/products/promotion-counters/promotion-counter-r/1.webp",
+      "img/products/promotion-counters/promotion-counter-r/2.webp",
+      "img/products/promotion-counters/promotion-counter-r/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 252,
+  "sku": "77TM34-A",
+  "name": "Pop Up Counter A",
+  "category": ["display-stands", "promotion-counters"],
+  "categories": ["Display Stand", "Promotion Counters"],
+  "tags": [
+    "Pop Up Counter A",
+    "Velcro Counter",
+    "Aluminum Counter",
+    "Exhibition Counter",
+    "Trade Show Counter"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum pop up counter with velcro structure, suitable for promotion activities and exhibitions.",
+  "description": [
+    "High quality aluminum material with velcro structure.",
+    "Easy to install and convenient to carry.",
+    "Suitable for promotion activities and exhibition use.",
+    "Stable and durable aluminum frame."
+  ],
+  "sizes": ["174cm (W) x 100cm (H)"],
+  "additionalInformation": {
+    "Item No": "77TM34-A",
+    "Material": "Aluminum",
+    "Graphic Size": "100 x 174 cm",
+    "N.W (kg)": 8.3,
+    "G.W (kg)": 11.0,
+    "Packing": "1pc/ctn (22x44x108cm)",
+    "Carton Weight": "11kg"
+  },
+  "img": {
+    "singleImage": "img/products/promotion-counters/pop-up-counter-a/1.webp",
+    "thumbs": [
+      "img/products/promotion-counters/pop-up-counter-a/1.webp",
+      "img/products/promotion-counters/pop-up-counter-a/2.webp",
+      "img/products/promotion-counters/pop-up-counter-a/3.webp"
+    ]
+  }
+},
+{
+  "id": 253,
+  "sku": "77TM34-B",
+  "name": "Pop Up Counter B",
+  "category": ["display-stands", "promotion-counters"],
+  "categories": ["Display Stand", "Promotion Counters"],
+  "tags": [
+    "Pop Up Counter B",
+    "Straight Promotion Counter",
+    "Aluminum Exhibition Counter",
+    "Trade Show Counter",
+    "Portable Display Counter"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum straight pop up counter with middle shelf, ideal for exhibitions and promotional events.",
+  "description": [
+    "High quality aluminum material.",
+    "Straight design with 1pc middle shelf.",
+    "Easy to install and easy to carry.",
+    "Panel colors available: white, black, brown.",
+    "Suitable for promotion activities and exhibitions."
+  ],
+  "sizes": ["85cm (H) x 203cm (W)"],
+  "additionalInformation": {
+    "Item No": "77TM34-B",
+    "Material": "Aluminum",
+    "Graphic Size": "85 x 203 cm",
+    "N.W (kg)": 12,
+    "G.W (kg)": 14,
+    "Packing": "1pc/ctn (22x44x92cm)",
+    "Carton Weight": "14kg"
+  },
+  "img": {
+    "singleImage": "img/products/promotion-counters/pop-up-counter-b/1.webp",
+    "thumbs": [
+      "img/products/promotion-counters/pop-up-counter-b/1.webp",
+      "img/products/promotion-counters/pop-up-counter-b/2.webp",
+      "img/products/promotion-counters/pop-up-counter-b/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 254,
+  "sku": "77TM34-C",
+  "name": "Pop Up Counter C",
+  "category": ["display-stands", "promotion-counters"],
+  "categories": ["Display Stand", "Promotion Counters"],
+  "tags": [
+    "Pop Up Counter C",
+    "Curved Counter",
+    "Straight Counter",
+    "Aluminum Promotion Counter",
+    "Exhibition Display Counter"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum pop up counter available in curved and straight styles with double middle shelves.",
+  "description": [
+    "High quality aluminum material.",
+    "Available in two styles: curved and straight.",
+    "Straight version includes 2pcs middle shelves.",
+    "Easy installation and convenient transportation.",
+    "Panel colors available: white, black, brown.",
+    "Suitable for promotion activities and exhibitions."
+  ],
+  "sizes": ["85cm (H) x 213cm (W)"],
+  "additionalInformation": {
+    "Item No": "77TM34-C",
+    "Material": "Aluminum",
+    "Graphic Size": "85 x 213 cm",
+    "N.W (kg)": 17,
+    "G.W (kg)": 19,
+    "Packing": "2pcs/ctn (25x44x92cm)",
+    "Carton Weight": "19kg"
+  },
+  "img": {
+    "singleImage": "img/products/promotion-counters/pop-up-counter-c/1.webp",
+    "thumbs": [
+      "img/products/promotion-counters/pop-up-counter-c/1.webp",
+      "img/products/promotion-counters/pop-up-counter-c/2.webp",
+      "img/products/promotion-counters/pop-up-counter-c/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 255,
+  "sku": "77TM15-A",
+  "name": "Promotion Counter A",
+  "category": ["display-stands", "promotion-counters"],
+  "categories": ["Display Stand", "Promotion Counters"],
+  "tags": [
+    "Promotion Counter A",
+    "Classic Promotion Counter",
+    "Round Promotion Counter",
+    "PVC Counter",
+    "Exhibition Counter"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality PVC promotion counter available in classic and round styles, suitable for exhibitions and promotional activities.",
+  "description": [
+    "Adopting high quality PVC/plastic material.",
+    "Suitable for promotion activities and exhibitions.",
+    "Available in two styles: Classic and Round.",
+    "Lightweight and easy to install.",
+    "Portable and durable design."
+  ],
+  "sizes": [
+    "85cm (H) x 83cm (W)",
+    "77cm (W) x 28cm (H)"
+  ],
+  "additionalInformation": {
+    "Item No (Classic)": "77TM15-A1",
+    "Item No (Round)": "77TM15-A2",
+    "Material": "PVC/Plastic",
+    "Graphic Size (A1)": "85 x 83 cm",
+    "Graphic Size (A2)": "77 x 28 cm",
+    "N.W (kg)": 9.0,
+    "G.W (kg)": 12,
+    "Packing": "1pc/ctn (12x86x88cm)",
+    "Carton Weight": "12kg"
+  },
+  "img": {
+    "singleImage": "img/products/promotion-counters/promotion-counter-a/1.webp",
+    "thumbs": [
+      "img/products/promotion-counters/promotion-counter-a/1.webp",
+      "img/products/promotion-counters/promotion-counter-a/2.webp",
+      "img/products/promotion-counters/promotion-counter-a/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 256,
+  "sku": "77TMS-FB-S/M/L",
+  "name": "Flying Banner",
+  "category": ["display-stands", "flags-and-banners"],
+  "categories": ["Display Stand", "Flags & Banners"],
+  "tags": [
+    "Flying Banner",
+    "Flag Banner Stand",
+    "Teardrop Flag",
+    "Outdoor Advertising Flag",
+    "Beach Flag"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum flying banner with elastic pole, available in 4M, 5M and 7M sizes for outdoor advertising.",
+  "description": [
+    "Made of high quality steel and aluminum material.",
+    "Elastic pole system allows the banner to fly beautifully in teardrop form.",
+    "Designed to attract attention in outdoor environments.",
+    "Available sizes: 4M, 5M, 7M (S/M/L).",
+    "Base options: Water Base, X-Base, Concrete Base.",
+    "Cross base with optional water bag for improved stability.",
+    "Inner base suitable for sand and grass areas."
+  ],
+  "sizes": [
+    "55cm x 175cm (S/M/L options)"
+  ],
+  "additionalInformation": {
+    "Item No": "77TMS-FB-S/M/L",
+    "Material": "Steel/Aluminum",
+    "Graphic Size": "55 x 175 cm",
+    "N.W (kg)": "3.2 / 3.3 / 3.4",
+    "G.W (kg)": "4.0 / 4.2 / 4.6",
+    "Packing": "5pcs/ctn (21x32x128cm)",
+    "Available Heights": "4M / 5M / 7M",
+    "Base Options": "Water Base, X-Base, Concrete Base"
+  },
+  "img": {
+    "singleImage": "img/products/flags/flying-banner/1.webp",
+    "thumbs": [
+      "img/products/flags/flying-banner/1.webp",
+      "img/products/flags/flying-banner/2.webp",
+      "img/products/flags/flying-banner/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 257,
+  "sku": "77TMS-AF-S/M/L",
+  "name": "Aluminum Flag",
+  "category": ["display-stands", "flags-and-banners"],
+  "categories": ["Display Stand", "Flags & Banners"],
+  "tags": [
+    "Aluminum Flag",
+    "Teardrop Flag",
+    "Outdoor Flag Stand",
+    "Advertising Flag",
+    "Event Flag"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum teardrop flag with elastic pole system for outdoor and promotional use.",
+  "description": [
+    "Constructed with high quality aluminum material.",
+    "Elastic pole design for flexible wind movement.",
+    "Beautiful teardrop shape for maximum visibility.",
+    "Suitable for outdoor events, exhibitions, and promotions.",
+    "Cross base with optional water bag for added stability.",
+    "Inner base suitable for sand and grass surfaces.",
+    "Multiple base options available: Water Base, X-Base, Concrete Base."
+  ],
+  "sizes": [
+    "55cm x 175cm (S/M/L options)"
+  ],
+  "additionalInformation": {
+    "Item No": "77TMS-AF-S/M/L",
+    "Material": "Aluminum",
+    "Graphic Size": "55 x 175 cm",
+    "N.W (kg)": "2.0",
+    "G.W (kg)": "3.0",
+    "Packing": "5pcs/ctn (21x32x88cm)",
+    "Available Heights": "4M / 5M / 7M",
+    "Base Options": "Water Base, X-Base, Concrete Base"
+  },
+  "img": {
+    "singleImage": "img/products/flags/aluminum-flag/1.webp",
+    "thumbs": [
+      "img/products/flags/aluminum-flag/1.webp",
+      "img/products/flags/aluminum-flag/2.webp",
+      "img/products/flags/aluminum-flag/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 258,
+  "sku": "77TMS-RB-S/M/L",
+  "name": "Rectangular Flag",
+  "category": ["display-stands", "flags-and-banners"],
+  "categories": ["Display Stand", "Flags & Banners"],
+  "tags": [
+    "Rectangular Flag",
+    "Outdoor Flag Banner",
+    "Advertising Flag",
+    "Event Display Flag",
+    "Promotion Flag"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum rectangular flag banner with multiple base options for outdoor advertising.",
+  "description": [
+    "Made with high quality aluminum material and elastic pole.",
+    "Rectangular shape for maximum printable display area.",
+    "Designed for outdoor advertising and promotional use.",
+    "Multiple base options available: Water Base, X-Base, Concrete Base.",
+    "Suitable for exhibitions, events, beaches, and retail promotions."
+  ],
+  "sizes": [
+    "75cm x 300cm (S/M/L options)"
+  ],
+  "additionalInformation": {
+    "Item No": "77TMS-RB-S/M/L",
+    "Material": "Aluminum",
+    "Graphic Size": "75 x 300 cm",
+    "N.W (kg)": "2.8 / 3.2 / 4.0",
+    "G.W (kg)": "3.8 / 4.2 / 5.0",
+    "Packing": "2pcs/ctn (25x35x140cm)",
+    "Available Heights": "4M / 5M / 7M",
+    "Base Options": "Water Base, X-Base, Concrete Base"
+  },
+  "img": {
+    "singleImage": "img/products/flags/rectangular-flag/1.webp",
+    "thumbs": [
+      "img/products/flags/rectangular-flag/1.webp",
+      "img/products/flags/rectangular-flag/2.webp",
+      "img/products/flags/rectangular-flag/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 259,
+  "sku": "TENT-259",
+  "name": "Advertising Tent",
+  "category": ["display-stands", "tents-and-canopies"],
+  "categories": ["Display Stand", "Tents & Canopies"],
+  "tags": [
+    "Advertising Tent",
+    "Pop Up Tent",
+    "Event Canopy",
+    "Outdoor Promotion Tent",
+    "Exhibition Tent",
+    "Custom Printed Tent"
+  ],
+  "discount": 0,
+  "shortDescription": "High quality aluminum frame advertising tent available in multiple sizes with various sidewall and base accessories for outdoor events and promotions.",
+  "description": [
+    "Strong aluminum frame construction for stability and durability.",
+    "Suitable for outdoor promotions, exhibitions, trade shows, and events.",
+    "Available in multiple size configurations.",
+    "Custom printable canopy for branding and advertising.",
+    "Multiple sidewall options including standard, panorama, and door styles.",
+    "Optional structural reinforcement bars for additional stability.",
+    "Accessory options available for different ground conditions."
+  ],
+  "sizes": [
+    "3m x 3m",
+    "4.5m x 3m",
+    "4m x 4m",
+    "6m x 3m",
+    "6m x 4m",
+    "5m x 5m",
+    "8m x 4m",
+    "6m x 6m"
+  ],
+  "additionalInformation": {
+    "Frame Material": "Aluminum",
+    "Canopy Usage": "Outdoor Advertising & Event Promotion",
+    "Sidewall Options": [
+      "Standard Sidewall",
+      "Standard Sidewall with Door",
+      "Panorama Sidewall",
+      "S-Panorama Sidewall",
+      "S-Panorama Sidewall with Door",
+      "Half High Sidewall (Horizontal Bar Required)"
+    ],
+    "Structural Accessories": [
+      "Horizontal Bar",
+      "Diagonal Bar"
+    ],
+    "Base & Stability Options": [
+      "10kg Weight Plate",
+      "Water Base",
+      "Concrete Base",
+      "Ground Inner Base (for sand and grass)"
+    ],
+    "Connection Accessories": [
+      "Rain Gutter",
+      "Connecting Clamp"
+    ],
+    "Usage": "Outdoor Events, Exhibitions, Promotional Campaigns, Trade Shows"
+  },
+  "img": {
+    "singleImage": "img/products/tents/advertising-tent/1.webp",
+    "thumbs": [
+      "img/products/flags/advertising-tent/1.webp",
+      "img/products/tents/advertising-tent/2.webp",
+      "img/products/tents/advertising-tent/3.webp"
+    ]
+  }
 }
+
 
 
 

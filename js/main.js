@@ -68,7 +68,7 @@ const btnModalClose = document.querySelector(".modal-close");
 if (modal) {
     setTimeout(() => {
         modal.classList.add("show");
-    }, 3000);
+    }, 6000);
 }
 
 // Close button

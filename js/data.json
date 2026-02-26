@@ -6713,6 +6713,7 @@
   "name": "L Banner Model A",
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
+  "tags": ["Display Stands", "L banner Stands"],
   "discount": 0,
   "shortDescription": "High quality aluminum L banner stand Model A for exhibitions.",
   "description": [
@@ -6742,6 +6743,7 @@
   "name": "L Banner Model B",
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
+  "tags": ["L Banner", "L Banner Stand", "Display Stand", "Aluminum Banner Stand", "Exhibition Stand"],
   "discount": 0,
   "shortDescription": "Aluminum L banner stand Model B with multiple size options.",
   "description": [
@@ -6771,6 +6773,7 @@
   "name": "L Banner Model C",
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
+  "tags": ["L Banner", "Portable Banner Stand", "Display Stand", "Aluminum Stand", "Exhibition Display"],
   "discount": 0,
   "shortDescription": "Portable aluminum L banner stand Model C for exhibitions.",
   "description": [
@@ -6800,6 +6803,7 @@
   "name": "X Banner Model D1",
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
+  "tags": ["X Banner", "X Banner Stand", "Display Stand", "Aluminum Banner Stand", "Event Stand"],
   "discount": 0,
   "shortDescription": "High quality aluminum X banner stand Model D1 for exhibitions.",
   "description": [
@@ -6815,11 +6819,11 @@
     "Packing": "Single Oxford Bag"
   },
   "img": {
-    "singleImage": "img/products/display-stand/x-banner-model-d1/1.webp",
+    "singleImage": "img/products/l-banner-stands/x-banner-model-d1/1.webp",
     "thumbs": [
-      "img/products/display-stand/x-banner-model-d1/1.webp",
-      "img/products/display-stand/x-banner-model-d1/2.webp",
-      "img/products/display-stand/x-banner-model-d1/3.webp"
+      "img/products/l-banner-stands/x-banner-model-d1/1.webp",
+      "img/products/l-banner-stands/x-banner-model-d1/2.webp",
+      "img/products/l-banner-stands/x-banner-model-d1/3.webp"
     ]
   }
 },
@@ -6829,6 +6833,7 @@
   "name": "L Banner Model D2",
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
+  "tags": ["L Banner", "Double Side Banner Stand", "Display Stand", "Exhibition Stand", "Aluminum Display"],
   "discount": 0,
   "shortDescription": "Double sided aluminum L banner stand Model D2 for exhibitions.",
   "description": [
@@ -6850,6 +6855,139 @@
       "img/products/l-banner-stands/l-banner-model-d2/1.webp",
       "img/products/l-banner-stands/l-banner-model-d2/2.webp",
       "img/products/l-banner-stands/l-banner-model-d2/3.webp"
+    ]
+  }
+},
+{
+  "id": 223,
+  "sku": "XBS-223-G",
+  "name": "X Banner Model G",
+  "category": ["display-stands", "x-banner-stands"],
+  "categories": ["Display Stand", "X Banner Stands"],
+  "tags": ["X Banner", "X Banner Stand", "Portable Display Stand", "Aluminum Stand", "Exhibition Display"],
+  "discount": 0,
+  "shortDescription": "Premium aluminum X Banner Model G 60x180cm ideal for exhibitions and promotional events.",
+  "description": [
+    "Manufactured with high quality aluminum poles for durability and stability.",
+    "Lightweight and portable structure for easy transportation.",
+    "Quick and simple setup without tools.",
+    "Regular display size: 60cmW x 180cmH.",
+    "Ideal for exhibitions, trade shows, retail promotions, and indoor advertising.",
+    "Comes packed in a single durable oxford carry bag for convenient storage."
+  ],
+  "sizes": ["60cmW x 180cmH"],
+  "additionalInformation": {
+    "Material": "High Quality Aluminum",
+    "Usage": "Exhibition, Retail Promotion, Events",
+    "Display Type": "Single Side",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/x-banner-stands/x-banner-model-g/1.webp",
+    "thumbs": [
+      "img/products/x-banner-stands/x-banner-model-g/1.webp",
+      "img/products/x-banner-stands/x-banner-model-g/2.webp",
+      "img/products/x-banner-stands/x-banner-model-g/3.webp"
+    ]
+  }
+},
+
+{
+  "id": 224,
+  "sku": "XBS-224-C",
+  "name": "X Banner Model C",
+  "category": ["display-stands", "x-banner-stands"],
+  "categories": ["Display Stand", "X Banner Stands"],
+  "tags": ["X Banner", "Large X Banner Stand", "Display Stand", "Aluminum Banner Stand", "Exhibition Display Stand"],
+  "discount": 0,
+  "shortDescription": "Large format aluminum X Banner Model C 120x200cm for impactful promotional display.",
+  "description": [
+    "Constructed using premium quality aluminum pole framework for enhanced durability.",
+    "Strong and stable X-frame design for secure banner holding.",
+    "Quick and easy installation without the need for additional tools.",
+    "Regular display size: 120cmW x 200cmH.",
+    "Ideal for exhibitions, trade shows, showrooms, conferences, and retail promotions.",
+    "Supplied with a single durable oxford carry bag for easy transport and storage."
+  ],
+  "sizes": ["120cmW x 200cmH"],
+  "additionalInformation": {
+    "Material": "High Quality Aluminum",
+    "Usage": "Exhibition, Showroom, Promotional Display",
+    "Display Type": "Single Side",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/x-banner-stands/x-banner-model-c-large/1.webp",
+    "thumbs": [
+      "img/products/x-banner-stands/x-banner-model-c-large/1.webp",
+      "img/products/x-banner-stands/x-banner-model-c-large/2.webp",
+      "img/products/x-banner-stands/x-banner-model-c-large/3.webp"
+    ]
+  }
+},
+{
+  "id": 225,
+  "sku": "XBS-225-C1",
+  "name": "X Banner Model C1",
+  "category": ["display-stands", "x-banner-stands"],
+  "categories": ["Display Stand", "X Banner Stands"],
+  "tags": ["X Banner", "Adjustable X Banner", "Portable Display Stand", "Aluminum X Stand", "Event Display Stand"],
+  "discount": 0,
+  "shortDescription": "Multi-size aluminum X Banner Model C1 for versatile exhibition and promotional displays.",
+  "description": [
+    "Manufactured from durable and high-strength aluminum poles for long-term use.",
+    "Lightweight structure ensures easy portability and frequent handling.",
+    "Simple and user-friendly assembly mechanism.",
+    "Available in multiple sizes: 60cmW x 160cmH and 80cmW x 180cmH.",
+    "Perfect for exhibitions, malls, retail stores, corporate events, and indoor advertising.",
+    "Securely packed in a single oxford carry bag for protection during transport."
+  ],
+  "sizes": ["60cmW x 160cmH", "80cmW x 180cmH"],
+  "additionalInformation": {
+    "Material": "High Quality Aluminum",
+    "Usage": "Exhibition, Retail, Events",
+    "Display Type": "Single Side",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/x-banner-stands/x-banner-model-c1/1.webp",
+    "thumbs": [
+      "img/products/x-banner-stands/x-banner-model-c1/1.webp",
+      "img/products/x-banner-stands/x-banner-model-c1/2.webp",
+      "img/products/x-banner-stands/x-banner-model-c1/3.webp"
+    ]
+  }
+},
+{
+  "id": 226,
+  "sku": "XBS-226-H",
+  "name": "X Banner Model H",
+  "category": ["display-stands", "x-banner-stands"],
+  "categories": ["Display Stand", "X Banner Stands"],
+  "tags": ["X Banner", "Adjustable Banner Stand", "Display Stand", "Aluminum X Banner Frame", "Exhibition Banner Stand"],
+  "discount": 0,
+  "shortDescription": "Adjustable size aluminum X Banner Model H designed for flexible exhibition display.",
+  "description": [
+    "Built with high quality aluminum poles ensuring strong and stable support.",
+    "Lightweight and portable design for convenient transport between events.",
+    "Easy assembly and dismantling without any tools required.",
+    "Adjustable size mechanism allows compatibility with different banner dimensions.",
+    "Suitable for exhibitions, conferences, retail promotions, marketing events, and indoor advertising.",
+    "Delivered with a protective single oxford carry bag for safe storage."
+  ],
+  "sizes": ["Adjustable"],
+  "additionalInformation": {
+    "Material": "High Quality Aluminum",
+    "Usage": "Exhibition, Promotional Display",
+    "Display Type": "Adjustable Frame",
+    "Packing": "Single Oxford Bag"
+  },
+  "img": {
+    "singleImage": "img/products/x-banner-stands/x-banner-model-h/1.webp",
+    "thumbs": [
+      "img/products/x-banner-stands/x-banner-model-h/1.webp",
+      "img/products/x-banner-stands/x-banner-model-h/2.webp",
+      "img/products/x-banner-stands/x-banner-model-h/3.webp"
     ]
   }
 }

@@ -125,7 +125,7 @@ function megaMenuInteraction() {
 
   /* ✅ IMAGE SWITCH */
   if (previewImg) {
-    previewImg.src = `img/categoryimg/${key}.png`
+    previewImg.src = `img/categoryimg/${key}.webp`
   }
 })
 
@@ -170,7 +170,7 @@ function megaMenuInteraction() {
   // Default image for first active category
   const defaultActive = document.querySelector(".mega-category-list li.active")
     if (defaultActive && previewImg) {
-    previewImg.src = `img/categoryimg/${defaultActive.dataset.category}.png`
+    previewImg.src = `img/categoryimg/${defaultActive.dataset.category}.webp`
   }
 
 }

@@ -7,8 +7,16 @@
     height: calc(100vh - 137px);
     display: flex;
     align-items: center;
+    overflow: hidden;
 }
 
+.slider .slider-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 1;
+}
 
 
 .slider .slider-item img {
@@ -18,7 +26,17 @@
     height: 100%;
     object-fit: cover;
     object-position: 60%;
-    z-index: -1;
+    z-index: 0;
+}
+
+.slider .slider-item .container {
+    position: relative;
+    z-index: 2;
+}
+
+.slider .slider-buttons,
+.slider .slider-dots {
+    z-index: 2;
 }
 
 .slider-item .slider-title {

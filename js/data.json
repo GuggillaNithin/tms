@@ -8479,6 +8479,240 @@
       "img/products/tents/advertising-tent/3.webp"
     ]
   }
+},
+
+{
+  "id": 260,
+  "sku": "STIMSON-COMBO-KIT",
+  "name": "Stimson Combo Kit",
+  "category": ["accessories", "machines"],
+  "categories": ["Accessories", "Machines"],
+  "tags": [
+    "Stimson Combo Kit",
+    "Grommet Kit",
+    "Replacement Die",
+    "Clear Grommets",
+    "Banner Accessories"
+  ],
+  "discount": 0,
+  "shortDescription": "FASNAP aluminum combo kit including replacement die and 500 #3 clear grommets.",
+  "description": [
+    "FASNAP aluminum combo pack.",
+    "Includes replacement die.",
+    "Supplied with 500 #3 clear grommets (3 lbs).",
+    "Suitable for banner and signage production."
+  ],
+  "sizes": [],
+  "additionalInformation": {
+    "Kit Includes": "Replacement Die + 500 #3 Clear Grommets (3 lbs)",
+    "Material": "Aluminum",
+    "Usage": "Banner Finishing & Grommet Press Applications"
+  },
+  "img": {
+    "singleImage": "img/products/machines/stimson-combo-kit/1.webp",
+    "thumbs": [
+      "img/products/machines/stimson-combo-kit/1.webp"
+    ]
+  }
+},
+
+{
+  "id": 261,
+  "sku": "SOOPER-ACE-COMBO-KIT",
+  "name": "Sooper Ace Combo Kit",
+  "category": ["accessories", "machines"],
+  "categories": ["Accessories", "Machines"],
+  "tags": [
+    "Sooper Ace Combo Kit",
+    "Grommet Machine Kit",
+    "Replacement Die Kit",
+    "Clear Grommets"
+  ],
+  "discount": 0,
+  "shortDescription": "Sooper Ace combo kit including replacement die and 500 #3 clear grommets.",
+  "description": [
+    "Sooper Ace combo pack.",
+    "Includes replacement die.",
+    "Supplied with 500 #3 clear grommets (3 lbs).",
+    "Designed for professional banner finishing."
+  ],
+  "sizes": [],
+  "additionalInformation": {
+    "Kit Includes": "Replacement Die + 500 #3 Clear Grommets (3 lbs)",
+    "Usage": "Grommet Press & Banner Production"
+  },
+  "img": {
+    "singleImage": "img/products/machines/sooper-ace-combo-kit/1.webp",
+    "thumbs": [
+      "img/products/machines/sooper-ace-combo-kit/1.webp"
+    ]
+  }
+},
+
+{
+  "id": 262,
+  "sku": "HIKER-COMBO-KIT",
+  "name": "Hiker Combo Kit",
+  "category": ["accessories", "machines"],
+  "categories": ["Accessories", "Machines"],
+  "tags": [
+    "Hiker Combo Kit",
+    "Grommet Kit",
+    "Replacement Die",
+    "Clear Grommets"
+  ],
+  "discount": 0,
+  "shortDescription": "HIKER combo pack including replacement die and 500 #3 clear grommets.",
+  "description": [
+    "HIKER combo kit.",
+    "Includes replacement die.",
+    "Supplied with 500 #3 clear grommets (3 lbs).",
+    "Ideal for signage and banner finishing."
+  ],
+  "sizes": [],
+  "additionalInformation": {
+    "Kit Includes": "Replacement Die + 500 #3 Clear Grommets (3 lbs)",
+    "Usage": "Banner & Signage Production"
+  },
+  "img": {
+    "singleImage": "img/products/machines/hiker-combo-kit/1.webp",
+    "thumbs": [
+      "img/products/machines/hiker-combo-kit/1.webp"
+    ]
+  }
+},
+
+{
+  "id": 263,
+  "sku": "FASNAP-COMBO-KIT",
+  "name": "Fasanap Combo Kit",
+  "category": ["accessories", "machines"],
+  "categories": ["Accessories", "Machines"],
+  "tags": [
+    "Fasnap Combo Kit",
+    "Aluminum Grommet Kit",
+    "Replacement Die",
+    "Clear Grommets"
+  ],
+  "discount": 0,
+  "shortDescription": "FASNAP aluminum combo kit including replacement die and clear grommets.",
+  "description": [
+    "FASNAP aluminum combo pack.",
+    "Includes replacement die.",
+    "Supplied with 500 #3 clear grommets.",
+    "Designed for professional banner finishing applications."
+  ],
+  "sizes": [],
+  "additionalInformation": {
+    "Kit Includes": "Replacement Die + 500 #3 Clear Grommets",
+    "Material": "Aluminum",
+    "Usage": "Grommet Press Applications"
+  },
+  "img": {
+    "singleImage": "img/products/machines/fasnap-combo-kit/1.webp",
+    "thumbs": [
+      "img/products/machines/fasnap-combo-kit/1.webp"
+    ]
+  }
+},
+
+{
+  "id": 264,
+  "sku": "MANO-COMBO-KIT-METAL",
+  "name": "Mano Combo Kit Metal Grommets",
+  "category": ["accessories", "machines"],
+  "categories": ["Accessories", "Machines"],
+  "tags": [
+    "Mano Combo Kit",
+    "Metal Grommet Kit",
+    "Grommet Press Conversion",
+    "Die #2"
+  ],
+  "discount": 0,
+  "shortDescription": "Conversion kit for clear grommet press to metal grommet press including die #2 and 500 metal grommets.",
+  "description": [
+    "Convert clear grommet press to metal grommet press.",
+    "Includes Die #2.",
+    "Includes 500 #2 metal grommets (GRM2SPB).",
+    "Suitable for professional finishing applications."
+  ],
+  "sizes": [],
+  "additionalInformation": {
+    "Kit Includes": "Die #2 + 500 #2 Metal Grommets (GRM2SPB)",
+    "Usage": "Metal Grommet Press Conversion"
+  },
+  "img": {
+    "singleImage": "img/products/machines/mano-combo-kit-metal/1.webp",
+    "thumbs": [
+      "img/products/machines/mano-combo-kit-metal/1.webp"
+    ]
+  }
+},
+
+{
+  "id": 265,
+  "sku": "SOOPER-ROUNDER",
+  "name": "Sooper Rounder",
+  "category": ["accessories", "machines"],
+  "categories": ["Accessories", "Machines"],
+  "tags": [
+    "Sooper Rounder",
+    "Corner Rounder",
+    "Sheet Cutter",
+    "Aluminum Cutter"
+  ],
+  "discount": 0,
+  "shortDescription": "Heavy duty corner rounding machine with interchangeable blades for aluminum, plastics and card stock.",
+  "description": [
+    "Includes 1/4” and 3/8” interchangeable radius blades.",
+    "Cuts up to 0.080 aluminum.",
+    "Cuts up to 1” card stock, plastics, magnetic sheets and more.",
+    "Heavy duty cast iron base.",
+    "Drop down foot holds material in place while cutting."
+  ],
+  "sizes": [],
+  "additionalInformation": {
+    "Blade Sizes": "1/4” & 3/8”",
+    "Base": "Heavy Duty Cast Iron",
+    "Usage": "Corner Rounding for Signage & Print Materials"
+  },
+  "img": {
+    "singleImage": "img/products/machines/sooper-rounder/1.webp",
+    "thumbs": [
+      "img/products/machines/sooper-rounder/1.webp"
+    ]
+  }
+},
+
+{
+  "id": 266,
+  "sku": "MINI-SEAMING-MACHINE",
+  "name": "Mini Seaming Machine",
+  "category": ["accessories", "machines"],
+  "categories": ["Accessories", "Machines"],
+  "tags": [
+    "Mini Seaming Machine",
+    "Banner Welding Machine",
+    "PVC Seaming Machine"
+  ],
+  "discount": 0,
+  "shortDescription": "Compact seaming machine designed for banner welding and flexible material joining.",
+  "description": [
+    "Compact and portable design.",
+    "Suitable for banner and PVC material seaming.",
+    "Provides strong and clean seam finishing.",
+    "Ideal for signage production workshops."
+  ],
+  "sizes": [],
+  "additionalInformation": {
+    "Usage": "Banner Seaming & PVC Welding"
+  },
+  "img": {
+    "singleImage": "img/products/machines/mini-seaming-machine/1.webp",
+    "thumbs": [
+      "img/products/machines/mini-seaming-machine/1.webp"
+    ]
+  }
 }
 
 

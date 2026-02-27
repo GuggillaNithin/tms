@@ -1,4 +1,5 @@
 import { product1, product2 } from "./glide.js"
+import { isInWishlist, toggleWishlist } from "./wishlist.js"
 
 
 export let cart = localStorage.getItem("cart")
@@ -25,6 +26,33 @@ function addToCart(products) {
     })
 }
 
+function setWishlistButtonState(button, active) {
+    const icon = button.querySelector("i")
+
+    if (icon) {
+        icon.classList.toggle("bi-heart-fill", active)
+        icon.classList.toggle("bi-heart", !active)
+    }
+
+    button.setAttribute("aria-pressed", String(active))
+    button.title = active ? "Remove from Wishlist" : "Add to Wishlist"
+}
+
+function addToWishlist() {
+    const buttons = [...document.getElementsByClassName("add-to-wishlist")]
+
+    buttons.forEach((button) => {
+        const id = Number(button.dataset.id)
+        if (!id) return
+
+        setWishlistButtonState(button, isInWishlist(id))
+
+        button.addEventListener("click", function () {
+            const active = toggleWishlist(id)
+            setWishlistButtonState(button, active)
+        })
+    })
+}
 
 
 async function productFunc(products) {
@@ -66,8 +94,8 @@ async function productFunc(products) {
         <i class="bi bi-basket-fill"></i>
       </button>
 
-      <button>
-        <i class="bi bi-heart-fill"></i>
+      <button class="add-to-wishlist" data-id="${product.id}">
+        <i class="bi bi-heart"></i>
       </button>
 
       <a href="single-product.html?id=${product.id}">
@@ -95,6 +123,7 @@ if (productsContainer2) {
 
 
     addToCart(products)
+    addToWishlist()
 
     product1()
 

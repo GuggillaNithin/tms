@@ -5,6 +5,7 @@ import colorsFunc from "./single-product/colors.js"
 import valuesFunc from "./single-product/values.js"
 import tabsFunc from "./single-product/tabs.js"
 import commentsfunc from "./single-product/comments.js"
+import { isInWishlist, toggleWishlist } from "./wishlist.js"
 
 /* ================================
    READ PRODUCT ID FROM URL
@@ -186,6 +187,8 @@ Object.entries(findProduct.additionalInformation).forEach(([key, value]) => {
   `
 })
 
+setupWishlistButton(findProduct.id)
+
 //   /* ADD TO CART */
 // const cart = localStorage.getItem("cart")
 //   ? JSON.parse(localStorage.getItem("cart"))
@@ -219,6 +222,37 @@ Object.entries(findProduct.additionalInformation).forEach(([key, value]) => {
   valuesFunc()
   tabsFunc()
   commentsfunc()
+}
+
+function setupWishlistButton(productId) {
+  const wishlistButton = document.getElementById("add-to-wishlist")
+  if (!wishlistButton) return
+
+  const icon = wishlistButton.querySelector("i")
+  const label = wishlistButton.querySelector("span")
+
+  const updateButton = () => {
+    const active = isInWishlist(productId)
+
+    if (icon) {
+      icon.classList.toggle("bi-heart-fill", active)
+      icon.classList.toggle("bi-heart", !active)
+    }
+
+    if (label) {
+      label.textContent = active ? "Remove from Wishlist" : "Add to Wishlist"
+    }
+
+    wishlistButton.setAttribute("aria-pressed", String(active))
+  }
+
+  updateButton()
+
+  wishlistButton.addEventListener("click", (event) => {
+    event.preventDefault()
+    toggleWishlist(productId)
+    updateButton()
+  })
 }
 
 

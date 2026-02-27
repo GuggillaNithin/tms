@@ -1,3 +1,5 @@
+import { getWishlistIds } from "./wishlist.js"
+
 function sidebarFunc() {
     const btnOpenSidebar = document.querySelector("#btn-menu")
     const sidebar = document.querySelector("#sidebar")
@@ -175,6 +177,43 @@ function megaMenuInteraction() {
 
 }
 
+function wishlistLinksFunc() {
+  const wishlistLinks = document.querySelectorAll(".header-right-links a")
+
+  wishlistLinks.forEach((link) => {
+    const hasHeartIcon = link.querySelector(".bi-heart, .bi-heart-fill")
+    if (!hasHeartIcon) return
+
+    link.classList.add("header-wishlist-link")
+    link.setAttribute("href", "wishlist.html")
+    link.setAttribute("aria-label", "Wishlist")
+
+    let countElement = link.querySelector(".header-wishlist-count")
+    if (!countElement) {
+      countElement = document.createElement("span")
+      countElement.className = "header-wishlist-count"
+      link.appendChild(countElement)
+    }
+
+    const setCount = (count = getWishlistIds().length) => {
+      countElement.textContent = String(count)
+      countElement.style.display = count > 0 ? "flex" : "none"
+    }
+
+    setCount()
+
+    window.addEventListener("wishlist:updated", (event) => {
+      const nextCount = event.detail?.count
+      setCount(Number.isFinite(nextCount) ? nextCount : getWishlistIds().length)
+    })
+
+    window.addEventListener("storage", (event) => {
+      if (event.key === "wishlist") {
+        setCount()
+      }
+    })
+  })
+}
 
 
 function headerFunc() {
@@ -182,6 +221,7 @@ function headerFunc() {
   shopToggleMobile()
   megaMenuInteraction()
   searchModalFunc()
+  wishlistLinksFunc()
   
   
 }

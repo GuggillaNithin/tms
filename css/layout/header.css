@@ -160,6 +160,26 @@ header {
     position: relative;
 }
 
+.header-right .header-wishlist-link {
+    position: relative;
+}
+
+.header-right .header-wishlist-link .header-wishlist-count {
+    width: 16px;
+    height: 16px;
+    background-color: hsl(18 77% 52%);
+    color: #fff;
+    font-size: 10px;
+    border-radius: 100%;
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
 
 .header-right .header-cart-link .header-cart-count {
     width: 16px;

@@ -42,7 +42,7 @@
 }
 
 .campaign-single .campaign-wrapper>a:hover {
-    background-color: #1367ef;
-    border-color: #1367ef;
+    background-color:hsl(18 77% 52%);;
+    border-color: #000000;
     color: #fff;
 }

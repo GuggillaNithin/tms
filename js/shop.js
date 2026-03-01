@@ -1,3 +1,5 @@
+import { isInWishlist, toggleWishlist } from "./wishlist.js"
+
 /* ================================
    READ CATEGORY FROM URL
 ================================ */
@@ -5,6 +7,17 @@ console.log("shop.js loaded")
 
 const params = new URLSearchParams(window.location.search)
 const category = params.get("category")
+const grid = document.getElementById("products-grid")
+
+function setWishlistButtonState(button, active) {
+  const icon = button.querySelector("i")
+  if (!icon) return
+
+  icon.classList.toggle("bi-heart-fill", active)
+  icon.classList.toggle("bi-heart", !active)
+  button.setAttribute("aria-pressed", String(active))
+  button.title = active ? "Remove from Wishlist" : "Add to Wishlist"
+}
 
 /* ================================
    LOAD PRODUCTS
@@ -29,7 +42,6 @@ async function loadProducts() {
    RENDER PRODUCTS
 ================================ */
 function renderProducts(products) {
-  const grid = document.getElementById("products-grid")
   grid.innerHTML = ""
 
   if (products.length === 0) {
@@ -78,8 +90,8 @@ function renderProducts(products) {
             <button>
               <i class="bi bi-basket-fill"></i>
             </button>
-            <button>
-              <i class="bi bi-heart-fill"></i>
+            <button class="add-to-wishlist" data-id="${product.id}">
+              <i class="bi bi-heart"></i>
             </button>
             <a href="single-product.html?id=${product.id}">
               <i class="bi bi-eye-fill"></i>
@@ -92,7 +104,25 @@ function renderProducts(products) {
       </div>
     `
   })
+
+  const wishlistButtons = grid.querySelectorAll(".add-to-wishlist")
+  wishlistButtons.forEach((button) => {
+    const id = Number(button.dataset.id)
+    if (!id) return
+    setWishlistButtonState(button, isInWishlist(id))
+  })
 }
+
+grid.addEventListener("click", (event) => {
+  const wishlistButton = event.target.closest(".add-to-wishlist")
+  if (!wishlistButton) return
+
+  const productId = Number(wishlistButton.dataset.id)
+  if (!productId) return
+
+  const active = toggleWishlist(productId)
+  setWishlistButtonState(wishlistButton, active)
+})
 
 
 loadProducts()

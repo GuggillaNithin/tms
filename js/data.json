@@ -8727,6 +8727,236 @@
       "img/products/machines/mini-seaming-machine/3.webp"
     ]
   }
+},
+{
+    "id": 267,
+    "sku": "HOT-COLD-LAMINATION-MACHINE",
+    "name": "Hot-Cold Lamination Machine",
+    "category": ["accessories", "machines"],
+    "categories": ["Accessories", "Machines"],
+    "tags": [
+      "Hot Lamination Machine",
+      "Cold Lamination Machine",
+      "Laminator for Posters",
+      "Vinyl Lamination Machine"
+    ],
+    "discount": 0,
+    "shortDescription": "Professional machine for hot and cold lamination of posters, vinyl and printed graphics.",
+    "description": [
+      "Supports both hot and cold lamination modes.",
+      "Adjustable temperature control system.",
+      "Pressure adjustable roller mechanism.",
+      "Provides smooth, bubble-free finishing.",
+      "Suitable for signage and advertising production."
+    ],
+    "sizes": [],
+    "additionalInformation": {
+      "Usage": "Poster, Vinyl & Graphic Lamination"
+    },
+    "img": {
+      "singleImage": "img/products/machines/hot-cold-lamination-machine/1.webp",
+      "thumbs": [
+        "img/products/machines/hot-cold-lamination-machine/1.webp",
+        "img/products/machines/hot-cold-lamination-machine/2.webp",
+        "img/products/machines/hot-cold-lamination-machine/3.webp"
+      ]
+    }
+  },
+  {
+    "id": 268,
+    "sku": "ACRYLIC-BENDING-MACHINE",
+    "name": "Acrylic Bending Machine",
+    "category": ["accessories", "machines"],
+    "categories": ["Accessories", "Machines"],
+    "tags": [
+      "Acrylic Heater",
+      "Acrylic Bender",
+      "Plastic Sheet Bending Machine",
+      "Sign Fabrication Machine"
+    ],
+    "discount": 0,
+    "shortDescription": "Precision heating machine designed for accurate bending of acrylic sheets.",
+    "description": [
+      "High precision heating element.",
+      "Uniform heat distribution for clean bends.",
+      "Adjustable temperature control.",
+      "Suitable for various acrylic thicknesses.",
+      "Ideal for display and signage fabrication."
+    ],
+    "sizes": [],
+    "additionalInformation": {
+      "Usage": "Acrylic Sheet Heating & Bending"
+    },
+    "img": {
+      "singleImage": "img/products/machines/acrylic-bending-machine/1.webp",
+      "thumbs": [
+        "img/products/machines/acrylic-bending-machine/1.webp"
+      ]
+    }
+  },
+  {
+    "id": 269,
+    "sku": "LETTER-BENDING-MACHINE",
+    "name": "Letter Bending Machine",
+    "category": ["accessories", "machines"],
+    "categories": ["Accessories", "Machines"],
+    "tags": [
+      "Channel Letter Machine",
+      "Metal Letter Bender",
+      "3D Sign Letter Machine",
+      "Aluminum Letter Bending"
+    ],
+    "discount": 0,
+    "shortDescription": "Automatic bending machine for channel letters and 3D signage fabrication.",
+    "description": [
+      "High precision automatic bending system.",
+      "Suitable for aluminum and stainless steel strips.",
+      "User-friendly control interface.",
+      "Efficient production for signage workshops.",
+      "Durable and heavy duty construction."
+    ],
+    "sizes": [],
+    "additionalInformation": {
+      "Usage": "Channel Letter & 3D Sign Fabrication"
+    },
+    "img": {
+      "singleImage": "img/products/machines/letter-bending-machine/1.webp",
+      "thumbs": [
+        "img/products/machines/letter-bending-machine/1.webp"
+      ]
+    }
+  },
+  {
+    "id": 270,
+    "sku": "HEAT-TRANSFER-MACHINE",
+    "name": "HEAT TRANSFER MACHINE",
+    "category": ["accessories", "machines"],
+    "categories": ["Accessories", "Machines"],
+    "tags": [
+      "Heat Press Machine",
+      "T-Shirt Printing Machine",
+      "Sublimation Press",
+      "Garment Transfer Machine"
+    ],
+    "discount": 0,
+    "shortDescription": "Heat press machine designed for transferring graphics onto garments and promotional items.",
+    "description": [
+      "Digital temperature control system.",
+      "Even heat distribution plate.",
+      "Adjustable pressure settings.",
+      "Suitable for t-shirts and fabric materials.",
+      "Ideal for sublimation and custom printing."
+    ],
+    "sizes": [],
+    "additionalInformation": {
+      "Usage": "Garment & Promotional Item Printing"
+    },
+    "img": {
+      "singleImage": "img/products/machines/heat-transfer-machine/1.webp",
+      "thumbs": [
+        "img/products/machines/heat-transfer-machine/1.webp"
+      ]
+    }
+  },
+  {
+    "id": 271,
+    "sku": "CUTTING-PLOTTERS-60-120-CM",
+    "name": "Cutting Plotters (60 & 120 CM)",
+    "category": ["accessories", "machines"],
+    "categories": ["Accessories", "Machines"],
+    "tags": [
+      "Vinyl Cutting Plotter",
+      "Sticker Cutting Machine",
+      "60cm Plotter",
+      "120cm Plotter"
+    ],
+    "discount": 0,
+    "shortDescription": "High precision vinyl cutting plotters available in 60 cm and 120 cm sizes.",
+    "description": [
+      "Available in 60 cm and 120 cm working widths.",
+      "High precision cutting performance.",
+      "Stable media tracking system.",
+      "Adjustable cutting force.",
+      "Ideal for vinyl, stickers and heat transfer films."
+    ],
+    "sizes": ["60 CM", "120 CM"],
+    "additionalInformation": {
+      "Usage": "Vinyl Cutting & Sign Making"
+    },
+    "img": {
+      "singleImage": "img/products/machines/cutting-plotters/1.webp",
+      "thumbs": [
+        "img/products/machines/cutting-plotters/1.webp"
+      ]
+    }
+  },
+  {
+    "id": 272,
+    "sku": "TRIMMER-FOREX-FOAM-BOARD",
+    "name": "TRIMMER FOR FOREX / FOAM BOARD",
+    "category": ["accessories", "machines"],
+    "categories": ["Accessories", "Machines"],
+    "tags": [
+      "Foam Board Cutter",
+      "Forex Sheet Trimmer",
+      "Rigid Board Cutting Machine",
+      "Sign Board Cutter"
+    ],
+    "discount": 0,
+    "shortDescription": "Heavy duty trimmer designed for cutting forex sheets and foam boards with precision.",
+    "description": [
+      "Sharp precision cutting blade.",
+      "Stable and durable base structure.",
+      "Ensures straight and clean cuts.",
+      "Suitable for forex and foam board materials.",
+      "Ideal for signage and display production."
+    ],
+    "sizes": [],
+    "additionalInformation": {
+      "Usage": "Rigid Board & Forex Sheet Cutting"
+    },
+    "img": {
+      "singleImage": "img/products/machines/trimmer-forex-foam-board/1.webp",
+      "thumbs": [
+        "img/products/machines/trimmer-forex-foam-board/1.webp",
+        "img/products/machines/trimmer-forex-foam-board/2.webp",
+        "img/products/machines/trimmer-forex-foam-board/3.webp"
+      ]
+    }
+  },
+  {
+  "id": 273,
+  "sku": "ACRYLIC-POLISHING-MACHINE",
+  "name": "ACRYLIC POLISHING MACHINE",
+  "category": ["accessories", "machines"],
+  "categories": ["Accessories", "Machines"],
+  "tags": [
+    "Acrylic Edge Polisher",
+    "Plastic Polishing Machine",
+    "Acrylic Finishing Machine",
+    "Sheet Edge Polishing"
+  ],
+  "discount": 0,
+  "shortDescription": "High performance machine designed for smooth and glossy edge polishing of acrylic sheets.",
+  "description": [
+    "Provides smooth and crystal-clear edge finishing.",
+    "Suitable for acrylic and plastic sheets.",
+    "High speed motor for efficient polishing.",
+    "Ensures professional quality surface finishing.",
+    "Ideal for signage and display fabrication workshops."
+  ],
+  "sizes": [],
+  "additionalInformation": {
+    "Usage": "Acrylic Edge Finishing & Polishing"
+  },
+  "img": {
+    "singleImage": "img/products/machines/acrylic-polishing-machine/1.webp",
+    "thumbs": [
+      "img/products/machines/acrylic-polishing-machine/1.webp",
+      "img/products/machines/acrylic-polishing-machine/2.webp",
+      "img/products/machines/acrylic-polishing-machine/3.webp"
+    ]
+  }
 }
 
 

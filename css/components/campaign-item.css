@@ -4,6 +4,21 @@
     background-position: center;
     flex: 1;
     color: white;
+    position: relative;
+    overflow: hidden;
+}
+
+.campaigns .campaign-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45);
+    z-index: 0;
+}
+
+.campaigns .campaign-item > * {
+    position: relative;
+    z-index: 1;
 }
 
 .campaigns .campaign-item .campaign-title {

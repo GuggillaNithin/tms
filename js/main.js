@@ -63,11 +63,13 @@ import searchFunc from "./search.js"
 const modal = document.querySelector(".modal-dialog");
 const modalContent = document.querySelector(".modal-content");
 const btnModalClose = document.querySelector(".modal-close");
+const MODAL_SHOWN_KEY = "siteModalShown";
 
-// Show after 3 seconds
-if (modal) {
+// Show only once across the whole website
+if (modal && !localStorage.getItem(MODAL_SHOWN_KEY)) {
     setTimeout(() => {
         modal.classList.add("show");
+        localStorage.setItem(MODAL_SHOWN_KEY, "true");
     }, 6000);
 }
 
@@ -79,7 +81,7 @@ if (btnModalClose) {
 }
 
 // Close when clicking outside content
-if (modal) {
+if (modal && modalContent) {
     modal.addEventListener("click", (e) => {
         if (!modalContent.contains(e.target)) {
             modal.classList.remove("show");

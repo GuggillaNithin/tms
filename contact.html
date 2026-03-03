@@ -333,32 +333,32 @@
                     </p>
                 </div>
                 <div class="contact-elements">
-                    <form class="contact-form">
+                    <form class="contact-form" action="contactform.php" method="POST">
                         <div>
                             <label for="">Your Name
                                 <span>*</span>
                             </label>
-                            <input type="text" required>
+                            <input type="text" name="name" required>
                         </div>
                         <div>
                             <label for="">Your Email Address
                                 <span>*</span>
                             </label>
-                            <input type="email" required>
+                            <input type="email" name="email" required>
                         </div>
                         <div>
                             <label for="">Subject
                                 <span>*</span>
                             </label>
-                            <input type="text" required>
+                            <input type="text" name="subject" required>
                         </div>
                         <div>
                             <label for="">Your Message
                                 <span>*</span>
                             </label>
-                            <textarea required></textarea>
+                            <textarea name="message" required></textarea>
                         </div>
-                        <button class="btn btn-sm form-button   ">Send Message</button>
+                        <button type="submit" class="btn btn-sm form-button">Send Message</button>
                     </form>
                     <div class="contact-info">
                         <div class="contact-info-item">

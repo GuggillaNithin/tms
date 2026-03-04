@@ -4,7 +4,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     $userEmail = $_POST['email'];
 
-    $to = "akshaypradeep@outook.com";
+    $to = "akshaypradeep@outlook.com";
     $subject = $userEmail . " interested in Products";
 
     $message = "A customer filled the Ramzan popup form.\n\n";

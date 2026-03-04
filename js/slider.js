@@ -1,11 +1,12 @@
 
 let slideIndex = 1
+const SLIDE_INTERVAL_MS = 7000
 
 showSlides(slideIndex)
 
 setInterval(() => {
     showSlides(slideIndex += 1)
-}, 3000)
+}, SLIDE_INTERVAL_MS)
 
 function plusSlide(n) {
     showSlides((slideIndex += n)) // (slideIndex = slideIndex + n )
@@ -35,12 +36,14 @@ function showSlides(n) {
     }
 
     for (let i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", " ")
+        dots[i].className = dots[i].className.replace(" active", "")
     }
 
 
     slides[slideIndex - 1].style.display = "flex"
-    dots[slideIndex - 1].className += " active"
+    if (dots[slideIndex - 1]) {
+        dots[slideIndex - 1].className += " active"
+    }
 }
 
 

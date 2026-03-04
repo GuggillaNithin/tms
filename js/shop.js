@@ -87,16 +87,14 @@ function renderProducts(products) {
           <span class="product-discount">-${product.discount}%</span>
 
           <div class="product-links">
-            <button>
-              <i class="bi bi-basket-fill"></i>
-            </button>
+            
             <button class="add-to-wishlist" data-id="${product.id}">
               <i class="bi bi-heart"></i>
             </button>
             <a href="single-product.html?id=${product.id}">
               <i class="bi bi-eye-fill"></i>
             </a>
-            <a href="#">
+            <a href="#" class="share-product" data-product-name="${product.name}" data-product-url="single-product.html?id=${product.id}">
               <i class="bi bi-share-fill"></i>
             </a>
           </div>

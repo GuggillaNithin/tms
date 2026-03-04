@@ -2,7 +2,7 @@
   {
     "id": 1,
     "name": "Indoor Clear Film",
-    "category": ["indoor-media"],
+    "category": ["indoor-media", "featured"],
     "categories": ["Indoor", "Medias"],
     "tags": ["Clear Film", "Indoor Printing", "Graphics"],
 
@@ -72,11 +72,11 @@
  {
   "id": 3,
   "name": "Photo Paper Matt / Gloss",
-  "category": "indoor-media",
+  "category": ["indoor-media","new-arrivals"],
   "categories": ["Indoor", "Medias"],
   "tags": ["Photo Paper", "Poster Printing", "Indoor Display"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "Premium quality photo paper available in matt and gloss finishes for indoor printing.",
 
@@ -480,7 +480,7 @@
 {
   "id": 15,
   "name": "Water Proof Canvas",
-  "category": "indoor-media",
+  "category": ["indoor-media", "new-arrivals"],
   "categories": ["Indoor", "Medias"],
   "tags": ["Canvas", "Waterproof", "Premium Prints"],
 
@@ -616,7 +616,7 @@
 {
   "id": 19,
   "name": "Floor Lamination",
-  "category": "indoor-media",
+  "category": ["indoor-media", "sales-products"],
   "categories": ["Indoor", "Medias"],
   "tags": ["Floor Protection", "Anti Slip", "Lamination Film"],
 
@@ -684,11 +684,11 @@
 {
   "id": 21,
   "name": "Pop Up Film",
-  "category": "indoor-media",
+  "category": ["indoor-media", "featured"],
   "categories": ["Indoor", "Medias"],
   "tags": ["Pop Up Display", "Exhibition Media", "Display Film"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "Specialized film media designed for pop-up display systems.",
 
@@ -718,7 +718,7 @@
 {
   "id": 22,
   "name": "Flooring PVC",
-  "category": "indoor-media",
+  "category": ["indoor-media", "sales-products"],
   "categories": ["Indoor", "Medias"],
   "tags": ["PVC Flooring", "Floor Graphics", "Indoor Branding"],
 
@@ -1003,7 +1003,7 @@
 {
   "id": 30,
   "name": "Mesh Banner",
-  "category": "outdoor-media",
+  "category": ["outdoor-media","new-arrivals"],
   "categories": ["Outdoor", "Medias"],
   "tags": ["Mesh Banner", "Wind Resistant", "Building Wrap"],
 
@@ -1556,11 +1556,11 @@
 {
   "id": 47,
   "name": "Printable Two Way Vision Vinyl",
-  "category": "outdoor-media",
+  "category": ["outdoor-media", "featured"],
   "categories": ["Outdoor Media"],
   "tags": ["Two Way Vision", "Window Film", "Advertising Vinyl"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "Two way vision vinyl for window and glass surface advertising.",
 
@@ -1692,7 +1692,7 @@
 {
   "id": 51,
   "name": "Solvent Backlit Duratrans",
-  "category": "outdoor-media",
+  "category": ["outdoor-media", "sales-products"],
   "categories": ["Outdoor Media"],
   "tags": ["Backlit Film", "Duratrans", "Lightbox Film"],
 
@@ -1760,7 +1760,7 @@
 {
   "id": 53,
   "name": "Outdoor Canvas",
-  "category": "outdoor-media",
+  "category": ["outdoor-media","new-arrivals"],
   "categories": ["Outdoor Media"],
   "tags": ["Canvas Media", "Art Print", "Outdoor Canvas"],
 
@@ -2068,7 +2068,7 @@
 {
   "id": 62,
   "name": "Heat Transfer Films PU / PVC / Glitter",
-  "category": "outdoor-media",
+  "category": ["outdoor-media", "sales-products"],
   "categories": ["Outdoor Media"],
   "tags": ["Heat Transfer Vinyl", "PU Film", "PVC Film", "Glitter HTV", "Garment Printing"],
 
@@ -2467,7 +2467,7 @@
 {
   "id": 74,
   "name": "Ceiling Hanging Cable",
-  "category": "accessories",
+  "category": ["accessories", "sales-products"],
   "categories": ["Accessories"],
   "tags": ["Hanging Cable", "Display Suspension", "Signage Cable"],
 
@@ -2604,11 +2604,11 @@
 {
   "id": 78,
   "name": "Name Badges",
-  "category": "accessories",
+  "category": ["accessories", "new-arrivals"],
   "categories": ["Accessories"],
   "tags": ["ID Badge", "Name Tag", "Event Badge"],
 
-  "discount": 0,
+  "discount": 55,
 
   "shortDescription": "Professional name badges for offices and events.",
 
@@ -2778,11 +2778,11 @@
 {
   "id": 83,
   "name": "Aluminum Name Holder",
-  "category": "accessories",
+  "category": ["accessories", "featured"],
   "categories": ["Accessories"],
   "tags": ["Name Plate Holder", "Desk Name Holder", "Aluminum Stand"],
 
-  "discount": 0,
+  "discount": 55,
 
   "shortDescription": "Premium aluminum name holder for desks and office displays.",
 
@@ -2815,10 +2815,10 @@
 {
     "id": 84,
     "name": "LCD Self Standing Kiosks – 49\"",
-    "category": "led-lcd-displays",
+    "category": ["led-lcd-displays", "featured"],
     "categories": ["LED & LCD Displays"],
     "tags": ["LCD Kiosk", "Touch Screen Display", "Digital Signage Kiosk", "Interactive Display", "Standing Advertising Screen"],
-    "discount": 0,
+    "discount": 11,
     "shortDescription": "49 inch self-standing LCD kiosk available in touch and non-touch versions with built-in PC options.",
     "description": [
       "Professional self-standing LCD advertising kiosk.",
@@ -2857,7 +2857,7 @@
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["55 Inch Touch Screen", "Interactive Kiosk", "Digital Signage Display", "Android Advertising Screen"],
-    "discount": 0,
+    "discount": 11,
     "shortDescription": "55 inch LCD touch screen kiosk with Android or Windows OS support.",
     "description": [
       "High resolution 55 inch LCD display.",
@@ -2890,10 +2890,10 @@
   {
     "id": 86,
     "name": "LCD Self Standing Kiosk 65\" One Side / Double Side",
-    "category": "led-lcd-displays",
+    "category": ["led-lcd-displays", "featured"],
     "categories": ["LED & LCD Displays"],
     "tags": ["65 Inch LCD Display", "Double Side Display", "Standing Digital Screen", "Advertising Totem"],
-    "discount": 0,
+    "discount": 12,
     "shortDescription": "65 inch LCD kiosk available in single or double sided display with built-in PC.",
     "description": [
       "Full HD 1920x1080 resolution.",
@@ -2926,10 +2926,10 @@
   {
     "id": 87,
     "name": "Video Wall 55\" LCD Display",
-    "category": "led-lcd-displays",
+    "category": ["led-lcd-displays", "sales-products"],
     "categories": ["LED & LCD Displays"],
     "tags": ["Video Wall Display", "LCD Video Wall", "Digital Signage Wall", "Commercial Display Screen"],
-    "discount": 0,
+    "discount": 11,
     "shortDescription": "Professional 55 inch LCD video wall display with remote content management.",
     "description": [
       "Full HD 1920x1080 resolution.",
@@ -2956,10 +2956,10 @@
   {
     "id": 88,
     "name": "P3 Indoor & Outdoor Full Color LED Displays",
-    "category": "led-lcd-displays",
+    "category": ["led-lcd-displays", "sales-products"],
     "categories": ["LED & LCD Displays"],
     "tags": ["P3 LED Display", "Indoor LED Screen", "Outdoor LED Board", "Full Color LED Display"],
-    "discount": 0,
+    "discount": 11,
     "shortDescription": "High resolution P3 full color LED display for indoor and outdoor advertising.",
     "description": [
       "High brightness LED module.",
@@ -3006,10 +3006,10 @@
   {
     "id": 89,
     "name": "P4 Indoor & Outdoor Full Color LED Displays",
-    "category": "led-lcd-displays",
+    "category": ["led-lcd-displays", "featured"],
     "categories": ["LED & LCD Displays"],
     "tags": ["P4 LED Display", "Outdoor LED Screen", "Indoor LED Panel", "Full Color LED Board"],
-    "discount": 0,
+    "discount": 11,
     "shortDescription": "P4 full color LED display suitable for indoor and outdoor advertising solutions.",
     "description": [
       "High resolution indoor full color LED display.",
@@ -3295,10 +3295,10 @@
   {
     "id": 94,
     "name": "Magnetic Light Box",
-    "category": "led-lcd-displays",
+    "category": ["led-lcd-displays", "featured", "new-arrivals"],
     "categories": ["LED & LCD Displays"],
     "tags": ["Magnetic Light Box", "LED Light Box", "Backlit Display Frame", "Advertising Light Frame"],
-    "discount": 0,
+    "discount": 15,
     "shortDescription": "Magnetic style aluminum light box with uniform LED illumination.",
     "description": [
       "Magnetic aluminum extrusion frame.",
@@ -3355,10 +3355,10 @@
   {
     "id": 96,
     "name": "Crystal Slim Light Box",
-    "category": "led-lcd-displays",
+    "category": ["led-lcd-displays", "new-arrivals"],
     "categories": ["LED & LCD Displays"],
     "tags": ["Crystal Light Box", "Acrylic LED Light Box", "Slim Advertising Display"],
-    "discount": 0,
+    "discount": 15,
     "shortDescription": "Transparent acrylic crystal slim LED light box with multiple size options.",
     "description": [
       "Laser engraved light guiding acrylic panel.",
@@ -3423,10 +3423,10 @@
 {
   "id": 98,
   "name": "A3 Slash Info Stand",
-  "category": "display-items",
+  "category": ["display-items", "featured"],
   "categories": ["Display Items"],
   "tags": ["Info Stand", "A3 Stand", "Advertising Stand"],
-  "discount": 0,
+  "discount":57,
   "shortDescription": "Elegant A3 slash information stand for promotional and directional displays.",
   "description": [
     "Modern angled display stand.",
@@ -3835,10 +3835,10 @@
 {
   "id": 114,
   "name": "Fabric Light Box 80x200cm / 60x200cm",
-  "category": "display-items",
+  "category": ["display-items", "sales-products"],
   "categories": ["Display Items"],
   "tags": ["Fabric Light Box", "LED Light Box"],
-  "discount": 0,
+  "discount": 50,
   "shortDescription": "Slim fabric LED light box available in 80x200cm and 60x200cm sizes.",
   "description": [
     "High brightness LED edge lighting.",
@@ -4064,10 +4064,10 @@
 {
   "id": 123,
   "name": "Metal Info Stand - A4",
-  "category": "display-items",
+  "category": ["display-items", "new-arrivals"],
   "categories": ["Display Items"],
   "tags": ["Metal Stand", "A4 Info Display"],
-  "discount": 0,
+  "discount": 51,
   "shortDescription": "Strong metal A4 information stand for commercial use.",
   "description": [
     "Durable metal construction.",
@@ -4294,10 +4294,10 @@
 {
   "id": 132,
   "name": "Expandable Q-Barrier",
-  "category": "display-items",
+  "category": ["display-items", "sales-products"],
   "categories": ["Display Items"],
   "tags": ["Queue Barrier", "Crowd Control Barrier"],
-  "discount": 0,
+  "discount": 52,
   "shortDescription": "Expandable queue barrier system for crowd management.",
   "description": [
     "Retractable belt system.",
@@ -4449,10 +4449,10 @@
 {
   "id": 138,
   "name": "Info Stand Display Double Side 50x70cm",
-  "category": "display-items",
+  "category": ["display-items", "featured"],
   "categories": ["Display Items"],
   "tags": ["Double Side Stand", "50x70 Display"],
-  "discount": 0,
+  "discount": 17,
   "shortDescription": "Double-sided display stand 50x70cm for advertising posters.",
   "description": [
     "Large poster display area.",
@@ -4577,10 +4577,10 @@
 {
   "id": 143,
   "name": "Exhibition Floor",
-  "category": "display-items",
+  "category": ["display-items", "new-arrivals"],
   "categories": ["Display Items"],
   "tags": ["Exhibition Flooring", "Event Floor"],
-  "discount": 0,
+  "discount": 18,
   "shortDescription": "Professional exhibition flooring solution for trade shows.",
   "description": [
     "Durable flooring panels.",
@@ -4779,10 +4779,10 @@
 {
   "id": 151,
   "name": "Acrylic Drop Box",
-  "category": "display-items",
+  "category": ["display-items", "sales-products"],
   "categories": ["Display Items"],
   "tags": ["Acrylic Box", "Donation Box"],
-  "discount": 0,
+  "discount": 50,
   "shortDescription": "Transparent acrylic drop box for donations and feedback.",
   "description": [
     "Clear acrylic body.",
@@ -5292,10 +5292,10 @@
 {
   "id": 169,
   "name": "Brochure Holder",
-  "category": "acrylic-products-fabrication",
+  "category": ["acrylic-products-fabrication", "new-arrivals"],
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Brochure Stand", "Flyer Holder", "Leaflet Display"],
-  "discount": 0,
+  "discount": 52,
   "shortDescription": "Acrylic brochure holder for displaying flyers and leaflets.",
   "description": [
     "Clear multi-purpose design.",
@@ -5406,10 +5406,10 @@
 {
   "id": 173,
   "name": "Lottery Box",
-  "category": "acrylic-products-fabrication",
+  "category": ["acrylic-products-fabrication", "sales-products"],
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Lottery Box", "Draw Box", "Acrylic Collection Box"],
-  "discount": 0,
+  "discount": 51,
   "shortDescription": "Clear acrylic lottery box for lucky draws and promotional events.",
   "description": [
     "Transparent design for full visibility.",
@@ -5518,10 +5518,10 @@
 {
   "id": 177,
   "name": "Podium",
-  "category": "acrylic-products-fabrication",
+  "category": ["acrylic-products-fabrication", "featured"],
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Podium", "Presentation Stand", "Speaker Podium"],
-  "discount": 0,
+  "discount": 51,
   "shortDescription": "Clear acrylic podium for presentations and events.",
   "description": [
     "Modern transparent design.",
@@ -5887,10 +5887,10 @@
 {
   "id": 190,
   "name": "Clear Acrylic Shop Window Risers",
-  "category": "acrylic-products-fabrication",
+  "category": ["acrylic-products-fabrication", "new-arrivals"],
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Display Riser", "Shop Window Display", "Acrylic Stand"],
-  "discount": 0,
+  "discount": 50,
   "shortDescription": "Clear acrylic risers for shop window and product display.",
   "description": [
     "Elevated display platform.",
@@ -5972,10 +5972,10 @@
 {
   "id": 193,
   "name": "Wall Picture Shelf Model A (Adjustable)",
-  "category": "display-stands",
+  "category": ["display-stands", "featured"],
   "categories": ["Display Stands"],
   "tags": ["Wall Display Stand", "Adjustable Picture Stand", "Exhibition Shelf"],
-  "discount": 0,
+  "discount": 50,
   "shortDescription": "Adjustable aluminum wall picture shelf stand for exhibitions.",
   "description": [
     "Made of high quality aluminum material.",
@@ -6031,10 +6031,10 @@
 {
   "id": 195,
   "name": "Wall Picture Shelf Model C (Adjustable)",
-  "category": "display-stands",
+  "category": ["display-stands", "new-arrivals"],
   "categories": ["Display Stands"],
   "tags": ["Adjustable Banner Stand", "Aluminum Display Shelf", "Exhibition Stand"],
-  "discount": 0,
+  "discount": 18,
   "shortDescription": "Adjustable aluminum pole wall picture shelf for exhibitions.",
   "description": [
     "High quality aluminum pole construction.",
@@ -6089,10 +6089,10 @@
 {
   "id": 197,
   "name": "Mini Roll Up",
-  "category": "display-stands",
+  "category": ["display-stands", "sales-products"],
   "categories": ["Display Stands"],
   "tags": ["Table Roll Up Banner", "Mini Banner Stand", "Desktop Display"],
-  "discount": 0,
+  "discount": 50,
   "shortDescription": "Mini roll up banner stand for table top advertising.",
   "description": [
     "Delicate and attractive design.",
@@ -6149,10 +6149,10 @@
 {
   "id": 199,
   "name": "Mini Flying Banner",
-  "category": "display-stands",
+  "category": ["display-stands", "featured"],
   "categories": ["Display Stands"],
   "tags": ["Mini Flag Banner", "Desktop Banner", "Table Sign Display"],
-  "discount": 0,
+  "discount": 55,
   "shortDescription": "Mini flying banner stand for small table displays.",
   "description": [
     "Delicate and attractive design.",
@@ -6236,10 +6236,10 @@
 {
   "id": 202,
   "name": "Triple Screen",
-  "category": "display-stands",
+  "category": ["display-stands", "sales-products"],
   "categories": ["Display Stands"],
   "tags": ["Triple Side Banner Stand", "Exhibition Display Frame", "Advertising Screen"],
-  "discount": 0,
+  "discount": 51,
   "shortDescription": "Triple side exhibition screen for large promotional displays.",
   "description": [
     "High quality aluminum steel material.",
@@ -6295,10 +6295,10 @@
 {
   "id": 204,
   "name": "Outdoor Screens",
-  "category": "display-stands",
+  "category": ["display-stands", "new-arrivals"],
   "categories": ["Display Stands"],
   "tags": ["Outdoor Banner Stand", "Weighted Base Display", "Double Side Screen"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Outdoor double-sided screen stand with weighted base for stability.",
   "description": [
     "High quality aluminum pole construction.",
@@ -6741,10 +6741,10 @@
   "id": 219,
   "sku": "LBS-219-B",
   "name": "L Banner Model B",
-  "category": ["display-stands", "l-banner-stands"],
+  "category": ["display-stands", "l-banner-stands", "new-arrivals"],
   "categories": ["Display Stand", "L Banner Stands"],
   "tags": ["L Banner", "L Banner Stand", "Display Stand", "Aluminum Banner Stand", "Exhibition Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Aluminum L banner stand Model B with multiple size options.",
   "description": [
     "High quality aluminum pole construction.",
@@ -8321,7 +8321,7 @@
   "id": 257,
   "sku": "77TMS-AF-S/M/L",
   "name": "Aluminum Flag",
-  "category": ["display-stands", "flags-and-banners"],
+  "category": ["display-stands", "flags-and-banners", "featured"],
   "categories": ["Display Stand", "Flags & Banners"],
   "tags": [
     "Aluminum Flag",
@@ -8330,7 +8330,7 @@
     "Advertising Flag",
     "Event Flag"
   ],
-  "discount": 0,
+  "discount": 55,
   "shortDescription": "High quality aluminum teardrop flag with elastic pole system for outdoor and promotional use.",
   "description": [
     "Constructed with high quality aluminum material.",
@@ -8700,14 +8700,14 @@
   "id": 266,
   "sku": "MINI-SEAMING-MACHINE",
   "name": "Mini Seaming Machine",
-  "category": ["accessories", "machines"],
+  "category": ["accessories", "machines", "sales-products"],
   "categories": ["Accessories", "Machines"],
   "tags": [
     "Mini Seaming Machine",
     "Banner Welding Machine",
     "PVC Seaming Machine"
   ],
-  "discount": 0,
+  "discount": 18,
   "shortDescription": "Compact seaming machine designed for banner welding and flexible material joining.",
   "description": [
     "Compact and portable design.",
@@ -8732,7 +8732,7 @@
     "id": 267,
     "sku": "HOT-COLD-LAMINATION-MACHINE",
     "name": "Hot-Cold Lamination Machine",
-    "category": ["accessories", "machines"],
+    "category": ["accessories", "machines","new-arrivals"],
     "categories": ["Accessories", "Machines"],
     "tags": [
       "Hot Lamination Machine",

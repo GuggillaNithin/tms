@@ -24,6 +24,7 @@
     top: 0;
     left: 0;
     height: 100%;
+    width: 100%;
     object-fit: cover;
     object-position: 60%;
     z-index: 0;
@@ -66,6 +67,7 @@
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
+    pointer-events: none;
 }
 
 .slider-buttons button {
@@ -76,6 +78,7 @@
     opacity: 0.5;
     background-color: white;
     transition: .2s ease all;
+    pointer-events: auto;
 }
 
 .slider-buttons button:hover {
@@ -124,15 +127,14 @@
 
 .fade{
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: 4.5s;
 }
 
 @keyframes fade{
-    from{
-        opacity: 0.4;
+    from {
+        opacity: 0.6;
     }
-
-    to{
+    to {
         opacity: 1;
     }
 }

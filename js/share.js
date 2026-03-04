@@ -1,15 +1,18 @@
 document.addEventListener("click", async function (e) {
 
-    const shareBtn = e.target.closest("#share-product");
+    const shareBtn = e.target.closest("#share-product, .share-product");
     if (!shareBtn) return;
 
     e.preventDefault();
 
     const productName =
+        shareBtn.dataset.productName ||
         document.querySelector(".product-title")?.innerText ||
         "Check this product";
 
-    const productUrl = window.location.href;
+    const productUrl = shareBtn.dataset.productUrl
+        ? new URL(shareBtn.dataset.productUrl, window.location.href).href
+        : window.location.href;
 
     if (navigator.share) {
         try {

@@ -8,20 +8,131 @@
     <!-- !bootstrap icon -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <title>TMS | Blogs</title>
+    <title>TMS | Completed Projects</title>
+    <style>
+        .project-video-trigger {
+            position: relative;
+            display: block;
+            width: 100%;
+            cursor: pointer;
+            border: 0;
+            padding: 0;
+            background: transparent;
+            text-align: left;
+        }
+
+        .project-video-trigger video {
+            width: 100%;
+            height: 260px;
+            object-fit: cover;
+            display: block;
+            border-radius: 6px;
+        }
+
+        .project-video-trigger::after {
+            content: "\F4F4";
+            font-family: "bootstrap-icons";
+            position: absolute;
+            inset: 0;
+            margin: auto;
+            width: 64px;
+            height: 64px;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.55);
+            color: #fff;
+            font-size: 28px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            pointer-events: none;
+        }
+
+        .project-video-modal {
+            position: fixed;
+            inset: 0;
+            background: rgba(0, 0, 0, 0.75);
+            display: none;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            z-index: 9999;
+        }
+
+        .project-video-modal.is-open {
+            display: flex;
+        }
+
+        .project-video-modal-content {
+            position: relative;
+            width: min(960px, 100%);
+            max-height: 90vh;
+            background: #111;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+        }
+
+        .project-video-modal-content video {
+            position: relative;
+            z-index: 1;
+            width: 100%;
+            max-height: 90vh;
+            display: block;
+            background: #000;
+        }
+
+        .project-video-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            z-index: 3;
+            width: 38px;
+            height: 38px;
+            border: 0;
+            border-radius: 50%;
+            background: rgba(0, 0, 0, 0.6);
+            color: #fff;
+            font-size: 22px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .project-video-trigger video {
+                height: 200px;
+            }
+
+            .project-video-trigger::after {
+                width: 52px;
+                height: 52px;
+                font-size: 24px;
+            }
+        }
+    </style>
 </head>
 
 <body>
    <!-- ! header start -->
   <header>
     <div class="global-notification">
-      <div class="container">
-        <p>
-          RAMZAN SALE FOR ALL LED/LCD DISPLAYS AND FREE EXPRESS INTERNATIONAL
-          DELIVERY - OFF 50%! <a href="shop.html">SHOP NOW</a>
-        </p>
+      <div class="notification-slider">
+
+      <a href="shop.html" class="slide active">
+        <img src="img/slider/1.png" alt="Banner 1">
+      </a>
+
+      <a href="shop.html" class="slide">
+      <img src="img/slider/2.png" alt="Banner 2">
+      </a>
+
+      <a href="shop.html" class="slide">
+        <img src="img/slider/1.png" alt="Banner 3">
+    </a>
+
       </div>
-    </div>
+   </div>
     <div class="header-row">
       <div class="container">
         <div class="header-wrapper">
@@ -29,16 +140,16 @@
             <i class="bi bi-list" id="btn-menu"></i>
           </div>
           <div class="header-left">
-            <a href="/" class="logo"><img src="/img/tms-logo.png" width="100px" alt=""></a>
+            <a href="/" class="logo"><img src="/img/tms-logo.png" width="140px" alt=""></a>
           </div>
           <div class="header-center" id="sidebar">
             <nav class="navigation">
               <ul class="menu-list">
                 <li class="menu-list-item">
                   <a href="/" class="menu-link active">Home
-                    <i class="bi bi-chevron-down"></i>
+                    <!-- <i class="bi bi-chevron-down"></i> -->
                   </a>
-                  <div class="menu-dropdown-wrapper">
+                  <!-- <div class="menu-dropdown-wrapper">
                     <ul class="menu-dropdown-content">
                       <li><a href="#">Home Clean</a></li>
                       <li><a href="#">Home Collection</a></li>
@@ -50,10 +161,10 @@
                       <li><a href="#">Home Unique</a></li>
                       <li><a href="#">Home RTL</a></li>
                     </ul>
-                  </div>
+                  </div> -->
                 </li>
                 <li class="menu-list-item megamenu-wrapper">
-                  <a href="#" class="menu-link shop-link" role="button">Shop
+                  <a href="#" class="menu-link shop-link" role="button">Products
                     <i class="bi bi-chevron-down"></i>
                   </a>
                   
@@ -92,6 +203,11 @@
                           <!-- <span class="arrow">›</span> -->
                            <div class="mobile-submenu"></div>
                         </li>
+                        <li data-category="display-stand">
+                          Display Stand
+                          <!-- <span class="arrow">›</span> -->
+                           <div class="mobile-submenu"></div>
+                        </li>
                         </ul>
 
                           <!-- RIGHT: Products -->
@@ -100,12 +216,12 @@
                             <div class="mega-products-group active" data-category="indoor">
                               <h3>INDOOR MEDIAS</h3>
                               <ul>
-                                <li><a href="#">Vinyl Stickers</a></li>
-                                  <li><a href="#">Wall Graphics</a></li>
-                                  <li><a href="#">Floor Graphics</a></li>
-                                  <li><a href="#">Window Films</a></li>
-                                  <li><a href="#">Canvas Prints</a></li>
-                                  <li><a href="#">Backlit Films</a></li>
+                                <li><a href="shop.html?category=indoor-media">Vinyl Stickers</a></li>
+                                  <li><a href="shop.html?category=indoor-media">Wall Graphics</a></li>
+                                  <li><a href="shop.html?category=indoor-media">Floor Graphics</a></li>
+                                  <li><a href="shop.html?category=indoor-media">Window Films</a></li>
+                                  <li><a href="shop.html?category=indoor-media">Canvas Prints</a></li>
+                                  <li><a href="shop.html?category=indoor-media">Backlit Films</a></li>
                                 </ul>
                                   <a href="shop.html?category=indoor-media" class="view-all">View All →</a>
                             </div>
@@ -113,12 +229,12 @@
                         <div class="mega-products-group" data-category="outdoor">
                             <h3>OUTDOOR MEDIAS</h3>
                           <ul>
-                            <li><a href="#">Flex Banners</a></li>
-                            <li><a href="#">Mesh Banners</a></li>
-                            <li><a href="#">Vehicle Wraps</a></li>
-                            <li><a href="#">Billboard Materials</a></li>
-                            <li><a href="#">Reflective Films</a></li>
-                            <li><a href="#">Awning Materials</a></li>
+                            <li><a href="shop.html?category=outdoor-media">Flex Banners</a></li>
+                            <li><a href="shop.html?category=outdoor-media">Mesh Banners</a></li>
+                            <li><a href="shop.html?category=outdoor-media">Vehicle Wraps</a></li>
+                            <li><a href="shop.html?category=outdoor-media">Billboard Materials</a></li>
+                            <li><a href="shop.html?category=outdoor-media">Reflective Films</a></li>
+                            <li><a href="shop.html?category=outdoor-media">Awning Materials</a></li>
                           </ul>
                         <a href="shop.html?category=outdoor-media" class="view-all">View All →</a>
                         </div>
@@ -126,12 +242,12 @@
                     <div class="mega-products-group" data-category="accessories">
                           <h3>Accessories</h3>
                        <ul>
-                          <li><a href="#">Mounting Hardware</a></li>
-                          <li><a href="#">Clips & Holders</a></li>
-                          <li><a href="#">Frames</a></li>
-                          <li><a href="#">Stands</a></li>
-                          <li><a href="#">Cable Systems</a></li>
-                          <li><a href="#">Tools</a></li>
+                          <li><a href="shop.html?category=accessories">Mounting Hardware</a></li>
+                          <li><a href="shop.html?category=accessories">Clips & Holders</a></li>
+                          <li><a href="shop.html?category=accessories">Frames</a></li>
+                          <li><a href="shop.html?category=accessories">Stands</a></li>
+                          <li><a href="shop.html?category=accessories">Cable Systems</a></li>
+                          <li><a href="shop.html?category=accessories">Tools</a></li>
                         </ul>
                       <a href="shop.html?category=accessories" class="view-all">View All →</a>
                     </div>
@@ -139,11 +255,11 @@
                   <div class="mega-products-group" data-category="led">
                           <h3>LED & LCD Displays</h3>
                     <ul>
-                        <li><a href="#">LED Panels</a></li>
-                        <li><a href="#">LCD Screens</a></li>
-                        <li><a href="#">Video Walls</a></li>
-                        <li><a href="#">Digital Signage</a></li>
-                        <li><a href="#">Controllers Power</a></li>
+                        <li><a href="shop.html?category=led-lcd-displays">LED Panels</a></li>
+                        <li><a href="shop.html?category=led-lcd-displays">LCD Screens</a></li>
+                        <li><a href="shop.html?category=led-lcd-displays">Video Walls</a></li>
+                        <li><a href="shop.html?category=led-lcd-displays">Digital Signage</a></li>
+                        <li><a href="shop.html?category=led-lcd-displays">Controllers Power</a></li>
                     </ul>
                     <a href="shop.html?category=led-lcd-displays" class="view-all">View All →</a>
                   </div>
@@ -151,12 +267,12 @@
                 <div class="mega-products-group" data-category="display">
                     <h3>Display Items</h3>
                   <ul>
-                    <li><a href="#">Roll-up Banners</a></li>
-                    <li><a href="#">Pop-up Displays</a></li>
-                    <li><a href="#">Exhibition Stands</a></li>
-                    <li><a href="#">Poster Frames</a></li>
-                    <li><a href="#">Lightboxes</a></li>
-                    <li><a href="#">Table Displays</a></li>
+                    <li><a href="shop.html?category=rollup-banners">Roll-up Banners</a></li>
+                    <li><a href="shop.html?category=pop-up-displays">Pop-up Displays</a></li>
+                    <li><a href="shop.html?category=display-stands">Exhibition Stands</a></li>
+                    <li><a href="shop.html?category=display-stands">Poster Frames</a></li>
+                    <li><a href="shop.html?category=display-stands">Lightboxes</a></li>
+                    <li><a href="shop.html?category=display-stands">Table Displays</a></li>
                   </ul>
                   <a href="shop.html?category=display-items" class="view-all">View All →</a>
                 </div>
@@ -164,15 +280,31 @@
               <div class="mega-products-group" data-category="acrylic">
                     <h3>Acrylic Products</h3>
                 <ul>
-                  <li><a href="#">Acrylic Sheets</a></li>
-                  <li><a href="#">Custom Fabrication</a></li>
-                  <li><a href="#">Sign Letters</a></li>
-                  <li><a href="#">Display Cases</a></li>
-                  <li><a href="#">Menu Holders</a></li>
-                  <li><a href="#">Award Plaques</a></li>
+                  <li><a href="shop.html?category=acrylic-products-fabrication">Acrylic Sheets</a></li>
+                  <li><a href="shop.html?category=acrylic-products-fabrication">Custom Fabrication</a></li>
+                  <li><a href="shop.html?category=acrylic-products-fabrication">Sign Letters</a></li>
+                  <li><a href="shop.html?category=acrylic-products-fabrication">Display Cases</a></li>
+                  <li><a href="shop.html?category=acrylic-products-fabrication">Menu Holders</a></li>
+                  <li><a href="shop.html?category=acrylic-products-fabrication">Award Plaques</a></li>
                 </ul>
                 <a href="shop.html?category=acrylic-products-fabrication" class="view-all">View All →</a>
               </div>
+
+              <div class="mega-products-group" data-category="display-stand">
+                    <h3>Display Stands</h3>
+                <ul>
+                  <li><a href="shop.html?category=display-stands">Outdoor Poster Stand</a></li>
+                  <li><a href="shop.html?category=display-stands">X Banner Model F</a></li>
+                  <li><a href="shop.html?category=display-stands">Smart Stand</a></li>
+                  <li><a href="shop.html?category=display-stands">Self Standing Soft Film Light Box</a></li>
+                  <li><a href="shop.html?category=display-stands">Wall Picture Shelf Model</a></li>
+                  <li><a href="shop.html?category=display-stands">Banner Hanging Profile</a></li>
+                </ul>
+                <a href="shop.html?category=display-stands" class="view-all">View All →</a>
+              </div>
+              
+
+              
       <!-- Repeat same structure for others -->
 
               </div>
@@ -182,13 +314,20 @@
               </div>
               </div>
             </li>
-            
-                <li class="menu-list-item">
+
+                <!-- <li class="menu-list-item">
                   <a href="blog.html" class="menu-link">Blog
                   </a>
-                </li>
+                </li> -->
                 <li class="menu-list-item">
                   <a href="contact.html" class="menu-link">Contact</a>
+                </li>
+
+                <li class="menu-list-item">
+                  <a href="bio-degradable-pvc.html" class="menu-link">Eco Materials</a>
+                </li>
+                <li class="menu-list-item">
+                  <a href="stories.html" class="menu-link">Our Work</a>
                 </li>
               </ul>
             </nav>
@@ -196,9 +335,9 @@
           </div>
           <div class="header-right">
             <div class="header-right-links">
-              <a href="account.html">
+              <!-- <a href="account.html">
                 <i class="bi bi-person"></i>
-              </a>
+              </a> -->
               <button class="search-button">
                 <i class="bi bi-search"></i>
               </button>
@@ -206,10 +345,10 @@
                 <i class="bi bi-heart"></i>
               </a>
               <div class="header-cart">
-                <a href="cart.html" class="header-cart-link">
+                <!-- <a href="cart.html" class="header-cart-link">
                   <i class="bi bi-bag"></i>
                   <span class="header-cart-count">0</span>
-                </a>
+                </a> -->
               </div>
             </div>
           </div>
@@ -219,152 +358,188 @@
   </header>
   <!-- ! header end -->
 
-    <!-- ! modal search start -->
-    <div class="modal-search">
-        <div class="modal-wrapper">
-            <h3 class="modal-title">Search for products</h3>
-            <p class="modal-text">
-                Start typing to see products you are looking for.
-            </p>
-            <div class="search">
-                <input type="text" placeholder="Search a product" />
-                <button><i class="bi bi-search"></i></button>
-            </div>
-            </form>
-            <div class="search-result">
-                <div class="search-heading">
-                    <h3>RESULT FROM PRODUCT</h3>
-                </div>
-                <div class="results">
-
-                </div>
-            </div>
-            <i class="bi bi-x-circle" id="close-modal-search"></i>
+  <!-- ! modal search start -->
+  <div class="modal-search" id="search-modal">
+    <div class="modal-wrapper">
+      <h3 class="modal-title">Search for products</h3>
+      <p class="modal-text">
+        Start typing to see products you are looking for.
+      </p>
+      <div class="search">
+        <input type="text" placeholder="Search a product" />
+        <button><i class="bi bi-search"></i></button>
+      </div>
+      </form>
+      <div class="search-result">
+        <div class="search-heading">
+          <h3>RESULT FROM PRODUCT</h3>
         </div>
+        <div class="results">
+
+        </div>
+      </div>
+      <i class="bi bi-x-circle" id="close-modal-search"></i>
     </div>
-    <!-- ! modal search end -->
+  </div>
+  <!-- ! modal search end -->
+
+  <!-- ! modal dialog start -->
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-close">
+        <i class="bi bi-x"></i>
+      </div>
+      <div class="modal-image">
+        <img src="img/modal-dialog.png" alt="modal">
+      </div>
+      <div class="popup-wrapper">
+        <div class="popup-content">
+          <div class="popup-title">
+            <h3>RAMZAN SPECIAL SALE</h3>
+          </div>
+          <p class="popup-text">
+            Celebrate Ramzan with exclusive discounts on LED Displays, Signage Materials & Printing Solutions. <br>
+            Upgrade your advertising solutions at special seasonal prices.
+          </p>
+          <form class="popup-form">
+            <input type="text" placeholder="Enter Email Address Here">
+            <button class="btn btn-primary">Submit</button>
+            <span>Don’t miss our limited-time Ramzan offers.</span>
+            <label>
+              <input type="checkbox">
+              <span>Don't show this popup again</span>
+            </label>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ! modal dialog end -->
 
 
-    <!-- ! blogs start  -->
+    <!-- ! completed projects start  -->
     <section class="blogs blog-page">
         <div class="container">
             <div class="section-title">
-                <h2>From Our Blog</h2>
-                <p>Summer Collection New Modern Design</p>
+                <h2>Completed Projects</h2>
+                <p>Explore our recently executed signage and display installations.</p>
             </div>
             <ul class="blog-list">
                 <li class="blog-item">
-                    <a href="single-blog.html" class="blog-image">
-                        <img src="img/blogs/blog1.jpg" alt="" />
-                    </a>
+                    <button class="blog-image project-video-trigger" type="button" data-video-src="img/completed-projects/project1.mp4" aria-label="Play Project 1 video">
+                        <video muted autoplay loop playsinline preload="metadata" poster="img/blogs/blog1.jpg">
+                            <source src="img/completed-projects/project1.mp4" type="video/mp4" />
+                        </video>
+                    </button>
                     <div class="blog-info">
                         <div class="blog-info-top">
-                            <span>25 Feb, 2021</span>
+                            <span>Project Delivery</span>
                             -
-                            <span>0 Comments</span>
+                            <span>Indoor Media</span>
                         </div>
                         <div class="blog-info-center">
-                            <a href="#"> Aliquam hendrerit mi metus </a>
-                        </div>
-                        <div class="blog-info-bottom">
-                            <a href="#">Read More</a>
+                            <span> Retail Branding Installation </span>
                         </div>
                     </div>
                 </li>
                 <li class="blog-item">
-                    <a href="single-blog.html" class="blog-image">
-                        <img src="img/blogs/blog2.jpg" alt="" />
-                    </a>
+                    <button class="blog-image project-video-trigger" type="button" data-video-src="img/completed-projects/project2.mp4" aria-label="Play Project 2 video">
+                        <video muted autoplay loop playsinline preload="metadata" poster="img/blogs/blog2.jpg">
+                            <source src="img/completed-projects/project2.mp4" type="video/mp4" />
+                        </video>
+                    </button>
                     <div class="blog-info">
                         <div class="blog-info-top">
-                            <span>25 Feb, 2021</span>
+                            <span>Project Delivery</span>
                             -
-                            <span>0 Comments</span>
+                            <span>Outdoor Media</span>
                         </div>
                         <div class="blog-info-center">
-                            <a href="#"> Aliquam hendrerit mi metus </a>
-                        </div>
-                        <div class="blog-info-bottom">
-                            <a href="#">Read More</a>
+                            <span> Outdoor Branding Execution </span>
                         </div>
                     </div>
                 </li>
                 <li class="blog-item">
-                    <a href="single-blog.html" class="blog-image">
-                        <img src="img/blogs/blog3.jpg" alt="" />
-                    </a>
+                    <button class="blog-image project-video-trigger" type="button" data-video-src="img/completed-projects/project3.mp4" aria-label="Play Project 3 video">
+                        <video muted autoplay loop playsinline preload="metadata" poster="img/blogs/blog3.jpg">
+                            <source src="img/completed-projects/project3.mp4" type="video/mp4" />
+                        </video>
+                    </button>
                     <div class="blog-info">
                         <div class="blog-info-top">
-                            <span>25 Feb, 2021</span>
+                            <span>Project Delivery</span>
                             -
-                            <span>0 Comments</span>
+                            <span>LED Displays</span>
                         </div>
                         <div class="blog-info-center">
-                            <a href="#"> Aliquam hendrerit mi metus </a>
-                        </div>
-                        <div class="blog-info-bottom">
-                            <a href="#">Read More</a>
+                            <span> Shopping Mall LED Screen Setup </span>
                         </div>
                     </div>
                 </li>
                 <li class="blog-item">
-                    <a href="single-blog.html" class="blog-image">
-                        <img src="img/blogs/blog4.jpg" alt="" />
-                    </a>
+                    <button class="blog-image project-video-trigger" type="button" data-video-src="img/completed-projects/project4.mp4" aria-label="Play Project 4 video">
+                        <video muted autoplay loop playsinline preload="metadata" poster="img/blogs/blog4.jpg">
+                            <source src="img/completed-projects/project4.mp4" type="video/mp4" />
+                        </video>
+                    </button>
                     <div class="blog-info">
                         <div class="blog-info-top">
-                            <span>25 Feb, 2021</span>
+                            <span>Project Delivery</span>
                             -
-                            <span>0 Comments</span>
+                            <span>Acrylic Fabrication</span>
                         </div>
                         <div class="blog-info-center">
-                            <a href="#"> Aliquam hendrerit mi metus </a>
-                        </div>
-                        <div class="blog-info-bottom">
-                            <a href="#">Read More</a>
+                            <span> Corporate Acrylic Signage </span>
                         </div>
                     </div>
                 </li>
                 <li class="blog-item">
-                    <a href="single-blog.html" class="blog-image">
-                        <img src="img/blogs/blog5.jpg" alt="" />
-                    </a>
+                    <button class="blog-image project-video-trigger" type="button" data-video-src="img/completed-projects/project5.mp4" aria-label="Play Project 5 video">
+                        <video muted autoplay loop playsinline preload="metadata" poster="img/blogs/blog5.jpg">
+                            <source src="img/completed-projects/project5.mp4" type="video/mp4" />
+                        </video>
+                    </button>
                     <div class="blog-info">
                         <div class="blog-info-top">
-                            <span>25 Feb, 2021</span>
+                            <span>Project Delivery</span>
                             -
-                            <span>0 Comments</span>
+                            <span>Display Stands</span>
                         </div>
                         <div class="blog-info-center">
-                            <a href="#"> Aliquam hendrerit mi metus </a>
-                        </div>
-                        <div class="blog-info-bottom">
-                            <a href="#">Read More</a>
+                            <span> Exhibition Stand Package </span>
                         </div>
                     </div>
                 </li>
                 <li class="blog-item">
-                    <a href="single-blog.html" class="blog-image">
-                        <img src="img/blogs/blog6.jpg" alt="" />
-                    </a>
+                    <button class="blog-image project-video-trigger" type="button" data-video-src="img/completed-projects/project6.mp4" aria-label="Play Project 6 video">
+                        <video muted autoplay loop playsinline preload="metadata" poster="img/blogs/blog6.jpg">
+                            <source src="img/completed-projects/project6.mp4" type="video/mp4" />
+                        </video>
+                    </button>
                     <div class="blog-info">
                         <div class="blog-info-top">
-                            <span>25 Feb, 2021</span>
+                            <span>Project Delivery</span>
                             -
-                            <span>0 Comments</span>
+                            <span>Display Items</span>
                         </div>
                         <div class="blog-info-center">
-                            <a href="#"> Aliquam hendrerit mi metus </a>
-                        </div>
-                        <div class="blog-info-bottom">
-                            <a href="#">Read More</a>
+                            <span> Retail POP Display Rollout </span>
                         </div>
                     </div>
                 </li>
             </ul>
         </div>
     </section>
-    <!-- ! blogs end -->
+    <!-- ! completed projects end -->
+
+    <div class="project-video-modal" id="project-video-modal" aria-hidden="true">
+        <div class="project-video-modal-content">
+            <button type="button" class="project-video-close" id="project-video-close" aria-label="Close video">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            <video id="project-video-player" controls playsinline></video>
+        </div>
+    </div>
 
     <!-- ! policy start -->
     <section class="policy">
@@ -410,7 +585,108 @@
     <!-- scripts start -->
     <script src="js/site-footer.js"></script>
   <script src="js/main.js" type="module"></script>
+    <script>
+        (function () {
+            const modal = document.getElementById("project-video-modal");
+            const modalContent = modal.querySelector(".project-video-modal-content");
+            const player = document.getElementById("project-video-player");
+            const closeBtn = document.getElementById("project-video-close");
+            const triggers = document.querySelectorAll(".project-video-trigger");
+
+            function closeModal() {
+                modal.classList.remove("is-open");
+                modal.setAttribute("aria-hidden", "true");
+                player.pause();
+                player.removeAttribute("src");
+                player.load();
+                document.body.style.overflow = "";
+            }
+
+            function openModal(videoSrc) {
+                if (!videoSrc) return;
+                player.src = videoSrc;
+                player.load();
+                modal.classList.add("is-open");
+                modal.setAttribute("aria-hidden", "false");
+                document.body.style.overflow = "hidden";
+                player.play().catch(() => {});
+            }
+
+            triggers.forEach((trigger) => {
+                trigger.addEventListener("click", () => {
+                    const previewVideo = trigger.querySelector("video");
+                    const previewSource = previewVideo?.currentSrc || previewVideo?.querySelector("source")?.src;
+                    openModal(previewSource || trigger.dataset.videoSrc);
+                });
+            });
+
+            closeBtn.addEventListener("click", closeModal);
+
+            modal.addEventListener("click", (event) => {
+                if (event.target.closest("#project-video-close")) {
+                    closeModal();
+                    return;
+                }
+                if (!modalContent.contains(event.target)) {
+                    closeModal();
+                }
+            });
+
+            document.addEventListener("keydown", (event) => {
+                if (event.key === "Escape" && modal.classList.contains("is-open")) {
+                    closeModal();
+                }
+            });
+        })();
+    </script>
     <!-- scripts end -->
+
+    <a href="https://wa.me/+971501090168?text=Hello%20I%20am%20interested%20in%20your%20display%20products" 
+   class="whatsapp-float" 
+   target="_blank" 
+   aria-label="Chat on WhatsApp">
+  <i class="bi bi-whatsapp"></i>
+</a>
+<style>
+  .whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 60px;
+  height: 60px;
+  background-color: #25D366;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  z-index: 9999;
+  transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.1);
+  background-color: #1ebe5d;
+}
+.whatsapp-float::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: rgba(37, 211, 102, 0.4);
+  animation: pulse 1.8s infinite;
+  z-index: -1;
+}
+
+@keyframes pulse {
+  0% { transform: scale(1); opacity: 0.7; }
+  70% { transform: scale(1.6); opacity: 0; }
+  100% { transform: scale(1); opacity: 0; }
+}
+</style>
 </body>
 
 </html>

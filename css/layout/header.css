@@ -104,6 +104,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 1.2px;
     position: relative;
+    white-space: nowrap;
 }
 
 .header-center .menu-list .menu-link::after {

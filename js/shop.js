@@ -7,6 +7,64 @@ console.log("shop.js loaded")
 
 const params = new URLSearchParams(window.location.search)
 const category = params.get("category")
+const CATEGORY_ALIASES = {
+  "indoor-medias": "indoor-media",
+  "outdoor-medias": "outdoor-media",
+  "acrylic-fabrications": "acrylic-products-fabrication",
+  "acrylic-fabrication": "acrylic-products-fabrication"
+}
+const normalizedCategory = category ? (CATEGORY_ALIASES[category] || category) : null
+
+const CATEGORY_SEO = {
+  "indoor-media": {
+    title: "Indoor Advertising Media Dubai | Retail Display Solutions UAE",
+    description: "High-quality indoor advertising media designed for retail stores, malls and commercial spaces to enhance customer engagement in UAE."
+  },
+  "outdoor-media": {
+    title: "Outdoor Advertising Media Dubai | Branding Displays UAE",
+    description: "Durable outdoor advertising media solutions including banners, signage and branding displays built for maximum visibility in Dubai."
+  },
+  "accessories": {
+    title: "Advertising Display Accessories Dubai | Media Supplies UAE",
+    description: "Complete range of advertising accessories and mounting solutions for signage, displays and branding installations across UAE."
+  },
+  "led-lcd-displays": {
+    title: "LED & LCD Display Screens Dubai | Digital Signage UAE",
+    description: "Advanced LED and LCD display solutions for advertising, retail branding and commercial communication across Dubai and UAE."
+  },
+  "display-items": {
+    title: "Display Items | TMS Catalogue",
+    description: "Discover display items like roll-up banners, pop-up displays, poster frames, lightboxes, and table display systems."
+  },
+  "display-stands": {
+    title: "Display Stands | TMS Catalogue",
+    description: "View our range of display stands including smart stands, wall shelves, hanging profiles, and other promotional stand solutions."
+  },
+  "acrylic-products-fabrication": {
+    title: "Acrylic Display Stands Dubai | Custom Branding Displays UAE",
+    description: "Premium acrylic stands and display solutions ideal for retail branding, exhibitions and promotional setups in Dubai."
+  }
+}
+
+function applyCategorySeo() {
+  const defaultSeo = {
+    title: "TMS | Catalogue",
+    description: "Explore our complete product catalogue of indoor media, outdoor media, LED displays, accessories, acrylic products, and display solutions."
+  }
+
+  const seo = normalizedCategory ? (CATEGORY_SEO[normalizedCategory] || defaultSeo) : defaultSeo
+  document.title = seo.title
+
+  let descriptionMeta = document.querySelector('meta[name="description"]')
+  if (!descriptionMeta) {
+    descriptionMeta = document.createElement("meta")
+    descriptionMeta.setAttribute("name", "description")
+    document.head.appendChild(descriptionMeta)
+  }
+  descriptionMeta.setAttribute("content", seo.description)
+}
+
+applyCategorySeo()
 const grid = document.getElementById("products-grid")
 
 function setWishlistButtonState(button, active) {
@@ -27,11 +85,11 @@ async function loadProducts() {
   const products = await res.json()
 
   // filter by category
-  const filteredProducts = category
+  const filteredProducts = normalizedCategory
   ? products.filter(p =>
       Array.isArray(p.category)
-        ? p.category.includes(category)
-        : p.category === category
+        ? p.category.includes(normalizedCategory)
+        : p.category === normalizedCategory
     )
   : products
 
@@ -53,8 +111,8 @@ function renderProducts(products) {
   const title = document.getElementById("category-title")
   const count = document.getElementById("category-count")
 
-  title.textContent = category
-    ? category.replace(/-/g, " ").toUpperCase()
+  title.textContent = normalizedCategory
+    ? normalizedCategory.replace(/-/g, " ").toUpperCase()
     : "Products"
 
   count.textContent = `${products.length} Products`

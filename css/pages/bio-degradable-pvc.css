@@ -275,6 +275,8 @@ body {
 
 .bio-products {
   padding: clamp(24px, 4vw, 42px) 0 clamp(10px, 2vw, 20px);
+  content-visibility: visible;
+  contain-intrinsic-size: auto;
 }
 
 .bio-products .section-title {
@@ -286,6 +288,30 @@ body {
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 24px;
   contain: layout style paint;
+}
+
+.bio-products .bio-products-carousel {
+  margin-top: 6px;
+}
+
+.bio-products .bio-products-carousel .glide__track {
+  overflow: hidden;
+}
+
+.bio-products .bio-products-carousel .glide__slides {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.bio-products .bio-products-carousel .glide__slide {
+  height: auto;
+  flex-shrink: 0;
+}
+
+.bio-products .bio-products-carousel .product-item {
+  height: auto;
 }
 
 .bio-products .product-item {

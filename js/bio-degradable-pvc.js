@@ -21,6 +21,8 @@ import { isInWishlist, toggleWishlist } from "./wishlist.js";
 const grid = document.getElementById("bio-products-grid");
 const title = document.getElementById("bio-products-title");
 const count = document.getElementById("bio-products-count");
+const bioCarousel = document.querySelector(".bio-products-carousel");
+let bioGlide = null;
 
 const BIO_CATEGORY_KEYS = [
   "bio-degradable-pvc",
@@ -70,6 +72,40 @@ function setWishlistButtonState(button, active) {
   button.title = active ? "Remove from Wishlist" : "Add to Wishlist";
 }
 
+function mountBioProductsGlide() {
+  if (!bioCarousel || typeof window.Glide !== "function") return;
+
+  if (bioGlide) {
+    bioGlide.destroy();
+  }
+
+  bioGlide = new window.Glide(".bio-products-carousel", {
+    type: "carousel",
+    startAt: 0,
+    perView: 4,
+    gap: 24,
+    autoplay: 2000,
+    hoverpause: true,
+    animationDuration: 700,
+    breakpoints: {
+      992: {
+        perView: 3,
+        gap: 18
+      },
+      768: {
+        perView: 2,
+        gap: 14
+      },
+      576: {
+        perView: 1,
+        gap: 10
+      }
+    }
+  });
+
+  bioGlide.mount();
+}
+
 function renderProducts(products) {
   if (!grid) return;
 
@@ -82,7 +118,7 @@ function renderProducts(products) {
   }
 
   if (!products.length) {
-    grid.innerHTML = "<p>No products found.</p>";
+    grid.innerHTML = "<li class=\"glide__slide\">No products found.</li>";
     return;
   }
 
@@ -91,7 +127,7 @@ function renderProducts(products) {
     const hoverImage = product?.img?.thumbs?.[1] || primaryImage;
 
     return `
-      <div class="product-item">
+      <li class="product-item glide__slide">
         <div class="product-image">
           <a href="single-product.html?id=${product.id}">
             <img src="${primaryImage}" class="img1" alt="${product.name}" loading="lazy" decoding="async">
@@ -126,7 +162,7 @@ function renderProducts(products) {
             </a>
           </div>
         </div>
-      </div>
+      </li>
     `;
   }).join("");
 
@@ -138,6 +174,12 @@ function renderProducts(products) {
     if (!id) return;
     setWishlistButtonState(button, isInWishlist(id));
   });
+
+  if (document.readyState === "complete") {
+    mountBioProductsGlide();
+  } else {
+    window.addEventListener("load", mountBioProductsGlide, { once: true });
+  }
 }
 
 async function loadBioProducts() {
@@ -147,9 +189,9 @@ async function loadBioProducts() {
     const res = await fetch("./js/data.json");
     const products = await res.json();
     const bioProducts = Array.isArray(products) ? products.filter(matchesBioProduct) : [];
-    renderProducts(bioProducts.slice(0, 4));
+    renderProducts(bioProducts.slice(0, 8));
   } catch (error) {
-    grid.innerHTML = "<p>Unable to load products right now.</p>";
+    grid.innerHTML = "<li class=\"glide__slide\">Unable to load products right now.</li>";
     if (count) count.textContent = "";
     console.error("Failed to load bio products:", error);
   }

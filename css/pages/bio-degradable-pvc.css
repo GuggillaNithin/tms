@@ -184,7 +184,7 @@ body {
   background: var(--bio-card);
   border: 1px solid var(--bio-border);
   box-shadow: var(--bio-shadow);
-  border-radius: 14px;
+  
   min-height: 108px;
   display: grid;
   place-content: center;
@@ -233,7 +233,7 @@ body {
 .line-card {
   background: var(--bio-card);
   border: 1px solid var(--bio-border);
-  border-radius: 14px;
+  
   padding: 24px 16px;
   box-shadow: 0 8px 20px rgba(22, 42, 32, 0.08);
 }
@@ -326,7 +326,7 @@ body {
 }
 
 .app-card {
-  border-radius: 12px;
+  
   overflow: hidden;
   background: #111;
   position: relative;
@@ -568,6 +568,10 @@ body {
   .app-grid,
   .sample-form {
     gap: 10px;
+  }
+
+  .line-cards {
+    grid-template-columns: 1fr;
   }
 
   .bio-products .products-grid {

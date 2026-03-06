@@ -13,6 +13,52 @@ import { isInWishlist, toggleWishlist } from "./wishlist.js"
 const params = new URLSearchParams(window.location.search)
 const productId = Number(params.get("id"))
 
+function normalizeCategorySlug(value) {
+  return String(value || "")
+    .trim()
+    .toLowerCase()
+    .replace(/[_\s]+/g, "-")
+}
+
+function formatCategoryLabel(value) {
+  return String(value || "")
+    .replace(/[-_]+/g, " ")
+    .replace(/\b\w/g, (char) => char.toUpperCase())
+}
+
+function getPrimaryCategory(product) {
+  const category = Array.isArray(product?.category)
+    ? product.category[0]
+    : product?.category
+
+  if (category) {
+    const slug = normalizeCategorySlug(category)
+    return { slug, label: formatCategoryLabel(category) }
+  }
+
+  const categoryLabel = Array.isArray(product?.categories) ? product.categories[0] : ""
+  return {
+    slug: normalizeCategorySlug(categoryLabel),
+    label: categoryLabel || "Products"
+  }
+}
+
+function renderBreadcrumb(product) {
+  const breadcrumb = document.getElementById("dynamic-breadcrumb")
+  if (!breadcrumb) return
+
+  const primaryCategory = getPrimaryCategory(product)
+  const categoryLink = primaryCategory.slug
+    ? `shop.html?category=${encodeURIComponent(primaryCategory.slug)}`
+    : "shop.html"
+
+  breadcrumb.innerHTML = `
+    <li><a href="index.html">Home</a></li>
+    <li><a href="${categoryLink}">${primaryCategory.label}</a></li>
+    <li>${product.name}</li>
+  `
+}
+
 /* ================================
    LOAD PRODUCT FROM JSON
 ================================ */
@@ -50,6 +96,7 @@ async function loadProduct() {
 loadProduct()
 
 function renderProduct(findProduct) {
+  renderBreadcrumb(findProduct)
 
   /* TITLE */
   document.querySelector(".product-title").textContent = findProduct.name

@@ -39,7 +39,9 @@ function setWishlistButtonState(button, active) {
 }
 
 function addToWishlist() {
-    const buttons = [...document.getElementsByClassName("add-to-wishlist")]
+    const buttons = [
+        ...document.querySelectorAll("#product-list .add-to-wishlist, #product-list-2 .add-to-wishlist")
+    ]
 
     buttons.forEach((button) => {
         const id = Number(button.dataset.id)

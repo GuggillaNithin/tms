@@ -319,7 +319,7 @@
       <div class="hero-bg-slider" aria-hidden="true">
         <div class="hero-bg active" style="background-image:url('img/slider/bioPVC.webp');"></div>
         <div class="hero-bg" style="background-image:url('img/slider/slider2.webp');"></div>
-        <div class="hero-bg" style="background-image:url('img/slider/slider3.webp');"></div>
+        <div class="hero-bg" style="background-image:url('img/bio-thumbs/bio-banner.webp');"></div>
       </div>
       <div class="hero-overlay"></div>
 
@@ -329,13 +329,13 @@
           <h1>Compostable Poster Film</h1>
           <p class="subtitle">100% Bio-Based Printing Material<br />Carbon Neutral • PVC Free • Outdoor Durable</p>
           <div class="hero-actions">
-            <a href="#sample" class="btn btn-primary">Request Sample</a>
-            <a href="#sample" class="btn btn-secondary">Download Brochure</a>
+            <a href="#sample" class="btn btn-primary">Shop Now</a>
+            <!-- <a href="#sample" class="btn btn-secondary">Download Brochure</a> -->
           </div>
         </div>
-        <div class="hero-art">
+        <!-- <div class="hero-art">
           <img src="img/products/rollup-popup-banners/roll-up-strong/1.webp" alt="GreenLine roll-up display" />
-        </div>
+        </div> -->
       </div>
     </section>
 
@@ -344,6 +344,19 @@
       <article class="feature-card"><i class="bi bi-feather"></i><span>PVC Free</span></article>
       <article class="feature-card"><i class="bi bi-brightness-alt-high"></i><span>Outdoor Durable</span></article>
       <article class="feature-card"><i class="bi bi-arrow-repeat"></i><span>Carbon Neutral</span></article>
+    </section>
+
+      <section class="products bio-products">
+      <div class="container">
+        <div class="section-title">
+          <h2 id="bio-products-title">Bio-Degradable Products</h2>
+          <p id="bio-products-count"></p>
+        </div>
+        <div class="products-grid" id="bio-products-grid"></div>
+        <div style="text-align: center; margin-top: 24px;">
+          <a href="shop.html?category=bio-degradable-pvc" class="btn btn-primary">View More</a>
+        </div>
+      </div>
     </section>
 
     <section class="innovation section-shell">
@@ -359,7 +372,7 @@
         </article>
         <article class="line-card line-card-active">
           <h3><i class="bi bi-leaf-fill"></i> GreenLine</h3>
-          <p>Bio Base &amp; Compostable</p>
+          <p style="color: #fff;">Bio Base &amp; Compostable</p>
         </article>
         <article class="line-card">
           <h3><i class="bi bi-recycle"></i> ReLine</h3>
@@ -368,24 +381,26 @@
       </div>
     </section>
 
+ 
+
     <section class="applications section-shell">
       <h2>Applications</h2>
       <div class="app-grid">
         <article class="app-card">
-          <img src="img/blogs/blog1.jpg" alt="Vehicle branding application" />
+          <img src="img/bio-thumbs/vechicle-wrap.webp" alt="Vehicle branding application" loading="lazy" decoding="async" />
           <h3>Vehicle Branding</h3>
         </article>
         <article class="app-card">
-          <img src="img/blogs/blog2.jpg" alt="Banner application" />
-          <h3>Banners</h3>
+          <img src="img/bio-thumbs/rollup.webp" alt="Banner application" loading="lazy" decoding="async" />
+          <h3>Roll-Up Banners</h3>
         </article>
         <article class="app-card">
-          <img src="img/blogs/blog3.jpg" alt="Wall graphics application" />
-          <h3>Wall Graphics</h3>
-        </article>
-        <article class="app-card">
-          <img src="img/blogs/blog4.jpg" alt="Outdoor signage application" />
+          <img src="img/bio-thumbs/outdoor-signage.webp" alt="Wall graphics application" loading="lazy" decoding="async" />
           <h3>Outdoor Signage</h3>
+        </article>
+        <article class="app-card">
+          <img src="img/bio-thumbs/retail-displays.webp" alt="Retail displays application" loading="lazy" decoding="async" />
+          <h3>Retail Displays</h3>
         </article>
       </div>
     </section>
@@ -395,22 +410,57 @@
       <div class="sample-copy">
         <h2>Get Samples &amp; Learn More</h2>
         <p>Request a sample kit and download brochure.</p>
-        <form class="sample-form">
-          <input type="text" placeholder="Name" aria-label="Name" />
-          <button type="button">Download Brochure</button>
-          <input type="email" placeholder="Email" aria-label="Email" />
-          <input type="text" placeholder="Message" aria-label="Message" />
+        <form class="sample-form" action="contactform.php" method="POST">
+            <input type="hidden" name="form_source" value="bio-degradable-pvc" />
+            <input type="text" id="name" name="name" placeholder="Name" required />
+            <input type="email" id="email" name="email" placeholder="Email" required />
+            <textarea id="message" name="message" placeholder="Message" rows="4"></textarea>
+            <button type="submit">Submit</button>
         </form>
       </div>
-      <div class="sample-art">
-        <img src="img/slider/Gemini_Generated_Image_w8j44cw8j44cw8j4.png" alt="Sustainable vehicle visual" />
-      </div>
+      <!-- <div class="sample-art">
+        <img src="img/slider/Gemini_Generated_Image_w8j44cw8j44cw8j4.png" alt="Sustainable vehicle visual" loading="lazy" decoding="async" />
+      </div> -->
     </section>
 
    
   </main>
+  <section class="policy">
+    <div class="container">
+      <ul class="policy-list">
+        <li class="policy-item">
+          <i class="bi bi-truck"></i>
+          <div class="policy-texts">
+            <strong>Fast & Reliable Shipping</strong>
+            <span>Shop Now</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-headset"></i>
+          <div class="policy-texts">
+            <strong>SUPPORT 24/7</strong>
+            <span>Online 24 hours</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-arrow-clockwise"></i>
+          <div class="policy-texts">
+            <strong>RETURN POLICY</strong>
+            <span>Hassle-Free Exchanges</span>
+          </div>
+        </li>
+        <li class="policy-item">
+          <i class="bi bi-award"></i>
+          <div class="policy-texts">
+            <strong>QUALITY GUARANTEE</strong>
+            <span>100% Satisfaction Guaranteed</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </section>
 
-  <script src="js/bio-degradable-pvc.js"></script>
+  <script src="js/bio-degradable-pvc.js" type="module"></script>
   <site-footer></site-footer>
   <!-- ! footer end -->
 
@@ -467,8 +517,15 @@
   70% { transform: scale(1.6); opacity: 0; }
   100% { transform: scale(1); opacity: 0; }
 }
+
+@media (max-width: 768px) {
+  .whatsapp-float::before {
+    display: none;
+  }
+}
 </style>
 
 <script src="js/cookie-consent.js"></script>
+<script src="js/share.js"></script>
 </body>
 </html>

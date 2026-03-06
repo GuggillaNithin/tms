@@ -7,7 +7,7 @@
     "tags": ["Clear Film", "Indoor Printing", "Graphics"],
 
     
-    "discount": 33,
+    "discount": 51,
 
      "shortDescription": "High transparency clear film designed for premium indoor graphic applications.",
 
@@ -110,7 +110,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Heavy Photo Paper", "High Quality Prints", "Indoor Posters"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Heavyweight 260 GSM photo paper for premium indoor photo and poster printing.",
 
@@ -144,7 +144,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Adhesive Paper", "Sticker Print", "Indoor Branding"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Self-adhesive photo paper designed for high-quality indoor sticker and poster applications.",
 
@@ -178,7 +178,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Vinyl", "Wall Graphics", "Indoor Advertising"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Durable adhesive vinyl media suitable for indoor wall and surface graphics.",
 
@@ -212,7 +212,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Mopi Paper", "Poster Printing", "Indoor Advertising"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "High-quality Mopi paper with white back for vibrant indoor poster printing.",
 
@@ -246,7 +246,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Mopi Paper", "Blue Back Paper", "Billboard Paper"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Durable Mopi paper with blue back designed for strong opacity in indoor displays.",
 
@@ -280,7 +280,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Roll Up", "Black Back Media", "Exhibition Display"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "Premium roll up media with black back for complete light block-out.",
 
@@ -314,7 +314,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Roll Up", "White Back Media", "Display Graphics"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "High-quality roll up media with white back for indoor display systems.",
 
@@ -348,7 +348,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Roll Up", "Grey Back Media", "Indoor Exhibition"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Roll up media with grey back offering balanced opacity and print clarity.",
 
@@ -382,7 +382,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Duratrans", "Backlit Film", "Light Box Display"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "High-quality backlit film designed for vibrant front print lightbox applications.",
 
@@ -416,7 +416,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Duratrans", "Reverse Print", "Backlit Graphics"],
 
-  "discount": 33,
+  "discount": 54,
 
   "shortDescription": "Reverse printable backlit film for illuminated indoor display systems.",
 
@@ -450,7 +450,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Canvas", "Art Print", "Decor Media"],
 
-  "discount": 33,
+  "discount": 54,
 
   "shortDescription": "Textured canvas media with yellow backing for artistic indoor prints.",
 
@@ -484,7 +484,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Canvas", "Waterproof", "Premium Prints"],
 
-  "discount": 33,
+  "discount": 54,
 
   "shortDescription": "Durable waterproof canvas media for long-lasting indoor prints.",
 
@@ -518,7 +518,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Banner", "Indoor Advertising", "Promotional Display"],
 
-  "discount": 33,
+  "discount": 57,
 
   "shortDescription": "Flexible indoor banner material for promotional and event displays.",
 
@@ -552,7 +552,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Lamination", "Print Protection", "80 Micron"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "80 micron protective lamination film in matt and gloss finish.",
 
@@ -586,7 +586,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["UV Lamination", "Protection Film", "Gloss Finish"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "UV resistant lamination film for enhanced durability and protection.",
 
@@ -620,7 +620,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Floor Protection", "Anti Slip", "Lamination Film"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "Anti-slip floor lamination film for indoor floor graphics protection.",
 
@@ -654,7 +654,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Mounting Film", "Adhesive Back", "Print Installation"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Adhesive mounting film for easy application of printed graphics.",
 
@@ -688,7 +688,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["Pop Up Display", "Exhibition Media", "Display Film"],
 
-  "discount": 55,
+  "discount": 54,
 
   "shortDescription": "Specialized film media designed for pop-up display systems.",
 
@@ -722,7 +722,7 @@
   "categories": ["Indoor", "Medias"],
   "tags": ["PVC Flooring", "Floor Graphics", "Indoor Branding"],
 
-  "discount": 33,
+  "discount": 52,
 
   "shortDescription": "Heavy-duty PVC flooring media for indoor promotional graphics.",
 
@@ -766,7 +766,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Reflective Vinyl", "Road Signage", "Outdoor Safety"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "High-intensity honeycomb reflective vinyl for outdoor safety and signage applications.",
 
@@ -801,7 +801,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["PVC Banner", "Outdoor Advertising", "Flex Banner"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Durable 13 oz PVC banner suitable for outdoor advertising and promotions.",
 
@@ -835,7 +835,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Black Back Banner", "Blockout Banner", "Outdoor Signage"],
 
-  "discount": 33,
+  "discount": 52,
 
   "shortDescription": "13 oz black back matt banner with superior light block-out performance.",
 
@@ -870,7 +870,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Scrolling Display", "Outdoor Billboard", "PVC Banner"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Heavy-duty scrolling banner media for outdoor billboard systems.",
 
@@ -904,7 +904,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Heavy Duty Banner", "Outdoor Billboard", "PVC Flex"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "Extra strong 15 oz matt banner for large-scale outdoor advertising.",
 
@@ -938,7 +938,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Heavy Duty Banner", "Outdoor Advertising", "PVC Flex Banner"],
 
-  "discount": 33,
+  "discount": 56,
 
   "shortDescription": "Premium 16 oz PVC banner for high durability outdoor advertising applications.",
 
@@ -972,7 +972,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Blockout Banner", "Double Sided Banner", "Outdoor Signage"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "16 oz blockout banner with black & white backing for superior opacity.",
 
@@ -1007,7 +1007,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Mesh Banner", "Wind Resistant", "Building Wrap"],
 
-  "discount": 33,
+  "discount": 54,
 
   "shortDescription": "Perforated mesh banner ideal for windy outdoor environments.",
 
@@ -1041,7 +1041,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Backlit Banner", "Lightbox Media", "Outdoor Display"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Heavy-duty 610 gsm solvent printable backlit banner for illuminated displays.",
 
@@ -1075,7 +1075,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Backlit Flex", "Matt Finish", "Outdoor Lightbox"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "610 gsm matt coated flex banner for high-quality backlit outdoor applications.",
 
@@ -1109,7 +1109,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Double Sided Banner", "Blockout Flex", "Outdoor Advertising"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "High opacity blockout banner suitable for double-sided outdoor printing.",
 
@@ -1143,7 +1143,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["PET Banner", "Frontlit Media", "Eco Friendly Banner"],
 
-  "discount": 33,
+  "discount": 52,
 
   "shortDescription": "Eco-friendly 420 gsm PET frontlit banner for outdoor advertising.",
 
@@ -1177,7 +1177,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["PET Backlit", "Illuminated Banner", "Outdoor Lightbox"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "420 gsm PET backlit media for illuminated outdoor signage.",
 
@@ -1211,7 +1211,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["PET Blockout", "Double Sided Banner", "Outdoor Signage"],
 
-  "discount": 33,
+  "discount": 54,
 
   "shortDescription": "Heavy-duty 530 gsm PET blockout banner for double-sided outdoor printing.",
 
@@ -1245,7 +1245,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Floor Graphics", "Outdoor Vinyl", "Anti Slip Media"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Durable printable vinyl for outdoor floor graphics and branding.",
 
@@ -1279,7 +1279,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Photo Paper", "Solvent Printing", "Poster Media"],
 
-  "discount": 33,
+  "discount": 52,
 
   "shortDescription": "220 gsm solvent printable photo paper for outdoor poster applications.",
 
@@ -1313,7 +1313,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Bubble Free Vinyl", "Grey Back Vinyl", "Outdoor Branding"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Bubble-free grey back adhesive vinyl for smooth outdoor applications.",
 
@@ -1348,7 +1348,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Grafityp Vinyl", "Printable Vinyl", "Outdoor Stickers"],
 
-  "discount": 33,
+  "discount": 54,
 
   "shortDescription": "Premium Grafityp solvent printable vinyl for professional outdoor graphics.",
 
@@ -1383,7 +1383,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Printable Vinyl", "Outdoor Stickers", "Advertising Vinyl"],
 
-  "discount": 33,
+  "discount": 52,
 
   "shortDescription": "Standard solvent printable vinyl for outdoor branding and signage.",
 
@@ -1417,7 +1417,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Magnetic Roll", "Vehicle Graphics", "Removable Signage"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "0.85mm thick printable magnetic roll for removable outdoor signage.",
 
@@ -1451,7 +1451,7 @@
   "categories": ["Outdoor", "Medias"],
   "tags": ["Heavy Magnetic Roll", "Vehicle Branding", "Removable Graphics"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "2mm thick heavy-duty printable magnetic roll for strong outdoor applications.",
 
@@ -1491,7 +1491,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Grey Back Vinyl", "Solvent Printable", "Self Adhesive Vinyl"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Premium grey back self-adhesive vinyl for high-quality solvent printing.",
 
@@ -1525,7 +1525,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["One Way Vision", "Perforated Film", "Window Graphics"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Perforated self-adhesive vinyl ideal for window graphics and vehicle branding.",
 
@@ -1594,7 +1594,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Clear Film", "Transparent Vinyl", "Window Graphics"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Transparent adhesive film suitable for solvent printing applications.",
 
@@ -1628,7 +1628,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Fabric Banner", "Soft Signage", "Polyester Media"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "High-quality textile banner material for soft signage applications.",
 
@@ -1662,7 +1662,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Roll Up Media", "Grey Back Film", "Display Stand Media"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Premium grey back roll up media for professional display stands.",
 
@@ -1696,7 +1696,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Backlit Film", "Duratrans", "Lightbox Film"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "High-quality translucent film for illuminated lightbox displays.",
 
@@ -1730,7 +1730,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Roll Up Media", "White Back Film", "Display Graphics"],
 
-  "discount": 33,
+  "discount": 52,
 
   "shortDescription": "White back roll up media for indoor promotional displays.",
 
@@ -1764,7 +1764,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Canvas Media", "Art Print", "Outdoor Canvas"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Durable canvas media suitable for outdoor and art print applications.",
 
@@ -1798,7 +1798,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Flag Fabric", "Polyester Flag", "Outdoor Flag"],
 
-  "discount": 33,
+  "discount": 55,
 
   "shortDescription": "Lightweight polyester fabric designed for flag printing applications.",
 
@@ -1834,7 +1834,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Non Woven Media", "Eco Solvent Print", "Wall Graphics"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Eco solvent printable non-woven media ideal for wall and promotional graphics.",
 
@@ -1868,7 +1868,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Printable Wallpaper", "Wall Covering", "Interior Graphics"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "High-quality solvent printable wallpaper for customized interior branding.",
 
@@ -1902,7 +1902,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Blue Back Paper", "Poster Paper", "Billboard Paper"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Blue back poster paper designed for outdoor billboard applications.",
 
@@ -1936,7 +1936,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["White Back Paper", "Poster Media", "Outdoor Posters"],
 
-  "discount": 33,
+  "discount": 52,
 
   "shortDescription": "White back poster paper suitable for large format advertising prints.",
 
@@ -1970,7 +1970,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Pop Up Film", "Display Film", "Eco Solvent Media"],
 
-  "discount": 33,
+  "discount": 51,
 
   "shortDescription": "Eco solvent printable pop-up film for exhibition and display systems.",
 
@@ -2004,7 +2004,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Micron Film", "Protective Sheet", "Printing Film"],
 
-  "discount": 33,
+  "discount": 52,
 
   "shortDescription": "Durable micron sheet suitable for protection and printing applications.",
 
@@ -2038,7 +2038,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Black Micron Film", "Blockout Film", "Protective Sheet"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Black micron sheet ideal for blockout and protective applications.",
 
@@ -2072,7 +2072,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Heat Transfer Vinyl", "PU Film", "PVC Film", "Glitter HTV", "Garment Printing"],
 
-  "discount": 33,
+  "discount": 54,
 
   "shortDescription": "High-quality heat transfer films available in PU, PVC, and glitter finishes for garment decoration.",
 
@@ -2106,7 +2106,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Printable Heat Transfer", "HTV Printable", "Garment Vinyl"],
 
-  "discount": 33,
+  "discount": 54,
 
   "shortDescription": "Printable heat transfer film suitable for eco-solvent and solvent printing.",
 
@@ -2141,7 +2141,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Flock HTV", "Velvet Finish Film", "Textile Decoration"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Premium flock material with velvet texture for garment decoration.",
 
@@ -2182,7 +2182,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Wood Texture Vinyl", "Decorative Film", "Interior Decoration"],
 
-  "discount": 33,
+  "discount": 53,
 
   "shortDescription": "Decorative wooden texture adhesive film for interior and surface decoration.",
 
@@ -2216,7 +2216,7 @@
   "categories": ["Outdoor Media"],
   "tags": ["Frosted Glass Film", "Privacy Vinyl", "Etched Effect Film"],
 
-  "discount": 33,
+  "discount": 21,
 
   "shortDescription": "Frosted self-adhesive vinyl for glass decoration and privacy applications.",
 
@@ -2260,7 +2260,7 @@
   "categories": ["Accessories"],
   "tags": ["Adhesive Glue", "Instant Bond", "Industrial Glue"],
 
-  "discount": 0,
+  "discount": 15,
 
   "shortDescription": "Fast bonding super glue for signage and general applications.",
 
@@ -2328,7 +2328,7 @@
   "categories": ["Accessories"],
   "tags": ["Display Clip", "POP Accessories", "Retail Clip"],
 
-  "discount": 0,
+  "discount": 15,
 
   "shortDescription": "POP clips used for retail display and promotional signage.",
 
@@ -2362,7 +2362,7 @@
   "categories": ["Accessories"],
   "tags": ["Velcro Tape", "Hook and Loop", "Banner Tape"],
 
-  "discount": 0,
+  "discount": 15,
 
   "shortDescription": "Heavy-duty velcro and banner strength tape for secure mounting.",
 
@@ -2396,7 +2396,7 @@
   "categories": ["Accessories"],
   "tags": ["Grommets", "Banner Eyelits", "Metal Rings"],
 
-  "discount": 0,
+  "discount": 14,
 
   "shortDescription": "Metal eyelits for banner finishing and reinforcement.",
 
@@ -2437,7 +2437,7 @@
   "categories": ["Accessories"],
   "tags": ["Double Sided Tape", "PET Tape", "Mounting Tape"],
 
-  "discount": 0,
+  "discount": 16,
 
   "shortDescription": "High-strength PET double-sided tape for mounting and signage use.",
 
@@ -2471,7 +2471,7 @@
   "categories": ["Accessories"],
   "tags": ["Hanging Cable", "Display Suspension", "Signage Cable"],
 
-  "discount": 0,
+  "discount": 12,
 
   "shortDescription": "Strong ceiling hanging cable for suspended signage and displays.",
 
@@ -2505,7 +2505,7 @@
   "categories": ["Accessories"],
   "tags": ["Cable Tie", "Plastic Fastener", "Banner Tie"],
 
-  "discount": 0,
+  "discount": 15,
 
   "shortDescription": "Durable plastic zip ties for securing banners and cables.",
 
@@ -2608,7 +2608,7 @@
   "categories": ["Accessories"],
   "tags": ["ID Badge", "Name Tag", "Event Badge"],
 
-  "discount": 55,
+  "discount": 25,
 
   "shortDescription": "Professional name badges for offices and events.",
 
@@ -2643,7 +2643,7 @@
   "categories": ["Accessories"],
   "tags": ["Cutter Blade", "Vinyl Cutting", "Spare Blades"],
 
-  "discount": 0,
+  "discount": 23,
 
   "shortDescription": "High-precision cutting blades for vinyl and graphic applications.",
 
@@ -2678,7 +2678,7 @@
   "categories": ["Accessories"],
   "tags": ["ID Lanyard", "Neck Strap", "Event Accessory"],
 
-  "discount": 0,
+  "discount": 25,
 
   "shortDescription": "Durable lanyards for ID cards, badges, and promotional use.",
 
@@ -2713,7 +2713,7 @@
   "categories": ["Accessories"],
   "tags": ["Self Healing Mat", "Craft Mat", "Cutting Surface"],
 
-  "discount": 0,
+  "discount": 22,
 
   "shortDescription": "Self-healing cutting mat for precise and safe cutting operations.",
 
@@ -2748,7 +2748,7 @@
   "categories": ["Accessories"],
   "tags": ["Flag Stand", "Table Display", "Desk Flag Holder"],
 
-  "discount": 0,
+  "discount": 23,
 
   "shortDescription": "Elegant table top flag stands for office and promotional displays.",
 
@@ -2782,7 +2782,7 @@
   "categories": ["Accessories"],
   "tags": ["Name Plate Holder", "Desk Name Holder", "Aluminum Stand"],
 
-  "discount": 55,
+  "discount": 25,
 
   "shortDescription": "Premium aluminum name holder for desks and office displays.",
 
@@ -3057,7 +3057,7 @@
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["P10 LED Screen", "Outdoor LED Billboard", "Full Color LED Display", "Advertising LED Board"],
-    "discount": 0,
+    "discount": 15,
     "shortDescription": "Durable P10 LED display for large outdoor advertising and public information screens.",
     "description": [
       "High brightness DIP LED display are used for outdoor led display, keeps the display constant visible even if facing the strong sun shine directly.",
@@ -3110,7 +3110,7 @@
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["LED Module 220V", "Direct Plug LED", "LED Sign Module", "Advertising LED Module"],
-    "discount": 0,
+    "discount": 16,
     "shortDescription": "Direct pluggable 220V LED module for signage and display systems.",
     "description": [
       "Easy installation plug-and-play design.",
@@ -3144,7 +3144,7 @@
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["LED Strip Lights", "Flexible LED Strip", "Signage LED Lighting", "Backlight LED Strip"],
-    "discount": 0,
+    "discount": 12,
     "shortDescription": "High brightness flexible LED strips for light boxes and signage.",
     "description": [
   "High brightness flexible LED strips suitable for signage, light boxes and decorative lighting.",
@@ -3217,7 +3217,7 @@
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["LED Power Supply", "LED Transformer", "LED Driver", "Signage Power Adapter"],
-    "discount": 0,
+    "discount": 11,
     "shortDescription": "Reliable LED transformers for powering LED strips and display modules.",
     "description": [
         "High-performance LED power supplies designed for stable and efficient power conversion.",
@@ -3329,7 +3329,7 @@
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["Snap Frame Light Box", "Slim LED Light Box", "Advertising Frame Display"],
-    "discount": 0,
+    "discount": 12,
     "shortDescription": "Slim snap-style LED light box available in single or double side.",
     "description": [
       "Snap aluminum extrusion frame.",
@@ -3388,7 +3388,7 @@
     "category": "led-lcd-displays",
     "categories": ["LED & LCD Displays"],
     "tags": ["Hanging Light Box", "Group LED Display", "Acrylic Light Frame"],
-    "discount": 0,
+    "discount": 15,
     "shortDescription": "Crystal slim hanging light box group available in multiple levels and configurations.",
     "description": [
       "Transparent acrylic laser engraved panel.",
@@ -3426,7 +3426,7 @@
   "category": ["display-items", "featured"],
   "categories": ["Display Items"],
   "tags": ["Info Stand", "A3 Stand", "Advertising Stand"],
-  "discount":57,
+  "discount":17,
   "shortDescription": "Elegant A3 slash information stand for promotional and directional displays.",
   "description": [
     "Modern angled display stand.",
@@ -3453,7 +3453,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Info Stand", "A4 Stand"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Compact A4 slash information stand for retail and reception areas.",
   "description": [
     "Angled frame design.",
@@ -3478,7 +3478,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Banner Stand", "Fixed Stand"],
-  "discount": 0,
+  "discount": 17,
   "shortDescription": "Durable fixed banner stand for advertising displays.",
   "description": [
     "Strong frame construction.",
@@ -3503,7 +3503,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["T Stand", "Golden Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Premium golden T-shape stand for signage display.",
   "description": [
     "Elegant golden finish.",
@@ -3528,7 +3528,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["T Stand", "Silver Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Silver finish T-shape stand for information display.",
   "description": [
     "Professional silver design.",
@@ -3555,7 +3555,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Light Info Stand", "Portable Stand", "LED Display Stand"],
-  "discount": 0,
+  "discount": 16,
   "shortDescription": "Portable illuminated information stand for enhanced visibility.",
   "description": [
     "Built-in LED lighting for better display visibility.",
@@ -3581,7 +3581,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Backdrop Stand", "A Stand", "Event Display"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Strong A-stand backdrop frame for events and branding.",
   "description": [
     "Heavy-duty frame construction.",
@@ -3606,7 +3606,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Light Box", "Floor Display", "LED Light Box"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Illuminated floor standing light box for premium advertising.",
   "description": [
     "High brightness LED backlit panel.",
@@ -3632,7 +3632,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Tablet Stand", "Ipad Holder", "Digital Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Secure floor stand for tablets and digital displays.",
   "description": [
     "Lockable tablet enclosure.",
@@ -3658,7 +3658,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Inflatable Advertising", "Outdoor Display"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Eye-catching inflatable display for outdoor promotions.",
   "description": [
     "High visibility promotional display.",
@@ -3684,7 +3684,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Q Stand", "Info Frame"],
-  "discount": 0,
+  "discount": 16,
   "shortDescription": "Queue stand information frame for notices and branding.",
   "description": [
     "Compatible with queue barrier systems.",
@@ -3709,7 +3709,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Notice Board", "Information Board"],
-  "discount": 0,
+  "discount": 17,
   "shortDescription": "Wall-mounted notice board for announcements and displays.",
   "description": [
     "Durable surface for pinning notices.",
@@ -3734,7 +3734,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Metal Info Stand", "70x100 Display"],
-  "discount": 0,
+  "discount": 13,
   "shortDescription": "Large metallic information stand 70x100cm for advertising display.",
   "description": [
     "Strong metallic frame construction.",
@@ -3761,7 +3761,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Charging Stand", "Magazine Stand", "A1 Stand", "A4 Stand"],
-  "discount": 0,
+  "discount": 16,
   "shortDescription": "Multi-functional mobile charging and magazine display stand.",
   "description": [
     "Integrated mobile charging feature.",
@@ -3787,7 +3787,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Suggestion Box", "A4 Stand"],
-  "discount": 0,
+  "discount": 19,
   "shortDescription": "A4 suggestion box with floor stand for feedback collection.",
   "description": [
     "Lockable suggestion box.",
@@ -3813,7 +3813,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Stainless Steel Stand", "A1 Info Stand"],
-  "discount": 0,
+  "discount": 12,
   "shortDescription": "Stainless steel rectangle frame info stand in A1 size.",
   "description": [
     "Premium stainless steel finish.",
@@ -3838,7 +3838,7 @@
   "category": ["display-items", "sales-products"],
   "categories": ["Display Items"],
   "tags": ["Fabric Light Box", "LED Light Box"],
-  "discount": 50,
+  "discount": 12,
   "shortDescription": "Slim fabric LED light box available in 80x200cm and 60x200cm sizes.",
   "description": [
     "High brightness LED edge lighting.",
@@ -3864,7 +3864,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Brochure Stand", "A4 Stand", "Double Side Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Double-sided A4 brochure display stand.",
   "description": [
     "Multi-pocket brochure holder.",
@@ -3889,7 +3889,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Lucky Wheel", "Spin Wheel Game"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Promotional lucky wheel 80x120cm for marketing events.",
   "description": [
     "Large spin wheel for events and promotions.",
@@ -3914,7 +3914,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Table Lucky Wheel", "Mini Spin Wheel"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Compact tabletop lucky wheel for small events and counters.",
   "description": [
     "Mini spin wheel design.",
@@ -3939,7 +3939,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Shoe Polish Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Professional shoe polish stand 60x85cm for service areas.",
   "description": [
     "Compact and functional design.",
@@ -3966,7 +3966,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Wet Floor Sign", "PVC Safety Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Durable PVC wet floor stand for safety warnings.",
   "description": [
     "Foldable caution sign.",
@@ -3992,7 +3992,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Panelfix Stand", "A1 Mount Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "A1 panelfix mount stand for secure poster display.",
   "description": [
     "Strong mounting structure.",
@@ -4017,7 +4017,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Golden Stand", "Premium Info Stand"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Elegant golden information stand for premium interiors.",
   "description": [
     "Luxury gold finish.",
@@ -4042,7 +4042,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Menu Stand", "Restaurant Display"],
-  "discount": 0,
+  "discount": 12,
   "shortDescription": "A4 menu stand ideal for restaurants and cafes.",
   "description": [
     "Clear front display panel.",
@@ -4067,7 +4067,7 @@
   "category": ["display-items", "new-arrivals"],
   "categories": ["Display Items"],
   "tags": ["Metal Stand", "A4 Info Display"],
-  "discount": 51,
+  "discount": 11,
   "shortDescription": "Strong metal A4 information stand for commercial use.",
   "description": [
     "Durable metal construction.",
@@ -4092,7 +4092,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["T Stand", "Poster Stand"],
-  "discount": 0,
+  "discount": 13,
   "shortDescription": "Versatile T-stand available in multiple poster sizes.",
   "description": [
     "Classic T-frame design.",
@@ -4117,7 +4117,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["LED A Board", "Illuminated Sign"],
-  "discount": 0,
+  "discount":15,
   "shortDescription": "Illuminated A-board sign 60x160cm for outdoor advertising.",
   "description": [
     "Built-in LED lighting.",
@@ -4143,7 +4143,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Chalk Board", "Table Display"],
-  "discount": 0,
+  "discount": 12,
   "shortDescription": "Table top chalk board available in A3, A4 and A5 sizes.",
   "description": [
     "Writable chalk surface.",
@@ -4171,7 +4171,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Table Flag Stand", "Desk Flag Holder"],
-  "discount": 0,
+  "discount": 16,
   "shortDescription": "50cm table flag stand ideal for offices and events.",
   "description": [
     "Compact desk flag holder.",
@@ -4196,7 +4196,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Door Sign", "Room Signage"],
-  "discount": 0,
+  "discount": 16,
   "shortDescription": "Professional door sign for offices and commercial spaces.",
   "description": [
     "Wall or door mountable.",
@@ -4221,7 +4221,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["LED A Board", "Illuminated Display"],
-  "discount": 0,
+  "discount": 15,
   "shortDescription": "Compact LED illuminated A-board 40x60cm for shop displays.",
   "description": [
     "Built-in LED lighting system.",
@@ -4247,7 +4247,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Tissue Holder", "Table Accessory"],
-  "discount": 0,
+  "discount": 12,
   "shortDescription": "Decorative tissue box for commercial and office use.",
   "description": [
     "Durable outer casing.",
@@ -4272,7 +4272,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["No Parking Sign", "Parking Stand"],
-  "discount": 0,
+  "discount": 12,
   "shortDescription": "Durable no-parking stand for traffic and parking control.",
   "description": [
     "Highly visible warning signage.",
@@ -4297,7 +4297,7 @@
   "category": ["display-items", "sales-products"],
   "categories": ["Display Items"],
   "tags": ["Queue Barrier", "Crowd Control Barrier"],
-  "discount": 52,
+  "discount": 12,
   "shortDescription": "Expandable queue barrier system for crowd management.",
   "description": [
     "Retractable belt system.",
@@ -4325,7 +4325,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Heat Gun", "Industrial Tool"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Professional heat air gun for industrial and signage applications.",
   "description": [
     "High temperature heat output.",
@@ -4350,7 +4350,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Promotional T-Shirt", "Custom Apparel"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Customizable promotional T-shirt for branding and events.",
   "description": [
     "Comfortable fabric material.",
@@ -4375,7 +4375,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Safety Jacket", "Reflective Vest"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "High visibility safety jacket in orange and yellow.",
   "description": [
     "Reflective safety strips.",
@@ -4400,7 +4400,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["T Shape Stand", "Double Side Stand", "Black Info Stand"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Double-sided black T-shape info stand 60x40cm.",
   "description": [
     "Double-sided display frame.",
@@ -4426,7 +4426,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Silver Info Stand", "A2 Stand", "Double Side Display"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Silver A2 info stand double side horizontal/vertical display.",
   "description": [
     "Supports horizontal and vertical orientation.",
@@ -4452,7 +4452,7 @@
   "category": ["display-items", "featured"],
   "categories": ["Display Items"],
   "tags": ["Double Side Stand", "50x70 Display"],
-  "discount": 17,
+  "discount": 27,
   "shortDescription": "Double-sided display stand 50x70cm for advertising posters.",
   "description": [
     "Large poster display area.",
@@ -4477,7 +4477,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Aluminum Stand", "PVC Frame Stand"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Aluminum info stand compatible with PVC frames A4 and A3.",
   "description": [
     "Lightweight aluminum frame.",
@@ -4502,7 +4502,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Bamboo Info Board", "Eco Display"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Eco-friendly bamboo info board in A4 and A3 sizes.",
   "description": [
     "Natural bamboo construction.",
@@ -4529,7 +4529,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Lighting Tree", "LED Decoration", "Event Lighting"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Decorative LED lighting tree available in red, blue and white.",
   "description": [
     "Bright LED decorative tree.",
@@ -4555,7 +4555,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Balloon Arch", "Event Decoration"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Decorative balloon arc structure for events and promotions.",
   "description": [
     "Eye-catching event decoration.",
@@ -4605,7 +4605,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Bluetooth Speaker", "Decorative Speaker"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Stylish plant-shaped Bluetooth speaker in pink, silver and grey.",
   "description": [
     "Wireless Bluetooth connectivity.",
@@ -4631,7 +4631,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Laser System", "Entertainment System"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Interactive laser play system for entertainment and events.",
   "description": [
     "High precision laser technology.",
@@ -4656,7 +4656,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Display Shelf", "Retail Shelf"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Retail product display shelf for showrooms and stores.",
   "description": [
     "Multi-level shelving system.",
@@ -4681,7 +4681,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Exchange Rate Board", "Electronic Display"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Electronic exchange rate board for banks and currency shops.",
   "description": [
     "Digital LED display.",
@@ -4706,7 +4706,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Folding Partition", "Portable Screen"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Portable folding screen for partition and privacy use.",
   "description": [
     "Lightweight foldable panels.",
@@ -4731,7 +4731,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["LED Display", "Double Side Screen"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "High brightness double-sided LED display screen.",
   "description": [
     "Dual-sided LED display.",
@@ -4757,7 +4757,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Traffic Barrier", "Safety Barrier"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Heavy-duty traffic barrier for crowd and vehicle control.",
   "description": [
     "Strong impact-resistant design.",
@@ -4782,7 +4782,7 @@
   "category": ["display-items", "sales-products"],
   "categories": ["Display Items"],
   "tags": ["Acrylic Box", "Donation Box"],
-  "discount": 50,
+  "discount": 25,
   "shortDescription": "Transparent acrylic drop box for donations and feedback.",
   "description": [
     "Clear acrylic body.",
@@ -4807,7 +4807,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["First Aid Kit Box", "Safety Equipment"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Wall-mountable first aid box for emergency use.",
   "description": [
     "Compact emergency storage box.",
@@ -4832,7 +4832,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Silver Spacer", "Mounting Accessory"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Silver spacer for mounting and signage installation.",
   "description": [
     "Durable metal spacer.",
@@ -4857,7 +4857,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Paint Sprayer", "Lacquer Gun"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Professional lacquer sprayer for smooth paint finishing.",
   "description": [
     "Even spray distribution.",
@@ -4882,7 +4882,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["LED Board", "Writable Light Board"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Illuminated LED writing board for promotional messaging.",
   "description": [
     "LED edge lighting.",
@@ -4907,7 +4907,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Inflatable Cone", "Air Blower Display"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Inflatable advertising cone with electric blower.",
   "description": [
     "High visibility inflatable structure.",
@@ -4936,7 +4936,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Door Sign", "Silver Door Plate", "Room Signage"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Elegant silver door sign 30x10cm for office and room identification.",
   "description": [
     "Premium silver finish.",
@@ -4962,7 +4962,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Event Wristband", "Promotional Band", "ID Wrist Band"],
-  "discount": 0,
+  "discount": 21,
   "shortDescription": "Customizable wrist band for events and promotions.",
   "description": [
     "Comfortable and lightweight material.",
@@ -4987,7 +4987,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Key Chain Display Box", "Key Organizer Box"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Display and storage box for key chains and small accessories.",
   "description": [
     "Organized key chain storage.",
@@ -5012,7 +5012,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Menu Holder", "T Shape Display", "Table Menu Stand"],
-  "discount": 0,
+  "discount": 21,
   "shortDescription": "T-shape menu holder for restaurants and cafes.",
   "description": [
     "Clear acrylic T-frame design.",
@@ -5037,7 +5037,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Door Sign", "Room Signage", "Office Sign"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Variety of door sign products for offices and commercial spaces.",
   "description": [
     "Available in multiple styles and finishes.",
@@ -5065,7 +5065,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["3D Letter Sign", "Raised Signage", "Custom 3D Sign"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Custom 3D signs for branding and storefront display.",
   "description": [
     "High-quality raised lettering.",
@@ -5091,7 +5091,7 @@
   "category": "display-items",
   "categories": ["Display Items"],
   "tags": ["Delivery Box", "Bike Storage Box", "Food Delivery Box"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Durable bike delivery box 56x56x52cm for food and parcel transport.",
   "description": [
     "Spacious insulated storage box.",
@@ -5124,7 +5124,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Menu Holder", "T Shape Display", "Table Menu Stand"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Clear acrylic T-shape menu holder for table display.",
   "description": [
     "Made from high quality clear acrylic.",
@@ -5152,7 +5152,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Name Plate", "Desk Name Holder", "Acrylic Name Stand"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Elegant acrylic name holder for desks and counters.",
   "description": [
     "Clear professional design.",
@@ -5180,7 +5180,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Name Plate", "Desk Name Holder", "Acrylic Name Stand"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Elegant acrylic name holder for desks and counters.",
   "description": [
     "Clear professional design.",
@@ -5208,7 +5208,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Sign Holder", "Table Sign Display", "Acrylic Stand"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Acrylic table top sign holder for promotional display.",
   "description": [
     "Durable clear acrylic material.",
@@ -5239,7 +5239,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["L Shape Menu Holder", "Acrylic Menu Stand", "Table Display"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Clear acrylic L-shape menu holder for table and counter display.",
   "description": [
     "Made from premium clear acrylic.",
@@ -5267,7 +5267,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Business Card Holder", "Acrylic Card Stand", "Desk Organizer"],
-  "discount": 0,
+  "discount": 21,
   "shortDescription": "Compact acrylic card holder for business and visiting cards.",
   "description": [
     "Clear and durable acrylic design.",
@@ -5323,7 +5323,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Mobile Stand", "Phone Holder", "Acrylic Phone Stand"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Clear acrylic mobile stand for desk display and support.",
   "description": [
     "Durable transparent acrylic.",
@@ -5351,7 +5351,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Raffle Box", "Acrylic Draw Box", "Collection Box"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Transparent acrylic raffle box for promotional draws and events.",
   "description": [
     "Clear visibility from all sides.",
@@ -5379,7 +5379,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Drop Box", "Suggestion Box", "Collection Box"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Clear acrylic drop box for suggestions and collections.",
   "description": [
     "Transparent and secure design.",
@@ -5437,7 +5437,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Shelf", "Counter Display Shelf", "Table Shelf"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Acrylic table top shelf for organized product display.",
   "description": [
     "Strong and durable acrylic construction.",
@@ -5465,7 +5465,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Rotating Menu Holder", "Price Display Stand", "Acrylic Spinner"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Rotating acrylic holder for price lists and menus.",
   "description": [
     "360-degree rotating base.",
@@ -5493,7 +5493,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Brochure Holder", "Pocket Display", "Leaflet Stand"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Acrylic brochure holder with pocket compartments.",
   "description": [
     "Multi-pocket design for organized display.",
@@ -5521,7 +5521,7 @@
   "category": ["acrylic-products-fabrication", "featured"],
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Podium", "Presentation Stand", "Speaker Podium"],
-  "discount": 51,
+  "discount": 25,
   "shortDescription": "Clear acrylic podium for presentations and events.",
   "description": [
     "Modern transparent design.",
@@ -5549,7 +5549,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Price Tag Holder", "Acrylic Price Stand", "Retail Display"],
-  "discount": 0,
+  "discount": 21,
   "shortDescription": "Compact acrylic price holder for retail display.",
   "description": [
     "Clear and minimal design.",
@@ -5579,7 +5579,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Revolving Menu Stand", "Rotating Display", "Acrylic Menu Holder"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Acrylic revolving menu holder with 360-degree rotation.",
   "description": [
     "Smooth rotating base.",
@@ -5607,7 +5607,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Tray", "Display Tray", "Serving Tray"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Clear acrylic trays for display and serving purposes.",
   "description": [
     "Strong and durable acrylic build.",
@@ -5635,7 +5635,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Rotating Brochure Stand", "Acrylic Brochure Display", "Revolving Stand"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Revolving table top brochure holder for multi-side display.",
   "description": [
     "360-degree rotating design.",
@@ -5663,7 +5663,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Photo Frame", "Magnetic Frame", "Acrylic Photo Display"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Magnetic acrylic photo holder for stylish photo display.",
   "description": [
     "Strong magnetic panel system.",
@@ -5691,7 +5691,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["T Shape Acrylic Holder", "Menu Stand", "Table Display"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Premium acrylic T-shape menu holder for professional table display.",
   "description": [
     "Crystal clear acrylic material.",
@@ -5719,7 +5719,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Magazine Holder", "Literature Rack", "Display Stand"],
-  "discount": 0,
+  "discount": 26,
   "shortDescription": "Clear acrylic magazine rack for organized literature display.",
   "description": [
     "Multi-tier magazine display.",
@@ -5747,7 +5747,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Tissue Box", "Table Tissue Holder", "Napkin Holder"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Clear acrylic tissue holder for table and counter use.",
   "description": [
     "Elegant transparent design.",
@@ -5777,7 +5777,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Acrylic Counter Shelf", "Display Shelf", "Table Display Rack"],
-  "discount": 0,
+  "discount": 26,
   "shortDescription": "Compact acrylic table top shelf for organized product display.",
   "description": [
     "Durable clear acrylic construction.",
@@ -5805,7 +5805,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Photo Frame", "Acrylic Frame", "Picture Holder"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Clear acrylic photo holder for modern photo presentation.",
   "description": [
     "Crystal clear double-layer acrylic.",
@@ -5833,7 +5833,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Phone Holder", "Acrylic Mobile Stand", "Desk Stand"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Acrylic mobile holder for desk and counter display.",
   "description": [
     "Stable angled support design.",
@@ -5861,7 +5861,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["V Shape Name Plate", "Desk Name Holder", "Acrylic Name Stand"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Clear acrylic V-shape name holder for desk display.",
   "description": [
     "Double-sided viewing design.",
@@ -5890,7 +5890,7 @@
   "category": ["acrylic-products-fabrication", "new-arrivals"],
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Display Riser", "Shop Window Display", "Acrylic Stand"],
-  "discount": 50,
+  "discount": 23,
   "shortDescription": "Clear acrylic risers for shop window and product display.",
   "description": [
     "Elevated display platform.",
@@ -5918,7 +5918,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Book End", "Acrylic Book Support", "Shelf Organizer"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Clear acrylic book end for organized shelf arrangement.",
   "description": [
     "Strong L-shape support.",
@@ -5946,7 +5946,7 @@
   "category": "acrylic-products-fabrication",
   "categories": ["Acrylic Products Fabrication"],
   "tags": ["Book Stand", "Acrylic Display Stand", "Literature Holder"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Acrylic book display support for retail and library use.",
   "description": [
     "Angled support for better visibility.",
@@ -6005,7 +6005,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Wall Display Stand", "Adjustable Stand", "Exhibition Graphic Stand"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Portable adjustable aluminum wall picture shelf for exhibitions.",
   "description": [
     "Constructed with high quality aluminum.",
@@ -6063,7 +6063,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["A2 Display Stand", "Aluminum Picture Stand", "Exhibition Frame"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "A2 size aluminum wall picture shelf for exhibitions.",
   "description": [
     "High quality aluminum pole structure.",
@@ -6122,7 +6122,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Mini X Stand", "Table Banner Stand", "Desktop Advertising Stand"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Compact mini X banner stand for table top promotions.",
   "description": [
     "High quality fibreglass pole construction.",
@@ -6152,7 +6152,7 @@
   "category": ["display-stands", "featured"],
   "categories": ["Display Stands"],
   "tags": ["Mini Flag Banner", "Desktop Banner", "Table Sign Display"],
-  "discount": 55,
+  "discount": 25,
   "shortDescription": "Mini flying banner stand for small table displays.",
   "description": [
     "Delicate and attractive design.",
@@ -6181,7 +6181,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Banner Rail", "Aluminum Hanging Profile", "Wall Graphic Holder"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Aluminum banner hanging profile for wall-mounted graphics.",
   "description": [
     "High quality aluminum material.",
@@ -6210,7 +6210,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Single Side Banner Stand", "Exhibition Screen", "Display Frame"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Single side exhibition screen stand for promotional graphics.",
   "description": [
     "High quality steel material.",
@@ -6268,7 +6268,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Double Side Banner Stand", "Twin Screen Display", "Exhibition Frame"],
-  "discount": 0,
+  "discount": 21,
   "shortDescription": "Double side twin screen display stand for exhibitions.",
   "description": [
     "High quality aluminum material.",
@@ -6328,7 +6328,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["A Board Sign", "Metal Pavement Sign", "Indoor Outdoor Display"],
-  "discount": 0,
+  "discount": 12,
   "shortDescription": "Metal A-board sign stand for indoor and outdoor promotions.",
   "description": [
     "High quality steel material.",
@@ -6357,7 +6357,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Steel Pavement Sign", "Outdoor A Frame", "Advertising Board"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Stainless steel A-board stand for indoor and outdoor advertising.",
   "description": [
     "High quality stainless steel construction.",
@@ -6386,7 +6386,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Magnetic A Board", "Snap Frame Board", "Pavement Sign"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Magnetic A-board stand for easy graphic replacement.",
   "description": [
     "High quality steel material.",
@@ -6415,7 +6415,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Acrylic Literature Stand", "Catalog Display Rack", "Leaflet Holder"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Clear acrylic brochure stand for professional literature display.",
   "description": [
     "Durable transparent acrylic construction.",
@@ -6444,7 +6444,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Metal Literature Stand", "Steel Catalog Rack", "Floor Brochure Holder"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Steel brochure stand for heavy-duty literature display.",
   "description": [
     "Strong steel construction.",
@@ -6473,7 +6473,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["A4 Brochure Rack", "Catalog Stand", "Leaflet Display"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "A4 brochure stand for organized promotional material display.",
   "description": [
     "Designed specifically for A4 brochures.",
@@ -6503,7 +6503,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Premium Catalog Rack", "Luxury Brochure Stand", "Showroom Display Shelf"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Premium luxury catalogue shelf for high-end brochure and catalog display.",
   "description": [
     "Elegant and modern design.",
@@ -6533,7 +6533,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Wooden Brochure Stand", "Eco Display Rack", "Bamboo Catalog Holder"],
-  "discount": 0,
+  "discount": 26,
   "shortDescription": "Eco-friendly bamboo brochure stand for stylish literature display.",
   "description": [
     "Made from high quality bamboo material.",
@@ -6563,7 +6563,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Wire Brochure Holder", "Single Line Display", "Double Line Literature Stand"],
-  "discount": 0,
+  "discount": 26,
   "shortDescription": "Wire design brochure holder available in single and double line configurations.",
   "description": [
     "Durable metal wire construction.",
@@ -6593,7 +6593,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Steel Base Catalog Stand", "A4 Literature Rack", "Heavy Duty Brochure Stand"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "A4 brochure stand with strong steel base for stable display.",
   "description": [
     "Strong steel base for added stability.",
@@ -6623,7 +6623,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Basic Literature Stand", "Simple Catalog Rack", "Flyer Holder"],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "Simple and lightweight brochure stand for everyday display needs.",
   "description": [
     "Minimal and practical design.",
@@ -6652,7 +6652,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Black Base Catalog Stand", "A4 Display Rack", "Modern Brochure Holder"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Modern A4 brochure stand with stylish black base.",
   "description": [
     "Stable black powder-coated base.",
@@ -6682,7 +6682,7 @@
   "category": "display-stands",
   "categories": ["Display Stands"],
   "tags": ["Portable Literature Stand", "Foldable Catalog Rack", "Travel Display Stand"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Portable and foldable brochure holder for exhibitions and events.",
   "description": [
     "Lightweight and foldable design.",
@@ -6714,7 +6714,7 @@
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
   "tags": ["Display Stands", "L banner Stands"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "High quality aluminum L banner stand Model A for exhibitions.",
   "description": [
     "High quality aluminum pole construction.",
@@ -6774,7 +6774,7 @@
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
   "tags": ["L Banner", "Portable Banner Stand", "Display Stand", "Aluminum Stand", "Exhibition Display"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Portable aluminum L banner stand Model C for exhibitions.",
   "description": [
     "High quality aluminum pole structure.",
@@ -6804,7 +6804,7 @@
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
   "tags": ["X Banner", "X Banner Stand", "Display Stand", "Aluminum Banner Stand", "Event Stand"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "High quality aluminum X banner stand Model D1 for exhibitions.",
   "description": [
     "High quality aluminum pole construction.",
@@ -6834,7 +6834,7 @@
   "category": ["display-stands", "l-banner-stands"],
   "categories": ["Display Stand", "L Banner Stands"],
   "tags": ["L Banner", "Double Side Banner Stand", "Display Stand", "Exhibition Stand", "Aluminum Display"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Double sided aluminum L banner stand Model D2 for exhibitions.",
   "description": [
     "High quality aluminum pole construction.",
@@ -6865,7 +6865,7 @@
   "category": ["display-stands", "x-banner-stands"],
   "categories": ["Display Stand", "X Banner Stands"],
   "tags": ["X Banner", "X Banner Stand", "Portable Display Stand", "Aluminum Stand", "Exhibition Display"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Premium aluminum X Banner Model G 60x180cm ideal for exhibitions and promotional events.",
   "description": [
     "Manufactured with high quality aluminum poles for durability and stability.",
@@ -6899,7 +6899,7 @@
   "category": ["display-stands", "x-banner-stands"],
   "categories": ["Display Stand", "X Banner Stands"],
   "tags": ["X Banner", "Large X Banner Stand", "Display Stand", "Aluminum Banner Stand", "Exhibition Display Stand"],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Large format aluminum X Banner Model C 120x200cm for impactful promotional display.",
   "description": [
     "Constructed using premium quality aluminum pole framework for enhanced durability.",
@@ -6932,7 +6932,7 @@
   "category": ["display-stands", "x-banner-stands"],
   "categories": ["Display Stand", "X Banner Stands"],
   "tags": ["X Banner", "Adjustable X Banner", "Portable Display Stand", "Aluminum X Stand", "Event Display Stand"],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Multi-size aluminum X Banner Model C1 for versatile exhibition and promotional displays.",
   "description": [
     "Manufactured from durable and high-strength aluminum poles for long-term use.",
@@ -6965,7 +6965,7 @@
   "category": ["display-stands", "x-banner-stands"],
   "categories": ["Display Stand", "X Banner Stands"],
   "tags": ["X Banner", "Adjustable Banner Stand", "Display Stand", "Aluminum X Banner Frame", "Exhibition Banner Stand"],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Adjustable size aluminum X Banner Model H designed for flexible exhibition display.",
   "description": [
     "Built with high quality aluminum poles ensuring strong and stable support.",
@@ -7008,7 +7008,7 @@
     "Clip Roll Up",
     "Pasting Roll Up"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Heavy-duty aluminum Roll-Up Strong banner stand designed for stable and professional exhibition displays.",
   "description": [
     "Constructed with high quality aluminum material for strong and durable performance.",
@@ -7066,7 +7066,7 @@
     "Black Clip Roll Up",
     "Promotional Banner Stand"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Compact and lightweight 60x160cm aluminum Roll-Up banner stand with standard base, ideal for indoor promotions and exhibitions.",
   "description": [
     "Constructed from durable high quality aluminum material for long-lasting use.",
@@ -7203,7 +7203,7 @@
     "Exhibition Display Stand",
     "Promotional Banner Stand"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Double-sided 85x200cm aluminum roll-up banner stand designed for maximum visibility from both directions.",
   "description": [
     "Constructed with durable high quality aluminum material for long-lasting performance.",
@@ -7261,7 +7261,7 @@
     "Motorized Style Roll Up",
     "Promotional Banner Stand"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "85x200cm scrolling roll-up banner with strong base construction for dynamic and professional display presentation.",
   "description": [
     "Manufactured using high quality aluminum material for durability and long-term use.",
@@ -7319,7 +7319,7 @@
     "Exhibition Banner Stand",
     "Eco Style Roll Up"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "80x200cm bamboo style square roll-up banner with strong base design for stable and professional display presentation.",
   "description": [
     "Constructed with high quality aluminum structure ensuring durability and long-term use.",
@@ -7384,7 +7384,7 @@
     "3x4 Pop Up Stand",
     "Trade Show Back Panel"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "High quality aluminum spring pop-up display system available in 3x3 and 3x4 sizes, ideal as exhibition backdrop or display wall.",
   "description": [
     "Constructed with high quality aluminum frame ensuring durability and strong structural support.",
@@ -7453,7 +7453,7 @@
     "Trade Show Display Stand",
     "Aluminum Frame Pop Up"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "3x4m fabric double-sided pop-up display with integrated LED lighting, ideal for premium exhibition backdrops and trade show presentations.",
   "description": [
     "High quality aluminum pop-up frame structure ensuring durability and strong stability.",
@@ -7500,7 +7500,7 @@
     "Modular Display Stand",
     "Trade Show Booth System"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Customizable special pop-up system designed to fit various exhibition booth sizes.",
   "description": [
     "High quality aluminum pop-up frame structure.",
@@ -7539,7 +7539,7 @@
     "Modular Pop Up",
     "Special Exhibition Model"
   ],
-  "discount": 0,
+  "discount": 21,
   "shortDescription": "Special exhibition pop-up display system model No.03 designed for professional booth presentation.",
   "description": [
     "Strong aluminum frame construction.",
@@ -7578,7 +7578,7 @@
     "Modular Trade Show Stand",
     "Curved Pop Up Display"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Double-sided modular pop-up system with curved sections and side table for complete exhibition setup.",
   "description": [
     "Double-sided pop-up configuration for maximum visibility.",
@@ -7625,7 +7625,7 @@
     "Modular Exhibition Display",
     "Trade Show Pop Up"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Customizable special pop-up system designed to adapt to different booth dimensions.",
   "description": [
     "Strong aluminum frame construction.",
@@ -7664,7 +7664,7 @@
     "Vertical Pop Up",
     "Trade Show Tower"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Vertical pop-up tower display system ideal for exhibitions and promotional branding.",
   "description": [
     "High quality aluminum frame construction.",
@@ -7704,7 +7704,7 @@
     "Trade Show Fabric Display",
     "Stretch Fabric Display Wall"
   ],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "High quality aluminum tension fabric pop-up display ideal for exhibition backdrops and promotional events.",
   "description": [
     "Constructed with high quality aluminum material suitable for exposition and trade shows.",
@@ -7752,7 +7752,7 @@
     "Pop Up Promotion Counter",
     "Trade Show Display System"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "Compact aluminum mini pop-up display system with hard case, ideal for exhibition backdrops and promotional counters.",
   "description": [
     "Adopting high quality aluminum material ensuring durability and strong structural stability.",
@@ -7814,7 +7814,7 @@
     "Straight Pop Up Display",
     "Trade Show Backdrop"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "High quality aluminum magnetic pop-up display available in 3x3 and 3x4 configurations with curved and straight options.",
   "description": [
     "Constructed with high quality aluminum material for strong and durable performance.",
@@ -7866,7 +7866,7 @@
     "Aluminum Display Counter",
     "Trade Show Counter"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Curved aluminum pop-up counter with inner shelf designed for exhibition and promotional use.",
   "description": [
     "Constructed from high quality aluminum material.",
@@ -7904,7 +7904,7 @@
     "Aluminum Promotion Counter",
     "Trade Show Counter Display"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "High quality aluminum velcro counter designed for exhibition and promotional displays.",
   "description": [
     "Made from high quality aluminum material for durability.",
@@ -7944,7 +7944,7 @@
     "Trade Show Display Wall",
     "Standard Pop Up 228x228"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Standard size aluminum velcro pop-up display system with trolley case for exhibition backdrops.",
   "description": [
     "Constructed with high quality aluminum material.",
@@ -7985,7 +7985,7 @@
     "Trade Show Counter",
     "Portable Promotion Desk"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "High quality wood panel promotion counter designed for exhibitions and promotional activities.",
   "description": [
     "Constructed with high quality wood and plastic panel materials.",
@@ -8029,7 +8029,7 @@
     "Wood Panel Counter",
     "Portable Promotion Desk"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Classic teardrop style promotion counter with wood panel design suitable for exhibitions and promotional events.",
   "description": [
     "Made from high quality wood and plastic materials.",
@@ -8072,7 +8072,7 @@
     "Wood Panel Counter",
     "Trade Show Counter"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "Classic round style promotion counter designed for promotional activities and exhibition displays.",
   "description": [
     "Constructed from high quality plastic and wood materials.",
@@ -8111,7 +8111,7 @@
     "Exhibition Counter",
     "Trade Show Counter"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "High quality aluminum pop up counter with velcro structure, suitable for promotion activities and exhibitions.",
   "description": [
     "High quality aluminum material with velcro structure.",
@@ -8151,7 +8151,7 @@
     "Trade Show Counter",
     "Portable Display Counter"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "High quality aluminum straight pop up counter with middle shelf, ideal for exhibitions and promotional events.",
   "description": [
     "High quality aluminum material.",
@@ -8236,7 +8236,7 @@
     "PVC Counter",
     "Exhibition Counter"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "High quality PVC promotion counter available in classic and round styles, suitable for exhibitions and promotional activities.",
   "description": [
     "Adopting high quality PVC/plastic material.",
@@ -8283,7 +8283,7 @@
     "Outdoor Advertising Flag",
     "Beach Flag"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "High quality aluminum flying banner with elastic pole, available in 4M, 5M and 7M sizes for outdoor advertising.",
   "description": [
     "Made of high quality steel and aluminum material.",
@@ -8377,7 +8377,7 @@
     "Event Display Flag",
     "Promotion Flag"
   ],
-  "discount": 0,
+  "discount": 22,
   "shortDescription": "High quality aluminum rectangular flag banner with multiple base options for outdoor advertising.",
   "description": [
     "Made with high quality aluminum material and elastic pole.",
@@ -8423,7 +8423,7 @@
     "Exhibition Tent",
     "Custom Printed Tent"
   ],
-  "discount": 0,
+  "discount": 25,
   "shortDescription": "High quality aluminum frame advertising tent available in multiple sizes with various sidewall and base accessories for outdoor events and promotions.",
   "description": [
     "Strong aluminum frame construction for stability and durability.",
@@ -8494,7 +8494,7 @@
     "Clear Grommets",
     "Banner Accessories"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "FASNAP aluminum combo kit including replacement die and 500 #3 clear grommets.",
   "description": [
     "FASNAP aluminum combo pack.",
@@ -8530,7 +8530,7 @@
     "Replacement Die Kit",
     "Clear Grommets"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Sooper Ace combo kit including replacement die and 500 #3 clear grommets.",
   "description": [
     "Sooper Ace combo pack.",
@@ -8600,7 +8600,7 @@
     "Replacement Die",
     "Clear Grommets"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "FASNAP aluminum combo kit including replacement die and clear grommets.",
   "description": [
     "FASNAP aluminum combo pack.",
@@ -8636,7 +8636,7 @@
     "Grommet Press Conversion",
     "Die #2"
   ],
-  "discount": 0,
+  "discount": 23,
   "shortDescription": "Conversion kit for clear grommet press to metal grommet press including die #2 and 500 metal grommets.",
   "description": [
     "Convert clear grommet press to metal grommet press.",
@@ -8740,7 +8740,7 @@
       "Laminator for Posters",
       "Vinyl Lamination Machine"
     ],
-    "discount": 0,
+    "discount": 22,
     "shortDescription": "Professional machine for hot and cold lamination of posters, vinyl and printed graphics.",
     "description": [
       "Supports both hot and cold lamination modes.",
@@ -8774,7 +8774,7 @@
       "Plastic Sheet Bending Machine",
       "Sign Fabrication Machine"
     ],
-    "discount": 0,
+    "discount": 23,
     "shortDescription": "Precision heating machine designed for accurate bending of acrylic sheets.",
     "description": [
       "High precision heating element.",
@@ -8806,7 +8806,7 @@
       "3D Sign Letter Machine",
       "Aluminum Letter Bending"
     ],
-    "discount": 0,
+    "discount": 23,
     "shortDescription": "Automatic bending machine for channel letters and 3D signage fabrication.",
     "description": [
       "High precision automatic bending system.",
@@ -8838,7 +8838,7 @@
       "Sublimation Press",
       "Garment Transfer Machine"
     ],
-    "discount": 0,
+    "discount": 22,
     "shortDescription": "Heat press machine designed for transferring graphics onto garments and promotional items.",
     "description": [
       "Digital temperature control system.",
@@ -8870,7 +8870,7 @@
       "60cm Plotter",
       "120cm Plotter"
     ],
-    "discount": 0,
+    "discount": 24,
     "shortDescription": "High precision vinyl cutting plotters available in 60 cm and 120 cm sizes.",
     "description": [
       "Available in 60 cm and 120 cm working widths.",
@@ -8902,7 +8902,7 @@
       "Rigid Board Cutting Machine",
       "Sign Board Cutter"
     ],
-    "discount": 0,
+    "discount": 23,
     "shortDescription": "Heavy duty trimmer designed for cutting forex sheets and foam boards with precision.",
     "description": [
       "Sharp precision cutting blade.",
@@ -8936,7 +8936,7 @@
     "Acrylic Finishing Machine",
     "Sheet Edge Polishing"
   ],
-  "discount": 0,
+  "discount": 24,
   "shortDescription": "High performance machine designed for smooth and glossy edge polishing of acrylic sheets.",
   "description": [
     "Provides smooth and crystal-clear edge finishing.",
@@ -8957,6 +8957,470 @@
       "img/products/machines/acrylic-polishing-machine/3.webp"
     ]
   }
+},
+
+{
+"id": 300,
+"sku": "ROLL-UP-MEDIA",
+"name": "ROLL UP MEDIA",
+"category": ["printing-materials", "bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["Roll Up Film", "Banner Stand Media", "Display Roll Up Media"],
+"discount": 26,
+"shortDescription": "Premium roll-up display media suitable for exhibition stands and promotional banners.",
+"description": [
+"High quality printable roll up media.",
+"Smooth surface for vibrant printing results.",
+"Anti-curl material suitable for banner stands.",
+"Ideal for exhibitions, trade shows and retail displays."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Roll-up banner stands and promotional displays"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/roll-up/1.webp",
+"thumbs": [
+"img/products/bio-degradable/roll-up/1.webp",
+"img/products/bio-degradable/roll-up/2.webp",
+"img/products/bio-degradable/roll-up/3.webp"
+]
+}
+},
+
+{
+"id": 301,
+"sku": "SOFT-BACKLIT-FILM",
+"name": "SOFT BACKLIT FILM",
+"category": ["printing-materials", "bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["Backlit Film", "Lightbox Film", "LED Display Film"],
+"discount": 22,
+"shortDescription": "Soft backlit film designed for high brightness lightbox advertising displays.",
+"description": [
+"Excellent light diffusion for LED light boxes.",
+"Produces vibrant colors when illuminated.",
+"High resolution printable surface.",
+"Perfect for indoor illuminated signage."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Backlit light box advertising"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/soft-backlit-film/1.webp",
+"thumbs": [
+"img/products/bio-degradable/soft-backlit-film/1.webp",
+"img/products/bio-degradable/soft-backlit-film/2.webp",
+"img/products/bio-degradable/soft-backlit-film/3.webp"
+]
+}
+},
+
+{
+"id": 302,
+"sku": "LABEL-FILM",
+"name": "LABEL FILM",
+"category": ["printing-materials", "bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["Sticker Label Film", "Self Adhesive Label", "Printable Label Film"],
+"discount": 22,
+"shortDescription": "Printable label film used for packaging, branding and product labeling.",
+"description": [
+"Smooth printable surface.",
+"Excellent adhesion performance.",
+"Durable and scratch resistant.",
+"Suitable for product labels and packaging."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Product labeling and packaging"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/label-film/1.webp",
+"thumbs": [
+"img/products/bio-degradable/label-film/1.webp",
+"img/products/bio-degradable/label-film/2.webp",
+"img/products/bio-degradable/label-film/3.webp"
+]
+}
+},
+
+{
+"id": 303,
+"sku": "WHITE-ADHESIVE-TAC",
+"name": "WHITE ADHESIVE TAC",
+"category": ["printing-materials", "bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["White Vinyl Sticker", "Adhesive TAC Film", "Printable Vinyl"],
+"discount": 23,
+"shortDescription": "High quality white adhesive TAC film suitable for indoor and outdoor advertising.",
+"description": [
+"Strong adhesive backing.",
+"Excellent printing compatibility.",
+"Durable for long term outdoor use.",
+"Ideal for signage and promotional graphics."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Advertising stickers and signage"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/white-adhesive-tac/1.webp",
+"thumbs": [
+"img/products/bio-degradable/white-adhesive-tac/1.webp",
+"img/products/bio-degradable/white-adhesive-tac/2.webp",
+"img/products/bio-degradable/white-adhesive-tac/3.webp"
+]
+}
+},
+
+{
+"id": 304,
+"sku": "CLEAR-ADHESIVE-TAC",
+"name": "CLEAR ADHESIVE TAC",
+"category": ["printing-materials", "bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["Transparent Vinyl", "Clear Adhesive Film", "Printable Clear Sticker"],
+"discount": 25,
+"shortDescription": "Transparent adhesive TAC film used for window graphics and clear label printing.",
+"description": [
+"Crystal clear printable surface.",
+"Strong adhesive backing.",
+"Ideal for glass decoration and branding.",
+"Compatible with eco solvent and UV printing."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Window graphics and transparent labels"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/clear-adhesive-tac/1.webp",
+"thumbs": [
+"img/products/bio-degradable/clear-adhesive-tac/1.webp",
+"img/products/bio-degradable/clear-adhesive-tac/2.webp",
+"img/products/bio-degradable/clear-adhesive-tac/3.webp"
+]
+}
+},
+
+{
+"id": 305,
+"sku": "ONE-WAY-VISION-ADHESIVE-TAC",
+"name": "ONE WAY VISION ADHESIVE TAC",
+"category": ["printing-materials", "bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["One Way Vision Film", "Perforated Vinyl", "Window Advertising Film"],
+"discount": 23,
+"shortDescription": "Perforated adhesive film allowing one-way visibility for window advertising.",
+"description": [
+"Allows visibility from inside while displaying graphics outside.",
+"Perfect for vehicle and glass advertising.",
+"Weather resistant material.",
+"High resolution printing compatibility."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Vehicle graphics and window advertising"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/one-way-vision/1.webp",
+"thumbs": [
+"img/products/bio-degradable/one-way-vision/1.webp",
+"img/products/bio-degradable/one-way-vision/2.webp",
+"img/products/bio-degradable/one-way-vision/3.webp"
+]
+}
+},
+
+{
+"id": 306,
+"sku": "EMBOSSED-ADHESIVE-TAC",
+"name": "EMBOSSED ADHESIVE TAC",
+"category": ["printing-materials", "bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["Embossed Vinyl", "Decorative Adhesive Film", "Textured Sticker Film"],
+"discount": 22,
+"shortDescription": "Decorative embossed adhesive TAC film for premium graphic applications.",
+"description": [
+"Unique textured embossed surface.",
+"Durable adhesive backing.",
+"Suitable for decorative and branding applications.",
+"Compatible with wide format printing."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Decorative signage and interior graphics"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/embossed-adhesive-tac/1.webp",
+"thumbs": [
+"img/products/bio-degradable/embossed-adhesive-tac/1.webp",
+"img/products/bio-degradable/embossed-adhesive-tac/2.webp",
+"img/products/bio-degradable/embossed-adhesive-tac/3.webp"
+]
+}
+},
+
+{
+"id": 307,
+"sku": "COLORED-ADHESIVE-TAC",
+"name": "COLORED ADHESIVE TAC",
+"category": ["printing-materials", "bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["Colored Vinyl", "Sign Vinyl", "Decorative Adhesive Film"],
+"discount": 23,
+"shortDescription": "Colored adhesive TAC vinyl used for signage, decoration and branding.",
+"description": [
+"Available in multiple colors.",
+"Strong adhesive backing.",
+"Weather resistant surface.",
+"Perfect for signage and craft applications."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Signage and decorative graphics"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/colored-adhesive-tac/1.webp",
+"thumbs": [
+"img/products/bio-degradable/colored-adhesive-tac/1.webp",
+"img/products/bio-degradable/colored-adhesive-tac/2.webp",
+"img/products/bio-degradable/colored-adhesive-tac/3.webp"
+]
+}
+},
+
+{
+"id": 308,
+"sku": "BIO-BASE-TEXTILE",
+"name": "BIO BASE TEXTILE",
+"category": ["printing-materials","bio-degradable-pvc"],
+"categories": ["Printing Materials","Bio Degradable"],
+"tags": ["Eco Textile Media", "Fabric Printing Material", "Eco Friendly Textile"],
+"discount": 23,
+"shortDescription": "Eco friendly textile printing media suitable for sustainable display graphics.",
+"description": [
+"Bio based environmentally friendly material.",
+"Soft fabric texture with high print quality.",
+"Lightweight and easy to install.",
+"Suitable for eco-conscious advertising displays."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Fabric displays and eco signage"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/bio-base-textile/1.webp",
+"thumbs": [
+"img/products/bio-degradable/bio-base-textile/1.webp",
+"img/products/bio-degradable/bio-base-textile/2.webp",
+"img/products/bio-degradable/bio-base-textile/3.webp"
+]
+}
+},
+
+{
+"id": 309,
+"sku": "BIO-BASE-WALL-FABRIC",
+"name": "BIO BASE WALL FABRIC",
+"category": ["printing-materials","bio-degradable-pvc"],
+"categories": ["Printing Materials","Bio Degradable"],
+"tags": ["Eco Wall Fabric", "Wall Graphic Fabric", "Sustainable Textile"],
+"discount": 23,
+"shortDescription": "Eco friendly wall fabric media designed for interior wall graphics and decoration.",
+"description": [
+"Bio based environmentally friendly material.",
+"Excellent wall adhesion and removability.",
+"High quality fabric printing surface.",
+"Perfect for interior wall branding and decoration."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Wall graphics and interior decoration"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/bio-base-wall-fabric/1.webp",
+"thumbs": [
+"img/products/bio-degradable/bio-base-wall-fabric/1.webp",
+"img/products/bio-degradable/bio-base-wall-fabric/2.webp",
+"img/products/bio-degradable/bio-base-wall-fabric/3.webp"
+]
+}
+},
+
+{
+"id": 310,
+"sku": "HOLLOW-BOARD",
+"name": "HOLLOW BOARD",
+"category": ["printing-materials","bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["Corrugated Plastic Board", "PP Hollow Board", "Sign Board Sheet"],
+"discount": 21,
+"shortDescription": "Lightweight hollow board widely used for signage, printing and packaging.",
+"description": [
+"Lightweight and durable structure.",
+"Waterproof and weather resistant.",
+"Suitable for UV printing and screen printing.",
+"Commonly used for advertising boards and displays."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Advertising boards and packaging"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/hollow-board/1.webp",
+"thumbs": [
+"img/products/bio-degradable/hollow-board/1.webp",
+"img/products/bio-degradable/hollow-board/2.webp",
+"img/products/bio-degradable/hollow-board/3.webp"
+]
+}
+},
+
+{
+"id": 311,
+"sku": "FOAM-BOARD",
+"name": "FOAM BOARD",
+"category": ["printing-materials","bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["PVC Foam Board", "Display Foam Board", "Sign Board Material"],
+"discount": 23,
+"shortDescription": "Rigid foam board used for signage, displays and exhibition graphics.",
+"description": [
+"Lightweight rigid structure.",
+"Smooth printable surface.",
+"Suitable for mounting graphics and displays.",
+"Ideal for indoor advertising and exhibitions."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Sign boards and display graphics"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/foam-board/1.webp",
+"thumbs": [
+"img/products/bio-degradable/foam-board/1.webp", 
+"img/products/bio-degradable/foam-board/2.webp",
+"img/products/bio-degradable/foam-board/3.webp"
+]
+}
+},
+
+{
+"id": 312,
+"sku": "BIO-INK",
+"name": "BIO INK",
+"category": ["printing-materials","bio-degradable-pvc"],
+"categories": ["Printing Materials","Bio Degradable"],
+"tags": ["Eco Ink", "Bio Solvent Ink", "Sustainable Printing Ink"],
+"discount": 25,
+"shortDescription": "Environmentally friendly bio based ink designed for sustainable printing.",
+"description": [
+"Eco friendly bio solvent formulation.",
+"High color density and print quality.",
+"Low environmental impact.",
+"Compatible with wide format printers."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Eco friendly digital printing"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/bio-ink/1.webp",
+"thumbs": [
+"img/products/bio-degradable/bio-ink/1.webp",
+"img/products/bio-degradable/bio-ink/2.webp",
+"img/products/bio-degradable/bio-ink/3.webp"
+]
+}
+},
+
+{
+"id": 313,
+"sku": "UV-INK",
+"name": "UV INK",
+"category": ["printing-materials","bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["UV Printer Ink", "LED UV Ink", "Digital Printing Ink"],
+"discount": 23,
+"shortDescription": "High quality UV ink suitable for UV and LED printers.",
+"description": [
+"Fast curing UV formulation.",
+"Excellent adhesion on multiple substrates.",
+"High color vibrancy and durability.",
+"Suitable for rigid and flexible printing materials."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "UV digital printing"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/uv-ink/1.webp",
+"thumbs": [
+"img/products/bio-degradable/uv-ink/1.webp",
+"img/products/bio-degradable/uv-ink/2.webp",
+"img/products/bio-degradable/uv-ink/3.webp"
+]
+}
+},
+
+{
+"id": 314,
+"sku": "HP-LATEX-INK",
+"name": "HP LATEX INK",
+"category": ["printing-materials","bio-degradable-pvc"],
+"categories": ["Printing Materials"],
+"tags": ["HP Latex Printer Ink", "Water Based Latex Ink", "Latex Digital Ink"],
+"discount": 22,
+"shortDescription": "High performance HP Latex ink designed for water based latex printing technology.",
+"description": [
+"Water based eco friendly formulation.",
+"Excellent durability and flexibility.",
+"High quality color output.",
+"Designed for HP Latex printing systems."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "HP Latex digital printing"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/hp-latex-ink/1.webp",
+"thumbs": [
+"img/products/bio-degradable/hp-latex-ink/1.webp",
+"img/products/bio-degradable/hp-latex-ink/2.webp",
+"img/products/bio-degradable/hp-latex-ink/3.webp"
+]
+}
+},
+
+{
+"id": 315,
+"sku": "POSTER-FILM-BIO2100",
+"name": "POSTER FILM BIO2100",
+"category": ["printing-materials","bio-degradable-pvc"],
+"categories": ["Printing Materials","Bio Degradable"],
+"tags": ["Poster Film", "Eco Poster Media", "BIO2100 Film"],
+"discount": 23,
+"shortDescription": "High quality eco poster film designed for indoor advertising and display graphics.",
+"description": [
+"Smooth printable poster film surface.",
+"Eco friendly bio based material.",
+"High resolution print compatibility.",
+"Perfect for posters and advertising displays."
+],
+"sizes": [],
+"additionalInformation": {
+"Usage": "Poster printing and advertising displays"
+},
+"img": {
+"singleImage": "img/products/bio-degradable/poster-film-bio2100/1.webp",
+"thumbs": [
+"img/products/bio-degradable/poster-film-bio2100/1.webp",
+"img/products/bio-degradable/poster-film-bio2100/2.webp",
+"img/products/bio-degradable/poster-film-bio2100/3.webp"
+]
+}
 }
 
 

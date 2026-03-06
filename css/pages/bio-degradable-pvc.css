@@ -30,7 +30,12 @@ body {
   background: rgba(255, 255, 255, 0.56);
   box-shadow: none;
   border: none;
-  backdrop-filter: blur(3px);
+  backdrop-filter: none;
+}
+
+.bio-page section {
+  content-visibility: auto;
+  contain-intrinsic-size: 760px;
 }
 
 .section-shell {
@@ -69,7 +74,7 @@ body {
 .hero-overlay {
   z-index: 1;
   background:
-    linear-gradient(98deg, rgba(249, 251, 245, 0.9) 4%, rgba(232, 238, 228, 0.72) 46%, rgba(227, 235, 219, 0.54) 100%);
+    linear-gradient(100deg, rgba(16, 30, 22, 0.68) 8%, rgba(25, 44, 33, 0.52) 48%, rgba(38, 60, 47, 0.36) 100%);
 }
 
 .hero-inner {
@@ -87,7 +92,8 @@ body {
   line-height: 1;
   font-weight: 800;
   letter-spacing: -0.03em;
-  color: var(--bio-accent-dark);
+  color: #d9f0de;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.35);
 }
 
 .hero-copy h1 {
@@ -95,14 +101,17 @@ body {
   font-size: clamp(30px, 3.4vw, 46px);
   line-height: 1.05;
   letter-spacing: -0.02em;
+  color: #fff;
+  text-shadow: 0 3px 12px rgba(0, 0, 0, 0.45);
 }
 
 .hero-copy .subtitle {
   margin: 18px 0 0;
   font-size: clamp(15px, 1.35vw, 20px);
   line-height: 1.45;
-  color: var(--bio-muted);
+  color: #e7f1ea;
   font-weight: 500;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
 }
 
 .hero-actions {
@@ -128,10 +137,19 @@ body {
   
 }
 
-.btn-primary {
+.bio-page .btn.btn-primary {
   background: linear-gradient(135deg, var(--bio-accent), #5e9166);
   color: #fff;
+  border: none;
+  border-color: transparent;
   box-shadow: 0 8px 18px rgba(52, 94, 63, 0.32);
+}
+
+.bio-page .btn.btn-primary:hover {
+  background: linear-gradient(135deg, var(--bio-accent), #5e9166);
+  color: #fff;
+  border: none;
+  border-color: transparent;
 }
 
 .btn-secondary {
@@ -235,8 +253,16 @@ body {
 }
 
 .line-card-active {
-  background: linear-gradient(132deg, #5d8f56, #7ca16f);
+  background:
+    linear-gradient(160deg, rgba(20, 38, 28, 0.72), rgba(20, 38, 28, 0.38)),
+    url("../../img/bio-thumbs/green.webp") center/cover no-repeat;
   color: #fff;
+  border-color: rgba(255, 255, 255, 0.25);
+}
+
+.line-card-active h3,
+.line-card-active p {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
 }
 
 .applications {
@@ -245,6 +271,25 @@ body {
 
 .applications h2 {
   text-align: center;
+}
+
+.bio-products {
+  padding: clamp(24px, 4vw, 42px) 0 clamp(10px, 2vw, 20px);
+}
+
+.bio-products .section-title {
+  margin-bottom: 18px;
+}
+
+.bio-products .products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+  contain: layout style paint;
+}
+
+.bio-products .product-item {
+  contain: content;
 }
 
 .app-grid {
@@ -307,7 +352,7 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("../../img/slider/slider1.webp") center/cover no-repeat;
+  background: url("../../img/bio-thumbs/bio-banner.webp") center/cover no-repeat;
   z-index: 0;
 }
 
@@ -343,21 +388,30 @@ body {
 
 .sample-form {
   margin-top: 20px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  flex-direction: column;
   gap: 10px;
 }
 
 .sample-form input,
+.sample-form textarea,
 .sample-form button {
   height: 50px;
-  border-radius: 8px;
+  
   border: 1px solid rgba(255, 255, 255, 0.4);
   padding: 0 14px;
   font: inherit;
 }
 
 .sample-form input {
+  background: rgba(255, 255, 255, 0.96);
+  color: #20362c;
+}
+
+.sample-form textarea {
+  min-height: 120px;
+  padding: 12px 14px;
+  resize: vertical;
   background: rgba(255, 255, 255, 0.96);
   color: #20362c;
 }
@@ -487,7 +541,12 @@ body {
   .line-cards,
   .app-grid,
   .sample-form {
-    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .bio-products .products-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 16px;
   }
 
   .app-card {
@@ -501,6 +560,12 @@ body {
   .sample-form input,
   .sample-form button {
     height: 46px;
+  }
+}
+
+@media (max-width: 360px) {
+  .bio-products .products-grid {
+    grid-template-columns: 1fr;
   }
 }
   .innovation h2,

@@ -12,9 +12,7 @@ if (!customElements.get("site-footer")) {
               <h3 class="subscribe-title">
                 Get our emails for info on new items, sales and more.
               </h3>
-              <p class="subscribe-desc">
-                We'll email you a voucher on your first order
-              </p>
+              
             </div>
             <div class="footer-subscribe-bottom">
               <form action="sendmail.php" method="POST">
@@ -50,7 +48,7 @@ if (!customElements.get("site-footer")) {
       <div class="footer-widgets">
         <div class="brand-info">
           <div class="footer-logo">
-            <a href="index.html" class="logo"><img src="img/tms-logo.png" width="140" alt="Total Media Solutions logo"></a>
+            <a href="index.html" class="logo"><img src="img/Total Media Solutions.png" width="140" alt="Total Media Solutions logo"></a>
           </div>
           <div class="footer-desc">
             One Stop Solution For All Your Advertising Needs !

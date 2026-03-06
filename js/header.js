@@ -215,6 +215,40 @@ function wishlistLinksFunc() {
   })
 }
 
+function setActiveMenuLink() {
+  const menuLinks = document.querySelectorAll(".header-center .menu-link")
+  if (!menuLinks.length) return
+
+  menuLinks.forEach((link) => link.classList.remove("active"))
+
+  const path = window.location.pathname.toLowerCase()
+  const currentFile = path.split("/").pop()
+  const isHome = currentFile === "" || currentFile === "index.html"
+
+  if (currentFile === "shop.html" || currentFile === "single-product.html") {
+    const shopLink = document.querySelector(".header-center .shop-link")
+    if (shopLink) {
+      shopLink.classList.add("active")
+      return
+    }
+  }
+
+  menuLinks.forEach((link) => {
+    const rawHref = (link.getAttribute("href") || "").toLowerCase()
+    if (!rawHref || rawHref === "#" || rawHref.startsWith("javascript:")) return
+
+    const hrefPath = rawHref.split("?")[0].split("#")[0]
+    const hrefFile = hrefPath.split("/").pop()
+
+    const matchesHome = isHome && (hrefPath === "/" || hrefPath === "" || hrefFile === "index.html")
+    const matchesFile = hrefFile && hrefFile === currentFile
+
+    if (matchesHome || matchesFile) {
+      link.classList.add("active")
+    }
+  })
+}
+
 
 function headerFunc() {
   sidebarFunc()
@@ -222,6 +256,7 @@ function headerFunc() {
   megaMenuInteraction()
   searchModalFunc()
   wishlistLinksFunc()
+  setActiveMenuLink()
   
   
 }

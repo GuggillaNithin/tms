@@ -251,6 +251,16 @@ header .menu-dropdown-content a:hover {
     z-index: 1;
 }
 
+@media (min-width: 992px) {
+  .megamenu-wrapper .menu-dropdown-wrapper {
+    pointer-events: none;
+  }
+
+  .megamenu-wrapper .menu-dropdown-wrapper .mega-categories {
+    pointer-events: auto;
+  }
+}
+
 .megamenu-wrapper {
     position: static !important;
 }
